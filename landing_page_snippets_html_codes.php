@@ -42,3 +42,9 @@
 
 Go to mailer/index.php update the code in else condition -->
 
+<!-- add this after URL to check UTM parameters
+**
+** domain_name.com/?utm_source=test_source_lc&utm_campaign=test_campain_lc&utm_medium=test_medium_lc&gclid=test_gclid_lc&msclkid=test_msclkid_lc
+**
+**
+-->
