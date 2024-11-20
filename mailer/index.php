@@ -62,6 +62,12 @@ if (!empty($_POST)) {
       $phone = empty($_POST['phone']) ? '' : $_POST['phone'];
       $msg = empty($_POST['message']) ? '' : $_POST['message'];
 
+      $utm_source = empty($_POST['utm-source']) ? '' : $_POST['utm-source'];
+      $utm_medium = empty($_POST['utm-medium']) ? '' : $_POST['utm-medium'];
+      $utm_campaign = empty($_POST['utm-campaign']) ? '' : $_POST['utm-campaign'];
+      $gclid = empty($_POST['gclid']) ? '' : $_POST['gclid'];
+      $msclkid = empty($_POST['msclkid']) ? '' : $_POST['msclkid'];
+
       $msgAdmin = "<h3>New users submission from LP form. User Details are listed below.</h3>";
 
       if ($_POST['formName'] == 'Header') {

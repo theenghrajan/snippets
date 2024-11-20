@@ -1,0 +1,20 @@
+And this will launch your visual diff tool (if configured):
+git difftool HEAD^ HEAD
+
+As the previous commit can be accessed with HEAD^
+git diff HEAD^ HEAD
+
+That also can be applied for a :commithash
+git diff $commithash^ $commithash
+
+The following will also work:
+git show
+
+If you want to know the diff between head and any commit you can use:
+git diff commit_id HEAD
+
+As of Git 1.8.5, @ is an alias for HEAD, so you can use:
+git diff @~..@
+
+Warnings
+@ScottF and @Panzercrisis explain in the comments that on Windows the ~ character must be used instead of ^
