@@ -1,0 +1,65 @@
+Point to T35 server
+==================
+for example:
+Name: lp.mzafarmdsc.com
+Type: A Record
+Value IP: 69.10.48.106
+
+Name: www.lp.mzafarmdsc.com
+Type: CNAME
+Value: lp.mzafarmdsc.com
+
+.htaccess this is a example to override http:// to https://
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://healthstrongpainfree.com/$1 [R,L]
+
+parked bhako thau ma IP rakhne
+ani mail ra www ko duita cname create garne
+
+Type = A
+Name = @
+Value = 69.10.48.106
+TTL = Custom - 600 seconds
+
+Type = CNAME
+Name = mail
+Value = domain_name
+TTL = Custom - 600 seconds
+
+If forwarded, remove forwarded and replace it with IP address
+
+SSL dekhyena vaney cpanel ma Security > SSL/TLS ma gayera auto SSL garne
+
+subdomain ko case ma chai for example lp.domain_name.com
+Type = CNAME or A
+Name = www.lp
+Data = lp.domain_name.com.
+TTL = Custom - 600 seconds
+
+Type = A
+Name = lp
+Data = 69.10.48.106 (T35 ko IP)
+TTL = Custom - 600 seconds
+
+Type = CNAME
+Name = mail
+Data = lp.domain_name.com
+TTL = Custom - 600 seconds
+
+In command line
+nslookup google.com
+whois 172.217.3.238
+
+Pointing domain from Namecheap to T35 hosting
+A Record @ 69.10.48.106 1 min CNAME_Record www domain_name 1min
+
+Pointing Domain from Squarespace to Blue host
+==================
+Host = @
+Type = A
+IP Address = 50.87.232.115
+
+Host = www
+Type = CNAME
+IP Address = domain_name {for example, americasdwelling.com}

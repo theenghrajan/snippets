@@ -16,5 +16,22 @@ git diff commit_id HEAD
 As of Git 1.8.5, @ is an alias for HEAD, so you can use:
 git diff @~..@
 
-Warnings
-@ScottF and @Panzercrisis explain in the comments that on Windows the ~ character must be used instead of ^
+## Delete recent commits from any git branch locally and remotely
+# reset to recent commits from git log
+$ git reset <commit_id>
+
+# delete recent commit remotely (this is very dangeroue git command as it is force remove)
+$ git push origin master -f
+
+
+## Git config, use token key and once username and password added no need to repeat as it stores the credential with following git config
+# to enable credentials storage in Git
+$ git config --global credential.helper store
+
+# Filename too long in Git for Windows
+git config --system core.longpaths true
+
+## Use Generic proxy in FileZilla
+Simply select HTTP/1.1 using CONNECT method from the Setting > Generic proxy and fill proxy credentials as shown in the screenshot as well.
+
+SS https://drive.google.com/file/d/1nrBtrcPQGK34tguiRR24r3pPD9EV810Y/view

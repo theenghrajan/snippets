@@ -1,0 +1,8 @@
+# Full Path fro HOST in Windows 
+C:\Windows\System32\drivers\etc\hosts
+
+# No Index Process in custom HTML
+To prevent all search engines that support the noindex rule from indexing a page on your site, place the following <meta> tag into the <head> section of your page:
+<meta name="robots" content="noindex, nofollow">
+Article link - https://developers.google.com/search/docs/crawling-indexing/block-indexing
+
