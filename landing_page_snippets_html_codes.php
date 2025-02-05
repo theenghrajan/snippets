@@ -17,7 +17,7 @@
 <!-- Uncomment the following script from the footer. -->
 
 <!-- Add Following Script If reCaptcha V2 is Enabled; Otherwise remove the whole block -->
-<script src="https://www.google.com/recaptcha/api.js?onload=onReCaptchaLoadCallback&render=explicit" async defer></script>\
+<script src="https://www.google.com/recaptcha/api.js?onload=onReCaptchaLoadCallback&render=explicit" async defer></script>
 
 <!-- update site key in var $recaptchaV2SiteKey builder.js and add validation as well. -->
 <script>
