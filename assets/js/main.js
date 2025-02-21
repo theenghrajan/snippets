@@ -308,3 +308,31 @@ $(document).ready(function () {
     },
   });
 })
+
+
+// Stick footer in Vanilla JS
+function stickyFooter() {
+  const stickyFooter = document.querySelector('.sticky-footer');
+  const siteFooter = document.querySelector('.site-footer');
+
+  if (!stickyFooter || !siteFooter) return;
+
+  const stickyFooterHeight = stickyFooter.offsetHeight;
+  siteFooter.style.marginBottom = `${stickyFooterHeight}px`;
+}
+stickyFooter();
+
+let debounceTimeout;
+window.addEventListener('resize', () => {
+  clearTimeout(debounceTimeout);
+  debounceTimeout = setTimeout(stickyFooter, 250);
+});
+
+const stickyFooterElement = document.querySelector('.sticky-footer');
+if (stickyFooterElement) {
+  const observer = new MutationObserver(stickyFooter);
+  observer.observe(stickyFooterElement, {
+    childList: true,
+    subtree: true,
+  });
+}
