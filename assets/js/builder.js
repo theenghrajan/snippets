@@ -34,6 +34,7 @@ form_fields['form-id-0'] = {
     }
   }
 };
+
 (function () {
   validate.validators.file_max_size = function (value, option, key, attributes) {
     let message = [];
