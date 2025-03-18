@@ -1,4 +1,4 @@
-<?php
+<?php /*
 
 
 if (is_page_template('lp/tpl-winter-install-special-lp.php')) {
@@ -13,10 +13,12 @@ if (is_page_template('lp/tpl-winter-install-special-lp.php')) {
 // Disable the 'Main default_theme scripts and styles.'
 ======================================================
 */
+
+/*
 function disable_default_theme_scripts_styles()
 {
 	if (is_page_template('lp/tpl-winter-install-special-lp.php')) {
-        wp_deregister_script('njr-home-service-script');
+    wp_deregister_script('njr-home-service-script');
 		wp_dequeue_script('njr-home-service-script');
 
 		wp_deregister_style('njr-home-service-style');
@@ -32,6 +34,8 @@ View source code near the <head> section
 Lists only properly registered scripts
 @ https://digwp.com/2019/03/disable-script-style-added-plugins/
 */
+
+/*
 function default_inspect_script_style()
 {
 	global $wp_scripts, $wp_styles;
