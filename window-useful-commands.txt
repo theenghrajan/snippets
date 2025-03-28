@@ -1,0 +1,3 @@
+## Installing App 
+$ winget upgrade
+$ winget upgrade --all
