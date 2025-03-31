@@ -1,5 +1,4 @@
-<?php /*
-
+<?php
 
 if (is_page_template('lp/tpl-winter-install-special-lp.php')) {
   wp_enqueue_style('lp-style', get_theme_file_uri('/lp/assets/css/style.css'), [], wp_get_theme()->get('Version'));
@@ -14,7 +13,6 @@ if (is_page_template('lp/tpl-winter-install-special-lp.php')) {
 ======================================================
 */
 
-/*
 function disable_default_theme_scripts_styles()
 {
 	if (is_page_template('lp/tpl-winter-install-special-lp.php')) {
@@ -35,7 +33,6 @@ Lists only properly registered scripts
 @ https://digwp.com/2019/03/disable-script-style-added-plugins/
 */
 
-/*
 function default_inspect_script_style()
 {
 	global $wp_scripts, $wp_styles;
@@ -51,3 +48,6 @@ add_action('wp_print_scripts', 'default_inspect_script_style');
 /* WP Config */
 define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL', WP_HOME);
+
+// Gravity form Disable loading of CSS files
+add_filter('gform_disable_css', '__return_true');
