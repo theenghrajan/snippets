@@ -51,3 +51,9 @@ define('WP_SITEURL', WP_HOME);
 
 // Gravity form Disable loading of CSS files
 add_filter('gform_disable_css', '__return_true');
+
+// All-in-One plugin
+// contants.php
+
+// line 282 
+// Max File Size 40

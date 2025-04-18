@@ -35,3 +35,19 @@ git config --system core.longpaths true
 Simply select HTTP/1.1 using CONNECT method from the Setting > Generic proxy and fill proxy credentials as shown in the screenshot as well.
 
 SS https://drive.google.com/file/d/1nrBtrcPQGK34tguiRR24r3pPD9EV810Y/view
+
+Merging via command line
+=========================
+If you do not want to use the merge button or an automatic merge cannot be performed, you can perform a manual merge on the command line. However, the following steps are not applicable if the base branch is protected.
+
+Step 1 Clone the repository or update your local repository with the latest changes.
+git pull origin master
+
+Step 2 Switch to the base branch of the pull request.
+git checkout master
+
+Step 3 Merge the head branch into the base branch.
+git merge 9-wp-dev-for-the-custom-html
+
+Step 4 Push the changes.
+git push -u origin master
