@@ -1,10 +1,10 @@
-<?php  
-// Start session: Added by FED(RT) on 8th Apr 2025
+<?php
+// Start session: Added by FED(RT) on 18th Apr 2025
 session_start();
 
 // Generate CSRF token and store in session variable
 if (empty($_SESSION['csrf_token'])) {
-    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+  $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
 ?>
 
@@ -26,19 +26,30 @@ if (empty($_SESSION['csrf_token'])) {
   <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M587WG6G');</script>
-<!-- End Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M587WG6G');
+  </script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M587WG6G"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M587WG6G"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <div class="site-wrapper">
 
@@ -123,38 +134,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <div class="messages"></div>
                     </div>
                     <div class="form-group">
-                    	<div class="g-recaptcha-v2-visible" id="g-recaptcha-0"></div>
-                    	<div class="messages"></div>
+                      <div class="g-recaptcha-v2-visible" id="g-recaptcha-0"></div>
+                      <div class="messages"></div>
                     </div>
                     <div class="form-group">
-                    	<!-- You can enter a value here manually during local testing, That will bypass the validation -->
-                    	<input type="hidden" class="form-control" name="google-recaptcha" value="" id="input-g-recaptcha-0">
-                    	<div class="messages"></div>
+                      <!-- You can enter a value here manually during local testing, That will bypass the validation -->
+                      <input type="hidden" class="form-control" name="google-recaptcha" value="" id="input-g-recaptcha-0">
+                      <div class="messages"></div>
                     </div>
                     <!-- Hidden honepot fields for spam detection validation : Added by FED(RT) on 8th Apr 2025 -->
-    				<div class="form-group" style="display:none;">
-    					<input type="text" name="honeypot" style="display:none;" value="">
-    					<div class="messages"></div>
-    				</div>
-    				<!-- Hidden CSRF Token validation using Session : Added by FED(RT) on 8th Apr 2025 -->
-    				<div class="form-group" style="display:none;">
-    					<input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
-    					<div class="messages"></div>
-    				</div>
-                  </div>
-                  <div class="form-footer w-full md:w-4/12 px-[10px]"> <button type="submit"
-                        class="submitButton btn btn-primary w-full">
-                        <svg class="animate-spin -ml-1 mr-3 h-4 w-4 text-white loader"
-                          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true"
-                          style="display: none">
-                          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4">
-                          </circle>
-                          <path class="opacity-75" fill="currentColor"
-                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
-                          </path>
-                        </svg>
-                        Contact Us </button>
+                    <div class="form-group" style="display:none;">
+                      <input type="text" name="honeypot" style="display:none;" value="">
+                      <div class="messages"></div>
                     </div>
+                    <!-- Hidden CSRF Token validation using Session : Added by FED(RT) on 8th Apr 2025 -->
+                    <div class="form-group" style="display:none;">
+                      <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
+                      <div class="messages"></div>
+                    </div>
+                  </div>
+                  <div class="form-footer w-full md:w-4/12 px-[10px]"> 
+                    <button type="submit" class="submitButton btn btn-primary w-full">
+                      <svg class="animate-spin -ml-1 mr-3 h-4 w-4 text-white loader"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true"
+                        style="display: none">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4">
+                        </circle>
+                        <path class="opacity-75" fill="currentColor"
+                          d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                        </path>
+                      </svg>
+                      Contact Us 
+                    </button>
+                  </div>
                 </div>
               </form>
             </div>

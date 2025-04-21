@@ -6,7 +6,7 @@
  * Time: 10:06
  */
 
- // Start session: Added by FED(RT) on 8th Apr 2025
+// Start session: Added by FED(RT) on 18th Apr 2025
 session_start();
 
 // 1. Check if CSRF token exists in the session ---------------------------------------
