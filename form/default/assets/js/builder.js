@@ -174,30 +174,13 @@ form_fields['form-id-0'] = {
     var payload = new FormData(form);
     disableForm(form);
     showLoader(form);
-    /** ---------         
-     * create data object to pass to data layer         
-     * ------------------------------------------- */
-    // Get the ID attribute value of the form        
-    var formId = form.id;
-    var formEntries = {};
-    payload.forEach(function (value, key) {
-      formEntries[key] = value;
-    });
-    /** ------------------------------------------ */
     fetch(sendMailURL, {
       method: 'POST',
       body: payload
     }).then(function (response) {
       return response.text()
     }).then(function (data) {
-      form.innerHTML = data;
-      // Push data to dataLayer after thank you message is displayed
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        event: 'LPFormSubmission',
-        formID: formId,
-        formEntries: formEntries
-      });
+      form.innerHTML = data
     }).catch(function (error) {
       alert('Some error occured, please try again.');
       console.error('Error', error)

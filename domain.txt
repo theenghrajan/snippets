@@ -63,3 +63,5 @@ IP Address = 50.87.232.115
 Host = www
 Type = CNAME
 IP Address = domain_name {for example, americasdwelling.com}
+
+https://drive.google.com/file/d/1ojam0Bb3_m6jf-WWPilsG7KYBEoI0uAu/view?usp=sharing

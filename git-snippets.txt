@@ -51,3 +51,11 @@ git merge 9-wp-dev-for-the-custom-html
 
 Step 4 Push the changes.
 git push -u origin master
+
+Useful links:-
+https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
+SS - https://drive.google.com/file/d/1yVZ57P4Y_nemHRCpMWLp3nTADMXS6vOG/view?usp=sharing
+
+This will remove all local untracked files, so only git tracked files remain:
+$ git clean -fdx
+WARNING: -x will also remove all ignored files, including ones specified by .gitignore! You may want to use -n for preview of files to be deleted.
