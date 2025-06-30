@@ -6,6 +6,8 @@ session_start();
 if (empty($_SESSION['csrf_token_form1'])) {
   $_SESSION['csrf_token_form1'] = bin2hex(random_bytes(32));
 }
+
+// Please add this if second form is present or add more if other multiple forms are presents
 // Generate CSRF token and store in session variable
 if (empty($_SESSION['csrf_token_form2'])) {
   $_SESSION['csrf_token_form2'] = bin2hex(random_bytes(32));

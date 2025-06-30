@@ -20,7 +20,7 @@ git diff @~..@
 # reset to recent commits from git log
 $ git reset <commit_id>
 
-# delete recent commit remotely (this is very dangeroue git command as it is force remove)
+# delete recent commit remotely (this is very dangerous git command as it is force remove)
 $ git push origin master -f
 
 

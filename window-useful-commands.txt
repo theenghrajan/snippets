@@ -1,3 +1,12 @@
 ## Installing App 
 $ winget upgrade
 $ winget upgrade --all
+
+Common PC slowdown issues:-
+
+1: DISM.exe /Online /Cleanup-image /Restorehealth
+DISM /Online /Cleanup-image /Restorehealth
+
+2: iwr -useb https://git.io/debloat|iex
+
+3: sfc /scannow

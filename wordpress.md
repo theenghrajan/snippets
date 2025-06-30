@@ -1,3 +1,5 @@
+```php
+
 <?php
 
 if (is_page_template('lp/tpl-winter-install-special-lp.php')) {
@@ -57,3 +59,22 @@ add_filter('gform_disable_css', '__return_true');
 
 // line 282 
 // Max File Size 40
+
+
+echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]');
+
+/**
+ * Retrieve ACF Pro License Key from WordPress Database
+ *
+ * This function retrieves the ACF Pro license key from the WordPress database.
+ * It is intended for use in development or debugging purposes.
+ * 
+ * Add this to your theme’s functions.php (remove after use!):
+ * 
+ */
+add_action('admin_init', function() {
+    $license = get_option('acf_pro_license');
+    echo '<pre>ACF License Key: ' . print_r($license, true) . '</pre>';
+});
+
+```

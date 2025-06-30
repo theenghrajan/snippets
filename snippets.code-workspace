@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"peacock.squigglyBeGone": true,
+		"intelephense.diagnostics.undefinedFunctions": false
+	}
+}

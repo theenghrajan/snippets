@@ -1,0 +1,362 @@
+// stylelint-disable declaration-no-important
+
+.align-baseline    { vertical-align: baseline !important; } // Browser default
+.align-top         { vertical-align: top !important; }
+.align-middle      { vertical-align: middle !important; }
+.align-bottom      { vertical-align: bottom !important; }
+.align-text-bottom { vertical-align: text-bottom !important; }
+.align-text-top    { vertical-align: text-top !important; }
+
+
+// stylelint-disable property-blacklist, declaration-no-important
+
+//
+// Border
+//
+
+.border         { border: $border-width solid $border-color !important; }
+.border-top     { border-top: $border-width solid $border-color !important; }
+.border-right   { border-right: $border-width solid $border-color !important; }
+.border-bottom  { border-bottom: $border-width solid $border-color !important; }
+.border-left    { border-left: $border-width solid $border-color !important; }
+
+.border-0        { border: 0 !important; }
+.border-top-0    { border-top: 0 !important; }
+.border-right-0  { border-right: 0 !important; }
+.border-bottom-0 { border-bottom: 0 !important; }
+.border-left-0   { border-left: 0 !important; }
+
+@each $color, $value in $theme-colors {
+  .border-#{$color} {
+    border-color: $value !important;
+  }
+}
+
+.border-white {
+  border-color: $white !important;
+}
+
+//
+// Border-radius
+//
+
+.rounded-sm {
+  border-radius: $border-radius-sm !important;
+}
+
+.rounded {
+  border-radius: $border-radius !important;
+}
+
+.rounded-top {
+  border-top-left-radius: $border-radius !important;
+  border-top-right-radius: $border-radius !important;
+}
+
+.rounded-right {
+  border-top-right-radius: $border-radius !important;
+  border-bottom-right-radius: $border-radius !important;
+}
+
+.rounded-bottom {
+  border-bottom-right-radius: $border-radius !important;
+  border-bottom-left-radius: $border-radius !important;
+}
+
+.rounded-left {
+  border-top-left-radius: $border-radius !important;
+  border-bottom-left-radius: $border-radius !important;
+}
+
+.rounded-lg {
+  border-radius: $border-radius-lg !important;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.rounded-pill {
+  border-radius: $rounded-pill !important;
+}
+
+.rounded-0 {
+  border-radius: 0 !important;
+}
+
+//
+// clearfix
+//
+
+.clearfix {
+    @include clearfix();
+}
+
+
+// stylelint-disable declaration-no-important
+
+//
+// Utilities for common `display` values
+//
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        @each $value in $displays {
+        .d#{$infix}-#{$value} { display: $value !important; }
+        }
+    }
+}
+
+
+// Credit: Nicolas Gallagher and SUIT CSS.
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  
+    &::before {
+      display: block;
+      content: "";
+    }
+  
+    .embed-responsive-item,
+    iframe,
+    embed,
+    object,
+    video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  }
+  
+  @each $embed-responsive-aspect-ratio in $embed-responsive-aspect-ratios {
+    $embed-responsive-aspect-ratio-x: nth($embed-responsive-aspect-ratio, 1);
+    $embed-responsive-aspect-ratio-y: nth($embed-responsive-aspect-ratio, 2);
+  
+    .embed-responsive-#{$embed-responsive-aspect-ratio-x}by#{$embed-responsive-aspect-ratio-y} {
+      &::before {
+        padding-top: percentage($embed-responsive-aspect-ratio-y / $embed-responsive-aspect-ratio-x);
+      }
+    }
+  }
+
+// stylelint-disable declaration-no-important
+
+// Flex variation
+//
+// Custom styles for additional flex alignment options.
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+      $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+  
+      .flex#{$infix}-row            { flex-direction: row !important; }
+      .flex#{$infix}-column         { flex-direction: column !important; }
+      .flex#{$infix}-row-reverse    { flex-direction: row-reverse !important; }
+      .flex#{$infix}-column-reverse { flex-direction: column-reverse !important; }
+  
+      .flex#{$infix}-wrap         { flex-wrap: wrap !important; }
+      .flex#{$infix}-nowrap       { flex-wrap: nowrap !important; }
+      .flex#{$infix}-wrap-reverse { flex-wrap: wrap-reverse !important; }
+      .flex#{$infix}-fill         { flex: 1 1 auto !important; }
+      .flex#{$infix}-grow-0       { flex-grow: 0 !important; }
+      .flex#{$infix}-grow-1       { flex-grow: 1 !important; }
+      .flex#{$infix}-shrink-0     { flex-shrink: 0 !important; }
+      .flex#{$infix}-shrink-1     { flex-shrink: 1 !important; }
+  
+      .justify-content#{$infix}-start   { justify-content: flex-start !important; }
+      .justify-content#{$infix}-end     { justify-content: flex-end !important; }
+      .justify-content#{$infix}-center  { justify-content: center !important; }
+      .justify-content#{$infix}-between { justify-content: space-between !important; }
+      .justify-content#{$infix}-around  { justify-content: space-around !important; }
+  
+      .align-items#{$infix}-start    { align-items: flex-start !important; }
+      .align-items#{$infix}-end      { align-items: flex-end !important; }
+      .align-items#{$infix}-center   { align-items: center !important; }
+      .align-items#{$infix}-baseline { align-items: baseline !important; }
+      .align-items#{$infix}-stretch  { align-items: stretch !important; }
+  
+      .align-content#{$infix}-start   { align-content: flex-start !important; }
+      .align-content#{$infix}-end     { align-content: flex-end !important; }
+      .align-content#{$infix}-center  { align-content: center !important; }
+      .align-content#{$infix}-between { align-content: space-between !important; }
+      .align-content#{$infix}-around  { align-content: space-around !important; }
+      .align-content#{$infix}-stretch { align-content: stretch !important; }
+  
+      .align-self#{$infix}-auto     { align-self: auto !important; }
+      .align-self#{$infix}-start    { align-self: flex-start !important; }
+      .align-self#{$infix}-end      { align-self: flex-end !important; }
+      .align-self#{$infix}-center   { align-self: center !important; }
+      .align-self#{$infix}-baseline { align-self: baseline !important; }
+      .align-self#{$infix}-stretch  { align-self: stretch !important; }
+    }
+}
+
+// stylelint-disable declaration-no-important
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+      $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+  
+      .float#{$infix}-left  { float: left !important; }
+      .float#{$infix}-right { float: right !important; }
+      .float#{$infix}-none  { float: none !important; }
+    }
+}
+
+// stylelint-disable declaration-no-important
+
+@each $value in $overflows {
+    .overflow-#{$value} { overflow: $value !important; }
+  }
+
+// stylelint-disable declaration-no-important
+
+// Common values
+@each $position in $positions {
+    .position-#{$position} { position: $position !important; }
+  }
+  
+  // Shorthand
+  
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-fixed;
+  }
+  
+  .fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: $zindex-fixed;
+  }
+  
+  .sticky-top {
+    @supports (position: sticky) {
+      position: sticky;
+      top: 0;
+      z-index: $zindex-sticky;
+    }
+  }
+
+  //
+// Stretched link
+//
+
+.stretched-link {
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      // Just in case `pointer-events: none` is set on a parent
+      pointer-events: auto;
+      content: "";
+      // IE10 bugfix, see https://stackoverflow.com/questions/16947967/ie10-hover-pseudo-class-doesnt-work-without-background-color
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+// stylelint-disable declaration-no-important
+
+//
+// Text
+//
+
+.text-monospace { font-family: $font-family-monospace !important; }
+
+// Alignment
+
+.text-justify  { text-align: justify !important; }
+.text-wrap     { white-space: normal !important; }
+.text-nowrap   { white-space: nowrap !important; }
+.text-truncate { @include text-truncate; }
+
+// Responsive alignment
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .text#{$infix}-left   { text-align: left !important; }
+    .text#{$infix}-right  { text-align: right !important; }
+    .text#{$infix}-center { text-align: center !important; }
+  }
+}
+
+// Transformation
+
+.text-lowercase  { text-transform: lowercase !important; }
+.text-uppercase  { text-transform: uppercase !important; }
+.text-capitalize { text-transform: capitalize !important; }
+
+// Weight and italics
+
+.font-weight-light   { font-weight: $font-weight-light !important; }
+.font-weight-lighter { font-weight: $font-weight-lighter !important; }
+.font-weight-normal  { font-weight: $font-weight-normal !important; }
+.font-weight-bold    { font-weight: $font-weight-bold !important; }
+.font-weight-bolder  { font-weight: $font-weight-bolder !important; }
+.font-italic         { font-style: italic !important; }
+
+// Contextual colors
+
+.text-white { color: $white !important; }
+
+@each $color, $value in $theme-colors {
+  @include text-emphasis-variant(".text-#{$color}", $value);
+}
+
+.text-body { color: $body-color !important; }
+.text-muted { color: $text-muted !important; }
+
+.text-black-50 { color: rgba($black, .5) !important; }
+.text-white-50 { color: rgba($white, .5) !important; }
+
+// Misc
+
+.text-decoration-none { text-decoration: none !important; }
+
+.text-break {
+  word-break: break-word !important; // IE & < Edge 18
+  overflow-wrap: break-word !important;
+}
+
+// Reset
+
+.text-reset { color: inherit !important; }
+
+// Sprite
+
+%sprite {
+  position: relative;
+
+  &:before {
+    content: "";
+    background-image: url(#{$site-image-path}/sprite.png);
+    background-position: -9999px -9999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.sprite {
+  @extend %sprite;
+}
