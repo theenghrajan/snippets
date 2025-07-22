@@ -50,3 +50,7 @@ Go to mailer/index.php update the code in else condition -->
 -->
 
 <!-- Test -->
+
+frontend.smartwebsitedesign.com
+Site_Key:- 6LcSjWYcAAAAAHUiVfIsX_v4NJ6-Rl2LWlAQ3TEQ
+Secret_Key:- 6LcSjWYcAAAAAMokNEUXh2c9dAXBCSFn_PqccwbL

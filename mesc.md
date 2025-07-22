@@ -33,4 +33,27 @@
 > </FilesMatch>
 > ```
 
+**How to Look Up a Website's IP Address on Windows**
+
+1. Open the Command Prompt:  
+   - Click **Start** → type `cmd` → press **Enter**.
+
+2. To find IPv4 addresses, enter:  
+   ```
+   nslookup -q=A example.com
+   ```
+   - Press **Enter**.
+
+   - The IPv4 addresses appear under the **Non-authoritative answer** section.
+
+3. *(Optional)* To find IPv6 addresses, use:  
+   ```
+   nslookup -q=AAAA example.com
+   ```
+   - Press **Enter**.
+
+   - The IPv6 addresses will be listed similarly.
+
+
+
 

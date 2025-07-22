@@ -77,4 +77,34 @@ add_action('admin_init', function() {
     echo '<pre>ACF License Key: ' . print_r($license, true) . '</pre>';
 });
 
+/**
+ * Register Multiple Nested Page Templates
+ *
+ * Adds custom nested page templates to the list of available templates in the WordPress admin.
+ * Useful for organizing templates in subdirectories (e.g., 'lp/win2025/').
+ *
+ * @param array $templates Existing page templates.
+ * @return array Modified array including custom templates.
+ */
+function register_multiple_nested_templates($templates)
+{
+	$my_templates = [
+		'lp/win2025/tpl-win2025-lp.php' => 'WinBack 2025 Landing Page',
+		// Add more as needed
+	];
+
+	return array_merge($templates, $my_templates);
+}
+add_filter('theme_page_templates', 'register_multiple_nested_templates');
+
 ```
+
+// Enable WP_DEBUG mode
+define('WP_DEBUG', true);
+
+// Enable Debug logging to the /wp-content/debug.log file
+define('WP_DEBUG_LOG', true);
+
+// Disable display of errors and warnings
+define('WP_DEBUG_DISPLAY', false);
+@ini_set('display_errors', 0);
