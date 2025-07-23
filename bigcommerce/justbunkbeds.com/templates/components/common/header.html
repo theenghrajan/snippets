@@ -1,0 +1,843 @@
+<a href="#main-content" class="skip-to-main-link"
+  >{{lang 'header.skip_to_main'}}</a
+>
+{{#if banners.top}}
+<div class="banners banners-top" data-banner-location="top">
+  {{#each (limit banners.top_metadata 1)}}
+  <div
+    class="banner"
+    data-event-type="promotion"
+    data-entity-id="{{this.id}}"
+    data-name="{{this.banner-name}}"
+    data-position="{{this.location}}"
+    data-banner-id="{{this.banner-name}}">
+    <div data-event-type="promotion-click">{{{this.content}}}</div>
+  </div>
+  {{/each}}
+</div>
+{{/if}}
+<style>
+    [data-layout-name="FeaturedCategories"]{
+        max-width: 1200px !important;padding: 0 15px;margin: 0px auto;
+    }
+    div[data-layout-name="FeaturedCategories"] img {
+        position: relative;
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+        opacity: 1 !important;
+    }
+    #sd-image-dac25a35-b4a3-4591-b399-bc83539588b5, #sd-image-72aef780-6e14-4fde-a594-f3766bed7848, #sd-image-d1b3a589-8c41-4d58-ab57-d9823d07ed3a, #sd-image-5a098c25-771f-4ff7-830d-d0be07abd5a8{background: none !important;}
+    div[data-layout-name="FeaturedCategories"] div[class^="sd-simple-text"]{
+        position: relative;
+    }
+    div[data-layout-name="FeaturedCategories"] div[class^="sd-simple-text"] > div{display: block !important;}
+    div[data-layout-name="FeaturedCategories"] div[class^="sd-simple-text"] a{
+        display: block;
+        padding: 13px 10px 10px;
+        color:#fff !important;
+        background: #ce8359;
+        -webkit-transition: .3s all ease;
+        transition: .3s all ease;
+        border-radius: 0 0 8px 8px;
+        max-width: 100%;
+    }
+    div[data-layout-name="FeaturedCategories"] div[class^="sd-simple-text"] a:hover{
+       background:  rgba(206, 131, 89, .8);
+    }
+    div[data-layout-name="FeaturedCategories"] div[data-sub-layout]:nth-child(odd) div[class^="sd-simple-text"] a{background: #5c8279;}
+    div[data-layout-name="FeaturedCategories"] div[data-sub-layout]:nth-child(odd) div[class^="sd-simple-text"] a:hover{
+        background: rgba(92,130,121,.8);
+    }
+    #sd-simple-text-editable-268f65c3-2e9a-4f9c-9df5-bb95b79553ae p{
+        font-weight: 400;
+        font-family: 'Abadi MT Pro';
+    }
+    .cbbheading2{
+        font-size: 31px; font-family: 'Abadi MT Pro'; font-weight: 700; text-align: center;
+    }
+    .abbh2{
+        color: #4d4d4d;
+        position: relative;
+        margin-bottom: 20px;
+        padding-bottom: 5px; text-align: center;
+        margin: 0 0 15px 0;
+        font-size: 31px;
+    }
+    div[data-layout-name="HeroBanner2"]{
+        max-width: 1170px ;padding: 0 15px;margin: 0px auto; padding: 0px; background: #b4c8be; border-radius: 30px;
+    }
+    div[data-layout-name="HeroBanner1"]{
+        max-width: 1170px ;padding: 0 15px;margin: 0px auto; padding: 0px; margin-bottom: 70px;
+    }
+    div[data-layout-name="HeroBanner1"] div[class^="sd-hero-image"] > div > div > div{
+        width: 45%;
+    }
+	div[data-layout-name="HeroBanner2"] > div, div[data-layout-name="HeroBanner1"] > div{
+		padding-left: 0px; padding-right: 0px;
+	}
+    div[data-layout-name="HeroBanner2"] div[class^="sd-hero-image"] > div > div:after{
+        border-radius: 30px 0px 0px 30px; background-size: 49%;
+    }
+    div[data-layout-name="HeroBanner1"] div[class^="sd-hero-image"] > div > div:after{
+        border-radius: 30px; background-position-x: 125%;
+    }
+    div[class^="sd-hero-image"] div[data-test-id="hero-image-title"] p{
+        color: #4d4d4d;
+        position: relative;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        margin: 0 0 25px 0;
+        font-size: 31px;
+        letter-spacing: 0.8px;
+        font-weight: 600;
+        font-family: Jost, Arial, Helvetica, sans-serif;
+    }
+    div[class^="sd-hero-image"] div[data-test-id="hero-image-title"] p{
+        color: #4d4d4d;
+        position: relative;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        margin: 0 0 25px 0;
+        font-size: 31px;
+        letter-spacing: 0.8px;
+        font-weight: 600;
+        font-family: Jost, Arial, Helvetica, sans-serif;
+    }
+    div[data-layout-name="HeroBanner1"] div[class^="sd-hero-image"] div[data-test-id="hero-image-title"] p:before {
+        color: #F56400;
+        content: "SUMMERTIME UPDATE";
+        display: block;
+    }
+    div[class^="sd-hero-image"] div[data-test-id="hero-image-title"] p:after,
+    div[class^="sd-hero-image"] div[data-test-id="hero-image-title"] p:after{
+        content: '';
+        border-bottom: 4px solid #5c8279;
+        width: 120px;
+        height: 2.25px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: 0;
+    }
+    div[class^="sd-hero-image"] > div > div > div, div[class^="sd-hero-image"] > div > div > div{
+        text-align: center;
+        align-items: center;
+    }
+    div[data-test-id="hero-image-button"].go3616899523:hover{
+        
+    }
+    .heroCarousel .heroCarousel-content{
+        background: rgba(255, 255, 255, .75);
+        width: 45%;
+    }
+    .head-line::before{
+        border-bottom: 4px solid #5c8279; width: 120px;
+    }
+    .page-heading p{
+        font-size: 18px;
+        color: #2c2c2c;
+    }
+    .home-recent-blog .blogshadow .blog-right .bs h3 a{
+        font-weight: 600;
+        font-family: Jost, Arial, Helvetica, sans-serif;
+        color: #4d4d4d;
+    }
+    .blog-summary p{
+        color: #2c2c2c;
+    }
+    .parallax-bg p {
+        color: #fff !important;
+    }
+    .deliveryinfo h4 {
+        font-size: 12px;
+        font-family: verdana;
+        font-weight: 600;
+    }
+    .deliveryinfo p{
+        font-weight: 300;
+        font-size: 12px;
+        font-family: verdana;
+        text-transform: none;
+    }
+    .deliveryinfo .service .caption-box img {
+        -webkit-filter: unset;
+        filter: unset;
+    }
+    .productView-rating .productView-reviewLink.rw-lnk, .productView-reviewLink{
+        color: rgb(60 60 60);
+    }
+    .card-figcaption-body{
+        display: none !important;
+    }
+    .navPage-subMenu-item img{
+        display: none;
+    }
+    .navList.subcatlist{
+        display: flex;
+        align-items: center;
+    }
+    .navList.subcatlist li{
+        width: 230px;
+        text-align: center;
+    }
+     .navList.subcatlist li img{
+        height: 170px;
+        width: auto;
+    }
+    .productReviews-list h5.productReview-title{
+        text-transform: uppercase;
+        font-size: 16px;
+        color: rgb(90 90 90);
+    }
+    .productReviews-list p.productReview-body{
+        font-size: 16px;
+        color: rgb(90 90 90);
+    }
+    .productReviews-list .productReview {
+        width: 100%;
+    }
+    .icon--ratingFull, .productView-rating .icon--ratingFull{
+        color: #ef6537;
+    }
+    .blog .blog-date{
+        display: none;
+    }
+    .blog header.blog-header{
+        border-bottom: none;
+    }
+    .blog .blog-header h2{
+        text-overflow: unset;
+        white-space: unset;
+        overflow: visible;
+    }
+    .blog .blog-post{
+        color: #5a5a5a;
+        font-size: 15px;
+    }
+    .single-blog .blog-title{
+        font-size: 28px;
+    }
+    .single-blog .blog-title:hover{
+        color: #5a5a5a;
+    }
+    .catcushead .navPages ul li:nth-child(2n){
+        display: block;
+    }
+    [data-layout-name="First Row"]{
+        max-width: 1170px ;padding: 0;margin: 0px auto;
+    }
+    [data-layout-name="First Row"] div[data-sub-layout] div[id^="sd-image-"] {
+        height: 295px !important;
+        background-size: cover !important;
+    }
+    .card-image{
+        -o-object-fit: contain;
+        object-fit: contain;
+        height: auto;
+        object-position: top;
+    }
+    .altofh5{
+        letter-spacing: 0.8px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #4d4d4d;
+        font-family: Jost, Arial, Helvetica, sans-serif;
+        margin-bottom: .78571rem;
+    }
+    .altof6{
+        margin-top: 0;
+        letter-spacing: 0.8px;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #4d4d4d;
+        font-family: Jost, Arial, Helvetica, sans-serif;
+        margin-bottom: .78571rem;
+    }
+    #product-listing-container .productGrid .product.col-xl-4.col-lg-4 {
+        /*max-width: 33.33%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;*/
+    }
+    .single-blog{
+        padding: 0 15px;
+    }
+    .single-blog li {
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .default .section-space .new-product .add-cart{display:none;}
+    .productGrid .product .card-body .add-cart{
+        display:none;
+    }
+    .desWrapper{
+        display: block;
+    }
+    .collapse-icon {
+        display: none !important;
+    }
+    .featured-imag .card-img .card-img-container{
+        height: 205px !important; display: block; max-width: 205px; margin: 0px auto;
+    }
+    .catagory-space #product-listing-container .card-body, .slick-list .slick-slide .card-body{
+        padding: 0px !important;
+    }
+    .zend_lbl_pos {
+        line-height: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        text-align: center;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        text-transform: uppercase;
+        background-position: left top;
+        font-size: 10px;
+    }
+    .zend_lbl_pos:after {
+        content: "";
+        position: absolute;
+        bottom: -12px;
+        border-bottom: 13px solid transparent;
+        border-left: 10px solid #c44421;
+        border-right: 10px solid #c44421;
+    }
+    .catcushead .navPages ul li:nth-child(7){
+        display: block;
+    }
+    .sidebarBlock .navList a.navlist-cats{text-decoration: underline !important;}
+    .catagory-space .page-sidebar{
+        margin-bottom: 0px !important;
+        border: none !important;
+        padding: 0;
+    }
+    .catagory-space .page-sidebar .sidebarBlock{
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid #eee;
+        border-radius: 10px !important;
+    }
+    .catagory-space .page-sidebar .facetedSearch-refineFilters.sidebarBlock{
+        padding: 0px;
+        border: 0px;
+    }
+    .navList-action--checkbox{
+        display: block;
+    }
+    #facetedSearch-navList--price-range a.navList-action {
+        font-size: 0.9rem;
+    }
+    div[data-layout-name="Mobile Banner Only"]{
+        display: none;
+    }
+    .heroCarousel-title{
+        color: #DC4B46;
+    }
+    .productGrid .card-product-swatch, .productGrid .card-figcaption{display:none;}
+    @media (min-width: 921px){
+        div[data-layout-name="HeroBanner1"] div[class^="sd-hero-image"] > div > div:after{
+            background-size: 61%;
+        }
+    }
+    @media (min-width: 801px) and (max-width: 920px){
+        div[data-layout-name="HeroBanner1"] div[class^="sd-hero-image"] > div > div:first-child > div{
+            display: none;
+        }
+        div[data-layout-name="HeroBanner2"] div[class^="sd-hero-image"] > div > div:first-child > div {
+            display: none;
+        }
+    }
+    @media screen and (min-width: 801px) {
+        div[class^="sd-hero-image"] > div > div > div, div[class^="sd-hero-image"] > div > div > div{
+             width: 43%;
+        }
+        .navPages-item:hover ul li.nav-has-subMenu .navPage-subMenu {
+            display: none;
+        }
+        .nav-has-subMenu:hover .navPage-subMenu {
+            display: block !important;
+        }
+        .navPages-item:hover .navPage-subMenu{
+            min-width: 190px;
+        }
+        .navPage-subMenu{top: 54px;}
+        .fixed .navPage-subMenu{top: 44px;}
+        .nav-has-subMenu .navPages-action-moreIcon{
+            transform: rotate(270deg);
+            display: block;
+        }
+        .custom-header-page .navPage-subMenu .navPages-item{
+            position: relative;
+        }
+        .nav-has-subMenu .navPage-subMenu{
+            left: 230px;
+            border-bottom: 0px;
+            border-radius: 0;
+            top: 0px;
+            padding: 10px 10px 0 !important;
+            line-height: normal;
+            width: 305px;
+        }
+        .navPage-subMenu{
+            padding: 15px 0 !important;
+        }
+        .custom-header-page .navPage-subMenu .navPages-item .navPages-action {
+            padding: 0 15px 10px 15px !important;
+        }
+        .productGrid .product {
+            width: 33.33%;
+        }
+    }
+    @media (max-width: 920px){
+        [data-layout-name="FeaturedCategories"]{
+            padding: 0 10px;
+        }
+        div[data-layout-name="FeaturedCategories"] div[data-sub-layout]{
+            padding-right: 10px; padding-left: 10px; margin-bottom: 20px; flex-basis: 50%; max-width: 50%;
+        }
+        div[data-layout-name="FeaturedCategories"] div[class^="sd-simple-text"] a{
+            font-size: 16px;
+        }
+        div[data-layout-name="HeroBanner2"], div[data-layout-name="HeroBanner2"]{
+			
+		}
+		div[data-layout-name="HeroBanner2"] > div, div[data-layout-name="HeroBanner2"] > div{
+			padding-left: 0px; padding-right: 0px;
+		}
+		div[class^="sd-hero-image"] > div, div[class^="sd-hero-image"] > div{
+            flex-flow: nowrap; margin-top: 0px !important;
+        }
+        div[class^="sd-hero-image"] > div > div:first-child,
+        div[class^="sd-hero-image"] > div > div:first-child{
+            padding: 0px 20px;
+            min-width: 410px;
+            min-height: 270px;
+        }
+        div[class^="sd-hero-image"] > div > div:last-child,
+        div[class^="sd-hero-image"] > div > div:last-child{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px 20px 20px 20px;
+            text-align: center;
+        }
+        div[class^="sd-hero-image"] div[data-test-id="hero-image-title"] p,
+        div[class^="sd-hero-image"] div[data-test-id="hero-image-title"] p{
+            padding-bottom: 10px;
+            margin: 0 auto 10px auto;
+            font-size: 20px;
+        }
+        div[class^="sd-hero-image"] > div,
+        div[class^="sd-hero-image"] > div{
+            font-size: 14px;
+        }
+        div[class^="sd-hero-image"] > div,
+        div[class^="sd-hero-image"] > div{
+            margin-top: 15px;
+        }
+        div[data-test-id="hero-image-button"]{
+            font-size: 14px;
+        }
+        .service-section .deliveryinfo.row li{
+            text-align: left !important;
+        }
+        .default .footer{
+            margin-top: 0 !important;
+        }
+        [data-layout-name="First Row"] div[data-sub-layout] div[id^="sd-image-"] {
+            height: 185px !important;
+        }
+        div[data-layout-name="HeroBanner1"] div[class^="sd-hero-image"] > div > div > div{
+            width: 100%;
+            margin: 0px auto 20px;
+        }
+        div[data-layout-name="HeroBanner2"] div[class^="sd-hero-image"] > div > div > div{
+            width: 100%;
+            margin: 0px auto 20px;
+        }
+        div[data-layout-name="HeroBanner1"] div[class^="sd-hero-image"] div[data-test-id="hero-image-button"]{
+            width: auto;
+        }
+        div[data-layout-name="HeroBanner2"] div[class^="sd-hero-image"] div[data-test-id="hero-image-button"]{
+            width: auto;
+        }
+        div[data-layout-name="HeroBanner2"] div[class^="sd-hero-image"] > div > div:after{
+            background-size: contain;
+        }
+        .default #main-content > div.container{
+            padding: 0px;
+        }
+    }
+    @media (max-width: 800px){
+        .row.myheader.header-logo--left{
+            padding-bottom: 45px;
+        }
+        .row.myheader .search-section{
+            width: 100%;
+            display: block !important;
+            max-width: 100%;
+            position: absolute;
+            top: 50px;
+        }
+        .search-section #search form{
+            
+        }
+        .head-icons .navUser-section .desktop-search{
+            display: none;
+        }
+        .user-info.myaccount .navUser-action svg{
+            width: 20px;
+            height: 20px;
+        }
+        .quickSearchResults {
+            top: 40px;
+        }
+        .heroCarousel .heroCarousel-content{
+            width: 75%;
+            padding-bottom: 10px;
+        }
+        .heroCarousel .heroCarousel-content .heroCarousel-title{
+            font-size: 16px;
+        }
+        .heroCarousel .heroCarousel-content .heroCarousel-description {
+            font-size: 13px;
+        }
+        .productView-rating .productView-reviewLink.rw-lnk{
+            line-height: normal;
+        }
+        .cbbheading2{
+            font-size: 22px;
+            margin-top: 0px;
+        }
+        .navPage-subMenu{
+            padding-left: 30px;
+        }
+        header.header{
+            border-color: rgb(225, 225, 225);
+        }
+    }
+    @media (max-width: 767px){
+        div[data-layout-name="FeaturedCategories"] div[data-sub-layout]{
+            flex-basis: 100%; max-width: 385px; margin: 0px auto 20px;
+        }
+        div[class^="sd-hero-image"] > div{
+            flex-flow: column;
+        }
+        div[class^="sd-hero-image"] > div{
+            flex-flow: column;
+        }
+        div[class^="sd-hero-image"] > div > div:first-child,
+        div[class^="sd-hero-image"] > div > div:first-child{
+            min-height: 255px;
+            min-width: unset;
+        }
+        div[data-layout-name="HeroBanner2"] div[class^="sd-hero-image"] > div > div:after,
+        div[data-layout-name="HeroBanner1"] div[class^="sd-hero-image"] > div > div:after{
+            border-radius: 30px 30px 0px 0px;
+            background-size: cover;
+        }
+        .heroCarousel .heroCarousel-content{
+            width: 85%;
+            padding-bottom: 15px;
+        }
+        .heroCarousel .heroCarousel-content .heroCarousel-title{
+            font-size: 13px; color: #fff;
+        }
+        .heroCarousel .heroCarousel-content .heroCarousel-description {
+            font-size: 12px; color: #fff;
+        }
+        .search-section #search.desktop-search {
+            width: 100%;
+        }
+        div[data-content-region="home_above_featured_products"] > div{
+            display: flex;
+            flex-direction: column;
+        }
+        div[data-sub-layout-container="fb5570ad-6fee-4d12-adcc-6d9a1d720ba2"]{
+            order: -1;
+            margin: 30px auto 0;
+        }
+        div[data-sub-layout="c6cf88af-0adb-41b5-a6b7-0aef518c3608"]{
+            margin-bottom: 10px;
+        }
+        .default .footer{
+            margin-top: 0px;
+        }
+        .announcementbar{
+            display: block;
+        }
+        .parallax-bg p{
+            display: none;
+        }
+        .testi-description{
+            font-size: 15px; line-height: initial;
+        }
+        .home-recent-blog .topsp .page-heading p{
+            max-width: 215px;
+            text-align: center;
+            margin: 0px auto;
+            
+        }
+        [data-layout-name="First Row"]{
+            margin-bottom: 0px !important;
+        }
+        [data-layout-name="First Row"] div[data-sub-layout]{
+            margin-bottom: 20px !important;
+        }
+        .page.theme_furniture [data-content-region="home_above_footer"] img{
+            height: 100% !important;
+        }
+        .announcementbar{padding: 0 5px;}
+        .top-bar-f a{font-size: 13px;}
+        .heroCarousel-slide{
+            display: flex;
+            flex-flow: column-reverse;
+        }
+        .heroCarousel .heroCarousel-content{
+            position: relative;
+            width: 100%;
+            -webkit-transform: unset;
+            transform: unset;
+            padding: 10px 30px;
+            background: #ce8359;
+            color: #fff !important;
+            min-height: 130px;
+            border-radius: unset;
+        }
+        .heroCarousel.slick-slider.slick-dotted{
+            display: none !important;
+        }
+        div[data-layout-name="Mobile Banner Only"]{
+            display: block !important;
+        }
+        div[data-layout-name="Mobile Banner Only"] div[data-sub-layout]{
+            padding: 0px;
+        }
+        div[data-layout-name="Mobile Banner Only"] div[class^="sd-hero-image"] > div > div > div{
+            display: block;
+        }
+        div[data-layout-name="Mobile Banner Only"] div[class^="sd-hero-image"] > div > div:first-child{
+            min-height: unset;
+            padding: 25px;
+        }
+        div[data-layout-name="Mobile Banner Only"] div[class^="sd-hero-image"] > div > div:last-child{
+            display: none;
+        }
+        div[data-layout-name="Mobile Banner Only"] div[class^="sd-hero-image"] div[data-test-id="hero-image-title"] p{
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        div[data-layout-name="Mobile Banner Only"] div[class^="sd-hero-image"] div[data-test-id="hero-image-title"] p:after{
+            display: none;
+        }
+        div[data-layout-name="Mobile Banner Only"] div[data-test-id="hero-image-button"] {
+            font-size: 20px;
+            max-width: 65%;
+            margin: 20px auto 0;
+        }
+    }
+    hr {
+        border: solid rgb(192 192 192);
+        border-width: 1px 0 0;
+    }
+    .productView-product{
+        border-bottom: 1px solid rgb(192 192 192);
+    }
+    .form-select{
+        border-color: rgb(192 192 192) !important;
+    }
+    .add-to-cart-wrapper .form-increment{
+        border-color: rgb(192 192 192) !important;
+    }
+</style>
+<!-- first header -->
+{{#if theme_settings.homepage_announcement_bar_show}}
+<div class="container-fluid section-gap announcementbar" id="header_banner">
+  <div class="row">
+    <div class="col-12 top-bar">
+      <div class="header_bar">
+        <!--<button id="closeButton">
+          <span>close</span><i class="fa fa-close"></i>
+        </button>-->
+        <div class="container">
+          <div
+            class="topBarPromotion-carousel"
+            data-slick='{
+                    "dots": false,
+                    "arrows": false,
+                    "infinite": true,
+                    "mobileFirst": true,
+                    "vertical": true,
+                    "autoplay": true,
+                    "slidesToShow": 1,
+                    "slidesToScroll": 0,
+                    "responsive": [
+                        {
+                            "breakpoint": 768,
+                            "settings": {
+                                "arrows": false
+                            }
+                        }
+                    ]
+                }'>
+            <div class="top-bar-f">
+              <a href="{{theme_settings.top_text_link}}" title="offer"
+                >{{theme_settings.top_text}}</a
+              >
+            </div>
+            <div class="top-bar-f">
+              <a href="{{theme_settings.top_text_link2}}" title="offer"
+                >{{theme_settings.top_text2}}</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{/if}} {{#if theme_settings.theme_fashion}}
+<header class="header header-top" role="banner">
+  <a href="#" class="mobileMenu-toggle" data-mobile-menu-toggle="menu">
+    <span class="mobileMenu-toggleIcon">Toggle menu</span>
+  </a>
+  <div class="container mycustom-header">
+    <div class="row myheader header-logo--{{theme_settings.logo-position}}">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" id="logo">
+        {{#if page_type '===' 'default'}}
+        <h1 class="header-logo">{{> components/common/store-logo}}</h1>
+        {{else}}
+        <div class="header-logo header-logo--{{theme_settings.logo-position}}">
+          {{> components/common/store-logo}}
+        </div>
+        {{/if}}
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 search-section">
+        <ul>
+          {{> components/common/quick-search }}
+        </ul>
+      </div>
+      
+        {{> components/common/navigation}}
+      </div>
+    </div>
+    <div class="catcushead">
+      <div class="row">
+        <div class="col-12 cate-navlg">
+          <div class="navPages-container" id="menu" data-menu>
+            {{> components/common/navigation-menu}}
+          </div>
+          {{{region name="header_navigation_bottom--global"}}}
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="cate-nav"></div>
+    </div>
+  </div>
+</header>
+<div id="header_placeholder"></div>
+{{else}} {{#if theme_settings.theme_jewelry}}
+<header class="header header-top" role="banner">
+  <a href="#" class="mobileMenu-toggle" data-mobile-menu-toggle="menu">
+    <span class="mobileMenu-toggleIcon">Toggle menu</span>
+  </a>
+  <div class="container mycustom-header">
+    <div class="row myheader header-logo--{{theme_settings.logo-position}}">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" id="logo">
+        {{#if page_type '===' 'default'}}
+        <h1 class="header-logo">{{> components/common/store-logo}}</h1>
+        {{else}}
+        <div class="header-logo header-logo--{{theme_settings.logo-position}}">
+          {{> components/common/store-logo}}
+        </div>
+        {{/if}}
+      </div>
+      <div class="col-lg-4 col-md-4 col-4 head-contact-info">
+        <ul>
+          <li>
+            <svg width="24px" height="24px">
+              <use xlink:href="#icon-call"></use>
+            </svg>
+          </li>
+          <li><p>{{theme_settings.head-contact}}</p></li>
+        </ul>
+        <ul>
+          <li>
+            <svg width="24px" height="24px">
+              <use xlink:href="#icon-mail"></use>
+            </svg>
+          </li>
+          <li><p>{{theme_settings.head-email}}</p></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 head-icons">
+        {{> components/common/navigation}}
+      </div>
+    </div>
+    <div class="catcushead">
+      <div class="row">
+        <div class="col-12 cate-navlg">
+          <div class="navPages-container" id="menu" data-menu>
+            {{> components/common/navigation-menu}}
+          </div>
+          {{{region name="header_navigation_bottom--global"}}}
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="cate-nav"></div>
+    </div>
+  </div>
+</header>
+<div id="header_placeholder"></div>
+{{else}} {{#if theme_settings.theme_furniture}}
+<header class="header header-top" role="banner">
+  <a href="#" class="mobileMenu-toggle" data-mobile-menu-toggle="menu">
+    <span class="mobileMenu-toggleIcon">Toggle menu</span>
+  </a>
+  <div class="container mycustom-header">
+    <div class="row myheader header-logo--{{theme_settings.logo-position}}">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="logo">
+        {{#if page_type '===' 'default'}}
+        <span class="header-logo">{{> components/common/store-logo}}</span>
+        {{else}}
+        <div class="header-logo header-logo--{{theme_settings.logo-position}}">
+          {{> components/common/store-logo}}
+        </div>
+        {{/if}}
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 search-section">
+        <ul>
+          {{> components/common/quick-search }}
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 head-icons">
+        {{> components/common/navigation}}
+      </div>
+    </div>
+    <div class="catcushead">
+      <div class="row">
+        <div class="col-12 cate-navlg">
+          <div class="navPages-container" id="menu" data-menu>
+            {{> components/common/navigation-menu}}
+          </div>
+          {{{region name="header_navigation_bottom--global"}}}
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <div class="cate-nav"></div>
+    </div>
+  </div>
+</header>
+<div id="header_placeholder"></div>
+{{/if}} {{/if}} {{/if}} {{{region name="header_bottom--global"}}} {{{region
+name="header_bottom"}}}

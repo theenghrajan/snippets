@@ -1,0 +1,434 @@
+// HERO CAROUSEL
+// -----------------------------------------------------------------------------
+//
+// Purpose: Styles the hero carousel component, which basically adds extras to the
+// vendor slick carousel, to specifically display hero images.
+//
+// 1. Use object-fit on the image tag to keep aspect ratio and cover the space
+//    created by the outer div. The JS will detect browsers that do not support
+//    object-fit and instead copy the image src to a the background-image of the
+//    wrapper div and add the compat-object-fit class.
+//
+// 3. Allows image to scale on large screens while preventing the top and bottom
+//    from becoming cut off.
+// -----------------------------------------------------------------------------
+.heroCarousel .slick-prev::after {
+  content: "";
+  position: absolute;
+  background: #eee;
+  width: 2px;
+  height: 27px;
+  left: 48px;
+  top: 12px;
+}
+.heroCarousel.slick-slider.slick-dotted {
+  margin-bottom: 0 !important;
+}
+.heroCarousel-image-wrapper {
+  padding: 0 !important;
+}
+.heroCarousel {
+  margin-bottom: (spacing("double") + spacing("single"));
+  min-width: 100%;
+  width: 1px;
+
+  @include breakpoint("medium") {
+    margin-top: 0rem; // 3
+  }
+
+  &.slick-initialized {
+    @include breakpoint("small") {
+    }
+
+    @include breakpoint("medium") {
+    }
+  }
+
+  // for IE
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    opacity: 0;
+
+    &.slick-initialized {
+      opacity: 1;
+    }
+  }
+
+  &:not(.slick-initialized)
+    :not(.heroCarousel-slide--first).heroCarousel-slide {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .slick-next,
+  .slick-prev {
+    margin: 0;
+    top: 100%;
+    transform: translateY(-100%);
+    box-shadow: 0px 0px 6px 0px rgba(1, 1, 1, 0.1%);
+    opacity: 1;
+    border-radius: 0;
+    padding: 8px 15px;
+    width: 50px;
+    height: 50px;
+    background: stencilColor("color-white");
+    box-shadow: none;
+    position: absolute;
+  }
+
+  .slick-next {
+    right: 15px;
+
+    @include breakpoint("medium") {
+      right: 0px;
+    }
+  }
+
+  .slick-prev {
+    left: 15px;
+
+    @include breakpoint("medium") {
+      left: auto;
+      right: 50px;
+    }
+  }
+
+  .slick-dots {
+    display: block !important;
+    bottom: spacing("third");
+
+    @include breakpoint("medium") {
+      position: absolute;
+      top: 40%;
+      left: 35px;
+      width: 70px;
+    }
+
+    li {
+    }
+  }
+
+  .slick-slide {
+    &.is-square-image-type {
+      .heroCarousel-image-wrapper {
+        height: 100vw;
+      }
+    }
+
+    &.is-vertical-image-type {
+      .heroCarousel-image-wrapper {
+        height: 110vw;
+      }
+    }
+
+    &.is-square-image-type,
+    &.is-vertical-image-type {
+      .heroCarousel-image-wrapper {
+        @include breakpoint("small") {
+          height: 56.25vw;
+        }
+      }
+    }
+
+    &.is-image-error {
+      background: url("../img/hero-carousel-image-load-error.svg") center center
+        no-repeat;
+      background-size: contain;
+    }
+  }
+}
+.heroCarousel .slick-dots li {
+  display: block;
+  height: 60px;
+  width: 0px;
+}
+.heroCarousel ul.slick-dots li.slick-active button {
+  border: 1px solid stencilColor("color-secondary-background") !important;
+  width: 15px;
+  height: 15px;
+}
+.heroCarousel .slick-dots li.slick-active button::before {
+  font-size: 20px;
+  color: stencilColor("color-secondary-background");
+  line-height: 0px;
+  width: 5px;
+  height: 5px;
+  background: stencilColor("color-secondary-background");
+  margin: 5px 5px;
+}
+.slick-dots li.slick-active button::before {
+  background: 0;
+}
+.heroCarousel .slick-dots li button::before {
+  font-size: 50px;
+  width: 15px;
+  height: 15px;
+  background: #757575;
+}
+.heroCarousel .slick-dots li button {
+  border: none !important;
+}
+.heroCarousel .slick-dots li::after {
+  text-align: center;
+  width: 1px;
+  height: 30px;
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  top: 30px;
+  left: 12px;
+  background-color: #c1c1c1;
+  transition: 0.5s ease;
+}
+.heroCarousel .slick-dots li:last-child::after {
+  display: none;
+}
+.heroCarousel-action svg {
+  fill: stencilColor("button--primary-color");
+  margin-left: 5px;
+  width: 14px;
+  height: 14px;
+}
+.heroCarousel-action:hover svg {
+  fill: stencilColor("button--primary-colorHover");
+}
+.heroCarousel-slide {
+  position: relative;
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: stencilColor("button--primary-color");
+    padding: 14px 30px;
+    border-radius: 10px;
+  }
+
+  .heroCarousel-image {
+    @include breakpoint("small") {
+    }
+  }
+
+  &.stretch {
+    .heroCarousel-image {
+      object-fit: cover;
+    }
+
+    &.compat-object-fit {
+      // 1
+      .heroCarousel-image {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  &.compat-object-fit {
+    // 1
+    overflow: hidden;
+
+    .heroCarousel-image {
+      width: auto;
+    }
+  }
+
+  .heroCarousel-image-wrapper {
+    @include breakpoint("small") {
+    }
+
+    @include breakpoint("medium") {
+    }
+  }
+}
+.theme_jewelry .heroCarousel-content {
+  @include breakpoint("small") {
+    left: 10%;
+  }
+}
+.heroCarousel-content {
+  background: none;
+  padding: spacing("half") spacing("single") (spacing("double"));
+  text-align: left;
+
+  @include breakpoint("small") {
+    @include carouselOpaqueBackgrounds;
+
+    left: 14%;
+    margin: 0 auto;
+    max-height: 80%;
+    overflow: auto;
+    padding: spacing("single") * 1.5;
+    padding: spacing("single");
+    position: absolute;
+    right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+
+    &.heroCarousel-content--empty {
+    }
+  }
+}
+
+.heroCarousel-title {
+  color: $carousel-title-color;
+  font-size: fontSize("small");
+  margin-top: 0;
+  font-weight: 400;
+  margin-bottom: 15px;
+
+  @include breakpoint("medium") {
+    font-size: 18px;
+  }
+}
+
+.heroCarousel-description {
+  color: $carousel-description-color;
+  font-size: fontSize("tiny");
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 90px;
+
+  @include breakpoint("small") {
+    font-size: fontSize("smallest");
+  }
+
+  @include breakpoint("medium") {
+    font-size: 60px;
+  }
+}
+
+.heroCarousel-action {
+  margin: 0;
+
+  @include breakpoint("medium") {
+    margin-top: spacing("single");
+  }
+}
+
+@media (max-width: 1440px) {
+  .heroCarousel-content,
+  .theme_jewelry .heroCarousel-content {
+    left: 5%;
+  }
+  .heroCarousel-content {
+    width: 50%;
+  }
+}
+@media (max-width: 1350px) {
+  .heroCarousel-content {
+    width: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  .heroCarousel-description {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .heroCarousel-action {
+    margin-top: 10px;
+  }
+  .heroCarousel-description {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 991px) {
+  .heroCarousel-description {
+    line-height: 35px;
+    font-size: 34px;
+  }
+  .heroCarousel .slick-dots {
+    display: none !important;
+  }
+}
+@media (max-width: 800px) {
+  .heroCarousel-slide a {
+    font-size: 12px;
+    padding: 10px 22px;
+  }
+  .heroCarousel-description {
+    line-height: 35px;
+    font-size: 26px;
+  }
+  .heroCarousel-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .heroCarousel .slick-prev {
+    left: auto;
+    right: 50px;
+  }
+  .heroCarousel .slick-next {
+    right: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .heroCarousel-title {
+    font-size: 14px;
+  }
+  .heroCarousel-description {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .heroCarousel-slide a {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 550px) {
+  .heroCarousel-content {
+    margin: 0 auto;
+    max-height: 80%;
+    overflow: auto;
+    padding: 2.25rem;
+    padding: 1.5rem;
+    position: absolute;
+    right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .heroCarousel-slide a {
+    font-size: 12px;
+    padding: 8px 13px;
+  }
+}
+@media (max-width: 475px) {
+  .heroCarousel-content {
+    width: 55%;
+  }
+  .heroCarousel-title {
+    font-size: 12px;
+  }
+  .heroCarousel-description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .heroCarousel-content {
+    padding: 0rem 0rem;
+  }
+  .heroCarousel .slick-next,
+  .heroCarousel .slick-prev {
+    display: none !important;
+  }
+}
+@media (max-width: 375px) {
+  .heroCarousel-action {
+    margin-top: 5px;
+  }
+  .heroCarousel-slide a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .heroCarousel-content {
+    width: 60%;
+  }
+  .heroCarousel-title {
+    display: none;
+  }
+}

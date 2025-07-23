@@ -1,0 +1,62 @@
+// =============================================================================
+// LOGIN (CSS)
+// =============================================================================
+
+.new-customer .panel-header{
+    background-color: stencilColor("primary-background");
+    margin-bottom: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+.new-customer .panel-body{
+    background-color: stencilColor("primary-background");
+    margin-bottom: 0;
+    border-radius: 0px 0px 10px 10px;
+}
+.login-row {
+    @include grid-row();
+    max-width: unset;
+}
+.login-row .form-actions .button,.login-row .form-actions .forgot-password{
+    vertical-align: middle;
+}
+.login-form {
+    @include grid-column(12);
+
+    @include breakpoint("medium") {
+        @include grid-column(6);
+
+        margin-top: spacing("double");
+    }
+}
+
+.new-customer {
+    @include grid-column(12);
+    @include breakpoint("medium") {
+        @include grid-column(6);
+    }
+}
+
+.new-customer-intro {
+    margin-bottom: 0;
+}
+
+.new-customer-fact-list {
+    margin-left: 2rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.new-customer-fact {
+    padding-left: spacing("half");
+    line-height: 25px;
+}
+@media(max-width: 800px){
+    .login-form{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .new-customer{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}

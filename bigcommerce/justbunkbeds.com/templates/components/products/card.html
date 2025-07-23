@@ -1,0 +1,129 @@
+<article class="new-card card card-figure {{#if alternate}}card--alternate{{/if}}" data-test="card-{{id}}" attr-cards-ids="{{id}}" {{#if settings.data_tag_enabled}} data-event-type="{{event}}" data-entity-id="{{id}}" data-position="{{position}}" data-name="{{name}}" data-product-category="{{#each category}}{{#if @last}}{{this}}{{else}}{{this}}, {{/if}}{{/each}}" data-product-brand="{{brand.name}}" data-product-price="{{#or customer (unless settings.hide_price_from_guests)}}
+            {{#if price.with_tax}}
+                {{price.with_tax.value}}
+            {{else}}
+                {{price.without_tax.value}}
+            {{/if}}
+        {{else}}
+            {{lang 'common.login_for_pricing'}}
+        {{/or}}"  {{/if}}>
+    
+        {{#or price.sale_price_with_tax.value price.sale_price_without_tax.value}}
+                {{#if theme_settings.product_sale_badges '===' 'sash'}}
+                    <div class="sale-flag-sash">
+                        <span class="sale-text">{{{theme_settings.pdp_sale_badge_label}}}</span>
+                    </div>
+                {{else if theme_settings.product_sale_badges '===' 'topleft'}}
+                    <div class="sale-flag-side">
+                        <span class="sale-text">{{{theme_settings.pdp_sale_badge_label}}}</span>
+                    </div>
+                {{else if theme_settings.product_sale_badges '===' 'burst'}}
+                    <div class="starwrap">
+                        <div class="sale-text-burst">{{{theme_settings.pdp_sale_badge_label}}}</div>
+                        <div class="sale-flag-star"></div>
+                    </div>
+                {{/if}} 
+                
+            {{/or}}
+            {{#if out_of_stock_message }}
+                {{#if theme_settings.pdp_sold_out_label}}
+                {{#if theme_settings.product_sale_badges '===' 'sash'}}
+                    <div class="sold-out-flag-sash sold_out">
+                        <span class="sale-text">{{{theme_settings.pdp_sold_out_label}}}</span>
+                    </div>
+                {{else if theme_settings.product_sale_badges '===' 'topleft'}}
+                    <div class="sold-out-side sold_out">
+                        <span class="sale-text">{{{theme_settings.pdp_sold_out_label}}}</span>
+                    </div>
+                {{else if theme_settings.product_sale_badges '===' 'burst'}}
+                    <div class="starwrap sold_out">
+                        <div class="sale-text-burst">{{{theme_settings.pdp_sold_out_label}}}</div>
+                        <div class="sold-out-flag-star"></div>
+                    </div>
+                {{/if}} 
+            {{/if}}
+            {{/if}}
+        <figure class="card-figure featured-imag">
+            <a class="card-img" href="{{url}}" {{#if settings.data_tag_enabled}} data-event-type="product-click" {{/if}}>
+                <div class="card-img-container">
+                    {{> components/common/responsive-img
+                        image=image
+                        class="card-image"
+                        fallback_size=theme_settings.productgallery_size
+                        lazyload=theme_settings.lazyload_mode
+                        default_image=theme_settings.default_image_product
+                    }}
+                </div>
+                {{#each (limit images 2)}}
+            {{#if @index '>' 0}}
+            <img src="{{getImage this 'productgallery_size' (cdn theme_settings.default_image_product)}}" alt="{{this.alt}}" title="{{this.alt}}" class="second-img">
+            {{/if}}
+            {{/each}}
+            </a>
+        </figure>
+        <div class="card-body">
+            {{#if brand.name}}
+                <p class="card-text product-brandname" data-test-info-type="brandName">{{brand.name}}</p>
+            {{/if}}
+            <h3 class="card-title">
+                <a href="{{url}}" {{#if settings.data_tag_enabled}} data-event-type="product-click" {{/if}}>{{name}}</a>
+            </h3>
+            {{#if rating '!==' 0}}
+            <div class="card-text card-rating" data-test-info-type="productRating">
+                <span class="rating--small">
+                    {{> components/products/ratings rating=rating}}
+                </span>
+            </div>
+            {{/if}}
+            <div class="card-text myprice" data-test-info-type="price">
+                {{#or customer (unless settings.hide_price_from_guests)}}
+                    {{> components/products/price price=price}}
+                {{else}}
+                    {{> components/common/login-for-pricing}}
+                {{/or}}
+            </div>
+            {{> components/products/bulk-discount-rates}}
+            {{#if theme_settings.show_card_swatch}}<div class="card-product-swatch"></div>{{/if}}
+            <figcaption class="card-figcaption">
+            <div class="card-figcaption-body">
+                <!-- quick view icon -->
+                {{#unless hide_product_quick_view}}
+                {{#if theme_settings.show_product_quick_view}}
+                {{#if settings.data_tag_enabled}}
+                <button class="button button--small card-figcaption-button quickview" data-event-type="product-click" data-product-id="{{id}}">{{lang 'products.quick_view'}}<svg width="20px" height="20px"><use xlink:href="#bquick"></use></svg></button>
+                {{else}}
+                <button class="button button--small card-figcaption-button quickview" data-product-id="{{id}}">{{lang 'products.quick_view'}}<svg width="20px" height="20px"><use xlink:href="#bquick"></use></svg></button>
+                {{/if}}
+                {{/if}}
+                {{/unless}}
+                <!-- compare icon -->
+                {{#if show_compare}}
+                    <label class="button button--small card-figcaption-button bcom compare compare-{{id}}" for="compare-{{id}}" title="{{lang 'products.compare'}}">
+                        <svg width="20px" height="20px"> <use xlink:href="#compareicon"></use></svg><input class="wb-compare" type="checkbox" name="products[]" value="{{id}}" data-compare-id="{{id}}" id="compare-{{id}}">
+                    </label>
+                {{/if}}
+            </div>
+        </figcaption>
+
+        <!-- add to cart icon -->
+        <div class="add-cart">
+            {{#or customer (unless settings.hide_price_from_guests)}}
+                {{#if show_cart_action}}
+                    <!-- {{#if has_options}}
+                        <a href="{{url}}" data-event-type="product-click" title="{{lang 'products.choose_options'}}" class="button button--small card-figcaption-button myadcart" data-product-id="{{id}}"><svg width="20px" height="20px"><use xlink:href="#hcart"></use></svg><span class="cart-text">{{lang 'choose option'}}</span></a>
+                    {{/if}} -->
+                    <!-- {{#if pre_order}}
+                        <a href="{{pre_order_add_to_cart_url}}" title="{{lang 'products.pre_order'}}" data-event-type="product-click" class="button button--small card-figcaption-button myadcart"><svg width="20px" height="20px"><use xlink:href="#hcart"></use></svg><span class="cart-text">{{lang 'pre order'}}</span></a>
+                    {{/if}} -->
+                    {{#if add_to_cart_url }}
+                        <a href="{{add_to_cart_url}}" title="{{lang 'products.add_to_cart'}}" data-event-type="product-click" class="button button--small card-figcaption-button myadcart"><svg width="20px" height="20px"><use xlink:href="#hcart"></use></svg><span class="cart-text">{{lang 'add to cart'}}</span></a>
+                    {{/if}}
+                    <!-- {{#if out_of_stock_message }}
+                        <a href="{{url}}" title="{{out_of_stock_message}}" data-event-type="product-click" class="button button--small card-figcaption-button myadcart" data-product-id="{{id}}"><svg width="20px" height="20px"><use xlink:href="#hcart"></use></svg><span class="cart-text">{{lang 'out of stock'}}</span></a>
+                    {{/if}} -->
+                {{/if}}
+            {{/or}}
+        </div>
+        
+    </div>
+</article>

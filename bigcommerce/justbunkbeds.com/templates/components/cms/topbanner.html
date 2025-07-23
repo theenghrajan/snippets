@@ -1,0 +1,66 @@
+<div class="container img-banner-des section-space">
+  <div class="all-head">
+    <h2>Bunk Beds for Kids and Adults</h2>
+    <p>Bunk beds have evolved beyond just being a practical solution to maximize space; <br>they've become a symbol of innovative and comfortable living, especially in modern homes. <br>Whether for a child's playful bedroom or to accommodate adults <br>in shared and compact living spaces, its versatility is unmatched.</p>
+  </div>
+  <div class="imgbanner">
+    <div class="row mian-row">
+      {{#if theme_settings.Topbannertext}}
+        <div class="col-md-6 bannerimage main-col">
+          <img class="lazyload" width="675" height="410" data-sizes="auto" data-src="/product_images/uploaded_images/{{theme_settings.bannerimagefirst}}"  alt="Category Banner Image"  />
+        </div>
+        <div class="col-md-6 bannertext main-col">
+          <h1>
+            {{theme_settings.topbanner_heading}}
+            <span class="head-line"></span>
+          </h1>
+
+          <div class="banner-content">
+            <p>{{theme_settings.topbanner_content1}}</p>
+            <p>{{theme_settings.topbanner_content2}}</p>
+          </div>
+          <div class="banner-btn">
+            {{#if theme_settings.topbanner_button-text}}<a
+              href="{{theme_settings.topbanner_button-text-link}}"
+              title="shop now"
+              >{{theme_settings.topbanner_button-text}}  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a
+            >{{/if}}
+          </div>
+        </div>
+      {{/if}} {{#if theme_settings.home-top-banner}} {{#if
+      theme_settings.bannerimagefirst}}
+      <div class="img-banner col-sm-12 col-12 main-col">
+        <div class="firstban">
+          <div class="beffect">
+            <a href="{{theme_settings.bannerlinkfirst}}"
+              ><img
+                class="img-fluid lazyload"
+                width="1350px"
+                height="420px"
+                data-sizes="auto"
+                data-src="/product_images/uploaded_images/{{theme_settings.bannerimagefirst}}"
+                alt="banner"
+            /></a>
+          </div>
+          <div class="off-text">
+            <span class="off-title">
+              <div class="banner-text">
+                <p>{{theme_settings.top_banner_text1}}</p>
+                <h1>{{theme_settings.top_banner_text2}}</h1>
+                <h2>{{theme_settings.top_banner_text3}}</h2>
+              </div>
+              <div class="banner-img-btn">
+                {{#if theme_settings.top_banner_text4}}<a
+                  href="{{theme_settings.top_banner_textlink4}}"
+                  tabindex="-1"
+                  >{{theme_settings.top_banner_text4}}</a
+                >{{/if}}
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      {{/if}} {{/if}}
+    </div>
+  </div>
+</div>

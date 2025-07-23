@@ -1,0 +1,294 @@
+{{#if banners.bottom}} {{#if settings.data_tag_enabled}}
+<div class="banners" data-banner-location="bottom">
+  {{#each (limit banners.bottom_metadata 1)}}
+  <div
+    class="banner"
+    data-event-type="promotion"
+    data-entity-id="{{this.id}}"
+    data-name="{{this.banner-name}}"
+    data-position="{{this.location}}"
+    data-name="{{this.banner-name}}">
+    <div data-event-type="promotion-click">{{{this.content}}}</div>
+  </div>
+  {{/each}}
+</div>
+{{else}}
+<div class="banners" data-banner-location="bottom">
+  <div class="banner">{{{limit banners.bottom 1}}}</div>
+</div>
+{{/if}} {{/if}} {{{region name="home_above_footer"}}}
+<footer class="footer" role="contentinfo">
+  <h2 class="footer-title-sr-only">{{lang 'footer.title'}}</h2>
+
+  <!-- newsletter section -->
+  <div class="foot-newsletter fborder">
+    <div class="container">
+      <article class="footer-info-col" data-section-type="storeInfo">
+        <h3 class="footer-info-heading titleWrapper inactive">
+          {{lang 'newsletter.subscribe'}}
+        </h3>
+        <div id="descwrapper" class="desWrapper">
+          <div class="webi-subscribe">
+            {{> components/common/subscription-form}}
+          </div>
+          {{#if theme_settings.footer-store-logo}}
+          <ul class="list-unstyled foot_img">
+            <li>
+              {{#if theme_settings.storeimagefirst}}
+              <a href="{{theme_settings.storelinkfirst}}"
+                ><img
+                  class="img-fluid lazyload mx-auto d-block"
+                  data-sizes="auto"
+                  width="126px"
+                  height="44px"
+                  data-src="/product_images/uploaded_images/{{theme_settings.storeimagefirst}}"
+                  alt="appstore"
+              /></a>
+              {{/if}}
+            </li>
+            <li>
+              {{#if theme_settings.storeimagesecond}}
+              <a href="{{theme_settings.storelinksecond}}"
+                ><img
+                  class="img-fluid lazyload mx-auto d-block"
+                  data-sizes="auto"
+                  width="126px"
+                  height="44px"
+                  data-src="/product_images/uploaded_images/{{theme_settings.storeimagesecond}}"
+                  alt="appstore"
+              /></a>
+              {{/if}}
+            </li>
+          </ul>
+          {{/if}}
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <!-- navigation section -->
+      <div class="col-lg-3 col-sm-3 col-12 foot-navigate fborder">
+        <article
+          class="footer-info-col footer-info-col--small"
+          data-section-type="footer-webPages">
+          <h3 class="footer-info-heading titleWrapper inactive">
+            {{lang 'footer.navigate'}}
+            <div class="collapse-icon">
+              <div class="acc-close"></div>
+              <div class="acc-open"></div>
+            </div>
+          </h3>
+          <div id="descwrapper" class="desWrapper">
+            <ul class="footer-info-list">
+              {{#each pages}}
+              <li>
+                <a href="{{url}}">{{name}}</a>
+              </li>
+              {{/each}}
+              <li>
+                <a href="/sitemap/">{{lang 'sitemap.page_title'}}</a>
+              </li>
+               <li>
+                <a href="/reviews/">Reviews</a>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- payment icon section -->
+      <div class="col-lg-3 col-sm-3 col-12 foot-payment fborder">
+        <article class="footer-info-col footer-info-col--small">
+          <div class="cc_imgs">
+            <img
+              src="https://cdn3.bigcommerce.com/s-rtqvb44/product_images/uploaded_images/icon-creditcards.png"
+              alt="credit card logos" />
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-3 col-sm-3 col-12 foot-payment fborder">
+        <article class="footer-info-col footer-info-col--small">
+          <div class="paypal_imgs for_desktop d-inline-block">
+            <a
+              href="https://www.paypal.com/us/campaign/terms/paypal-credit"
+              target="_blank">
+              <img
+                src="https://cdn3.bigcommerce.com/s-rtqvb44/product_images/uploaded_images/pay.png" />
+            </a>
+          </div>
+          <div class="seal_imgs for_desktop d-inline-block">
+            <a
+              href="https://seal.digicert.com/seals/popup/?tag=cDrdpnCH&url=www.justbunkbeds.com&lang=en&cbr=1706764850166"
+              target="_blank">
+              <img
+                src="https://cdn10.bigcommerce.com/s-rtqvb44/images/stencil/original/image-manager/digicert-geotrust-logo.png" />
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-3 col-sm-3 col-12 foot-social fborder">
+        <article class="footer-info-col footer-info-col--small">
+          <h3 class="footer-info-heading titleWrapper inactive">
+            {{lang 'footer.social'}}
+            <!-- <div class="collapse-icon">
+              <div class="acc-close"></div>
+              <div class="acc-open"></div>
+            </div> -->
+          </h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/pages/JustBunkBedscom/124722737567869?ref=ts"
+                class="icon-social icon-facebook"
+                title="Facebook"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <!--<li>
+              <a
+                href="https://twitter.com/JustBunkBeds"
+                class="icon-social icon-twitter"
+                title="Twitter"
+                Twitter</a
+            </li>-->
+            <li>
+              <a
+                href="https://twitter.com/JustBunkBeds"
+                class="icon-svg icon-svg-x"
+                title="Twitter"
+                target="_blank"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.pinterest.com/justbunkbeds/"
+                class="icon-social icon-pinterest"
+                title="Pinterest"
+                target="_blank"
+                >Pinterest</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/justbunkbeds/"
+                class="icon-social icon-instagram"
+                title="Instagram"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+                <!-- shopper approved seal - templates/components/common/footer.html 
+                <a href="https://www.shopperapproved.com/reviews/www.justbunkbeds.com/" class="shopperlink new-sa-seals placement-2210"><img src="//www.shopperapproved.com/seal/40614/2210-sa-seal.gif" style="border-radius: 4px;" alt="Customer Reviews" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by Shopper Approved \251 '+d.getFullYear()+'.'); return false;" /></a><script type="text/javascript"> (function() { var js = window.document.createElement("script"); js.innerHTML = 'function openshopperapproved(o){ var e="Microsoft Internet Explorer"!=navigator.appName?"yes":"no",n=screen.availHeight-90,r=940;return window.innerWidth<1400&&(r=620),window.open(this.href,"shopperapproved","location="+e+",scrollbars=yes,width="+r+",height="+n+",menubar=no,toolbar=no"),o.stopPropagation&&o.stopPropagation(),!1}!function(){for(var o=document.getElementsByClassName("shopperlink"),e=0,n=o.length;e<n;e++)o[e].onclick=openshopperapproved}();'; js.type = "text/javascript"; document.getElementsByTagName("head")[0].appendChild(js);var link = document.createElement('link');link.rel = 'stylesheet';link.type = 'text/css';link.href = "//www.shopperapproved.com/seal/2210.css";document.getElementsByTagName('head')[0].appendChild(link);})();</script>-->
+                
+                
+               <a href="https://www.shopperapproved.com/reviews/justbunkbeds.com/" class="shopperlink new-sa-seals placement-2235"><img src="//www.shopperapproved.com/seal/40614/2235-sa-seal.gif" style="border-radius: 4px;" alt="Customer Reviews" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by Shopper Approved \251 '+d.getFullYear()+'.'); return false;" /></a><script type="text/javascript"> (function() { var js = window.document.createElement("script"); js.innerHTML = 'function openshopperapproved(o){ var e="Microsoft Internet Explorer"!=navigator.appName?"yes":"no",n=screen.availHeight-90,r=940;return window.innerWidth<1400&&(r=620),window.open(this.href,"shopperapproved","location="+e+",scrollbars=yes,width="+r+",height="+n+",menubar=no,toolbar=no"),o.stopPropagation&&o.stopPropagation(),!1}!function(){for(var o=document.getElementsByClassName("shopperlink"),e=0,n=o.length;e<n;e++)o[e].onclick=openshopperapproved}();'; js.type = "text/javascript"; document.getElementsByTagName("head")[0].appendChild(js);var link = document.createElement('link');link.rel = 'stylesheet';link.type = 'text/css';link.href = "//www.shopperapproved.com/seal/2235.css";document.getElementsByTagName('head')[0].appendChild(link);})();</script>
+
+                    <!-- shopper approved seal - templates/components/common/footer.html -->
+                    
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <p>
+        <span class="footer-left"
+          ><span id="currencyPrices"
+            >All prices are in <span title="US Dollars">USD</span>.</span
+          >
+          <span class="copyRight"
+            >&copy; {{moment format="YYYY"}} {{settings.store_name}}</span
+          >
+          <span class="pie">|</span>
+          <a href="https://www.justbunkbeds.com/sitemap/"
+            ><span>Sitemap</span></a
+          >
+          <span class="pie">|</span>
+        </span>
+        <span class="powered-by">BigCommerce</span>
+      </p>
+    </div>
+    
+  </div>
+
+  {{{region name="ssl_site_seal--global"}}}
+  <a href="" id="scroll" title="Scroll to Top" style="display: block">
+    <i class="fa fa-angle-double-up"></i>
+  </a>
+</footer>
+<!--Taf Interactive Popup-->
+
+<!--<button class="taf-pop-btn" onclick="poptin_display('fd7dc011607c3')">Get 10% OFF</button>-->
+
+<!--#Taf Interactive Popup-->
+
+
+<script>
+    $( document ).ready(function() {
+        console.log('jquery ready');
+        $(document).on('click', '.productView-reviewLink', function() {
+            $('html, body').animate({
+                scrollTop: $("#product-reviews").offset().top - 320}, 1000);
+         });
+         
+         
+        /*BOF List Size Sorting*/
+         
+        var customOrder = [
+            "Twin", "Twin XL", "Full", "Full XL",
+            "Twin / Full", "Twin XL / Full XL", "Twin / Queen",
+            "Twin XL / Queen", "Full XL / Queen", "Queen"
+        ];
+
+        var $list = $("#facetedSearch-navList--product-size");
+
+        if ($list.length === 0) {
+            console.warn("List not found, retrying...");
+            return;
+        }
+
+        var sortedItems = $list.children("li").toArray().sort(function (a, b) {
+            // Extract ONLY the text from the <a> tag, ignoring spans & icons
+            var textA = $(a).find("a").contents().filter(function () {
+                return this.nodeType === 3; // Get only text nodes
+            }).text().trim();
+            console.log('textA='+textA);
+
+            var textB = $(b).find("a").contents().filter(function () {
+                return this.nodeType === 3; // Get only text nodes
+            }).text().trim();
+            console.log('textB='+textB);
+
+            return customOrder.indexOf(textA) - customOrder.indexOf(textB);
+        });
+
+        $list.empty().append(sortedItems);
+        console.log("sorted list applied.");
+    
+        // Observe changes in the faceted search
+        /*var targetNode = document.getElementById("facetedSearch-navList--product-size");
+    
+        if (targetNode) {
+            var observer = new MutationObserver(function () {
+                console.log("List changed, re-sorting...");
+                setTimeout(sortList, 3000);
+            });
+    
+            observer.observe(targetNode, { childList: true, subtree: true });
+        } else {
+            console.error("list element not found.");
+        }*/
+
+        /*EOF List Size Sorting*/
+        
+    });
+</script>

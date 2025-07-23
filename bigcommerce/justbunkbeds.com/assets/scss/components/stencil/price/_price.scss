@@ -1,0 +1,74 @@
+// =============================================================================
+// PRICE (CSS)
+// =============================================================================
+
+.price--rrp,
+.price--non-sale,
+.price--discounted {
+    text-decoration: line-through;
+}
+
+.price-section--minor {
+    color: color("greys", "light");
+}
+.price-now-label {
+    display: none!important;
+}
+
+.price {
+    text-align: center!important;
+    font-size: 16px;
+    font-weight: 700;
+    // color: stencilColor("color-textBase");
+    letter-spacing: 0;
+    color: #c00000;
+}
+.price--discounted, .price--non-sale, .price--rrp {
+    text-decoration: line-through;
+    color: stencilColor("color-primary");
+    font-weight: 400;
+    font-size: 14px !important;
+    display: inline-block;
+}
+.price-section {
+    &.non-sale-price--withoutTax {
+        .price--non-sale {
+            display: none;
+        }
+    }
+}    
+.productView-price .rrp-price--withoutTax .price--rrp{
+    font-size: 14px!important;
+}
+.productView-price .price-section--saving .price{
+    font-size: 16px;
+    font-weight: normal;
+}
+.featured-caption .price{
+    font-size: 26px;
+}
+.featured-caption .price--discounted, .featured-caption .price--non-sale{
+    font-size: 20px!important;
+}
+@media(max-width: 991px){
+    .price{
+        font-size: 16px;
+    }
+    .price--discounted, .price--non-sale, .price--rrp{
+        font-size: 12px !important;
+    }
+}
+@media(max-width: 425px){
+    .price{
+        font-size: 15px;
+    }
+    .price--discounted, .price--non-sale, .price--rrp{
+        font-size: 12px !important;
+    }
+    .featured-caption .price {
+        font-size: 16px !important;
+    }
+    .featured-caption .price--discounted, .featured-caption .price--non-sale{
+        font-size: 14px !important;
+    }
+}

@@ -1,0 +1,22 @@
+{{#if theme_settings.homepage_new_products_show}}
+{{{region name="home_above_new_products"}}}
+<div class="section-space">
+    <div class="new-product">
+        <div class="container new-pro">
+            <div class="all-head">
+                <h2 class="page-heading">
+                    {{lang 'products.new' }}
+                    <!-- <p>{{theme_settings.subheading-new-product}}</p> -->
+                    <span class="head-line"></span>
+                </h2>
+
+            </div>
+            {{#if settings.data_tag_enabled}}
+                {{> components/products/carousel products=products list="New Products"}}
+            {{else}}
+                {{> components/products/carousel products=products}}
+            {{/if}}
+        </div>
+    </div>
+</div>
+{{/if}}

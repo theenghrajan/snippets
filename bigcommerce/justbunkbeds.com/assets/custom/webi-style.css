@@ -1,0 +1,216 @@
+body {
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  padding-top: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.8px;
+}
+a {
+  text-decoration: none !important;
+}
+.owl-wrapper-outer {
+  padding: 0;
+  box-shadow: none;
+  border: none;
+}
+.owl-carousel {
+  margin-bottom: 0;
+}
+button:focus {
+  outline: none !important;
+}
+/* :focus {
+    outline: none;
+}*/
+.hideme {
+  display: none;
+}
+svg {
+  vertical-align: middle;
+}
+dl,
+ol,
+ul {
+  margin: 0;
+}
+.fixed {
+  position: fixed;
+  z-index: 99;
+  background: #fff;
+  animation: goDown 0.5s ease-in-out forwards;
+  transition: 0.3s ease-in-out;
+  top: -60px;
+}
+
+@keyframes goDown {
+  0% {
+    top: -60px;
+  }
+  100% {
+    transform: translateY(60px);
+  }
+}
+.header.index .header-top {
+  background-color: transparent;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header.index .mycustom-container {
+  max-width: 100%;
+  padding: 0 15px !important;
+}
+.header_bar .container {
+  max-width: 800px !important;
+}
+@media (min-width: 320px) and (max-width: 991px) {
+  .container {
+    max-width: 100% !important;
+  }
+  .mycustom-header {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 100% !important;
+  }
+  .theme_jewelry .container {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 963px !important;
+  }
+  .theme_jewelry .container {
+    max-width: 963px !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1409px) {
+  .container {
+    max-width: 1200px !important;
+  }
+  .theme_jewelry .container {
+    max-width: 1170px !important;
+  }
+}
+@media (min-width: 1410px) and (max-width: 1589px) {
+  .container {
+    max-width: 1200px !important;
+  }
+  .theme_jewelry .container {
+    max-width: 1530px !important;
+  }
+}
+@media (min-width: 1590px) {
+  .container {
+    max-width: 1200px !important;
+  }
+  .theme_jewelry .container {
+    max-width: 1530px !important;
+  }
+}
+.mycustom-header {
+  max-width: 1200px !important;
+  padding: 0 15px !important;
+  margin: 0 auto;
+}
+.container {
+  padding: 0 15px;
+}
+a:hover {
+  text-decoration: none;
+}
+.redeem-gift ol {
+  list-style-position: inside;
+}
+@media (min-width: 801px) {
+  .wb-desktop-hide,
+  .manun .view_more {
+    display: none;
+  }
+}
+@media (max-width: 1409px) {
+  .fixed .cate-navlg .navPages-item .navPages-action {
+    padding: 15px 28px 15px 0px;
+  }
+}
+@media (max-width: 1199px) {
+  .fixed .cate-navlg .navPages-item .navPages-action {
+    padding: 15px 12px 15px 0px;
+  }
+}
+@media (max-width: 991px) {
+  .header_bar .container {
+    max-width: 600px !important;
+  }
+}
+@media (max-width: 800px) {
+  footer h5 .toggle.collapsed::after,
+  footer h5 .toggle::after {
+    font-family: FontAwesome;
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+    cursor: pointer;
+  }
+  footer h5 .toggle::after {
+    content: "\f068";
+  }
+  footer h5 .toggle.collapsed::after {
+    content: "\f067";
+  }
+  footer button {
+    text-shadow: none;
+    background: 0 0;
+    border: none !important;
+    box-shadow: none;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    width: 100%;
+    padding: 0;
+  }
+  .join-mail button {
+    top: 6px;
+    right: 3px;
+  }
+}
+@media (max-width: 360px) {
+  .cate-top div {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+  .cate-top .actionBar-section {
+    float: left;
+    margin-top: 10px;
+  }
+  .toggleLink-text {
+    letter-spacing: 0;
+  }
+}
+
+/*Interactive Popup mobile CSS*/
+@media(max-width:767px){
+    button.taf-pop-btn {
+        width: auto;
+        font-size: 12px;
+        right: 20px;
+        left: auto;
+        bottom: 10px;
+    }
+}
+
+.button.taf-pop-btn {
+   
+}

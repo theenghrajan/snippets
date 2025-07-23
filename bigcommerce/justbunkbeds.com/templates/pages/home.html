@@ -1,0 +1,104 @@
+---
+products:
+    new:
+        limit: {{theme_settings.homepage_new_products_count}}
+    featured:
+        limit: {{theme_settings.homepage_featured_products_count}}
+    top_sellers:
+        limit: {{theme_settings.homepage_top_products_count}}
+carousel: {{theme_settings.homepage_show_carousel}}
+blog:
+    recent_posts:
+        limit: {{theme_settings.homepage_blog_posts_count}}
+---
+{{#partial "hero"}}
+    {{{region name="home_below_menu"}}}
+    {{#and carousel carousel.slides.length}}
+        <div class="container">
+            {{> components/carousel arrows=theme_settings.homepage_show_carousel_arrows play_pause_button=theme_settings.homepage_show_carousel_play_pause_button}}
+        </div>    
+    {{/and}}
+    {{{region name="home_below_carousel"}}}
+{{/partial}}
+
+{{#partial "page"}}
+
+    {{#each shipping_messages}}
+        {{> components/common/alert/alert-info message}}
+    {{/each}}
+{{#if theme_settings.theme_fashion}}
+<div class="main full">
+    {{> components/cms/topbanner}}
+    {{#if products.featured}}
+        {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
+    {{/if}}
+    {{#if products.top_sellers}}
+        {{> components/products/top products=products.top_sellers columns=theme_settings.homepage_top_products_column_count}}
+    {{/if}}
+    
+    {{> components/cms/bigbanner}}
+    
+    {{> components/cms/collection}}
+    
+    {{> components/cms/our-features}}
+    {{#if products.new}}
+        {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
+    {{/if}}
+    
+    {{> components/cms/services}}
+    {{> components/cms/testimonial}}
+    {{#if blog.recent_posts}}
+        {{> components/blog/newblog blog=blog.recent_posts}}
+    {{/if}}
+    
+    {{> components/brand/brandlogo}}
+</div>
+{{else}}
+ {{#if theme_settings.theme_jewelry}}
+    {{> components/cms/services}}
+    {{> components/cms/topbanner}}
+    {{#if products.featured}}
+        {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
+    {{/if}}
+    {{#if products.top_sellers}}
+        {{> components/products/top products=products.top_sellers columns=theme_settings.homepage_top_products_column_count}}
+    {{/if}}
+    
+    {{> components/cms/bigbanner}}
+    
+    {{> components/cms/collection}}
+    
+    {{> components/cms/our-features}}
+    {{#if products.new}}
+        {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
+    {{/if}}
+    
+    
+    {{> components/cms/testimonial}}
+    {{#if blog.recent_posts}}
+        {{> components/blog/newblog blog=blog.recent_posts}}
+    {{/if}}
+    {{> components/brand/brandlogo}}
+ {{else}}
+ {{#if theme_settings.theme_furniture}}
+    {{#if products.featured}}
+        {{> components/products/featured products=products.featured columns=theme_settings.homepage_featured_products_column_count}}
+    {{/if}}
+
+    {{#if products.new}}
+        {{> components/products/new products=products.new columns=theme_settings.homepage_new_products_column_count}}
+    {{/if}}
+    
+    {{> components/cms/bigbanner}}
+    
+    {{> components/cms/collection}}
+    
+    {{> components/cms/our-features}}
+
+    {{> components/brand/brandlogo}}
+    {{> components/cms/services}}
+{{/if}}
+{{/if}}
+{{/if}}
+{{/partial}}
+{{> layout/base}}

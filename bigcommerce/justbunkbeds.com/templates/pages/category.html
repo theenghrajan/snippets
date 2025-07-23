@@ -1,0 +1,109 @@
+---
+category:
+    shop_by_price: true
+    products:
+        limit: {{theme_settings.categorypage_products_per_page}}      
+---
+{{inject "categoryProductsPerPage" theme_settings.categorypage_products_per_page}}
+{{#partial "head"}} 
+    {{#if pagination.category.previous}}
+        <link rel="prev" href="{{pagination.category.previous}}"> 
+    {{/if}} 
+    {{#if pagination.category.next}}
+        <link rel="next" href="{{pagination.category.next}}"> 
+    {{/if}} 
+{{/partial}} 
+{{#partial "page"}}
+{{> components/common/breadcrumbs breadcrumbs=breadcrumbs}}
+<div class="container catagory-space">
+    <div class="row">
+        <aside id="colm-left" class="col-lg-3 col-sm-12 col-md-12 col-xs-12 hidden-sm hidden-xs">
+            <div class="page">
+                {{#if category.faceted_search_enabled}}
+                    <aside class="page-sidebar" id="faceted-search-container">
+                        {{> components/category/sidebar}}
+                    </aside>
+                {{else if category.subcategories}}
+                    <aside class="page-sidebar" id="faceted-search-container">
+                        {{> components/category/sidebar}}
+                    </aside>
+                {{else if category.shop_by_price}}
+                    {{#if theme_settings.shop_by_price_visibility}}
+                         <aside class="page-sidebar" id="faceted-search-container">
+                            {{> components/category/sidebar}}
+                        </aside>
+                    {{/if}}
+                {{/if}}
+            </div>
+        </aside>
+        <div class="col-lg-9 col-sm-12 col-md-12  col-xs-12 colright" id="content">
+            
+            <div class="category-top row hidden-xs">
+                <div class="col-12 col-md-12">
+                    {{#unless theme_settings.hide_category_page_heading }}
+                        <h1 class="section-heading">{{category.name}}</h1>
+                    {{{region name="category_below_header"}}} {{/unless}}
+                </div>
+            </div>
+            {{#if category.subcategories}}
+            <div class="category-top row hidden-xs" style="display:none;">
+                <div class="sidebarBlock">
+                    <ul class="navList subcatlist">
+                        {{#each category.subcategories}}
+                        <li class="navList-item">
+                            <img class="itemBorder lazyload" data-sizes="auto" src="{{getImage image 'thumbnail'}}" alt=" {{name}}" width=" 180px" height="180px" />
+                            <a class="navList-action" href="{{url}}" title="{{name}}">{{name}}</a>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            {{/if}}
+            {{{region name="category_above_gridandlist"}}}
+            <div class="row cate-border">
+                <div class="col-md-6 col-3 category-grid">
+                    <span id="gridProduct" class="active" title="Grid"><svg width="20px" height="20px"><use xlink:href="#cgrid"></use></svg></span>
+                    <span id="listProduct" title="List"><svg width="20px" height="20px"><use xlink:href="#clist"></use></svg></span>
+                </div>
+                <div class="col-md-6 col-9 actionbar-filter">
+                    <div class="text-right">
+                    {{> components/products/filter sort=pagination.category.sort}}
+                    </div>
+                </div>
+                
+            </div>
+            <div class="xs-filter"></div>
+            <div class="page-contentc" id="product-listing-container">
+                {{> components/category/product-listing}} 
+                {{{region name="category_below_content"}}}
+            </div>
+            <div class="category-top row hidden-xs category-bottom">
+                <div class="col-xl-2 col-sm-3 col-12 hidden-sm">
+                    {{#if category.image}}
+                        {{> components/common/responsive-img
+                            image=category.image
+                            fallback_size=theme_settings.zoom_size
+                            lazyload=theme_settings.lazyload_mode
+                            class="category-header-image"
+                        }}
+                    {{/if}}
+                </div>
+                <div class="{{#unless category.image }}col-12 {{else}} col-xl-10 col-sm-9 {{/unless}} catedes">
+                    {{{category.description}}}
+                    {{#if category.subcategories}}
+                        <div class="sub-cate-img row">
+                            {{#each category.subcategories}} {{#if image}}
+                                <div class="sun-cat-sin col-6 col-sm-4 col-md-4 col-lg-2">
+                                    <a href="{{url}}" alt="{{name}}" title="{{name}}"><img src="{{getImage image 'productgallery_size' (cdn theme_settings.default_image_product)}}" alt="category"></a>
+                                    <div class="cate-sub-name"><a href="{{url}}" alt="{{name}}" title="{{name}}">{{name}}</a></div>
+                                </div>
+                            {{/if}} {{/each}}
+                        </div>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{/partial}} 
+{{> layout/base}}

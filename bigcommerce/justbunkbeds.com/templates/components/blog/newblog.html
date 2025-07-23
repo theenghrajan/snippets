@@ -1,0 +1,14 @@
+{{#if theme_settings.home-blog}} {{{region name="home_above_blog"}}}
+<div class="container">
+  <div class="allblog-bg next-prevb section-space home-recent-blog">
+    <div class="topsp">
+      <h2 class="page-heading">
+        {{ lang 'blog.recent_posts' }}
+        <p>{{theme_settings.subheading-home-blogpost}}</p>
+        <span class="head-line"></span>
+      </h2>
+      {{> components/blog/carousel blog=blog}}
+    </div>
+  </div>
+</div>
+{{/if}}

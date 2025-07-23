@@ -1,0 +1,28 @@
+<li id="search" class="desktop-search d-inline-block sideb siden">
+{{{ snippet "forms_search"}}}
+<div class="d-search">
+  <button  class="search-toggle" data-toggle="collapse" onclick="openSearch()" aria-label="{{lang "search.quick_search.input_label"}}">
+    
+        <svg height="24px" width="24px"><use xlink:href="#mysearch"></use></svg>
+  </button>
+</div>
+<div id="search" class="wbSearch">
+     <form class="form" action="{{urls.search}}">
+        <fieldset class="form-fieldset">
+            <div class="wb-search input-group">
+                <label class="is-srOnly">{{lang "search.quick_search.input_label"}}</label>
+                <input class="form-input form-control" data-search-quick name="search_query" data-error-message="{{lang 'search.error.empty_field'}}" placeholder="" autocomplete="off">
+                <div class="input-group-btn"><button class="wb-search-btn" align="center" type="submit" value="{{lang 'search.results.form_button_text'}}
+                ">search<svg width="20px" height="20px">
+                    <use xlink:href="#mysearch"></use>
+                  </svg>
+                  
+                  <!-- {{lang "search.quick_search.input_label"}} -->
+              </button><a href="javascript:void(0)" class="closebtn close-nav" onclick="closeSearch()" aria-label="close-nav"><i class="fa fa-close"></i></a></div>
+            </div>
+        </fieldset>
+    </form>
+    <section class="quickSearchResults" data-bind="html: results"></section>
+
+</div>
+</li>

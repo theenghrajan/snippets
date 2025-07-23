@@ -1,0 +1,184 @@
+{{#if theme_settings.home-testimonial}} {{{region
+name="home_above_testimonial"}}}
+<div class="parallax-bg section-space container-fluid">
+  <div class="container parallex text-center">
+    <h2 class="page-heading">
+      {{lang 'Testimonials'}}
+      <p>{{theme_settings.subheading-testimonial}}</p>
+      <span class="head-line"></span>
+    </h2>
+    <div class="row mian-row">
+      <div id="testi" class="owl-carousel owl-theme">
+        <div class="item col-12 main-col active center">
+          <div class="testi-box">
+            <div class="img-deat">
+              <img
+                class="img-fluid center-block timg lazyload"
+                data-sizes="auto"
+                width="153px"
+                height="32px"
+                data-src="{{cdn 'assets/img/icon-star.png'}}"
+                alt="banner" />
+              <svg width="20px" height="20px">
+                <use xlink:href="#quote"></use>
+              </svg>
+            </div>
+            <div class="testi-contant">
+              <p class="testi-description">
+                {{theme_settings.testimonial-contant1}}
+              </p>
+            </div>
+            <div class="testi-detail">
+              <h2>{{theme_settings.testimonial-name}}</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item col-12 main-col">
+          <div class="testi-box">
+            <div class="img-deat">
+              <img
+                class="img-fluid center-block timg lazyload"
+                data-sizes="auto"
+                width="153px"
+                height="32px"
+                data-src="{{cdn 'assets/img/icon-star.png'}}"
+                alt="banner" />
+              <svg width="20px" height="20px">
+                <use xlink:href="#quote"></use>
+              </svg>
+            </div>
+            <div class="testi-contant">
+              <p class="testi-description">
+                {{theme_settings.second-testimonial-contant1}}
+              </p>
+            </div>
+            <div class="testi-detail">
+              <h2>{{theme_settings.second-testimonial-name}}</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item col-12 main-col">
+          <div class="testi-box">
+            <div class="img-deat">
+              <img
+                class="img-fluid center-block timg lazyload"
+                data-sizes="auto"
+                width="153px"
+                height="32px"
+                data-src="{{cdn 'assets/img/icon-star.png'}}"
+                alt="banner" />
+              <svg width="20px" height="20px">
+                <use xlink:href="#quote"></use>
+              </svg>
+            </div>
+            <div class="testi-contant">
+              <p class="testi-description">
+                {{theme_settings.third-testimonial-contant1}}
+              </p>
+            </div>
+            <div class="testi-detail">
+              <h2>{{theme_settings.third-testimonial-name}}</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item col-12 main-col">
+          <div class="testi-box">
+            <div class="img-deat">
+              <img
+                class="img-fluid center-block timg lazyload"
+                data-sizes="auto"
+                width="153px"
+                height="32px"
+                data-src="{{cdn 'assets/img/icon-star.png'}}"
+                alt="banner" />
+              <svg width="20px" height="20px">
+                <use xlink:href="#quote"></use>
+              </svg>
+            </div>
+            <div class="testi-contant">
+              <p class="testi-description">
+                {{theme_settings.fourth-testimonial-contant1}}
+              </p>
+            </div>
+            <div class="testi-detail">
+              <h2>{{theme_settings.fourth-testimonial-name}}</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item col-12 main-col">
+          <div class="testi-box">
+            <div class="img-deat">
+              <img
+                class="img-fluid center-block timg lazyload"
+                data-sizes="auto"
+                width="153px"
+                height="32px"
+                data-src="{{cdn 'assets/img/icon-star.png'}}"
+                alt="banner" />
+              <svg width="20px" height="20px">
+                <use xlink:href="#quote"></use>
+              </svg>
+            </div>
+            <div class="testi-contant">
+              <p class="testi-description">
+                {{theme_settings.fourth-testimonial-contant1}}
+              </p>
+            </div>
+            <div class="testi-detail">
+              <h2>{{theme_settings.fourth-testimonial-name}}</h2>
+            </div>
+          </div>
+        </div>
+        <div class="item col-12 main-col">
+          <div class="testi-box">
+            <div class="img-deat">
+              <img
+                class="img-fluid center-block timg lazyload"
+                data-sizes="auto"
+                width="153px"
+                height="32px"
+                data-src="{{cdn 'assets/img/icon-star.png'}}"
+                alt="banner" />
+              <svg width="20px" height="20px">
+                <use xlink:href="#quote"></use>
+              </svg>
+            </div>
+            <div class="testi-contant">
+              <p class="testi-description">
+                {{theme_settings.third-testimonial-contant1}}
+              </p>
+            </div>
+            <div class="testi-detail">
+              <h2>{{theme_settings.third-testimonial-name}}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{/if}}
+
+<script type="text/javascript">
+  (function ($) {
+    $("#testi").owlCarousel({
+      itemsCustom: [
+        [0, 1],
+        [550, 1],
+        [601, 1],
+        [800, 2],
+        [992, 2],
+        [1199, 3],
+        [1200, 3],
+        [1600, 4],
+      ],
+      autoPlay: false,
+      navigationText: [
+        '<svg width="26px" height="26px"><use xlink:href="#arrow-left"></use></svg>',
+        '<svg width="26px" height="26px"><use xlink:href="#arrow-right"></use></svg>',
+      ],
+      navigation: false,
+      pagination: true,
+    });
+  })(jQuery);
+</script>

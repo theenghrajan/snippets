@@ -1,0 +1,21 @@
+{{#if theme_settings.homepage_top_products_show}}
+{{{region name="home_above_top_products"}}}
+<div class="section-space">
+    <div class="top-products">
+        <div class="container new-pro">
+            <div class="all-head">
+                <h2 class="page-heading">
+                    {{lang 'products.top' }}
+                    <p>{{theme_settings.subheading-top-product}}</p>
+                    <span class="head-line"></span>
+                </h2>
+            </div>
+                {{#if settings.data_tag_enabled}}
+                {{> components/products/top-carousel products=products list="top Products"}}
+            {{else}}
+                {{> components/products/top-carousel products=products}}
+            {{/if}}
+        </div>
+    </div>
+</div>
+{{/if}}

@@ -1,0 +1,94 @@
+// =============================================================================
+// ACCOUNT
+// =============================================================================
+
+
+// Account layouts
+// -----------------------------------------------------------------------------
+
+.account {
+    margin-bottom: spacing("single");
+}
+
+.account--fixed {
+    @include breakpoint("medium") {
+       
+    }
+}
+.account-sidebar .definitionList{
+    padding-bottom:10px;
+}
+.account--fixedSmall {
+    margin: 30px auto !important;
+    @include breakpoint("medium") {
+        margin: 0 auto;
+    }
+}
+
+.account--fixedLarge {
+    @include breakpoint("medium") {
+        margin: 0 auto;
+        width: grid-calc(9, $total-columns);
+    }
+}
+
+.account-head {
+    margin-bottom: spacing("double");
+    text-align: center;
+
+    .alertBox {
+        padding-left: spacing("double");
+        padding-right: spacing("double");
+        text-align: left;
+    }
+}
+
+.account-body {
+    margin: 0 0 !important;
+    @include grid-row($behavior: "nest");
+}
+
+.account-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    @include grid-column(12);
+}
+
+.account-content--fixed {
+
+    @include breakpoint("medium") {
+        width: grid-calc(8, $total-columns);
+    }
+}
+
+.account-content--fixedSmall {
+
+    @include breakpoint("medium") {
+        
+    }
+}
+
+.account-sidebar {
+    padding: 0 !important;
+    @include grid-column(12);
+
+    @include breakpoint("medium") {
+        width: grid-calc(4, $total-columns);
+
+        .account-content--fixedSmall + & {
+            float: left;
+        }
+    }
+}
+.account-product-figure::after{
+    display: none;
+}
+.form-input{
+    border-radius: 5px!important;
+}
+.form-select{
+    border-radius: 10px;
+}
+.account-sidebar-block .definitionList-value{
+    text-align: end;
+}

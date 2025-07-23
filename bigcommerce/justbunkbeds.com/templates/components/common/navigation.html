@@ -1,0 +1,185 @@
+<nav class="navUser">
+  <ul class="navUser-section navUser-section--alt">
+    {{#if customer.store_credit.value '>' 0}}
+    <span class="header-store-credit">
+      <li class="navUser-item">
+        <a
+          class="navUser-action navUser-action--storeCredit"
+          data-dropdown="storeCredit-dropdown"
+          data-options="align:bottom"
+          href="{{urls.cart}}"
+          aria-label="{{lang 'common.store_credit_overview' credit=customer.store_credit.formatted}}">
+          <span class="navUser-action-divider">
+            {{lang 'common.store_credit_overview'
+            credit=customer.store_credit.formatted}}
+          </span>
+        </a>
+        <ul
+          class="dropdown-menu"
+          id="storeCredit-dropdown"
+          data-dropdown-content
+          aria-hidden="true">
+          {{{lang 'common.store_credit'
+          store_credit=customer.store_credit.formatted}}}
+        </ul>
+      </li>
+    </span>
+    {{/if}}
+
+    <!-- search icon -->
+    <li class="navUser-item head-ser">{{> components/common/quick-search}}</li>
+
+    <!-- account accsess for user -->
+    <li class="navUser-item head-user user-info myaccount">
+      <a class="navUser-action" data-dropdown="account-dropdown">
+        <span class="label">MY ACCOUNT</span>
+        <span class="svgbg navUser-item-cartLabel list-inline">
+          <svg width="24px" height="24px"><use xlink:href="#huser"></use></svg>
+          <!-- <h5 class="text-left">{{lang 'login / register'}}</h5> -->
+        </span>
+      </a>
+      <ul
+        class="dropdown-menu user-down dropdown-menu-left headlog"
+        id="account-dropdown"
+        data-dropdown-content
+        aria-hidden="true">
+        <p class="altofh5 text-left">{{lang 'Your Account'}}</p>
+        <p class="altofh6 text-left">{{lang 'Access account and manage orders'}}</p>
+        {{#if customer}}
+        <p class="user-name">
+          {{lang 'Hi! '}}{{first (split customer.name " ") }}
+        </p>
+        {{/if}} {{#if customer.store_credit.value '>' 0}}
+        <div class="mystorecredit">
+          <ul class="navUser-section">
+            <li class="navUser-item">
+              <a
+                class="navUser-action navUser-action--storeCredit has-dropdown"
+                data-dropdown="storeCredit-dropdown"
+                aria-controls="storeCredit-dropdown"
+                href="{{urls.cart}}"
+                aria-label="{{lang 'common.store_credit_overview' credit=customer.store_credit.formatted}}">
+                <span class="navUser-action-divider">
+                  {{lang 'common.store_credit_overview'
+                  credit=customer.store_credit.formatted}}
+                </span>
+              </a>
+              <ul
+                class="dropdown-menu"
+                id="storeCredit-dropdown"
+                data-dropdown-content
+                aria-hidden="true"
+                tabindex="-1">
+                {{{lang 'common.store_credit'
+                store_credit=customer.store_credit.formatted}}}
+              </ul>
+            </li>
+          </ul>
+        </div>
+        {{/if}} {{#if customer}}
+        <li class="acd">
+          <a
+            class="navUser-action dropdown-menu-item sign_out dro"
+            href="{{urls.auth.logout}}"
+            ><i class="fa fa-sign-out"></i>{{lang 'common.logout'}}</a
+          >
+        </li>
+        <li class="acd account-dropdown">
+          <a
+            class="navUser-action dropdown-menu-item my_account dro"
+            href="{{urls.account.index}}"
+            ><i class="fa fa-user"></i>{{lang 'common.account'}}</a
+          >
+        </li>
+        {{else}}
+        <li class="mylogin acd">
+          <a
+            class="navUser-action dropdown-menu-item dro"
+            href="{{urls.auth.login}}"
+            ><i class="fa fa-lock"></i>{{lang 'common.login'}}</a
+          >
+        </li>
+        {{#if settings.account_creation_enabled}}
+        <li class="mycreat acd">
+          <a
+            class="navUser-action dropdown-menu-item dro"
+            href="{{urls.auth.create_account}}">
+            <i class="fa fa-user-plus"></i>{{lang 'common.sign_up'}}
+          </a>
+        </li>
+        {{/if}} {{/if}}
+        <li class="navUser-item navUser-item-compare acd">
+          <a
+            class="navUser-action navUser-item--compare"
+            href="{{urls.compare}}"
+            data-compare-nav
+            aria-label="{{lang 'common.compare'}}"
+            ><i class="fa fa-compress"></i> {{lang 'common.compare'}}
+            <!-- <span class="countPill countPill--positive countPill--alt"></span> -->
+          </a>
+        </li>
+        <li class="navUser-item wi-he acd">
+          <a
+            class="cart-button cart-button--wishlist dropdown-menu-item navUser-action"
+            title="{{lang 'account.nav.wishlist'}}"
+            href="{{urls.account.wishlists.all}}">
+            <i class="fa fa-heart"></i>
+            {{lang 'wishlist'}}
+          </a>
+        </li>
+        {{#if settings.gift_certificates_enabled}}
+        <li class="navUser-item acd mygift">
+          <a
+            class="navUser-action"
+            href="{{urls.gift_certificate.purchase}}"
+            aria-label="{{lang 'common.gift_cert'}}"
+            ><i class="fa fa-gift"></i>
+            {{lang 'common.gift_cert'}}
+          </a>
+        </li>
+        {{/if}} {{#if currency_selector.currencies.length '>' 1}}
+        <li class="mycurry acd">
+          {{#or customer (unless settings.hide_price_from_guests)}} {{>
+          components/common/currency-selector}} {{/or}}
+        </li>
+        {{/if}}
+      </ul>
+    </li>
+    <!-- cart icon  -->
+    <li class="navUser-item navUser-item--cart">
+      <a
+        class="navUser-action"
+        data-cart-preview
+        data-dropdown="cart-preview-dropdown"
+        data-options="align:right"
+        href="{{urls.cart}}"
+        aria-label="{{lang 'cart.nav_aria_label'}}"
+        ><span class="label">CART</span><svg width="24px" height="24px"><use xlink:href="#hcart"></use></svg>
+        <span class="cart-icon"></span>
+        <!-- <span class="navUser-item-cartLabel">{{lang 'common.cart'}}</span> -->
+        <span class="countPill cart-quantity"></span>
+      </a>
+
+      <div
+        class="dropdown-menu"
+        id="cart-preview-dropdown"
+        data-dropdown-content
+        aria-hidden="true"></div>
+    </li>
+  </ul>
+  <div class="contact-header">
+    <p>
+      <a href="tel:800-507-5440" target="_blank"
+        >Call us: <strong>800-507-5440</strong></a
+      >
+    </p>
+  </div>
+  <div
+    class="dropdown dropdown--quickSearch"
+    id="quickSearch"
+    aria-hidden="true"
+    tabindex="-1"
+    data-prevent-quick-search-close>
+    {{> components/common/quick-search name='nav-quick-search'}}
+  </div>
+</nav>

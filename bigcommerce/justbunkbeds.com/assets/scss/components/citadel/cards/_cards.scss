@@ -1,0 +1,687 @@
+// =============================================================================
+// CARDS (CSS)
+// =============================================================================
+//
+// 1. Allow users to click the anchor tag on the image in the figcaption empty
+//    space. This provides a much larger and simpler hit state for navigating
+//    to the product details page. (Does not work in IE10 or earlier).
+// 2. Using translate3d to counter a chrome specific bug: When using a masonry
+//    styled layout via CSS column-count etc, transforms applied to descendants
+//    are made invisible, except for 3d transforms...
+//
+// -----------------------------------------------------------------------------
+.card-product-swatch{
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .custom-swatch-form-field{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        .color-pattern{
+            box-shadow: 0 0 5px 0 rgba(0, 0, 0, .18%);
+            width: 35px!important;
+            height: 35px!important;
+            margin: 0px 10px 0px 0px!important;
+        }
+        .option-swatch{
+            width: 30px;
+            height: 30px;
+            margin: 0 2px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            overflow: hidden;
+            display: flex;
+            transition: all 0.4s;
+            label{
+                width: 100%;
+                height: 100%;
+                display: block;
+                font-size: 0;
+                cursor: pointer;
+                background-color: #ccc;
+                border-radius: 5px;
+            }
+            &.color-2{
+                label{
+                    border-radius: 0;
+                    width: 50%;
+                }
+            }
+            &.color-3{
+                label{
+                    border-radius: 0;
+                    width: 33.33%;
+                }
+            }
+            &.active, &:hover{
+                border-color:#000;
+            }
+        }
+        + .custom-swatch-form-field{
+            margin-top: 10px;
+        }
+    }
+}
+.theme_jewelry .card-product-swatch .custom-swatch-form-field .option-swatch label,.theme_jewelry .card-product-swatch .custom-swatch-form-field .option-swatch{
+    border-radius: 0;
+}
+.theme_jewelry .card-product-swatch .custom-swatch-form-field{
+    justify-content: center;
+}
+/* Compare */
+.card {   
+    .card-figure{   
+        .card-figcaption{   
+            .card-figcaption-body{   
+                .card-figcaption-button{   
+                    background-color: #fff;
+                    border: 1px solid #aeaeae;
+                    padding: 10px 10px 7px 10px;
+                    margin: 0 0 10px 0;
+                    height: 42px;
+                    width: 100%;
+                    &.compare {   
+                        display: flex; align-items: center; justify-content: space-evenly;
+                    }
+                    &.is-active {   
+                        background-color:#d8f3e2;
+                    }
+                }
+            }
+        }
+    }
+}
+.card-figcaption-button.compare.is-active,.listItem-body .card-figcaption-button.compare.is-activ{
+    background-color: stencilColor("button--default-colorActive");
+    svg{
+        fill: stencilColor("color-white");
+    }
+}
+.compare-popup {
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    overflow: auto;
+    z-index: 1010;
+    .popup-section {
+        max-width: 350px;
+        position: absolute;
+        background-color: #d8f3e2;
+        border-radius: 10px;
+        top: 15px;
+        right: 15px;
+        left: 15px;
+        padding: 20px;
+        h5 {
+            margin: 0;
+            color: #000;
+        }
+        p {
+            margin: 0;
+            color: #000;
+        }
+        .close-btn {
+            color: #000;
+            font-size: 18px;
+            line-height: 10px;
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            text-decoration: none;
+        }
+    }
+}
+.product-remove-popup {
+    .popup-section {
+        background-color: #ffebeb;
+    }
+}
+/* Compare */
+.card-img-container:after {
+    padding-bottom: 100% !important;
+}
+.card {
+    &:focus-within {
+        .card-figcaption {
+            opacity: 1;
+        }
+    }
+
+    &.focus-within {
+        .card-figcaption {
+            opacity: 1;
+        }
+    }
+}
+.dis-cri{
+    font-size: 16px;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.productGrid .card{
+    margin-bottom: 2rem!important;
+    border:none;
+}
+.featured-caption{
+    padding: 0px 0px 0px 30px !important;
+}
+.featured-caption .card-rating{
+    float: none;
+    margin: 15px 0px 15px 0px !important;
+}
+.card-figure {
+    margin-top: $card-figure-marginTop;
+    padding: 0px;
+    position: relative;
+    border-radius: 10px;
+
+    &:hover {
+        .card-figcaption {
+            opacity: 1;
+        }
+    }
+
+    &__link {
+        display: block;
+        position: relative;
+    }
+}
+
+.featured .featured-imag{
+    margin: 0 !important;
+    padding: 0;
+}
+
+.featured-imag .card-img .card-img-container {
+    height: 175px;
+    display: inline-flex;
+    width: 100%;
+    vertical-align: middle;
+    line-height: 0;
+    position: relative;
+    @media(min-width: 480px){
+        height: 240px;
+    }
+    @include breakpoint("large") {
+        height: 265px;
+    }
+}
+
+.myadcart{
+    background-color: stencilColor("button--primary-backgroundColor")!important;
+    color: stencilColor("button--primary-color");
+    text-transform: uppercase;
+    padding: 15px 15px!important;
+    border-radius: 10px!important;
+    display: table!important;
+    margin-top: 10px!important;
+    font-size: 14px;
+    display: block!important;
+}
+.myadcart:hover{
+    background-color: stencilColor("button--primary-backgroundColorHover")!important;
+    color: stencilColor("button--primary-colorHover")!important;
+}
+.myadcart svg{
+    fill: stencilColor("color-white")!important;
+    display: none;
+}
+.cart-text{
+    margin-left: 0px;
+}
+.card-figcaption {
+    margin: $card-figcaption-margin;
+    pointer-events: none; // 1
+
+    @include breakpoint("medium") {
+        display: block;
+    }
+}
+.card-figure:hover .card-figcaption-body{
+    top: 40%;
+}
+.card-figure:hover .card-figure{
+    opacity: .5;
+}
+.card-figcaption-body {
+    display: $card-figcaption-body-display;
+    pointer-events: all; // 1
+    transform: translate3d(0, -100%, 0); // 2
+    top: 35%;
+    transition: 0.3s ease-in-out;
+}
+.featured-caption .featured-brand{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.featured-caption .card-title a{
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.theme_jewelry .add-cart{
+    position: unset;
+}
+.theme_furniture .add-cart{
+    position:unset;
+    opacity: 1;
+    bottom: 0%;
+    transform: unset;
+}
+.add-cart {
+    position: absolute;
+    bottom: 35%;
+    left: 30px;
+    right: 30px;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.3s ease-in-out;
+}
+.card-figure:hover .add-cart {
+    opacity: 1;
+    transform: none;
+}
+.card-image {
+    margin: auto !important;
+   border-radius: 0;
+    border: 0;
+    /* Object-fit polyfill */
+    font-family: "object-fit: contain;";
+    max-height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+.card-figure .second-img {
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    transition: all .4s ease-in-out 0s;
+    border-radius: 10px;
+    max-height: 100%;
+    object-fit: contain;
+    width: 100%;
+    display: none;
+}
+.card-figure.featured-imag:hover .second-img {
+    opacity: 1;
+}
+.card-title {
+    font-size: 16px;
+    margin: 0;
+    transition: 0.3s ease;
+    padding: 8px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Abadi MT Pro';
+    > a {
+        color: $card-title-color;
+        font-size: 16px;
+        display: block;
+        text-decoration: $card-title-textDecoration;
+        padding-bottom: 1px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        &:hover {
+            color: $card-title-color-hover;
+        }
+    }
+}
+
+.product-brandname{
+    display: none;
+}
+
+.card-text {
+    margin-bottom: 0px;
+
+    abbr {
+        border: 0;
+        color: inherit;
+        font-size: inherit;
+    }
+}
+.card-text.myprice {
+    padding-top: 8px;
+}
+.card-figcaption-button {
+    border: $card-figcaption-button-border;
+    display: $card-figcaption-button-display;
+    margin: 0;
+    background-color: stencilColor("color-white");
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px;
+
+    &:active {
+        background-color: $card-figcaption-button-backgroundHover;
+        border: $card-figcaption-button-border;
+    }
+
+    .card-figcaption-body & {
+        &:focus {
+            background-color: $card-figcaption-button-backgroundHover;
+            outline: revert;
+        }
+    }
+
+    + .card-figcaption-button {
+        margin: 0;
+    }
+}
+// .card-figcaption-button:hover {
+//     background-color: stencilColor("color-secondary-background");
+    
+// }
+.card-figcaption-button:hover svg {
+    fill: stencilColor("button--primary-color"); 
+}
+.theme_jewelry .card-body{
+    text-align: center;
+}
+.card-body {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    border-radius: 0px;
+
+    @include breakpoint("small") {
+        
+    }
+}
+
+.slick-slide div:last-child .productCarousel-slide {
+    margin-bottom: 0;
+}
+
+//
+// Alternate card
+//
+// Purpose: Used to give the card alternative styling
+// -----------------------------------------------------------------------------
+
+.card--alternate {
+    border: 3px solid stencilColor("card--alternate-borderColor");
+    transition: all 0.15s ease;
+
+    .card-body {
+        background-color: stencilColor("card--alternate-backgroundColor");
+        padding: spacing("half");
+        transition: all 0.15s ease;
+
+        @include breakpoint("small") {
+            padding: spacing("single");
+        }
+    }
+
+    &:hover {
+        border-color: stencilColor("color-primary");
+
+        .card-body {
+            background-color: stencilColor("color-primary");
+
+            .card-text {
+                color: stencilColor("card--alternate-color--hover");
+            }
+        }
+
+        .card-title > a {
+            color: stencilColor("card--alternate-color--hover");
+        }
+    }
+}
+
+.caption{
+   padding: 0px 20px 0px 0px;
+}
+.new-pro-row{
+    align-items: center;
+}
+.populer-card .card-image{
+    border-radius: 5px;
+}
+.populer-card .card-figure .second-img{
+    border-radius: 5px;
+}
+.myadcart span{
+    vertical-align: middle;
+}
+.second-card-row{
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.featured-caption .myadcart{
+    display: inline-block!important;
+    margin-top: 50px!important;
+}
+@media(min-width: 801px){
+    .second-card-row .featured-caption .card-figcaption{
+        display: none;
+    }
+}
+@media(max-width: 1199px){
+    .add-cart{
+        bottom: 33%;
+    }
+    .category .productGrid .product .card-body .add-cart{
+        bottom: 38%;
+
+        .myadcart{
+            padding: 10px 15px !important;
+            font-size: 12px;
+        }
+    }
+}
+@media(max-width: 991px){ 
+    // .card-figcaption-button{
+    //     background-color: stencilColor("color-primary-background");
+    // }
+    .card-title{
+        padding: 5px 0;
+    }
+    .myprice{
+        margin-bottom: 5px!important;
+    }
+    .card-text.myprice {
+        padding-top: 5px;
+    }
+    .featured-caption .card-title a{
+        font-size: 20px;
+    }
+    .dis-cri{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .featured-caption .myadcart{
+        margin-top: 20px !important;
+    }
+}
+@media(max-width: 800px){
+    .myadcart:hover{
+        background-color: stencilColor("color-secondary-background")!important;
+        color: stencilColor("button--primary-colorHover")!important;
+    }
+    .myadcart:hover svg {
+        fill: stencilColor("button--primary-color") !important;
+    }
+    .myadcart svg {
+        fill: stencilColor("color-textBase") !important;
+    }
+    .featured-caption .myprice{
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    .dis-cri{
+        margin-top: 0;
+    }
+    .card-figcaption-body{
+        top: 0;
+    }
+    .card-figure:hover .card-figcaption-body{
+        top: 0;
+    }
+    .myadcart{
+        display: inline-block!important;
+    }
+    .card-figcaption-button{
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .card-figcaption{
+        opacity: 1;
+        position: unset;
+        text-align: left;
+    }
+    .card-figcaption-body{
+        transform: unset;
+    }
+    .featured-caption .card-rating {
+        float: none;
+        margin: 0px 0px 0px 0px !important;
+    }
+    .myadcart{
+        padding: 10px 10px !important;
+        margin: 0!important;
+    }
+    .category .productGrid .product .card-body .add-cart .myadcart {
+        padding: 10px 10px !important;
+        font-size: 12px;
+    }
+     .cart-text{
+        display: none;
+    }
+    .card-figcaption{
+        display: inline-block;
+    }
+    .myadcart{
+        background-color: stencilColor("color-primary-background")!important;
+    }
+    .myadcart svg{
+        display: inline-block;
+    }
+    .add-cart{
+        opacity: 1;
+        position: unset;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: unset;
+        display: inline-block;
+    }
+    .featured-caption .myadcart {
+        margin-top: 0px !important;
+    }
+    .featured-caption .price {
+        font-size: 18px!important;
+    }
+    .featured-caption .price--discounted, .featured-caption .price--non-sale, .price--rrp {
+        font-size: 14px !important;
+    }
+    .card-figure:hover .card-figure {
+        opacity: 1;
+    }
+}
+@media(max-width: 768px){
+    .countdown-amount{
+        font-size: 20px !important;
+        padding: 6px 18px !important;
+        margin-right: 5px!important;
+    }
+}
+@media(max-width: 600px){
+    .featured-caption .card-rating{
+        display: inline-block;
+    }
+    .card-title{
+        margin: 0 0 0px;
+    }
+    .category .productGrid .product .card-body .add-cart .myadcart {
+        padding: 6px 6px !important;
+        font-size: 12px;
+    }
+    .product-brandname{
+        font-size: 12px;
+    }
+    .card-title > a{
+        font-size: 14px;
+    }
+    .myprice{
+        display: block!important;
+    }
+    .card-figcaption-button svg{
+        height: 18px;
+        width: 18px;
+    }
+   .countdown-amount{
+        font-size: 22px !important;
+        padding: 10px 12px !important;
+        margin-right: 5px !important;
+    }
+    .myadcart{
+        padding: 6px 6px !important;
+    }
+    .featured-caption .featured-brand{
+        font-size: 14px;
+    }
+    .dis-cri {
+        margin-top: 0;
+        overflow: hidden;
+        max-height: 50px;
+    }
+    .card-body{
+        padding: 5px 0px 0px 0px;
+    }
+    .featured-caption {
+        padding: 0px 0px 0px 15px !important;
+    }
+}
+@media(max-width: 575px){
+    .countdown-amount{
+        font-size: 16px !important;
+        padding: 6px 12px !important;
+        margin-right: 5px!important;
+    }
+}
+@media(max-width: 425px){
+    .card-text {
+        margin-bottom: 0px;
+    }
+    .second-card-row{
+        display: block;
+    }
+    .featured .featured-imag, .featured-caption{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .featured-caption .card-title a {
+        font-size: 16px;
+    }
+    .dis-cri{
+        font-size: 14px;
+        max-height: 100%;
+        margin-bottom: 0;
+    }
+    .featured-caption .myprice {
+        margin-bottom: 8px;
+        margin-top: 0px;
+    }
+    
+}

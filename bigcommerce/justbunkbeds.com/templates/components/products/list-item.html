@@ -1,0 +1,136 @@
+{{#if settings.data_tag_enabled}}
+    <article class="listItem card-figure {{#if alternate}}card--alternate{{/if}}" data-event-type="{{event}}" data-test="card-{{id}}" attr-cards-ids="{{id}}"  data-entity-id="{{id}}" data-position="{{position}}" data-name="{{name}}" data-product-category="{{#each category}}{{#if @last}}{{this}}{{else}}{{this}}, {{/if}}{{/each}}" data-product-brand="{{brand.name}}" data-product-price="
+    {{#or customer (unless settings.hide_price_from_guests)}}
+        {{#if price.with_tax}}
+            {{price.with_tax.value}}
+        {{else}}
+            {{price.without_tax.value}}
+        {{/if}}
+    {{else}}
+        {{lang 'common.login_for_pricing'}}
+    {{/or}}">
+{{else}}
+    <article class="listItem">
+{{/if}}
+    <figure class="listItem-figure">
+        <div class="product-thumb-top transition">
+    <figure class="card-figure">
+        {{#if stock_level '===' 0}}
+        {{> components/products/product-badge
+        badge-type='sold-out'
+        badge_view=theme_settings.product_sold_out_badges
+        badge_label=theme_settings.pdp_sold_out_label
+        }}
+        {{else}}
+        {{#or price.sale_price_with_tax.value price.sale_price_without_tax.value}}
+        {{> components/products/product-badge
+        badge-type='sale'
+        badge_view=theme_settings.product_sale_badges
+        badge_label=theme_settings.pdp_sale_badge_label
+        }}
+        {{/or}}
+        {{/if}}
+        <a href="{{url}}" {{#if settings.data_tag_enabled}} data-event-type="product-click" {{/if}}>
+            <div class="card-img-container">
+                {{> components/common/responsive-img
+                image=image
+                class="card-image"
+                fallback_size=theme_settings.productgallery_size
+                lazyload=theme_settings.lazyload_mode
+                default_image=theme_settings.default_image_product
+                }}
+            </div>
+            {{#each (limit images 2)}}
+            {{#if @index '>' 0}}
+            <img src="{{getImage this 'productgallery_size' (cdn theme_settings.default_image_product)}}" alt="{{this.alt}}" title="{{this.alt}}" class="second-img">
+            {{/if}}
+            {{/each}}
+        </a>
+        
+        </figure>
+    </div>
+    </figure>
+    <div class="listItem-body">
+        <div class="listItem-content">
+            <div class="">
+                {{#if brand.name}}
+                <p class="listItem-brand">{{brand.name}}</p>
+                {{/if}}
+                <div class="card-text card-rating" data-test-info-type="productRating">
+                    <span class="rating--small">
+                        {{> components/products/ratings rating=rating}}
+                    </span>
+                </div>
+                <h4 class="listItem-title">
+                    <a href="{{url}}"
+                    aria-label="{{name}},{{> components/products/product-aria-label}}"
+                    {{#if settings.data_tag_enabled}}
+                    data-event-type="product-click"
+                    {{/if}}>
+                        {{name}}
+                    </a>
+                </h4>
+                {{#if summary}}
+                <div class="category-list-desc">
+                    <p>{{{last (split summary '[/shortcode]')}}}</p>
+                </div>
+                {{/if}}
+                
+                
+            {{#or customer (unless settings.hide_price_from_guests)}}
+                {{#if price}}
+                    <div class="listItem-price">
+                        {{> components/products/price price=price}}
+                    </div>
+                {{/if}}   
+            {{else}}
+                {{> components/common/login-for-pricing}}
+            {{/or}}
+            {{#if theme_settings.show_card_swatch}}<div class="card-product-swatch"></div>{{/if}}
+            </div>
+            
+            
+            <div class="card-figcaption-body">
+                {{#unless hide_product_quick_view}}
+                    {{#if theme_settings.show_product_quick_view}}
+                        {{#if settings.data_tag_enabled}}
+                            <button type="button" class="button button--small card-figcaption-button quickview" data-event-type="product-click" data-product-id="{{id}}"><svg width="18px" height="18px"><use xlink:href="#bquick"></use></svg></button>
+                        {{else}}
+                            <button type="button" class="button button--small card-figcaption-button quickview" data-product-id="{{id}}"><svg width="18px" height="18px"><use xlink:href="#bquick"></use></svg></button>
+                        {{/if}}
+                    {{/if}}
+                {{/unless}}
+                
+                {{#if show_compare}}
+                    <label class="button button--small card-figcaption-button bcom compare compare-{{id}}" for="compare-{{id}}" title="{{lang 'products.compare'}}">
+                        <svg width="20px" height="20px"> <use xlink:href="#compareicon"></use></svg><input class="wb-compare" type="checkbox" name="products[]" value="{{id}}" data-compare-id="{{id}}" id="compare-{{id}}">
+                    </label>
+                {{/if}}
+                
+                
+                {{#or customer (if theme_settings.restrict_to_login '!==' true)}}
+                    {{#if show_cart_action}}
+                        {{#if has_options}}
+                            <a href="{{url}}" data-event-type="product-click" class="button button--small card-figcaption-button" data-product-id="{{id}}"><svg width="18px" height="18px"><use xlink:href="#hcart"></use></svg></a>
+                        {{/if}}
+                        {{#if pre_order}}
+                            <a href="{{pre_order_add_to_cart_url}}" data-event-type="product-click" class="button button--small card-figcaption-button"><svg width="18px" height="18px"><use xlink:href="#hcart"></use></svg></a>
+                        {{/if}}
+                        {{#if add_to_cart_url }}
+                            <a href="{{add_to_cart_url}}" data-event-type="product-click" data-button-type="add-cart" class="button button--small card-figcaption-button"><svg width="18px" height="18px"><use xlink:href="#hcart"></use></svg></a>
+                            <span class="product-status-message aria-description--hidden">{{lang 'category.add_cart_announcement'}}</span>
+                        {{/if}}
+                        {{#if out_of_stock_message }}
+                            <a href="{{url}}" data-event-type="product-click" class="button button--small card-figcaption-button" data-product-id="{{id}}">{{out_of_stock_message}}</a>
+                        {{/if}}
+                    {{/if}}
+                {{/or}}
+            </div>
+        
+        </div>
+        
+
+        
+   
+    </div>
+</article>

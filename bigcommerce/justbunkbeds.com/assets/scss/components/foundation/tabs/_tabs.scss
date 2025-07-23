@@ -1,0 +1,145 @@
+// =============================================================================
+// TABS (CSS)
+// =============================================================================
+//
+// Most of these styles deliberately reset Citadel's defaults for smaller
+// screens since the styles in Stencil for smaller screens are more persistent
+// across breakpoints.
+//
+// -----------------------------------------------------------------------------
+
+.tab {
+    
+    float: none;
+    padding-right: 20px!important;
+
+    @include breakpoint("medium") {
+        border-top-color: $tab-title-border-color;
+        float: left;
+    }
+
+    &.is-active {
+        border-left-color: $tab-title-border-color;
+        border-right-color: $tab-title-border-color;
+
+        @include breakpoint("small") {
+           
+        }
+
+        @include breakpoint("medium") {
+            
+        }
+    }
+}
+.tab.is-active .tab-title {
+    color: stencilColor("color-textSecondary")!important;
+}
+.productView-description .tabs .tab.is-active a::before {
+    background-color: stencilColor("color-textSecondary");
+    height: 2px;
+    width: 60px;
+}
+.productView-description .tabs .tab a::before {
+    background-color: transparent;
+    content: "";
+    height: 2px;
+    margin: 0 auto;
+    position: absolute;
+    top: 33px;
+    transition: all .4s ease-out 0s;
+    width: 3px;
+}
+.tab-title {
+    padding: 0 !important;
+    text-align: center;
+    text-decoration: $tab-title-text-decoration;
+    color: stencilColor("color-textBase--hover");
+
+    @include breakpoint("small") {
+        text-align: left;
+    }
+
+    @include breakpoint("medium") {
+        padding: spacing("half") spacing("single");
+    }
+
+    @include breakpoint("large") {
+        padding: remCalc(11px) remCalc(18px);
+    }
+}
+.tab-title:hover{
+    color: stencilColor("color-textBase");
+}
+.tab-content {
+    //
+    // State for when tab-content has js generated of calculated content, like carousel
+    //
+    // Purpose: The content being display: none, means any js calculated dimensions
+    // are incorrect as the elements inside the tab-content have no dimensions to grab.
+    // Carousel is a prime example. It needs widths to calculate the layout and slides
+    // -----------------------------------------------------------------------------
+    &.has-jsContent {
+        display: block;
+        height: 0;
+        overflow: hidden;
+        padding: 0;
+        visibility: hidden;
+
+        &.is-active {
+            height: auto;
+            overflow: visible;
+            padding: $tabs-content-padding;
+            visibility: visible;
+        }
+    }
+
+
+    //
+    // Product review displays in tabs
+    //
+    // Purpose: Display product reviews within tabbed content on product pages.
+    // -----------------------------------------------------------------------------
+    .productReview {
+        @include breakpoint("small") {
+            width: grid-calc(6, $total-columns);
+        }
+
+        @include breakpoint("medium") {
+            width: grid-calc(4, $total-columns);
+        }
+
+        @include breakpoint("large") {
+            width: grid-calc(6, $total-columns);
+        }
+    }
+
+    .productReviews {
+        border-top: 0;
+    }
+}
+.tab-content{
+    padding: 0px 0px 10px 0px !important;
+}
+.tab-content {
+    display: none;
+}
+.tab-product .tab-content {
+    display: block;
+    padding: 0px 0 0 0!important;
+}
+@media(max-width: 1199px){
+    .tab-product .tab-content {
+        padding: 0px 0 0 0 !important;
+    }
+}
+@media(max-width: 320px){
+    .tab-title{
+        font-size: 13px;
+    }
+    .tab{
+        padding-right: 18px !important;
+    }
+    .productView-description .tabs .tab a::before{
+        top: 30px;
+    }
+}

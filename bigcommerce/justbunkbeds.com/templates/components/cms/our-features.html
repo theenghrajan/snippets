@@ -1,0 +1,132 @@
+{{#if theme_settings.our-features}}
+{{{region name="home_above_our-features"}}}
+<div class="container-fluid ourfeatures section-space">
+	<div class="container">
+		<h2 class="page-heading">{{lang 'our features' }}<p>{{theme_settings.subheading-our-features}}</p><span class="head-line"></span></h2>
+		<div class="row mian-row">
+			<!-- Left features content --> 
+			<div class="col-lg-4 col-md-6 col-12 featuresall left-features main-col">
+				<!-- first left features -->
+				<div class="features-list-unstyled">
+					<ul class="features">
+						<li class="text-left features-content">
+							<h3>{{theme_settings.features_heading1}}</h3>
+							<p>{{theme_settings.features_text1}}</p>
+							<p>{{theme_settings.features_text2}}</p>
+							<p>{{theme_settings.features_text3}}</p>
+						</li>
+						<li>
+							{{#if theme_settings.leftfeature-first-img}}
+								<div class="features-img-banner">
+									<a href="#"><img class="img-fluid lazyload" data-sizes="auto" width="60px" height="60px" data-src="/product_images/uploaded_images/{{theme_settings.leftfeature-first-img}}"  alt="banner"/></a>
+								</div>
+							{{/if}}
+						</li>
+					</ul>
+				</div>
+				<!-- second left features -->
+				<div class="features-list-unstyled">
+					<ul class="features">
+						<li class="text-left features-content">
+							<h3>{{theme_settings.features_heading2}}</h3>
+							<p>{{theme_settings.second_features_text1}}</p>
+							<p>{{theme_settings.second_features_text2}}</p>
+							<p>{{theme_settings.second_features_text3}}</p>
+						</li>
+						<li>
+							{{#if theme_settings.leftfeature-second-img}}
+								<div class="features-img-banner">
+									<a href="#"><img class="img-fluid lazyload" data-sizes="auto" width="60px" height="60px" data-src="/product_images/uploaded_images/{{theme_settings.leftfeature-second-img}}"  alt="banner"/></a>
+								</div>
+							{{/if}}
+						</li>
+					</ul>
+				</div>
+				<!-- third left features -->
+				<div class="features-list-unstyled">
+					<ul class="features">
+						<li class="text-left features-content">
+							<h3>{{theme_settings.features_heading3}}</h3>
+							<p>{{theme_settings.third_features_text1}}</p>
+							<p>{{theme_settings.third_features_text2}}</p>
+							<p>{{theme_settings.third_features_text3}}</p>
+						</li>
+						<li>
+							{{#if theme_settings.leftfeature-third-img}}
+								<div class="features-img-banner">
+									<a href="#"><img class="img-fluid lazyload" data-sizes="auto" width="60px" height="60px" data-src="/product_images/uploaded_images/{{theme_settings.leftfeature-third-img}}"  alt="banner"/></a>
+								</div>
+							{{/if}}
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- features center image -->
+			{{#if theme_settings.features-img}}
+				<div class="img-banner col-lg-4 col-md-6 col-12 pro-col features-img main-col">
+					<div class="">
+						<a href="#"><img class="img-fluid lazyload" data-sizes="auto" width="398px" height="464px" data-src="/product_images/uploaded_images/{{theme_settings.features-img}}"  alt="banner"  /></a>
+					</div>
+				</div>
+				{{/if}}
+				<!-- features right content -->
+			<div class="col-lg-4 col-md-6 col-12 featuresall right-features main-col">
+				<!-- first right features -->
+				<div class="features-list-unstyled">
+					<ul class="features">
+						<li>
+							{{#if theme_settings.rightfeature-first-img}}
+								<div class="features-img-banner">
+									<a href="#"><img class="img-fluid lazyload" data-sizes="auto" width="60px" height="60px" data-src="/product_images/uploaded_images/{{theme_settings.rightfeature-first-img}}"  alt="banner"/></a>
+								</div>
+							{{/if}}
+						</li>
+						<li class="text-left features-content">
+							<h3>{{theme_settings.right_features_heading1}}</h3>
+							<p>{{theme_settings.right_features_text1}}</p>
+							<p>{{theme_settings.right_features_text2}}</p>
+							<p>{{theme_settings.right_features_text3}}</p>
+						</li>
+					</ul>
+				</div>
+				<!-- second right features -->
+				<div class="features-list-unstyled">
+					<ul class="features">
+						<li>
+							{{#if theme_settings.rightfeature-second-img}}
+								<div class="features-img-banner">
+									<a href="#"><img class="img-fluid lazyload" data-sizes="auto" width="60px" height="60px" data-src="/product_images/uploaded_images/{{theme_settings.rightfeature-second-img}}"  alt="banner"/></a>
+								</div>
+							{{/if}}
+						</li>
+						<li class="text-left features-content">
+							<h3>{{theme_settings.right_features_heading2}}</h3>
+							<p>{{theme_settings.right_second_features_text1}}</p>
+							<p>{{theme_settings.right_second_features_text2}}</p>
+							<p>{{theme_settings.right_second_features_text3}}</p>
+						</li>
+					</ul>
+				</div>
+				<!-- third right features -->
+				<div class="features-list-unstyled">
+					<ul class="features">
+						<li>
+							{{#if theme_settings.rightfeature-third-img}}
+								<div class="features-img-banner">
+									<a href="#"><img class="img-fluid lazyload" data-sizes="auto" width="60px" height="60px" data-src="/product_images/uploaded_images/{{theme_settings.rightfeature-third-img}}"  alt="banner"/></a>
+								</div>
+							{{/if}}
+						</li>
+						<li class="text-left features-content">
+							<h3>{{theme_settings.right_features_heading3}}</h3>
+							<p>{{theme_settings.right_third_features_text1}}</p>
+							<p>{{theme_settings.right_third_features_text2}}</p>
+							<p>{{theme_settings.right_third_features_text3}}</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>							
+{{/if}}

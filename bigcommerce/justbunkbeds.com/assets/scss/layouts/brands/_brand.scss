@@ -1,0 +1,40 @@
+.brand-image-container {
+
+    @include lazy-loaded-padding("thumb_size");
+    max-width: get-width(stencilString("thumb_size"));
+    position: relative;
+
+    img {
+        @include lazy-loaded-img;
+    }
+}
+
+.brand {
+    .card-img-container {
+    }
+}
+.brand-section{
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+}
+.sing-brand .page-sidebar{
+    padding: 15px;
+}
+.sing-brand .card{
+    margin-bottom: 20px;
+}
+.brand-section #brand{
+    border-radius:10px;
+}
+.brands .card-image{
+    padding:10px;
+}
+@media(max-width: 800px){
+    .sing-brand .page-sidebar {
+        padding: 0;
+        border: none;
+    }
+    .brandGrid .brand{
+        width: 49%;
+    }
+}

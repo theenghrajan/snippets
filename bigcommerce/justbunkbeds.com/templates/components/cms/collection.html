@@ -1,0 +1,38 @@
+{{#if theme_settings.home-collection}}
+{{{region name="home_above_collection"}}}
+<div class="row mycollection section-space">
+	{{#if theme_settings.collectionbannerimage}}
+		<div class="collection-img-banner col-sm-6">
+				<a href="#"><img class="img-fluid lazyload" data-sizes="auto" width="950px" height="600px" data-src="/product_images/uploaded_images/{{theme_settings.collectionbannerimage}}"  alt="banner"  /></a>
+		</div>
+	{{/if}}
+	
+		<div class="col-sm-6 collection-col">
+			<div class="collection-contant">
+				<p class="collection-top-heading">{{theme_settings.collection-contant-heading}}</p>
+				<h1>{{theme_settings.collection-sub-heading1}}</h1>
+				<h1>{{theme_settings.collection-sub-heading2}}</h1>
+				<div class="collection-description">
+					<p>{{theme_settings.collection-discription-contant1}}</p>
+					<p>{{theme_settings.collection-discription-contant2}}</p>
+					<p>{{theme_settings.collection-discription-contant3}}</p>
+					<p>{{theme_settings.collection-discription-contant4}}</p>
+					<p>{{theme_settings.collection-discription-contant5}}</p>
+				</div>
+				<ul class="collection-topics">
+					<li>{{#if theme_settings.collection-topics1}}<i class="fa fa-check"></i>{{/if}}{{theme_settings.collection-topics1}}</li>
+					<li>{{#if theme_settings.collection-topics2}}<i class="fa fa-check"></i>{{/if}}{{theme_settings.collection-topics2}}</li>
+					<li>{{#if theme_settings.collection-topics3}}<i class="fa fa-check"></i>{{/if}}{{theme_settings.collection-topics3}}</li>
+				</ul>
+				<ul class="collection-topics-second">
+					<li>{{#if theme_settings.collection-topics4}}<i class="fa fa-check"></i>{{/if}}{{theme_settings.collection-topics4}}</li>
+					<li>{{#if theme_settings.collection-topics5}}<i class="fa fa-check"></i>{{/if}}{{theme_settings.collection-topics5}}</li>
+					<li>{{#if theme_settings.collection-topics6}}<i class="fa fa-check"></i>{{/if}}{{theme_settings.collection-topics6}}</li>
+				</ul>
+				<div>
+					{{#if theme_settings.collection-shopnow-button}}<a href="{{theme_settings.collection-shopnow-button-link}}" title="shop now">{{theme_settings.collection-shopnow-button}}</a>{{/if}}
+				</div>
+			</div>
+		</div>
+</div>
+{{/if}}

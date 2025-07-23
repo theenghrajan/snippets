@@ -1,0 +1,26 @@
+{{#if theme_settings.home-big-banner}}
+{{{region name="home_above_bigbanner"}}}
+<div class="container-fluid section-space">
+	<div class="row">
+		<div class="col-sm-12 col-12 off-first-banner" >
+			<div class="benhover vidhover bannerser" style="background: url('/product_images/uploaded_images/{{theme_settings.bigbannerimage}};">
+				{{#if (lang 'bigbanner.banner1.image') '!=' ' '}}
+			  		<div class="container bigbanner">
+			  		<h4>{{theme_settings.bigbanner_heading}}</h4>
+			  		<h1>{{theme_settings.bigbanner_main_heading}}</h1>
+			  		<p>{{theme_settings.bigbanner_contant1}}</p>
+			  		<p>{{theme_settings.bigbanner_contant2}}</p>
+			  		<p>{{theme_settings.bigbanner_contant3}}</p>
+			  			<span>
+			  				
+			  				{{#if theme_settings.bigbanner_button_text}}<button type="button" class="btn btn-group banbutton"><a href="{{theme_settings.bigbanner_button_text_link}}">{{theme_settings.bigbanner_button_text}}</a></button>{{/if}}
+			  			</span>
+			  			</div>			  		
+			  	{{else}}
+			  		<img class="img-fluid lazyload" data-sizes="auto" src="{{cdn '/assets/img/loading.svg'}}" data-src="{{cdn (lang 'bigbanner.banner1.placeholderImage')}}"  alt="{{title}}"  />
+			  	{{/if}}
+			</div>
+		</div>
+	</div>
+</div>
+{{/if}}

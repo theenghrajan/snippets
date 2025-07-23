@@ -1,0 +1,233 @@
+// =============================================================================
+// NAV (CSS)
+// =============================================================================
+
+
+// Citadel inline messages
+// -----------------------------------------------------------------------------
+//
+// 1. Remove the margin-left we add to default lists.
+//
+// -----------------------------------------------------------------------------
+.nav-tabs {
+    border: none;
+    top: 0;
+    right: 6%;
+    position: absolute;
+}
+.navList,
+.navBar {
+    margin-left: 0; // 1
+}
+
+.navList-action,
+.navBar-action {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navList-action.is-active {
+    font-weight: $navList-action-fontWeight--active;
+}
+
+
+// NavList action checkbox
+// -----------------------------------------------------------------------------
+//
+// Purpose: Display a checkbox next to an actionable link, without actually using
+// a checkbox element.
+//
+// 1. Position checkbox so it is vertically centered
+//
+// -----------------------------------------------------------------------------
+
+.navList-action--checkbox {
+    @include checkRadioBase();
+    @include checkBox-base();
+
+    &::before,
+    &::after {
+        top: 50%; // 1
+    }
+
+    &::before {
+        margin-top: -$checkRadio-outerSize / 2;
+    }
+
+    &::after {
+        margin-top: -$checkRadio-outerSize / 2 + remCalc(1);
+    }
+
+    &:focus {
+        @include checkRadioBase--focus();
+    }
+
+    &.is-disabled {
+        @include checkRadioBase--disabled();
+    }
+
+    &.is-checked,
+    &.is-selected {
+        @include checkRadioBase--checked();
+    }
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border:none;
+    border-radius: 10px;
+    color: stencilColor("primary-background-color");
+    text-transform: capitalize;
+}
+.nav-tabs .nav-link{
+    border:none;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-size: 16px;
+    padding: 0px 0px;
+}
+// NavList action close
+// -----------------------------------------------------------------------------
+//
+.navList-action-close {
+    background: $navList-action-close-background;
+    border-radius: $navList-action-close-borderRadius;
+    display: inline-block;
+    float: right;
+    line-height: 0;
+    opacity: 0;
+    padding: $navList-action-close-padding;
+    transition: $navList-action-close-transition;
+    visibility: hidden;
+
+    .icon {
+        @include square($navList-action-close-iconSize);
+        fill: stencilColor("color-textLink");
+    }
+
+    .navList-action.is-selected:hover & {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+// Page Subnavigation
+// -----------------------------------------------------------------------------
+
+.navBar--sub {
+    margin-bottom: 2.5rem;
+    text-align: center;
+    margin-top: 0rem;
+
+    .navBar-section {
+        float: none;
+        position: relative;
+        overflow: hidden;
+        background: #f7f7f7;
+        border-radius: 10px;
+        padding: 5px!important;
+        text-align: left;
+    }
+
+    .navBar-item {
+        float: none;
+        margin: 0 .78571rem;
+        padding: 8px 15px 8px;
+        font-size: 14px;
+        border-radius: 10px;
+        display: inline-block;
+
+        @include breakpoint("medium") {
+            display: inline-block;
+        }
+
+        &.is-active {
+            @include breakpoint("medium") {
+                background: stencilColor("color-white");
+                color: stencilColor("color-textBase--hover");
+            }
+
+            > .navBar-action {
+                color: stencilColor("color-textBase--hover");
+                font-weight: 600;
+            }
+        }
+
+        &.navBar-item--separate {
+            @include breakpoint("medium") {
+                
+                margin: 0;
+                padding-left: spacing("half");
+            }
+        }
+    }
+
+    .navBar-action {
+        color: stencilColor("color-textBase");
+        font-size: fontSize("base");
+        padding: 0;
+
+        &:hover {
+            color: stencilColor("color-textSecondary--hover");
+        }
+    }
+}
+.nav-tabs{
+    border:none;
+    justify-content: center;
+}
+@media(max-width: 1199px){
+    .nav-tabs{
+        right: 8%;
+    }
+}
+@media(max-width: 800px){
+    .navBar--sub .navBar-item{
+        padding: 8px 10px 8px;
+    }
+    .navBar--sub .navBar-item.is-active{
+        background: stencilColor("color-white");
+    }
+    .nav-tabs .nav-link{
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+    .nav-tabs {
+        right: 10%;
+    }
+}
+@media(max-width: 768px){
+    .navBar--sub .navBar-item {
+        padding: 8px 8px 8px;
+    }
+}
+@media(max-width: 600px){
+    .navBar--sub .navBar-item {
+        padding: 8px 6px 8px;
+    }
+    .nav-tabs {
+        right: 12%;
+    }
+}
+@media(max-width: 575px){
+    .navBar--sub .navBar-item{
+        margin: 0px 8px;
+    }
+}
+@media(max-width: 550px){
+    .navBar--sub .navBar-item {
+        margin: 0px 6px;
+    }
+}
+@media(max-width: 425px){
+    .tab-product .nav-tabs{
+        position: unset;
+        padding-bottom: 15px;
+    }
+}
+@media(max-width: 375px){
+    .navBar--sub .navBar-item {
+        margin: 0px 0px;
+        padding: 5px 6px 5px;
+    }
+}

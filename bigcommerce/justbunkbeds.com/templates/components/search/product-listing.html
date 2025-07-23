@@ -1,0 +1,19 @@
+<div class="row cate-border">
+                <div class="col-md-6 col-3 category-grid">
+                    <span id="gridProduct" class="active" title="Grid"><svg width="20px" height="20px"><use xlink:href="#cgrid"></use></svg></span>
+                    <span id="listProduct" title="List"><svg width="20px" height="20px"><use xlink:href="#clist"></use></svg></span>
+                </div>
+                <div class="col-md-6 col-9">
+                    <div class="text-right">
+                    {{> components/products/filter sort=pagination.category.sort}}
+                    </div>
+                </div>
+            </div>
+            <div class="xs-filter"></div>
+<div {{#if settings.data_tag_enabled}} data-list-name="Search Results" {{/if}}>
+    
+            {{> components/products/grid products=product_results.products show_compare=product_results.show_compare theme_settings=theme_settings}}
+      
+</div>
+
+{{> components/common/paginator pagination.product_results}}
