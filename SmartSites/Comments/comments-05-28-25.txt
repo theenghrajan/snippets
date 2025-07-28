@@ -1,0 +1,92 @@
+================================
+================================
+Due date - Today, May 28
+Task Link - https://login.smartsites.com/projects/6212/tasks/366316
+Task Title - #110: Navigation updates
+Project Title - Symmetry Counseling [SEO]
+
+As per the task descritpions,
+
+We've updated the navigation changes on dev site for review using mega men plugin exist on the site. Please review, confirm and approved to push live if everything is good to go.
+SS - https://drive.google.com/file/d/1j2OpqqrtvsDAwkiH_1Ni47TeioE1fD88/view?usp=sharing
+
+Dev URL,
+https://symmetry.smartwebsitedesign.com/
+
+================================
+================================
+Due date - Today, May 28
+Task Link - https://login.smartsites.com/projects/6269/tasks/366319
+Task Title - #108: Develop Redesign Pages
+Project Title - MightyRep [SEO]
+
+As per the task descriptions,
+
+We will begin work on dev environment for your review. Once you've reviewed and approved, we'll proceed with live push. Please find our estimation below and confirm to proceed:-
+
+Static HTML = 16h
+Dynamic WP template page = 8h
+Total Estimated Hours = 24h
+
+================================
+================================
+
+Due date - Today, May 28
+Task Link - https://login.smartsites.com/projects/3944/tasks/365312
+Task Title - #33: Sticky Phone Number for Landing Pages
+Project Title - Brazilian Lumber [PPC]
+
+As per comment #3,
+
+We've updated the sticky footer on live site, please see.
+Screenshots,
+https://drive.google.com/file/d/1EDu5c4Lv0FSzvNtfTKWUe5CA9PuRxthT/view?usp=sharing
+https://drive.google.com/file/d/1ulSn9L51Ta2b0tIw86THYpXXrD-9a0yZ/view?usp=sharing
+https://drive.google.com/file/d/1jfZdOyTRAxBjNwNaJhFnHKa3PcoL40qS/view?usp=sharing
+https://drive.google.com/file/d/1UVdAoGOaRZAlzTdNZlN-WQWNQR8ZGicm/view?usp=sharing
+
+LP URLs,
+https://beyond-lumber.com/tropical-hardwood-west-coast-ipe-cumaru/
+https://beyond-lumber.com/thermally-modified-woods-west-coast/
+https://beyond-lumber.com/composite-decking-la-sd/
+https://beyond-lumber.com/decking-siding-fencing-la-sd/
+
+================================
+================================
+
+Due date - Today, May 28
+Task Link - https://login.smartsites.com/projects/3880/tasks/303186
+Task Title - #156: Standalone Page Updates
+Project Title - NJR Home Services [Website:WP]
+
+As per comment #10,
+
+Removing Twitter icon on dev site:
+>> Should we proceed with removing the twitter icon site-wide on dev site for now?
+
+Re: The only place the changes did not take affect were on the /summersavings page. Can we get that removed please.
+>> As we've mentioned already on comment #4, /summersavings page is redirecting to https://njrhomeservices.smartwebsitedesign.com/buy-an-air-conditioner/ on dev site and can't access the page currently.
+
+If you are referring to remove twitter icon on the landing page on site: https://www.njrhomeservices.com/summersavings/, then please re-assigned the task back to us and we will proceed accordingly.
+
+================================
+================================
+As per comment #5,
+
+We currently have view only access, if possible please provide dev mode access with exportable design to sanzin@smartsites.com.
+SS - https://drive.google.com/file/d/1MZD7JXM83hCmwIUQ21mS39aI76-TzHJ_/view?usp=sharing
+SS - https://drive.google.com/file/d/1p97GhSpPfg4liW6Ana1o53URKM6J1XVy/view?usp=sharing
+
+As we've mentioned in comment #2 as well, some sections are not exportable and are just static images for whole sections (see screenshots below). Please reach out and provide exportable design so we can access the necessary elements (texts, icons etc). We've implemented them as a images for the whole sections for now.
+SS - https://drive.google.com/file/d/1WSwNjMcqWw0_YZX7raadBtanZNU4vkrY/view
+
+Please reassign the task, and we will proceed with the header updates as mentioned. However, please note that we may need to compromises on the responsive/mobile design due to current layout structure not being fully compatible with responsive adjustments.
+
+
+As per the task descriptions,
+
+We've updated the navigation changes on dev site for review using mega men plugin exist on the site. Please review, confirm and approved to push live if everything is good to go.
+SS - https://drive.google.com/file/d/1CQg-WENJwIXKopmR6P21b3hvrLDEp81D/view?usp=sharing
+
+Dev URL,
+https://symmetry.smartwebsitedesign.com/

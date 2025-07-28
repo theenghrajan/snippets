@@ -1,0 +1,195 @@
+
+Re: the TOTP is set up in passbolt for name cheap
+>> Please make sure that this email address (cyclonewellnessleads@gmail.com) will only be used to send email from the landing page and should not be related to NameCheap (Current main domain, https://cyclonewellness.com/ is registered). 
+
+If this email (cyclonewellnessleads@gmail.com) should be used as SMTP for the landing page. Please ensure 2FA is turned on as currently 2FA is not turned on (see screenshot below) and set up TOTP again for 2FA. 
+SS - https://drive.google.com/file/d/1MQu61GVBiZZLXBV6LuAdQtrvgFwmQAVt/view?usp=sharing
+
+Please follow this doc as well, if this help: 
+https://docs.google.com/document/d/1WZ-XdmjUi5pMav1kyQPvt5xjMmd8CRvpNCwh1aLOtTw/edit?tab=t.0
+
+In the meantime, we will proceed with custom HTML and provide updates on dev site for review by Wednesday, June 11.
+
+
+=========================================
+
+As per comment #11,
+
+We have updated the missing part on both the English and Spanish versions. Please review.
+English Version SS: https://drive.google.com/file/d/1LbYE_-_Uz0eWyihAEI2NgJ3AHlI8a2ls/view?usp=sharing
+Spanish Version SS: https://drive.google.com/file/d/1ev-EQvEgABNKqCacYIenlwRQcPayptfB/view?usp=sharing
+
+Form select field:
+Please also inform us with the other select form fields text for both the English and Spanish versions. If needed, otherwise we will update them to normal text field.
+English Version SS: https://drive.google.com/file/d/1r9Vn8v4nuDKykPDCrSlDR6U9C2bWiU9e/view?usp=sharing
+Spanish Version SS: https://drive.google.com/file/d/1ph7ShNkpcEv-68qdXEPjPXp6NAnoMTft/view?usp=sharing
+
+Dev URLs,
+Landing Page English:- https://frontend.smartwebsitedesign.com/lp-the-chefs-idea/landing-page-english/
+Landing Page Spanish:- https://frontend.smartwebsitedesign.com/lp-the-chefs-idea/landing-page-spanish/
+
+Adding these following points from comment #10 as notes: 
+
+Live site: 
+The existing site: https://thechefsidea.com/, which is currently showing as unavailable. Based on the task details here: #16: Take down website, it appears the site has been taken down. Please confirm the site to up and running. So, we can published the landing pages accordingly.
+
+Please also mentioned URLs format for the both landing pages, if any specific. Otherwise, we will published them as below:-
+https://thechefsidea.com/landing-page-english
+https://thechefsidea.com/landing-page-spanish
+
+SMTP:
+We are currently using our development Gmail account as the SMTP ID. However, it seems that the quota limit has been reached, causing a form submission issue. Please respond to your points regarding SMTP which is, 
+"Please add to the folder, 'PPC Landing Pages' (screenshot below), and ensure FED PM has owner access and FED has read access.
+SS - https://drive.google.com/file/d/1sOBc34oggB1wpcItwFrNW6Hqjg0MEnpF/view?usp=sharing"
+
+"You can also follow the video tutorial here: https://www.youtube.com/watch?v=JPGgMvxi_Rw to add the email in the Passbolt folder via TOTP. You need to add the generated QR code after enabling 2FA. Additionally, you can follow this doc (link below) as well.
+https://docs.google.com/document/d/1WZ-XdmjUi5pMav1kyQPvt5xjMmd8CRvpNCwh1aLOtTw/edit?usp=sharing"
+
+=================================================
+
+We do not find any necessary information, such as designs, phone numbers, email addresses, etc., as mentioned in the task descriptions above. Please include the following information so we could proceed with a more detailed review.
+
+1. Exported Figma link + Google Drive Assets link from DES
+
+2. Phone Number(s)
+
+3. Email Recipient of form - who will getting the forms when submitted
+
+4. SMTP Email name in Passbolt Folder: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7 with 2FA turned on via TOTP - (This is the email address that forms will send to the client - Demonstration video: https://app.fireflies.ai/view/PPC-Landing-Page-SMTP::01JN71SEVN92FW0W25EJBJZ7H7)
+
+5. Sticky Footer - Should we include?
+
+6. Does the form have any special functionality or is to be fetched from a third party? Any integrations needed?
+
+7. Is the Landing Page to be coded in standard custom HTML? If not, list any special circumstances (WordPress, a specific-platform builder, etc.)
+
+8. Should this landing page be developed on the live site or dev site?
+
+9. Where should Call To Action buttons lead to? What is the action of them?
+
+10. Popup text provided if any for blocks and their popups
+
+11. Thank You Message - "Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+
+12. Social Media Links
+
+13. Testimonials - Please include a document/list of testimonials to include on the landing page
+
+14. What URL should be used for the landing page?
+
+15. Website logins - Attach them here.
+	CMS and/or
+	FTP/cPanel/Hosting access _(If Godaddy access to Cpanel then delegate access with client name under _web@smartsites.com)
+
+16. Is there any other information that you think might be useful for us to know?
+
+=====================================================
+
+/premier page ma brust graphic halnee kura ho, 
+/comfort ko jasari. 
+yes ma hami lai image halna lai sajilo hunchha, actual text halna lai chai yeti time lagchha vanidine. 
+
+/comfort ko jasto image halnee thau chha ki nai check garnee, chha vane image yaha bata halna milchha vandine, chaina vane chai, 
+
+actual text halna lai yeti time lagchha and teslai dynamic garna lai yeti time lagchha, k garnee ho confirm gaar vanyara comment gardinee.
+
+As per the task descriptions and comment #2,
+
+Yes, https://www.njrhomeservices.com/premier/ landing page backend is not set up to change dynamically. If you want to make the page dynamic and editable content from the backend then we require couples of hours may be 3 to 4 hours roughly.
+
+/premier is actual text and we need to puth that "Save $100" as a garphic/image as an overlay in that area as mentioned (see screenshot below)
+SS - https://drive.google.com/file/d/1JZ1Zk6FNxP-FuduZpDUuWfT3YsRSB2d4/view?usp=sharing
+
+Please confirm to proceed and we will provide updates on dev site for your review, only push live after your approval. It will take around 3 to 4 working hours tentatively.
+
+Notes: We will implement the garphic attached in the comment #2.
+
+Thank You!
+
+=======================================================
+
+As per the task descriptions and comment #2,
+
+We have completed the responsive QA check, please review sheet below for details:-
+https://docs.google.com/spreadsheets/d/16eLD5rMvfv_0zSB7LZC6_RNOe0i83S7VdgWOKQeNkJg/edit?gid=0#gid=0
+
+Thank You!
+
+
+============================================================
+
+Elementor ma chha sit, 3ota post chai template elementor choose garyako chha teslya garda issue aako ho, sabai lai default template garyo vane kura milchha, tei garidinee comment garidine.
+
+As per comment #3,
+
+We've fixed the layout issue that IBM mentioned, please see.
+Screenshots,
+https://drive.google.com/file/d/1W8JCDwt6R6qku5knNPTtXJJDRI5iBMZ_/view?usp=sharing
+https://drive.google.com/file/d/1vP0AGJG_lpRdFiHP_4Rj8_q3kHYhC1l2/view?usp=sharing
+https://drive.google.com/file/d/1mXt3g_NA44s3NuwvvQu315TmCOGhrIED/view?usp=sharing
+
+URLs,
+https://rodneysnewyorkcomedyclub.com/open-mic-nights-why-you-should-take-the-stage-at-rodneys/
+https://rodneysnewyorkcomedyclub.com/5-legendary-comedians-who-got-their-start-in-new-york-comedy-clubs/
+https://rodneysnewyorkcomedyclub.com/why-stand-up-comedy-nights-are-the-best-way-to-spend-an-evening-in-nyc/
+
+==================================================================
+
+New LP ho, design thik chha, form ko lagi next step ma k k field hunchha tyo vaaan vanna paryo, Point 9 ko ajay bro sanga kura garnu parchha vane garnee, aaru thik chha, date set garyara kam suru garda hunchha.
+
+As per comment #1 - #2,
+
+Re: G Drive link + Figma Dev link
+>> We will proceed with the Figma link, https://www.figma.com/design/x7ZTtZw8ReR1KzgkGk3I9n/33_-Coding-Preparation?node-id=2793-439&m=dev as provided in the comment #2.
+
+Re: Form
+>> It seems the forms is two steps form, please provide information regarding second step content (fields) for the forms. Since, you've mentioned no special funtionality for the form, so the both forms will be standard form with the same fields.
+
+Re: Client is asking the following: please advise after developing the page. 
+>> Please provide exact requirements in details as we need to conduct further review and research on this as we're quite unfamiliar/new with functionality mentioned.
+
+Re: SMTP Email
+>> Noted. We will use the id 'icondistributorsmtp@gmail.com'.
+
+Re: Phone Numbers:
+- ORIGINAL BUSINESS #: 800-836-5011
+- INVOCA PPC #: 732-808-5884 (THIS ONE FOR LP)
+>> Since, no phone number has been generated as per the task: https://login.smartsites.com/projects/6073/tasks/297198 and as per our Develop LPs worflow, we will hard code Invoca PPC number: 732-808-5884.
+
+Re: Email Recipient of form: -> d.crandall@iconjds.com
+>> Noted
+
+Re: Subject Line of the Request Forms to be labeled as "Triple Slide Rail Sales Special" 
+>> Noted
+
+Re: Sticky Footer - Should we include? Yes. 
+>> We will make the header sticky as per the screenshot provided in comment #1 - 5.
+SS - https://drive.google.com/file/d/1FT8LVNBDdkGJ3tbR_imAFWN6g2PlASPn/view?usp=sharing
+
+Re: Anchor bar
+>> We will update the every tab to be linked to each respective section as mentioned and "Learn More" button to the *PDF attached.
+
+Re: Landing page development
+>> We will proceed the landing page coding with custom HTML and develop on dev site for your review.
+
+Re: Thanks for reaching out to ICON! We've received your form submission and will follow up with you shortly. If you would like to speak with someone sooner, please call -732-808-5884. 
+>> Noted, we will update the thank you message as provided.
+
+Re: Social Media Links
+>> Noted, we will updated as provided.
+
+Re: Testimonials -> (there aren't many so, and we didnt include in LP! ) 
+>> Please confirm, if we need to add some reviews from https://g.co/kgs/5m3MqNU. Since there's no section for the testimonials, please reach out to DES and update the design accordingly, if needed. Also confirm, if we need to be pull reviews from Google then we need further Google account access (Location details/Organization name) along with what fields we need to display or manaully add some selected reviews statically.
+
+Re: Live logins
+>> Since, we've already comfirmed access on the task: https://login.smartsites.com/projects/6073/tasks/297201. We will be publishing the landing page at https://iconjds.com/lp once reviewed and approved.
+
+Additonal Notes: 
+Please provide further relevant content needed on the landing page. For example, in the sections, Our Products tab section.
+SS - https://drive.google.com/file/d/1rmzFP514yWDbpv2sJ_Mn4yZGHdc2Gufc/view?usp=sharing
+
+There's another form with the label, 'Subscribe Our Newsletter' in the footer. Please inform us if any subscription feature is required. If yes, we require detailed information.
+
+In the meantime, we will proceed with custom HTML and provide updates on dev site for your review by Friday, 13th June as per our projects pipeline. Therefore, we've set the due date accordingly.
+
+

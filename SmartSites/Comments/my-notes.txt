@@ -1,0 +1,202 @@
+<pre>ACF License Key: YToyOntzOjM6ImtleSI7czo3NjoiYjNKa1pYSmZhV1E5TVRNek5qQXdmSFI1Y0dVOVpHVjJaV3h2Y0dWeWZHUmhkR1U5TWpBeE9DMHdOaTB5TVNBd09Ub3dOVG94T0E9PSI7czozOiJ1cmwiO3M6NDU6Imh0dHA6Ly9uanJob21lc2VydmljZXMuc21hcnR3ZWJzaXRlZGVzaWduLmxvYyI7fQ==</pre>
+Good morning, available from 9:30 AM
+Signing off at 5:30 PM
+
+https://myaccount.google.com/u/0/apppasswords
+
+SMTP:
+extremedecksleads@gmail.com
+Password: See PB
+App password:- ladt yhxp skcx huln
+
+Due date - Today, June 4
+Task Link - 
+Task Title - 
+Project Title -
+
+App password - bfxb iaog nliy zsws 
+Site Key:- 6LcYDTgrAAAAAMihwF65bQ5cEiq8BbhcUBPHNVc2
+Secret Key:- 6LcYDTgrAAAAAOFu6dEWIOzDEqMzuz1GUMEZvnKe
+
+C:\Windows\System32\drivers\etc
+
+Passbolt TOTPs
+https://www.youtube.com/watch?v=JPGgMvxi_Rw
+
+Address
+45 Eisenhower Drive, Suite 520
+Paramus, New Jersey 07652
+
+Phone Number
+201-870-6000
+
+Email Address
+contact@smartsites.com
+
+We will review and let you know about any confusion/queries as per the details mentioned in comment #18 by Tuesday 25th February. 
+
+We will review and inform you of further updates along with confusion/queries (if necessary) by Monday 24th February.
+
+We’ve found an existing page created under the username Infinity Sewer and Drain LLC. Please review this and confirm if it works for your needs.
+Page URL:- https://www.infinity247.com/thank-you/
+
+We will review and provide updates by Wednesday 16th October for the changes mentioned in comment #40.
+
+We will review and let you know about any confusion/queries as per the details mentioned in comment #6 by Tuesday 26th November.
+
+We have set the due date to {due date} Tuesday 14th January.
+
+We will review details provided in comments #12 - #14 as well and provide updates or queries (if required) by Wednesday 8th January.
+
+We will review and let you know about any confusion/queries and estimation if possible as per the task descriptions by Monday 18th November. 
+
+We will review and let you know about the query/estimation as per the provided doc mentioned in comment #8 by Monday 21st October. 
+
+As mentioned in comment #7, we need to review comment #6 and the task descriptions in detail and inform you of any confusion/queries by Friday, November 15th.
+
+We need to review whether we can update the changes mentioned in the task descriptions on the live site or not. We will let you know by Friday, 15th November as we've not previously worked on the homepage.
+
+We need to review the referenced website thoroughly, as mentioned in comment #105 for the backgrounds and background color. We have shifted the due date to Monday 25th November for a detailed review.
+
+We need to review for possible updates, as the website is built using Elementor and may require additional manual adjustments due to its limited customization options. Therefore, we have set the due date to Tuesday, 3rd December for a detailed review of possible fixes.
+
+?utm_source=test_source&utm_medium=test_medium&utm_campaign=test_campaign&gclid=test_gclid_test123&msclkid=test_msclkid12345
+
+https://gist.github.com/mrmoyeez/a85e3bcae3193565f82607cc1ce90a7d
+https://codepen.io/loveloop/pen/QWWZdXg
+
+
+tel:+16095274850
++1 (609) 527-4850
+
+
+In the current context, all content is stored within the description field. To create a toggle feature, we need to create a separate field. If we fetch the product description from this newly created field, we can implement the toggle functionality. However, in Shopify, it’s not possible to toggle only certain parts of the content while leaving the rest unchanged. We would need to manage the entire description as a single unit for the toggle to work.
+
+If the client wants the bold text in the description to be pulled from a separate field, we can create a new field specifically for that bold text.
+
+
+Should we proceed with the updates and replace them to the current landing page, https://3plcenter.com/lp/? We have estimated approximately 10 - 12 hours for coding updates. However, we will handle the task related to the conversion tracking on separate task once we completed the coding parts, we will inform you.
+
+We found the forms have been disabled from the admin currently. Should we enable the specific form and apply them as per the design? Please confirm.
+SS - https://drive.google.com/file/d/1szkr1Ga4NaBAObES1GX7oWcI5u-TkmPK/view?usp=sharing
+
+Thank You!
+
+As per comment #1 - #7,
+
+1. We've published the landing page at https://rvroofingpros.com/lp/
+Fullpage ss - https://drive.google.com/file/d/19VAlPBtMjAp3HlE32C73gHTb4KWn9its/view?usp=sharing
+
+2. We've tested the form and it is working fine, for now. SMTP ID currently we've set up is with outbound@smartsites.com but we require new separate one. This is because outbound@smartsites.com is our development account and normally the quota limit is reached and there is a form submission issue in the future. So the form will only work for couple of days only.
+Admin email ss - https://drive.google.com/file/d/1o9UCSHl65gaz6Fp1xxifG9xve6vUerxf/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1gkgdMNsFkwaxw5XySzGufIDdjfCBzppQ/view?usp=sharing
+
+3. Details regarding SMTP:
+You can create one as noreply_{domain_name}@gmail.com and provide the login details. It is essential to enable 2FA to set up the SMTP ID, so we require a phone number for this or maybe set up 2FA on SmartSites phone number so we can get the code with no time restriction. We again need to co-ordinate for 2FA, if necessary.
+
+4. After testing the form, we've changed the email recipient to 'ira@rvroofingpros.com'.
+
+5. Re: Honeypot and Google reCAPTCHA
+>> We are inprogress with implement them and we can only provide updates on this by Thursday, 27th February. Therefore, we've set the due date accordingly.
+
+Thank You!
+
+As per comment #16,
+
+Queries:
+
+1. Re: product page edit points
+In the current context, all content is stored within the description field. To create a toggle feature, we need to create a separate field. If we fetch the product description from this newly created field, we can implement the toggle functionality. However, in Shopify, it’s not possible to toggle only certain parts of the content while leaving the rest unchanged. We would need to manage the entire description as a single unit for the toggle to work.
+
+If the client wants the bold text in the description to be pulled from a separate field, we can create a new field specifically for that bold text.
+
+Re: removal of the QR code and video
+>> We will need 1 to 2 hours for this no additional 3-5 hours.
+
+3. Re: Suggested Products section
+We will test them on draft and the estimation is around 2-4 hours, and if it doesn’t work out, then we will suggest alternatives third-party app accordingly.
+
+You can find these queries on the estimation sheet as well. We've commented them on specific cell.
+SS - https://drive.google.com/file/d/19fNtdDe28XNo9uA3ehlx8jfMQaf_yngs/view?usp=sharing
+
+Thank You!
+
+As per comment #9,
+
+1. We've changed the email recipient to 'sales@rvroofingpros.com'.
+
+2. However, we're getting ERROR while generating site key for RECAPTCHA, so we've currently disabled it.
+SS - https://drive.google.com/file/d/1MnCsgeGNQyL6WDghhheR2ClV8Jj_QUO6/view?usp=sharing
+
+3. Could you please provide us WordPress admin login details, so we could check issues regarding reCAPTCHA.
+
+Thank You!
+
+We recommend providing delegate access to web@smartsites.com with client name. Currently, we can't logged in with the client login detail for the GoDaddy due to 2FA verification.
+SS - https://drive.google.com/file/d/1VjTLaeJI2qPXTMq_iuUHENl9krc2k-Ln/view?usp=sharing
+
+We will proceed with custom HTML as mentioned, please confirm to proceed and will set the due date accordingly.
+
+Thank you!
+
+As per the task descriptions and comment #2,
+
+We have fixed the styling and pushed the changes on the branch (https://github.com/smart-sites/store.theshowproducers.com/tree/436-product-availability-issue). Please see the screenshot for the updated styling.
+SS - https://drive.google.com/file/d/1RKa-7qaXGxuFtwxUTkLm3PJ_vZXKlkmw/view?usp=sharing
+
+We are currently inprogress with merging the changes, we will inform you once PR has been reviewed and approved. We shifted the due date to Friday, 28th February for this.
+
+Thank You!
+
+
+We've checked/QA the landing page, https://cyber1armor.com and see below queries/updates as per mentioned in the comments #27 - #28,
+
+1. Currently the form is not working due to SMTP ID setup with our development google account, "outbound@smartsites.com" as we have also mentioned in the comment #19 that the form will stop working after a few days(normally due to the quota limit is reached). So we required the login credentials of "sixdotsllc@gmail.com" which you have mentioned to use as SMTP.
+
+Additionally we may need to go through 2FA while setting up SMTP because it is essential to enable 2FA and for that we required the phone number. We will be available at 11 AM NJ EST for 2FA coordination Friday, 28th February.
+
+2. We have updated the logos as provided in the attachment but could not find the Microsoft Security logo in the attachment. Please provide it.
+We have also removed "Trusted by over 8,000+ organizations" text.
+SS: https://drive.google.com/file/d/1-C4t5d7ngEWFckTu8T9VZHpklqc2lDWV/view?usp=sharing
+
+3. We have updated the industry field in the form as per the instruction provided.
+SS: https://drive.google.com/file/d/1Vv6IHFROv0JCumYF4a-_lFbeOlxwk7Q9/view?usp=sharing
+
+Thank You!
+
+Godaddy.com Customer#209600220
+Airwayautoparts@yahoo.com Trademark2023 pin 1379
+
+As per the task descriptions,
+
+We do not find any issues as per the task descriptions on the website, https://certaintypainting.com/.
+SS - https://drive.google.com/file/d/12-zxRhA8vD0fgZcXa-TVbf4WgE5sAuSa/view?usp=sharing
+
+Please provide more details or screen recording of the Ad, you've mentioned.
+
+Thank You!
+
+1. We've updated the landing page live as per desgin mentioned at https://3plcenter.com/lp/.
+Fullpage ss - https://drive.google.com/file/d/1c4IfdiBWFq9uQsW7nB9Siaz7hgAeyX9n/view?usp=sharing
+
+2. We've tested the forms and they are working fine for now but we require separate SMTP ID, please provide with credentails.
+Admin email ss - https://drive.google.com/file/d/1_kOrefbRXuA59c2YoWfFdMd18liT6yzy/view?usp=sharing
+
+3. After testing the forms, we have changed the email recipient to 'sales@3plcenter.com' as previously mentioned.
+
+4. Please refer this task for tarcking stuff, https://login.smartsites.com/projects/4036/tasks/163934
+
+Thank You!
+
+We will be available at 12:00 PM NJ EST for 2FA coordination.
+
+(757) 274-8782
+7572748782
+
+Explore our comprehensive asbestos inspection services, ensuring thorough evaluation and identification of asbestos containing materials in your property.
+
+We've spent 1h 15m of working hours for reviewing and coding. Since the website is built on BigCommerce, a platform we're not very familiar with - the review process took an additional hour.
+
+
+
+

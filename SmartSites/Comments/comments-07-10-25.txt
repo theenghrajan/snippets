@@ -1,0 +1,106 @@
+Virginia
+  Dulles, VA
+  Fairfax, VA
+  Falls Church, VA
+  Arlington, VA
+    Arlington County
+  Vienna, VA
+  McLean, VA
+  
+Maryland	
+Washington, DC	
+Rhode Island	
+	Portsmouth, RI
+
+California
+Georgia
+Idaho
+South Carolina
+North Carolina
+Massachusetts
+Ohio
+Iowa
+Pennsylvania
+West Virginia
+
+
+1850 Gateway Blvd, Suite 1030, Concord, CA 94520
+
+Are you requesting
+
+
+As per the task descriptions,
+
+We've changed 1850 Gateway from 'Office Location' to 'Corporate Office'.
+SS - https://drive.google.com/file/d/1eIoRxG_liqm2C-uwI3Q5x-FVkzACTX9l/view?usp=sharing
+
+However, since this content is dynamic, it's currently also appearing on the Contact Us page. If you'd prefer it not to appear there, we'll need to update the code logic accordingly.
+SS - https://drive.google.com/file/d/1dlzotQ1BLAuYhdW2qaMeci5kH0QdjANT/view?usp=sharing
+
+Dev URL,
+https://zerowastesoltion.smartwebsitedesign.com/
+
+Regarding Clients locations in Footer:
+Are you requesting to add all 21 locations details (as shown in the navigation) into footer, following the same layout pattern as 'Corporate Office'?
+SS - https://drive.google.com/file/d/1uwZMzUCRdyNaxc5ie_Nhd3uGbmd4E8XW/view?usp=sharing
+
+If so, we'll require as currently available for 'Corporate Office':
+- Location names/texts
+- Map links for each
+
+For example, we tried duplicating all 21 locations using the existing layout pattern, and the result looks cluttered and unappealing, as shown in the screenshot below:
+SS - https://drive.google.com/file/d/1r1IHhGMHMQkC8cpin3c_lp02p9iPa0DI/view?usp=sharing
+
+Notes: Adding all 21 locations may negatively impact the layout and visual structure. We recommend coordinating with the Design Team for a revised layout approach if that’s the goal.
+
+Let us know how you'd like to proceed. 
+
+
+===================================================================
+
+As per the task descriptions,
+
+We've changed 1850 Gateway from 'Office Location' to 'Corporate Office'.
+SS - https://drive.google.com/file/d/1Qn6nfMlBB7nD4NqfyikVsl4LiAuOwzZQ/view?usp=sharing
+
+Dev URL,
+https://zerowastesoltion.smartwebsitedesign.com/
+
+Regarding Clients locations in Footer:
+Are you requesting to add all 21 locations details (as shown in the navigation) into footer, following the same layout pattern as 'Corporate Office'?
+SS - https://drive.google.com/file/d/1uwZMzUCRdyNaxc5ie_Nhd3uGbmd4E8XW/view?usp=sharing
+
+If so, we'll require as currently available for 'Corporate Office':
+- Location texts
+- Map links for each
+
+For example, we tried duplicating all 21 locations using the existing layout pattern, and the result looks cluttered and unappealing, as shown in the screenshot below:
+SS - https://drive.google.com/file/d/1k_hC-Konf-HQISpKb1Oa8gHnr_ZwD4hS/view?usp=sharing
+
+Notes: Adding all 21 locations may negatively impact the layout and visual structure. We recommend coordinating with the Design Team for a revised layout approach if that’s the goal.
+
+Let us know how you'd like to proceed. 
+
+=====================================================================
+In addition to comment #5,
+
+We've updated static HTML on dev site for your review excluding the form as we will be using Gravity form (a WordPress plugin) while converting the landing page to WordPress (for that please respond to our queries mentioned below, which are in comment #5 as well).
+Fullpage SS - https://drive.google.com/file/d/1ko_kwS6ASE-SJw5Vf42rHBFpdYO2riW9/view?usp=sharing
+Dev URL:- https://frontend.smartwebsitedesign.com/lp-still-water-day-spa/
+
+Development Environment:
+To ensure a smooth workflow, we recommend setting up a separate development environment before pushing changes live. We suggest opening a separate task for this setup. Should we proceed with this? As the landing page will on WordPress, it will be easier if we have a new dev space available.
+
+Alternative Approach (local to live):
+If setting up a dev environment is not preferred, we can develop the pages locally and deploy them in DRAFT mode for your review before publishing. Please note that this approach has no dev site to review the changes.
+
+Please confirm if CMS editing functionality is required, making the landing page content editable.
+
+==========================================
+
+As per comment #30,
+
+For the page:- https://essentialsinwriting.com/?page_id=14678&preview=true
+
+We've linked them to their respective PDFs as in the page, https://essentialsinwriting.com/scoring-service/ and also let us know where should 'Buy now' buttons be linked as well (currently they are blank).
+SS - https://drive.google.com/file/d/1ZrQMaj86RNaUU0ZTgiP2EPLsVOYAheUy/view?usp=sharing

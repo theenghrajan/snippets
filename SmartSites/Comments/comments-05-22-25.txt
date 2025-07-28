@@ -1,0 +1,63 @@
+Due date - 24-Hour
+Task Link - https://login.smartsites.com/projects/3880/tasks/365849
+Task Title - #184: New Landing Page
+Project Title - NJR Home Services [Website:WP]
+
+As per the task descriptions and comment #1,
+
+Re: The chart title name Gravity Forms should be “Service Plan Win Back Form 2025”
+>> We're bit unclear with the instructions here, are you referring to change the title of the form to "Service Service Plan Win Back Form 2025” (see screenshot below)? Please confirm.
+SS - https://drive.google.com/file/d/1LZ8JhUBuzKc967cWzKNukUXp7iZ31TBm/view?usp=sharing
+
+Design: 
+If possible, could you also provide dev mode access for the figma link, which would be much easier for the development but not require as we can proceed with the view only design access as it is currently. 
+https://drive.google.com/file/d/1S9zJ4MhdEasNaPpWQSkUEcysAvSzC0Km/view?usp=sharing
+
+However, some sections are not exportable (see screenshots below) they are just static images for whole sections. Please provide an exportable  design so we can access the necessary elements (text, icons, etc). Otherwise, we'll have to add them as static images for the block, as they are currently.
+SS - https://drive.google.com/file/d/1WSwNjMcqWw0_YZX7raadBtanZNU4vkrY/view
+
+In the meantime, we will proceed with the landing page development and provide updates by tomorrow, Friday 23rd May on the dev site for your review and we will only push live site after your approval.
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 20
+Task Link - https://login.smartsites.com/projects/6733/tasks/340715
+Task Title - #10: Develop LPs
+Project Title - Hogue Landscape Services [PPC]
+
+As per comments #22 - #23,
+
+Re: My apologies there is not an invoca number needed. Thank you so much!
+>> Most welcome and thanks for the confirmation as well.
+
+Re: Client has asked to have this code added to the <head> of the website.
+>> You've mentioned the code to the <head> but we unclear what code to be added as it is provided in the comment. Please verify and inform us.
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 20
+Task Link - https://login.smartsites.com/projects/7025/tasks/361965
+Task Title - Task #14:#14: Develop Landing Page
+Project Title - C&M Mechanical HVAC [PPC]
+
+As per comments #14 - #15,
+
+We can only confirm the live push after reviewing and verifying the hosting access details provided in the task: https://login.smartsites.com/projects/7025/tasks/361955. We'll handle the rest of the live push process through https://login.smartsites.com/projects/7025/tasks/361955 and will keep you updated there.  
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 20
+Task Link - https://login.smartsites.com/projects/6974/tasks/358409
+Task Title - #14: Develop Landing Page
+Project Title - Reefco Aquariums [PPC]
+
+As per comment #2,
+
+We've commented on the task: https://login.smartsites.com/projects/6974/tasks/358399 regarding hosting access. Please verify our queries there.
+
+In the meantime we will proceed with the landing page development in custom HTML and provide updates on dev for your review by Wednesday, 28th May. Therefore, we've set the due date accordingly.
+
+

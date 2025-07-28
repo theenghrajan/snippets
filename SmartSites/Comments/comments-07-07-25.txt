@@ -1,0 +1,162 @@
+Industries Served
+	- Lead Capture for Business
+	- Manufacturing
+	- Industrial
+	- Tool
+	- Electrical
+	- Mechanical
+	- HVAC
+	- Plumbing
+	- Distribution
+	
+	- Services
+	- Oil and Gas
+	- Facilities
+	
+It seems the only page title, 'Lead Capture for Business' (https://mightyrep.com/lead-capture-for-business/) is the published one while others are new pages.
+
+We will be publishing them on live with URLs format as following, please let us know if it should follow any other format:-
+https://www.mightyrep.com/manufacturing
+https://www.mightyrep.com/industrial
+https://www.mightyrep.com/tool
+https://www.mightyrep.com/electrical
+https://www.mightyrep.com/mechanical
+https://www.mightyrep.com/hvac
+https://www.mightyrep.com/plumbing
+https://www.mightyrep.com/distribution
+https://www.mightyrep.com/services
+https://www.mightyrep.com/oil-and-gas
+https://www.mightyrep.com/facilities
+
+Currently, they're not updated on the 'New Website Plan', https://docs.google.com/spreadsheets/d/1ppE2g7IteGUOpD1Z4Qkzb61QCnUK9CrDudNtMGMGSfU/edit?gid=406948056#gid=406948056. Please update them and provide focus key word, title & Meta Descriptions as well.
+
+In the meantime, we will proceed with layout implementation on the dev site for your review and push live after your approval. Please see our estimation below and confirm to proceed,
+HTML = 10h
+Development = 5h - 8h
+Content = 3h
+
+Total = 18h - 21h
+	
+	
+	
+===============================================================
+
+As per comment #6,
+
+We've pushed the pages live and submitted for index as well. Please see sheet below, "Workbook - Content Implementation QA":
+https://docs.google.com/spreadsheets/d/1wMln2kJcblbDTPtSrOfMXopjTTtiHZvY2bCjuObvN0U/edit?gid=1872197384#gid=1872197384
+
+We require Focus Keyword and proper H1 (If needs to be updated), Title and Meta Descriptions. Therefore, please update them on "New website Plan" and inform us.
+https://docs.google.com/spreadsheets/d/1wMln2kJcblbDTPtSrOfMXopjTTtiHZvY2bCjuObvN0U/edit?gid=406948056#gid=406948056
+
+We've also added links on the headquarters pages (USA and Canada) as mentioned.
+
+SS - https://drive.google.com/file/d/1ta0QbGy3m7Id1EhJGsTeCnvs2SedAnWI/view?usp=sharing
+https://nationramps.com/canadian-production-headquarters/
+
+SS - https://drive.google.com/file/d/1tHvoBHQ2SjCuWU3Uwely_iTLuc7wymms/view?usp=sharing
+URL - https://nationramps.com/american-production-headquarters/
+
+
+Loading Solutions In Atlanta, Georgia
+https://nationramps.com/loading-solutions-in-atlanta-georgia/
+
+Loading Solutions In Buffalo, New York
+https://nationramps.com/loading-solutions-in-buffalo-new-york/
+
+Loading Solutions In Calgary, Alberta
+https://nationramps.com/loading-solutions-in-calgary-alberta/
+
+Loading Solutions In Cleveland, Ohio
+https://nationramps.com/loading-solutions-in-cleveland-ohio/
+
+Loading Solutions In Dallas, Texas
+https://nationramps.com/loading-solutions-in-dallas-texas/
+
+Loading Solutions In Denver, Colorado
+https://nationramps.com/loading-solutions-in-denver-colorado/
+
+Loading Solutions In Edmonton, Alberta
+https://nationramps.com/loading-solutions-in-edmonton-alberta/
+
+Loading Solutions In Houston, Texas
+https://nationramps.com/loading-solutions-in-houston-texas/
+
+Loading Solutions In Los Angeles, California
+https://nationramps.com/loading-solutions-in-los-angeles-california/
+
+Loading Solutions In Louisville, Kentucky
+https://nationramps.com/loading-solutions-in-louisville-kentucky/
+
+Loading Solutions In Miami, Florida
+https://nationramps.com/loading-solutions-in-miami-florida/
+
+Loading Solutions In Montreal, Quebec
+https://nationramps.com/loading-solutions-in-montreal-quebec/
+
+Loading Solutions In Osoyoos, British Columbia
+https://nationramps.com/loading-solutions-in-osoyoos-british-columbia/
+
+Loading Solutions In Santa Rosa, California
+https://nationramps.com/loading-solutions-in-santa-rosa-california/
+
+Loading Solutions In Seattle, Washington
+https://nationramps.com/loading-solutions-in-seattle-washington/
+
+Loading Solutions In Sweetwater, Tennessee
+https://nationramps.com/loading-solutions-in-sweetwater-tennessee/
+
+Loading Solutions In Tampa, Florida
+https://nationramps.com/loading-solutions-in-tampa-florida/
+
+Loading Solutions In Toronto, Ontario
+https://nationramps.com/loading-solutions-in-toronto-ontario/
+
+Loading Solutions In Vancouver, British Columbia
+https://nationramps.com/loading-solutions-in-vancouver-british-columbia/
+
+Loading Solutions In Winnipeg, Manitoba
+https://nationramps.com/loading-solutions-in-winnipeg-manitoba/
+
+
+======================================================================
+
+In addition to comment #18,
+
+We've updated the HTML form on the landing pages, please review on dev site for now.
+Header Form SS - https://drive.google.com/file/d/114TkD5iA9E5aBjje2V4kjoS1_mAJNbSS/view?usp=sharing
+Footer Form SS - https://drive.google.com/file/d/1dev9nAPGV4TdOn35by898qNaIaGM8l7A/view?usp=sharing
+
+SMTP ID currently we've set up is with outbound@smartsites.com and currently there is an form issues. Additionally, we require new SMTP ID. Please add it on the Passbolt folder, https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7 with 2FA turned on via TOTP.
+
+Dev URLs:
+https://frontend.smartwebsitedesign.com/lp-henningsen-injury-attorneys/car-accident-attorney-atlanta/ 
+https://frontend.smartwebsitedesign.com/lp-henningsen-injury-attorneys/personal-injury-attorney-atlanta/ 
+
+=============================================================================
+
+As per comment #36,
+
+For the landing page:- https://maximum-athletic.com/lp/
+
+We've adjusted the spacing between the images. However, due to differences in width and height resolutions, we're unable to align them with others by width. 
+SS - https://drive.google.com/file/d/1kkB43Gq2uvpgN3jushg_GF1J2zna85F-/view?usp=sharing
+
+If you'd like the images to have the same width for consistency with others, we'll need to crop some parts of the images to match the dimensions. Please review and let us know how you'd like to proceed.
+
+==============================================
+
+As per comment #10,
+
+Re: could we proceed with both CTA options or is that too much?
+
+Please review on dev site (screen record below),
+https://drive.google.com/file/d/1rSZb5xE3XGOQYGGGjCtm3FeI9heUKh3O/view?usp=sharing
+
+Dev URL,
+https://desertrock.smartwebsitedesign.com/loan-center-slc/
+
+Additionally, please confirm if this is approved to go live. Once confirmed, we will implement the changes on these pages only.
+https://desertrockcapital.com/loan-center-slc
+https://desertrockcapital.com/signature-loans-in-salt-lake-city-ut
+https://desertrockcapital.com/cash-loan-orem-apply-now

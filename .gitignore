@@ -9,7 +9,7 @@
 *.jar
 *.rar
 *.tar
-*.zip
+# *.zip
 
 # OS generated files #
 ######################
@@ -45,3 +45,4 @@ videos/
 
 #mesc
 .vscode
+/SmartSites/Projects and Tasks/

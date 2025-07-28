@@ -1,0 +1,91 @@
+As per comment #18,
+
+We've updated icon to the 'Scoring Services' box as per the instructions.
+
+Charter Page:
+SS - https://drive.google.com/file/d/1Kd493FEm4maR0aCdqXME6u-nwvdoQ7si/view?usp=sharing
+DRAFT URL - https://essentialsinwriting.com/?page_id=14450
+
+Dyslexia Page:
+SS - https://drive.google.com/file/d/1SocQLRNxh2mbbPPbLKBaJBf_cQoIcuCd/view?usp=sharing
+DRAFT URL - https://essentialsinwriting.com/?page_id=14623
+
+Notes: For further clarity, it would be helpful if you could provide properly highlighted screenshots along with detailed notes or annotations (as you've provided in comment #18). This will allow us to better understand the context and ensure accurate implementation.
+
+
+=========================================
+
+We've published the custom HTML landing page live at https://yampaglia-law.com/fighting-for-you/.
+Fullpage SS - https://drive.google.com/file/d/1ntWYrSsnxWLk95qjb0t6LB2dwIvY6QIa/view?usp=sharing
+
+We've tested the form (SMTP ID leadsyampaglia@gmail.com) and it is working fine (see screenshots below),
+Thank you message ss - https://drive.google.com/file/d/1hUdwkkQhKB7-akViM8kaVS1Wkltr3TJD/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1eFblD7qnVEUkr61RmYdYprbhFExUjXKo/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1pX-Emcr3zMcVJleDPllTNrZcj59HHQfE/view?usp=sharing
+
+After testing the form, we've changed the email recipient to 'm.florendo7@gmail.com' as mentioned in comment #1.
+
+We've also implemented form validation (valid Phone Number, Email Contains @ in it) and add SPAM controls (reCAPTCHA, Honeypot, CSRF, Referrers).
+
+1. Form validation (valid Phone Number, Email Contains @ in it)
+SS - https://drive.google.com/file/d/1TSb-5YSUW_f8n4b0Nxw53iM8BKRv8H9x/view?usp=sharing
+
+2. SPAM controls
+a. Honeypot Field
+By adding a hidden field to the form (e.g., ) that humans won’t fill in.
+On the server side, we have checked if this field has a value. If it does, it’s likely a bot and we have discard the submission.
+If this is filled, it will display "spam detected" and will prevent the form submission.
+SS - https://drive.google.com/file/d/1MRtsXIH7IUL0KTAz1RAkdsR6VpkeX4to/view?usp=sharing
+
+b. Session or Token-Based Validation
+Used CSRF tokens to ensure that the request originated from a trusted source. By generating a unique token on form load, store it in the session, and verify it upon submission. If it does not match, we have discard the submission.
+SS - https://drive.google.com/file/d/1cnQ3KsqfHwfh3xkPEtDXLC1RmctnSZdt/view?usp=sharing
+
+c. Restrict Allowed Referrers
+Checked the HTTP referrer header to ensure that the form submission originates from the LP URL and not another. If it does not match with the LP URL, we have discard the submission.
+SS - https://drive.google.com/file/d/1oihb8udC8SamsjuTqoidu7HxvNqyh96D/view?usp=sharing
+
+d. Google Re-captcha
+We have added server-side validation for the captcha field.
+SS - https://drive.google.com/file/d/1-x3xl48b9E_zDYCSn9XJ45RFRjPgiZwS/view?usp=sharing
+
+===================================
+
+As per comment #7,
+
+We're currently developing the landing pages using custom HTML excluding the forms, as they will be integrated separately using the Contact Form 7 WordPress plugin. We will provide a progress update by tomorrow, Tuesday, June 1st, and the due date has been set accordingly.
+
+To deploy these landing pages in draft mode on the live site for your review before publishing, we'll need FTP/cPanel or direct hosting access. Currently, we only have CMS admin access.
+SS - https://drive.google.com/file/d/19Ak5HvikG6bJAv4XEY7pTJ4tMpMJIxnB/view?usp=sharing
+
+Since the active theme was developed by another agency, we'll also need hosting access to review its code structure. This will ensure our new custom landing pages are properly aligned and integrated.
+
+We couldn't find any login credentials in the Workbook, https://docs.google.com/spreadsheets/d/1lHnBXoibUmcaT8A_Z_hBoTDHiUJfCHNY_e587FUU8Jg/edit?gid=1214113832#gid=1214113832. Please provide detailed access information.
+
+Could you confirm if the landing page content should be dynamic/editable? We will currently proceed with a static WordPress page template, which also requires hosting (file management level) access.
+
+Notes:
+According to our task proceeding rules, please provide all necessary access details (FTP/cPanel/Hosting/domain) on a separate task, https://login.smartsites.com/projects/7145/tasks/370007, so we can check in detail to ensure a smooth launch.
+
+==============================================
+
+As per comment #7,
+
+Floating CTA Options:
+
+1. Sticky Apply Now Button
+- Position: Bottom, always visible
+- Text: For example, "Apply Now" or "Start Your Application"
+- Style: Bright color (white/orange)
+- Functionality: Direct link to application form
+
+2. Floating Phone Call Button
+- Position: Bottom, always visible
+- Text: For example, "Call Now: 801-377-3333"
+- Style: Clickable phone button for mobile users
+- Functionality: Direct dial on mobile, tooltip with number on desktop
+
+Please also respond to our other two points form comment #6 as well.
+
+Additionally, we’ve identified potential malware issues on the site, https://desertrockcapital.com/. Please open a separate task so we can investigate and provide further insights accordingly.
+SS - https://drive.google.com/file/d/1U1aYrUGweq_oiSemvC_1KIJPDV6k1JwB/view?usp=sharing

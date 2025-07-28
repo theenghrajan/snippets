@@ -1,0 +1,178 @@
+As per comment #21,
+
+We have published the location and its subpages live. Additionally, we have updated the "New Title" and "New Meta Description" as per New Website Plan Col S and W.
+
+Fullpage screenshots,
+https://drive.google.com/file/d/1Qk9cbmIedyAW3TVz9b9HZhcRJSV3JnoV/view?usp=sharing
+https://drive.google.com/file/d/1_Mcz5DDNwQrvuA9NEkV8XwG6wvYcwhyF/view?usp=sharing
+https://drive.google.com/file/d/1w1xvxC-kTkwU2FiLFq4ZUgwP2iOBA6qL/view?usp=sharing
+https://drive.google.com/file/d/11Bygj-836HDHkYF4wNFEdLfhZbrmZWx4/view?usp=sharing
+
+Live URLs,
+https://sanduskymilanrvpark.com/locations/
+https://sanduskymilanrvpark.com/locations/sandusky-oh/
+https://sanduskymilanrvpark.com/locations/milan-oh/
+https://sanduskymilanrvpark.com/locations/norwalk-oh/
+
+
+=========================
+
+As per the task descriptions,
+
+We've installed CAPTCHA on the contact forms and tested them as they working fine as well.
+
+Contact Popup form,
+reCAPTCHA SS - https://drive.google.com/file/d/1znqdChbaUHRF-2Ppmx1mqRFUtKUUncGN/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/155_HeGoLv6ID61X4UeHHcNxzFUh4TxhZ/view?usp=sharing
+
+Homepage Initial Load Popup form,
+reCAPTCHA SS - https://drive.google.com/file/d/120fy5gKKtPayhdtBQEN-MpZvI2RQTbC8/view?usp=sharing
+Admin email SS - https://drive.google.com/file/d/1mGGu3ZY8I_wja0CLp9JBBOY5fMqCkZlN/view?usp=sharing
+
+Footer form,
+reCAPTCHA SS - https://drive.google.com/file/d/1OqKo33B3l5gB4su7KTy56ODcxPLOQzhY/view?usp=sharing
+Admin email SS - https://drive.google.com/file/d/1ZR8XjHc1k2XKom45guwcpojA3hHyZBxc/view?usp=sharing
+
+
+===================================
+
+As per comment #4,
+
+We've fixed horizontal scroll bar issues and published the page live as mentioned.
+Fullpage ss - https://drive.google.com/file/d/1hZ_YANrPUcGrSqR6tQiE8C9Ym1R-0fV0/view?usp=sharing
+
+Live URL,
+https://www.thrivetech.co/register-for-free-v3
+
+
+
+=======================================
+On the CPTED page at /cpted/ (https://zh0.fd3.mytemp.website/cpted/)
+1. The hover color-change effect on the items under the "What’s Included in Our Flat-Rate CPTED Package" header washes out the icons, and hides the bullet points and header text.
+2. The "Take a free CPTED test" widget auto-scrolls underneath the top banner on hitting "next" or "previous" - hiding the top of the questionnaire.
+
+=========================================
+
+Form:
+We will be updating the form fields to be as following:-
+- Name
+- Email
+- Phone Number
+
+Offer Clarity:
+We’re unsure whether this should be a new section, or any? We're bit unclear with the instructions provided, please provide more details for clarity.
+
+Current Issue:
+As per our understanding, images should be provided by DES as you've also mentioned DES working on this. Please keep us informed. 
+
+In the meantime, we will proceed with form updates as mentioned in the first point above for now and will provide updates on it by Wednesday, 11th June. Therefore, we've set the due date accordingly.
+
+
+==============================================
+
+As per comment #75,
+
+Since there is currently a 2FA restrictions for Bluehost, which unable us to update the changes.
+Bluehost 2FA SS - https://drive.google.com/file/d/1otY2FU2Wrqj0c5ENDEkMpsxsmnQuQocm/view?usp=sharing
+
+We need to co-ordinate for 2FA with the client. Please confirm, we will be available at 12:00 PM NJ EST for the co-ordination.
+
+FYI:
+Alternatively if possible, could you verify with the client if they would add our Smartsites Bluehost account user as a collaborator? This would allow us to retrieve the 2FA codes without time constraints.
+Name: Smartsites
+Email: web@smartsites.com
+
+If necessary, for additional guidance on managing users and roles in Bluehost's Account Manager, you can refer to the following support article as well: 
+https://www.bluehost.com/help/article/am-users-roles
+
+==============================================
+
+As per comment #8,
+
+Since the task is just assigned back to us and we have not proceed with the coding yet for the landing page.
+
+We will first provide you update on dev site for your review and only push live after your approval. We have set the due date to Thursday, 12th June for updates on dev site for custom HTML.
+
+==================================================
+
+As per comment #8,
+
+Re: the email address is only used for leads.
+>> If this email (cyclonewellnessleads@gmail.com) should be used as SMTP for the landing page leads only. Please ensure 2FA is turned on as currently 2FA is not turned on (see screenshot below) and set up TOTP again for 2FA. 
+SS - https://drive.google.com/file/d/1MQu61GVBiZZLXBV6LuAdQtrvgFwmQAVt/view?usp=sharing
+
+Please follow this doc as well, if this help: 
+https://docs.google.com/document/d/1WZ-XdmjUi5pMav1kyQPvt5xjMmd8CRvpNCwh1aLOtTw/edit?tab=t.0
+
+Re: Landing Page Design
+>> We've proceed with the landing page development and are in progress currently with the Figma link provided in comment #5, i.e. https://www.figma.com/design/qN3wQkX5S1mlBQKYo8899b/Elixens-America--PPC---7_-Design-Custom-Landing-Page--FED-?node-id=9121-775&m=dev.
+
+Just wanted to confirm that we're using the correct Figma link, as you've mentioned this is the most updated link. However, during the development of the landing page, we noticed that the logos and content don't appear to align with the 'Cyclone Wellness' brand, instead match with the another project's landing page task: https://login.smartsites.com/projects/6983/tasks/359089. Please let us know if we're overlooking anything, and if possible, provide more detailed information or clarification.
+
+================================================
+
+
+As per comment #2,
+
+Re: Dynamic landing page coding
+>> We will implement this after the completion of static landing page and inform you in details accordingly.
+
+Re: Exported Figma link + Google Drive Assets link from DES
+>> We will proceed with custom HTML for now as mentioned with the provided Figma link.
+
+Re: Email Recipient of form
+>> We will use 'smartsitespalmercare@gmail.com' as email recipient for now. Please provide once you get the list of email recipients per location.
+
+Re: SMTP Email
+>> We've checked and confirmed that we will set up the SMTP id with 'smartsitespalmercare@gmail.com'.
+
+Re: Form
+>> Should we replace the current form on both header and footer with Aloha scheduler form provided by client?
+SS - https://drive.google.com/file/d/11MwLdLWMToA5s8uqZP0pUP63PYe413bn/view?usp=sharing
+
+>> Currently, the form script provided is showing like this (see screenshot below) and keeps loading/stuck like forever. Please verify with the client once if it is showing fine on their end.
+SS - https://drive.google.com/file/d/1gpy6hyGBYlVFnDzQVkWoUjXswVTkH9XL/view?usp=sharing
+
+Re: Landing page development
+>> We will proceed with custom HTML and provide updates on the dev site for your review. We will only push live after your approval.
+
+Re: Where should Call To Action buttons lead to?
+>> We will update and lead Call To Action buttons as mentioned:
+“Schedule Appointment” → Form at bottom of page
+All phone number/call buttons → call respective location’s phone number
+“Find Location” → https://www.palmercare.com/locations
+
+
+Re: Thank You Message - "Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+>> We will update as this for now. If any changes are required, please keep us informed.
+
+Re: Testimonials
+>> Please include a document/list of testimonials to include on the landing page as currently there are dummy ones in the figma link.
+
+Re: Website logins
+>> We've commented on the task: https://login.smartsites.com/projects/6949/tasks/356616 for Webflow and domain/hosting access related. Please review in details and we can only confirmed URLs for the landing pages to be used once we get necessary domain/hosting details there.
+
+In the meantime, we will proceed with custom HTML and provide updates on dev site for your by Wednesday, 18th June.
+
+Thank You!
+
+==========================================
+
+As per comment #151 - #152,
+
+Re: Can you update this signature to  Head of HR and Finance 
+>> We've updated the signature as per the instructions provided.
+SS - https://drive.google.com/file/d/1KIb2U7xxGdb_jHAC4iplFrpXrqaxecH5/view?usp=sharing
+
+https://honeydomen.com/signature-2024/genevieve-kennedy.html
+
+
+======================================
+
+As per comment #75,
+
+We've updated the text to say "Exceptional Hardscaping Services" as mentioned. Please review and inform us of any further updates if needed.
+SS - https://drive.google.com/file/d/1Qcd1Dcg7cIKA05KVENWOtXwblAfGmr0h/view?usp=sharing
+
+Landing Page URL,
+https://desertoasisturf.com/lp/

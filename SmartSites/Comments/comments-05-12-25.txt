@@ -1,0 +1,92 @@
+WP SiteOrigine builder vanyako, yes ma dharai limitation hunchha, khasai kai garna sakidaina, changes pani recommendation, reference, and design haru ma veer parchha. Point 1 ansar chai branding guideline melyana vanyako chha aailya ko site sanga. Tesko lagi chai tyo guide line hami lya check garna parchha, milchha vane estimation haru dinchham and mildaina vane chai new site code garda ramro hunchha type lya kura garnee. Project ko notes ma WB pani chhaina, tyo pani provide garyao vane hami lai check garna sajilo hunchha vanyara pani mention garidinee.
+
+As per the task descriptions,
+
+Since you've mentioned the site, https://entrinsik.com/ is built on WordPress using the SiteOrigin builder and the LiveMesh theme. We may not be able to implement all the changes as specified due to the limitations of the builder, particularly in terms of layouts, modules, and funtionality.
+
+We will need to thoroughly review and research each of the mentioned points to determine what is feasible. If certain changes are possible, we’ll provide an estimate for the work. If not, we may recommend building a new site for greater flexibility and functionality.
+
+Additionally, we couldn’t locate the Workbook link in the project’s notes section. Please share it so we can proceed with a more complete review.
+
+According to our task proceeding rules, we do not work on tasks related to the Design Team or any other specific team. Therefore, we have created a new task and will continue our work there: https://login.smartsites.com/projects/6955/tasks/363837. Since we have no further work remaining on this task, please proceed to close it. If any work is still pending for the Design Team, kindly assign it to them.
+
+
+Site WPBakery ma chha, milnee jati chai garidinee, limitation hunchha hami kam gardai jada issue face garyo vane khabar garchu vanda hunchha, new task open garnee and kam suru garidida hunchha.
+
+Since, you've mentioned to code the location page on the dev site but we do not find any details for it on Workbook. Please check and provide the details.
+https://docs.google.com/spreadsheets/d/1qqePE8EHvpSWtyMbbjkLdkw3ida8_9kva-7YOhYVdLU/edit?gid=966509715#gid=966509715
+SS - https://drive.google.com/file/d/11sd3iwq1gkCd68dYmF4TMJRje1TdXPyr/view?usp=sharing
+
+The site is built with WPBakery builder and it has many limitations. We'll implement as many of the requested changes as possible. If we encounter any limitations or issues while working, we’ll inform you.
+
+Yes live site ko kura gayrako ho ki landing page ko ho vanyar sodhnee. If live site ko kura ho vane chai, hami lya recently Website Coding [https://login.smartsites.com/projects/5899/tasks/285587] ko kam garyako chham, aailya ko visible issues haru chai sabai Website Coding ko code live gayra si thik hunchha vandinee. If aailya kai live site ma update garnu parnee ho vane chai Design team lai QA garna laga, hami Design team ko recommendation heryara milnee jati garidinchham vandinee. If landing page ko kura ho vane chai kun screen size ma issue chha hai lai screenshot haru provide gaar, hami heryara melaidinchham vandine.
+
+Please confirm whether you are referring to main site or the landing page. If you are referring to main site, we've recently done Website Coding work on the task: https://login.smartsites.com/projects/5899/tasks/285587 and all visible responsive issues will be fixes once the site is published live. Additionally, if you want to push live, please request @Design Team for QA and we will proceed with the recommendation and implement possible ones.
+
+If you're referring to the landing page, please specify with the screen size of the issues and provide screenshots for each so we can't review and proceed with the fixes accordingly.
+
+Please confirm whether you're referring to the main website or the landing page.
+
+If you're referring to the main site, we recently completed website coding work under the task: https://login.smartsites.com/projects/5899/tasks/285587. All visible responsive issues will be addressed once the site is published live. If you’d like to move forward with publishing, please request a QA review from the @Design Team. We’ll proceed with their recommendations and implement feasible adjustments.
+
+If you're referring to the landing page, kindly specify the screen size where the issues occur and provide screenshots for each. This will help us review and apply the necessary fixes accordingly.
+
+Due date - Today, May 12
+Task Link - https://login.smartsites.com/projects/6797/tasks/359356
+Task Title - #93: Location Pages Coding
+Project Title - Sandusky Milan RV Park [SEO]
+
+As per comment #12,
+
+We've replaced the images to all the location pages on dev site and given credit to second photo provided on the attachment.
+SS - https://drive.google.com/file/d/144zfhQzY9AA82g4vELcqx7Wc4Z36k0NM/view?usp=sharing
+
+Dev URLs,
+https://sanduskymilanrvp.smartwebsitedesign.com/locations/milan-oh/ 
+https://sanduskymilanrvp.smartwebsitedesign.com/locations/sandusky-oh/ 
+https://sanduskymilanrvp.smartwebsitedesign.com/locations/norwalk-oh/ 
+
+Due date - Today, May 12
+Task Link - https://login.smartsites.com/projects/6226/tasks/363469
+Task Title - #97: Develop Location Page Optimizations
+Project Title - KC Asphalt [SEO]
+
+The site is built with Beaver builder and it has many limitations. We'll implement as per the design as much as possible. If we encounter any limitations or issues while working, we’ll inform you.
+
+We've estimated approximately 12 to 16 hours to develop the location single page as per the provided design. Please confirm to proceed.
+
+
+
+
+
+In addition to comment #12,
+
+
+
+
+We've estimated approximately 5 to 7 hours for the development of the page, as per the design provided in comment #11. However, the current Elementor license is not currently active, and due to its limitations, we might be unable to match the design and use some elements.
+
+Please confirm to proceed and we will set the due date for completion accordingly.
+
+We didn’t see any mention about whether we’re supposed to work on the live environment or the dev environment. Please confirm which environment we should be working on. Usually, we first work on the dev environment, get it reviewed by you, and then push it to live. However, you've provided live URLs on the task descriptions, please clarify.
+
+We've estimated around 4 to 6 hours for completion on dev site for review.
+
+Note: The current Elementor license is not active, there will be certain limitations and prevent us from fully matching the design. However, we will implement the design as closely as possible within the available capabilities.
+
+According to our task proceeding rules, we do not work on tasks related to the Design Team or any other specific team. Therefore, we have created a new task, will continue our work there and find our estimation there: https://login.smartsites.com/projects/6573/tasks/363850. Since we have no further work remaining on this task, please proceed to close it. If any work is still pending for the Design Team, kindly assign it to them.
+
+
+Since, you've mentioned to code the location page on the dev site but we do not find any details for it on Workbook. Please check and provide the details.
+SS - https://drive.google.com/file/d/11sd3iwq1gkCd68dYmF4TMJRje1TdXPyr/view?usp=sharing
+
+The site is built with WPBakery builder and it has many limitations. We'll implement as many of the requested changes as possible. If we encounter any limitations or issues while working, we’ll inform you.
+
+
+
+Please confirm whether you're referring to the live site or the landing page.
+
+If you're referring to the live site, we recently completed website coding work under the task: https://login.smartsites.com/projects/5899/tasks/285587. All visible responsive issues will be addressed once the site is published live. If you’d like to move forward with responsive adjustments to the current live site, please request a QA review from the @Design Team. We’ll proceed with their recommendations and implement feasible adjustments.
+
+If you're referring to the landing page, kindly specify the screen size where the issues occur and provide screenshots for each. This will help us review and apply the necessary fixes accordingly.
+

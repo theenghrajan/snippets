@@ -1,0 +1,69 @@
+===========================================
+
+As per comment #5,
+
+For CMS (WordPress + Custom) Landing Page Development:
+
+We will require FTP/cPanel or hosting access, as we currently only have CMS admin login credentials.
+SS: https://drive.google.com/file/d/19Ak5HvikG6bJAv4XEY7pTJ4tMpMJIxnB/view?usp=sharing
+
+Development Scope & Hours:
+- Static Landing Pages (2): Estimated 24–28 hours.
+- Dynamic/Editable Content: Additional 12–14 hours (if CMS editing functionality is required). 
+
+Dynamic Functionality Note:
+For dynamic content, we will use the ACF (Advanced Custom Fields) plugin. Since the currently installed version is the free one, we will upgrade it using our Pro version with an unlimited site license.
+
+Forms:
+We will implement forms using the existing 'Contact Form 7' plugin for consistency with the main site.
+
+Development Environment:
+We noticed there is no dedicated staging/dev space for https://www.atlantapiattorney.com/. To ensure a smooth workflow, we strongly recommend setting up a separate development environment before pushing changes live. Please note that this will require additional time to setup dev space.
+
+Alternative Approach:
+If setting up a dev environment is not preferred, we can develop the pages locally and deploy them in DRAFT mode for your review before publishing. Please note that this approach has no dev site to review the changes.
+
+Please let us know your preference or if you have any questions. We look forward to your confirmation to proceed.
+
+======================================================
+Charter Page:
+https://essentialsinwriting.com/?page_id=14450
+
+Re: Since the content on the below boxes was not updated, we didn't see the "Scoring services" was already included. Please remove the latest box you implemented  and revert to old design BUT we correct text.
+
+Also, please replace the Icon for Scoring Services with the one in previous comment shared by DES
+
+>> You've mentioned to remove the latest box and revert to old design and again mentioned to replace the icon for Scoring Services with the one shared by DES in comment #15. Currently, we've just updated the icon and title as 'Scoring Services'. If the title content needs to updated, please let us know in details.
+SS: https://drive.google.com/file/d/1icN-N0qx19PceglETNDIiTWUiXBtlc4q/view?usp=sharing
+
+Dyslexia Page:
+https://essentialsinwriting.com/?page_id=14623
+
+Re: 
+Separate/add a space between these 2 paragraphs
+Move these 2 CTA Buttons in that same section referenced above below the text
+>> We've add a space between 2 paragraphs and move the 2 CTA buttons in that same section.
+SS: https://drive.google.com/file/d/1ecH_rqIvFN8bnGIbJhnuOfPujPwNu9zO/view?usp=sharing
+
+Re: The text referenced below is already placed in the tabs, so it is repeated, except for the one in the red box
+>> We've removed the repeated ones and add the one highlighted in the red box to Dyslexia tab.
+SS: https://drive.google.com/file/d/1qZLTEVleveds9hr6XNpuj9f2mfF9PyYi/view?usp=sharing
+
+Re: Please remove this content section in the red boxes, and include the same "We offer" section as in the Charter page (with the latest updated implemented)
+>> We've removed the content as highlighted in the red box and include the same "We Offer" section as in the Charter page.
+SS: https://drive.google.com/file/d/1rz6Y7qTx7a02DYwhmz1LynP4vwIx7JIv/view?usp=sharing
+
+======================================================================
+As per comments #58 - 61,
+
+We've resolved the popup form validation and submission issues. Additionally, all form fields are required as well (see screenshot below),
+SS: https://drive.google.com/file/d/1wPON4itr_wVj5ULX0gBh-WrBhF9dM3J1/view?usp=sharing
+
+We've tested the form and it is working fine.
+Admin email ss: https://drive.google.com/file/d/1S9WEAcP21uzRWMlyFXpnYiIOZDQTWMzp/view?usp=sharing
+
+After testing the form, we've changed the email recipient back to 'info@bestpestwildlife.com'. Please let us know of any further queries/updates if needed.
+
+<div id="form_phone_act"></div>
+
+info@bestpestwildlife.com, 

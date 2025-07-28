@@ -1,0 +1,120 @@
+As per comments #33 - #36,
+
+On this page: https://essentialsinwriting.com/?page_id=14549&preview=true
+-
+We've removed the small "see details and buy" above the "Learn More" button.
+SS - https://drive.google.com/file/d/1JAN0zESrtkl5lTsEBweN3Xdx5OUKuztm/view?usp=sharing
+
+On this page: https://essentialsinwriting.com/?page_id=15369&preview=true
+-
+We've created a new page, as implementing the "Buy Now" button required manual code-level customization to replicate the existing live functionality. It has now been updated accordingly — clicking the button will add the product directly to the shopping cart. 
+Please see the screen recording below for reference.
+https://drive.google.com/file/d/1TiinOCCBQy_ZE5ZkuUspaDJHcEDGtHLI/view?usp=sharing
+
+===================================================
+
+As per comment #3,
+
+We have developed and successfully implemented the layout on dev site as per the given design.
+
+Please review the screenshots and URLs below so that we can proceed with adding all the individual pages accordingly:
+
+Screenshot: https://drive.google.com/file/d/1289wTpuWZhHqh50rpXztCemLjuE5Y_XQ/view?usp=sharing
+URL: https://newghostshield.smartwebsitedesign.com/areas-we-serve/
+
+Screenshot: https://drive.google.com/file/d/1RprdeBcLaADbXY7hlMCCT2cMl7d-4DSh/view?usp=sharing
+URL: https://newghostshield.smartwebsitedesign.com/areas-we-serve/calabasas-ca/
+
+Let us know your feedback.
+
+As per our understanding, these landing pages are to be built on Mailchimp. However, due to platform limitations, we may not be able to fully replicate the provided design.
+
+Note: We’ll keep you informed of any constraints or issues we encounter during the build process.
+
+============================================================
+
+We have coded and successfully implemented the layout as per the given design in the dev site, please review.
+
+Please review the screenshot and URL below:
+
+SS: https://drive.google.com/file/d/1fN69nsVv_7QQ5dgqS0qOmPH7-90uyQA5/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/lead-capture-for-business-new/
+
+SS: https://drive.google.com/file/d/1KIrYiApnjg54aslD3_RhwDYTsedjNcKf/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/manufacturing/
+
+SS: https://drive.google.com/file/d/1Y7Aiy5-YkxwNq1MqsnbgNkrxtD9h5FH0/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/industrial/
+
+SS: https://drive.google.com/file/d/1ONvkEDuyKS-5diGbOXjntu2CS3h0Oryw/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/tool/
+
+SS: https://drive.google.com/file/d/1rK2JAn5c4FrseT73jczgOh-T1Ez0KT4b/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/electrical/
+
+SS: https://drive.google.com/file/d/1y6JVh5Nb3k7QDUKmqCqwXdLc2-xOFbiO/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/mechanical/
+
+SS: https://drive.google.com/file/d/1MhETSmNI6AIYv6zeC9XybIgyhXqPxrqI/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/hvac/
+
+SS: https://drive.google.com/file/d/1ahqcr5l5iHnTcXhijvB7svSG7ZJE25fl/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/plumbling/
+
+SS: https://drive.google.com/file/d/1NihyZbZxRUAwlGOsQ-dwBX2FwkpFDc9x/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/distribution/
+
+SS: https://drive.google.com/file/d/1It1TivRS0GoqkTNvwIcwa_0sOacRRp68/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/services/
+
+SS: https://drive.google.com/file/d/1RdkBHCPFpJ_nedstK1i1ZjZQrjBpMM8k/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/oil-and-gas/
+
+SS: https://drive.google.com/file/d/1AOS_zucy1XMJAgGgkfVwvNQWe_cNz3nr/view?usp=sharing
+URL: https://mighty.smartwebsitedesign.com/facilities/
+
+Let us know your feedback.
+
+=======================================================
+
+As per the task descriptions and comment #1,
+
+Development Notes & Queries:
+1. Regarding 'Area Served' section, is the map only image or needs to be interactive? If it should be interactive we suggest using plugin https://interactivegeomaps.com/. But using the plugin we will not be able to match the design, however we will try to match the map as in design.
+
+2. Regarding 'Location Staff' section, could you please let us know where the 'View Profile' button link to?
+
+We will proceed with development on the dev site for your review. Please see our estimation below and confirm to proceed.
+
+Estimated hours: 
+HTML = 12 - 14 hours
+WP = 7 hours
+----------------
+Total = 19 - 21 hours
+
+============================================================
+
+As per the comments #3 - #6,
+
+We've now have dev mode access for the figma.
+SS - https://drive.google.com/file/d/1r4vC2oBKwwv_EK-KaMMBl_kE4RpQLipb/view?usp=sharing
+
+Since these pages are already exist in the live site, we will be replacing them by our new design at last.
+https://securetitlewatch.com/areas-we-serve/
+https://securetitlewatch.com/areas-we-serve/florida/
+
+Similary, we will add the locations as follow mentioned in the Workbook - New Website Plan with same URL structure:
+Florida
+California
+Texas
+New York
+
+On the other hand, Service pages seems to be new page to build and only following individual service pages content have been provided instead there more listed in the Workbokk - New Website Plan:
+- Home Title Monitoring
+- Home Title Fraud Protection
+- Property Monitoring Services
+
+Design Team, we require images for them as well. So please provide them and re-assign the task then we proceed with the development.
+
+Notes:- Since the site is built on Elementor, we’ll be working within its limitations. We’ll notify you of any platform constraints or issues we encounter during the build.
+

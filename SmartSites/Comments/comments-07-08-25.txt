@@ -1,0 +1,51 @@
+As per comment #26,
+
+We currently do not have access to SiteGround via web@smartsites.com. Please verify with the client, if they may need to re-invite us. If so, kindly accept the invitation and inform us.
+SS - https://drive.google.com/file/d/1HM395s8F3FqHmNmJMnpUcaYcGl6AVdtl/view?usp=sharing
+
+As per comment #8,
+
+We've opened a new task and will continue our work there, https://login.smartsites.com/projects/6639/tasks/377200. Since we have no further work remaining on this task, please proceed to close it. If any work is still pending for the Design Team, kindly assign it to them.
+
+=========================================
+
+As per comments #40 - #43,
+
+Re: yes please update the photos as well.
+>> We have updated the images, please review it.
+SS: https://drive.google.com/file/d/1eylg48CpoVD64AefcnmS39GhsxdADOOr/view?usp=sharing 
+
+Re: once that is done push to the live site and link this page to the footer.
+>> We have deployed the changes to the live site and added the page link to the footer.
+SS: https://drive.google.com/file/d/1aQljo3aIBQ-Onw2rNyuvIV0B2W5vXn9K/view?usp=sharing
+
+Re: this booking link needs to link
+>> The button has been linked with the URL you provided.
+SS: https://drive.google.com/file/d/1CYXgnWFhmdn0iboY_pymVq6EKBR5nIt1/view?usp=sharing 
+
+URL,
+https://sanduskymilanrvpark.com/locations/
+
+=============================================
+
+As per comments #20 and #21,
+
+We've published the landing pages at,
+https://lp.atlantapiattorney.com/personal-injury/
+https://lp.atlantapiattorney.com/car-accident/
+
+Personal Injury fullpage ss -
+Car Accident fullpage ss -
+
+Re: Can we also remove five star rated from there and put it under where the green box is and move the form up so it takes the place of that
+>> We have updated the section based on the provided information, please review it.
+Atlanta Personal Injury Lawyer SS: https://drive.google.com/file/d/1_gPh2_n5FpujSMec0QS8AhaGPsVaqbeA/view?usp=sharing
+Atlanta Car Accident Injury Lawyer SS: https://drive.google.com/file/d/1g7WVhxT4SdWDrfzKgRYpXqEaoo2ud4Sp/view?usp=sharing 
+
+Re: SMTP
+>> We do not find SMTP ID login details in the Passbolt, https://chamber.smartsites.com/app/passwords/view/aa51f445-ed49-4e24-b53a-3a0d70b4ba8c. Please ensure FED PM has edit access and FED read access.
+SS - https://drive.google.com/file/d/127HGVGmKkSDXGTGDQvWSIdrr4iZiJ4xU/view?usp=sharing
+
+For now, we've set up SMTP with our development account, 'outbound@smartsites.com' but there's form submission issues due to quota limit. Please inform us once updated.
+SS - https://drive.google.com/file/d/1rNoWxLqudp6pkcdNChyhUrnry9-LXSpE/view?usp=sharing
+

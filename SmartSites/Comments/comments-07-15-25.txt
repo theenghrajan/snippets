@@ -1,0 +1,126 @@
+Please provide us with the Exportable and Dev Mode Access on the design below:
+
+https://www.figma.com/proto/SpdIvsBFIWJabMw2OAkMaR/-7--Design-Custom-Landing-Page?page-id=14142%3A4&node-id=14142-5&viewport=-50%2C-1443%2C0.22&t=R5d75jx0eHB6J5up-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=14142%3A5
+
+Task: https://login.smartsites.com/projects/7173/tasks/371867
+
+====================================================
+
+As per comment #24,
+
+After our investigation, we found that the landing page had been removed, possibly due to previous malware issues on the site. We've restored the landing page from our backup, and it is now live again at: https://yampaglia-law.com/fighting-for-you/.
+Fullpage SS - https://drive.google.com/file/d/1sImL4GExRvmPGgE219t07FcjdFkSQG0F/view?usp=sharing
+
+We've also tested the form, and it is working fine. The current SMTP setup is using: leadsyampaglia@gmail.com )
+
+Thank you message ss - https://drive.google.com/file/d/1XT3X_7b325fDiHL24cMFUTk-OOrJARZx/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1XsuB-6crPlMX4KU6cCG6TA-f4tGserFc/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1s_QL2EXP9Jt5vCtAutjtQz_XYFpMeT9N/view?usp=sharing
+
+After testing the form, we've changed the email recipient back to 'm.florendo7@gmail.com'.
+
+=======================================================
+
+As per comment #2,
+
+SMTP Setup:
+>> Add email name in Passbolt Folder: https://chamber.smartsites.com/app/passwords/view/aa51f445-ed49-4e24-b53a-3a0d70b4ba8c 
+>> Ensure 2FA is enabled via TOTP 
+>> Confirm that FED PM has edit access and FED has read access.
+
+Clarification on Points #6, #7, and #13:
+
+>> #6 (HTML): You've mentioned the landing page should be done in HTML.
+>> #7 (Live Site): You've stated it should be implemented directly on the live site.
+>> #13 (www.creditpsi.com/lp): URL has been suggested for the live landing page.
+
+However, as per our procedure: 
+We cannot work directly on the live site for the HTML version. We must:
+1. Code the page locally.
+2. Deploy and test it on a dev environment.
+3. Push to live only after approval.
+
+Site Availability Issue:
+The main site http://www.creditpsi.com/ is currently down, likely due to Squarespace plan expiration.
+Squarespace Check SS - https://drive.google.com/file/d/1wpWEWxJ5ylTAdjzeOxIr-L1JJDE-PNDI/view?usp=sharing
+Site Error SS - https://drive.google.com/file/d/1wwlufatm1_tv3TbxY7EOK1xWoZgQ5GF2/view?usp=sharing
+
+Platform Limitation:
+The site is hosted on Squarespace, which does not support custom HTML landing page deployment. 
+To proceed with custom HTML, we require separate hosting access (FTP/cPanel).
+
+We recommend creating a subdomain for the landing page, such as lp.creditpsi.com and using T35 hosting for this purpose.
+Once the client approves, please reach out to the network administrator (@Alex) for a suitable hosting plan to develop the LP.
+
+Regarding Form:
+You've mentioned that the client wants to have Gravity Form Pro, which is a WordPress plugin. This implies the landing page should be done in WordPress, not custom HTML. 
+
+Mising Form Mockup:
+We do not find any form design in the provided Figma link. Please reach out to the Design Team and request a form layout for implementation.
+
+Please confirm which approach we should follow based on the process below, and provide us with detailed instructions accordingly.
+
+For HTML Landing Page Development:
+>> Requires separate hosting (not Squarespace)
+>> Setup on subdomain (e.g., lp.creditpsi.com)
+>> Form will be standard HTML/CSS, without Gravity Form integration
+
+For CMS (WordPress custom) Landing Page Development:
+>> Requires CMS/hosting access (FTP/cPanel).
+>> We'll set up a WordPress environment if we are working form scratch.
+>> In the case of working within an existing website, we can provide a more accurate assessment after inspecting the website and require CMS + hosting access as well.
+>> Gravity Forms Pro can be integrated
+>> To ensure a smooth workflow, we recommend setting up a separate development environment before pushing changes live.
+>> Optionally, we can also make the landing page content editable (dynamic) through WordPress, but this will require additional working hours.
+
+==============================================================
+
+We will proceed with the changes as per the design provided on comment #10. so we have set the due date to Wednesday 16th, July. Therefore, we have set the due date accordingly.
+
+We have commented regarding domain/hosting details in this task: https://login.smartsites.com/projects/6522/tasks/328487
+
+1. First and foremost, we do not find any information regarding domain/hosting and website backend credentials. The workbook's login information is almost empty.
+
+2. What is the expected URL of this landing page? Also, please provide us with all the domain and hosting access credentials in detail.
+
+==============================================================
+
+As per the figma link provided in https://login.smartsites.com/projects/6522/tasks/376364 comment #2, we'd like to confirm the following before proceeding with any changes:
+
+Design Change Confirmation Needed
+1. Hero section: 
+The original feature image appears to be removed and replaced with a large heading text: "ACCURATE ESTIMATES INC." Please confirm if we should proceed with this replacement.
+
+2. Content & Image Updates:
+>> Several sections, including the one shown in this screenshot, have updated content and images compared to the current dev version.
+SS - https://drive.google.com/file/d/1xrQWepRCC4mMkXRcTwB_RJK5UQKYZGXt/view?usp=sharing
+Dev URL - https://frontend.smartwebsitedesign.com/lp-accurate-estimates/
+
+3. Footer Section:
+>> The previously used footer feature image has been completely removed in the new design. Please confirm if we should remove it accordingly.
+
+4. Social Media Links:
+>> If social icons are to be included as shown in the design, please provide the correct links for each platform.
+
+Access Not Yet Provided:
+We have not received client access credentials yet. Please provide the following in https://login.smartsites.com/projects/6522/tasks/328487:
+>> Hosting login (cPanel or FTP)
+>> Domain registrar access (if applicable)
+The FED team will verify access to ensure a smooth development and deployment process.
+
+Delegated Access Unclear:
+As per comment #7, it is stated that the client has confirmed that access has been delegated to web@smartsites.com, but did not clarify where.
+We also checked GoDaddy but were unable to locate the domain under the name Josh Koester (see the screenshot in comment #8).
+Please refer to the detailed access queries from the FED team in comment #8 for further clarification.
+
+No, we haven't got access from the client to proceed. Please provide the hosting (cPanel/FTP) logins along with domain access in the following task: https://login.smartsites.com/projects/6522/tasks/328487. FED will handle the access check to ensure a smooth launch of the landing page.
+
+Additionally as per comment #7, it is stated that client has confirmed that access has been delegate to web@ but not clarified where. We also look into GoDaddy but do not find it under the name Josh Koester (as per the screenshot). Please see details queries from FED in comment #8 regarding this.
+
+======================================================
+
+We are currently in progress with the task, addressing the issues outlined in comments below #11 -#12.
+
+Additionally, we've also commented regarding layout issues in the separate task: https://login.smartsites.com/projects/7046/tasks/377628. Manual corrections will be required in order to proceed.
+
+We've set the due date to Wednesday, 23rd July for updates to the remaining pages and overall site fixes.

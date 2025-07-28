@@ -1,0 +1,130 @@
+As per comment #5,
+
+We’ve provided a time estimation and queries for the required updates in the sheet below.
+Please review and let us know if you have any questions or feedback on column D PM Response / Comments".
+UX Audit Sheet: https://docs.google.com/spreadsheets/d/1iIrNloHA1rP0KX3EdIpws9yvUl0htlE65Y8TlsMH6ek/edit?usp=sharing
+
+Notes:
+Since the site is built on Squarespace and there is no dev/staging environment available, please note that any updates made will reflect directly on the live site. Kindly confirm your approval before we proceed. 
+
+We can duplicate a Squarespace site, but the copy is a 30-day trial. Changes won’t sync with the original, so any updates may require manual rework.
+
+Due to platform limitations, some tasks from the audit report may not be fully implementable. We’ve updated the sheet accordingly and will inform you of any specific issues or constraints encountered during the implementation process.
+
+
+===========================================
+
+As per comment #80,
+
+We've CCed 'sarah@tfglaw.com' along with jlr@tfglaw.com, admin@tfglaw.com, sam@tfglaw.com and jeff@tfglaw.com on all the landing pages.
+SS - https://drive.google.com/file/d/1cnX7-zemTCTUZn_jB8UWV0Ot_Mm4yvkE/view?usp=sharing
+
+URLs,
+https://lp.tfglaw.com/ppc/ 
+https://lp.tfglaw.com/code-2/ 
+https://lp.tfglaw.com/code-9/
+https://lp.tfglaw.com/code-12/  
+https://lp.tfglaw.com/code-13/ 
+
+====================================================
+
+As per comment #24,
+
+We’ve already updated the email recipient to d.crandall@iconjds.com (not m.florendo7@gmail.com).
+The previous specific comment was mistakenly worded, apologies for the confusion.
+
+However to ensure with further check and confirmation, we currently do not have access to https://iconjds.com/ in SiteGround (previously we had the access). The domain is showing a Default Server Vhost Propagation Message, indicating it may not be pointed correctly or is still propagating. 
+
+Please confirm the current hosting setup.
+SS - https://drive.google.com/file/d/1utROzChk9MbPaKNiipQ5VEbzvMbeKf2Y/view?usp=sharing
+
+
+===========================================================
+
+As per the comments #14 and #15,
+
+Re: Small change is to remove this button on both pages
+>> We have removed the button on both pages, please review it.
+
+Atlanta Personal Injury Lawyer 
+SS: https://drive.google.com/file/d/1Dv3Ei0j7qpn5DxcRou9H9wgOvXHxOsJF/view?usp=sharing 
+
+Atlanta Car Accident Injury Lawyer
+SS: https://drive.google.com/file/d/1_K1_TwO0o04H2iuoDChB9cQ-zW2ykldM/view?usp=sharing 
+
+Dev URLs:
+https://frontend.smartwebsitedesign.com/lp-henningsen-injury-attorneys/car-accident-attorney-atlanta/
+https://frontend.smartwebsitedesign.com/lp-henningsen-injury-attorneys/personal-injury-attorney-atlanta/
+
+Re:Also where is the form at the top?
+>> We were initially planning to integrate the form separately using the Contact Form 7 WordPress plugin and converting current HTML to WordPress as per the discussion earlier in the comments below. 
+
+However, in this task, https://login.smartsites.com/projects/7145/tasks/370007, you've provided the subdomain details, which have already been created along with the necessary access information. 
+
+Please confirm if we should proceed with updating the landing page only in custom standard HTML (including the form) and publish them live at:
+lp.atlantapiattorney.com/personal-injury
+lp.atlantapiattorney.com/car-accident
+
+
+====================================================================
+
+As per comment #20 - #22,
+
+For this Page: https://essentialsinwriting.com/?page_id=14549&preview=true
+
+>> We have implemented the following feedback as per the provided information. Please review it.
+SS:https://drive.google.com/file/d/1RmVPJRtzpd8_qkKl0qcPtR5za3JN7H0j/view?usp=sharing 
+
+
+
+For this page: https://essentialsinwriting.com/?page_id=14678&preview=true
+
+>> We have arranged the CTAs' text and placement according to the provided information, and we have also moved the 2 CTAs referenced below to the top of the page according to the provided information.
+SS: https://drive.google.com/file/d/1EQYR6CLE_TFW059zBX7nQeNYwhkXie74/view?usp=sharing
+
+================================
+As per comment #4,
+
+Re: I'm awaiting client confirmation for the official email.
+>> Please provide us once confirmed.
+
+Re: We’re fine proceeding with the default WordPress mail function (or a generic SMTP if necessary) for now.
+>> Noted, we will inform you if any issues occur with default WordPress mail function.
+
+Re: No third-party integrations needed. A basic contact form will be sufficient.
+>> Thanks for the confirmation.
+
+Re: In their google reviews you will see some people mentioning "Massage Life center": Stillwater Spa.
+Please ensure this is left out if possible. 
+>> Noted and we will pull 5-star Google reviews.
+
+Re: We are not doing PPC, but we do want to index. 
+>> Thanks for the confirmation.
+
+Re: IONOS account access
+>> We will inform further on this in access task, https://login.smartsites.com/projects/7135/tasks/369265
+
+Development Environment:
+To ensure a smooth workflow, we recommend setting up a separate development environment before pushing changes live. We suggest opening a separate task for this setup. Should we proceed with this? As the landing page will on WordPress, it will easier if we have new dev space available.
+
+Alternative Approach:
+If setting up a dev environment is not preferred, we can develop the pages locally and deploy them in DRAFT mode for your review before publishing. Please note that this approach has no dev site to review the changes.
+
+We will be custom coding the landing page from scratch and please confirm if CMS editing functionality is required, making the landing page content editable.
+
+In the meantime, we will proceed with HTML coding and convert it to WordPress after we got confirmation on dev environment and live hosting access. We have set the due date to Thursday, 10 July for initial updates on the landing page.
+
+========================================================
+
+As per comment #5,
+
+We’ve provided a time estimation and queries for the required updates in the sheet below.
+Please review and let us know if you have any questions or feedback on column D - "PM Response / Comments".
+UX Audit Sheet: https://docs.google.com/spreadsheets/d/1iIrNloHA1rP0KX3EdIpws9yvUl0htlE65Y8TlsMH6ek/edit?usp=sharing
+
+Notes:
+Since the site is built on Squarespace and there is no dev/staging environment available, please note that any updates made will reflect directly on the live site. Kindly confirm your approval before we proceed.
+
+We can duplicate a Squarespace site, but the copy is a 30-day trial. Changes won’t sync with the original, so any updates may require manual rework.
+
+Due to platform limitations, some tasks from the audit report may not be fully implementable. We’ve updated the sheet accordingly and will inform you of any specific issues or constraints encountered during the implementation process.

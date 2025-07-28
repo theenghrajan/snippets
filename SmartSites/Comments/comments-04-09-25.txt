@@ -1,0 +1,49 @@
+Due date - Today, Apr 9
+Task Link - https://login.smartsites.com/projects/5441/tasks/256405
+Task Title - #10: Develop LPs
+Project Title - All Clear Plumbing & Rooter [PPC]
+
+As per comment #2,
+
+1. Add SMTP Email name in Passbolt Folder with 2FA turned on via TOTP - (This is the email address that forms will send to the client - Demonstration video)
+https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7
+https://app.fireflies.ai/view/PPC-Landing-Page-SMTP::01JN71SEVN92FW0W25EJBJZ7H7
+
+2. What URL should be used for the landing page? Should it act as the homepage at https://allclearseweranddrains.com/? Or would you prefer a different URL structure?
+
+3. In the meantime, we will proceed with coding the landing page in HTML as mentioned and provide update on dev for review by Tuesday 15th April. Therefore, we've set the due date accordingly.
+
+
+Due date - 24-Hour
+Task Link - https://login.smartsites.com/projects/2954/tasks/355053
+Task Title - #28: Landing Page Error
+Project Title - Appsketiers [PPC]
+
+
+
+As per comment #2,
+
+1. We've updated both fixes mentioned in comment #1 (see screenshots below) and republished the pages:
+
+https://try.appsketiers.com/lp/
+SS - https://drive.google.com/file/d/1BLqeEOZ7bUJ9gH5qEjeu_7FcT1Ja4_FW/view?usp=sharing
+
+https://try.appsketiers.com/360support/
+SS - https://drive.google.com/file/d/13nnX-T1teILmymfYuMz4Yo12Py2Bqx4v/view?usp=sharing
+
+Note: Clear your cache or do a hrad refresh if you don't see your changes on the republished Page.
+
+
+Due date - Today, Apr 9
+Task Link - https://login.smartsites.com/projects/5726/tasks/348742
+Task Title - #32: LP Form Inquiry
+Project Title - APRPC [PPC]
+
+As per comment #9,
+
+1. Initially, the landing page requirement was to be completed on WordPress as mentioned in comment #1, in the task: https://login.smartsites.com/projects/5726/tasks/273678, so we proceed with it accordingly.
+SS - https://drive.google.com/file/d/11uWj3uB-9b_QPCPmyWjMewFn58yNNy_O/view?usp=sharing
+
+2. We need to convert APRPC(Currently, WordPress) to HTML(Currently, NOA is) if email template should look exactly like NOA and for that we require approximately 3 to 4 working hours.
+
+3. Form SPAM: Please inform after discussing with the client and provide the necessary details.

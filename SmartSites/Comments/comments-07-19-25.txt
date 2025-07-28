@@ -1,0 +1,103 @@
+Access in WP Engine via web@smartsites.com under account esm4ieaw8d5uc2
+
+As per the task descriptions,
+
+1. Currently, all BOOK NOW, BOOK YOUR PET TODAY, BOOK YOUR DOG'S STAY TODAY buttons throughout the site first link to Book Now page: https://underdog-kennels.com/book-now/ and the "Book Now" button on the block titled 'Returning Pup' on this page (see screenshot below) only linked to https://underdog.gingrapp.com/front_end/index, previously.
+SS - https://drive.google.com/file/d/1F6xdfSnzHCdMq5SuYAEsKGQg6zCJW9cK/view?usp=sharing
+
+Currently, we've updated it to following URL as requested, which connects to the current customer portal:
+http://underdog.portal.gingrapp.com/#/public/new_customer
+
+If this is your goal then all good to go. 
+If not and you want all the booking buttons mentioned above to individually linked to the current customer portal directly instead of the site's general "Book Now" page, we'll need more time to update each one sitewide.
+
+2. All comments on the blog posts are now disabled.
+Before SS - https://drive.google.com/file/d/1bAhj5PBklochL62-ru8QPPOYr9N1D1iT/view?usp=sharing
+After SS - https://drive.google.com/file/d/1jAqYASBbdZIpBKBq4YgLGrnVY69eNq0O/view?usp=sharing
+
+Old link - https://underdog.gingrapp.com/front_end/index
+
+New link - http://underdog.portal.gingrapp.com/#/public/new_customer
+
+===========================================================
+As per the task descriptions,
+
+For the site: https://allianceonellc.com/ regarding mobile navigation:
+
+Could you please clarify what you meant by “some options aren't working and the functions seem clunky overall”?
+It would be very helpful if you could provide more detailed information along with screenshots or screen recordings. This will allow us to identify the exact issues and investigate them further.
+
+Since the site is built on MODX, we'll be only able to work on possible updates due to platform limitations.
+
+Lastly, we did find visibility issues with the menu icons on mobile (as shown in the screenshot below):
+SS - https://drive.google.com/file/d/18ZU9nFrku5uOhFNqSu2MJ5GvqD7kNo6d/view?usp=sharing
+
+Would you like us to proceed with addressing this so that the icons are clearly visible? If so, we’ll review it in depth and provide further updates accordingly.
+
+Let us know your feedback.
+
+==============================================================
+
+As per the task descriptions,
+
+For the site: https://www.digestivehealthmd.com/
+
+We've updated the 'Contact Us' to Book Now and updated the link with https://pp-wfe-101.advancedmd.com/148662/onlinescheduling/v2/patients
+SS - https://drive.google.com/file/d/18Jmn_-qr4mSrFp475u2UsyI9d0qYQGOC/view?usp=sharing
+
+Currently, we do not find any booking links/buttons in the site, please inform if we need update the link anywhere else in the site.
+
+==============================================
+
+As per comment #9,
+
+According to the Workbook - New Website Plan, there are 18 locations to be created:
+1. San Marcos
+2. Lockhart
+3. New Braunfels
+4. Seguin
+5. Spring Branch
+6. Bulverde
+7. Canyon Lake
+8. Garden Ridge
+9. Blanco
+10. Dripping Springs
+11. Wimberley
+12. Johnson City
+13. Marble Falls
+14. Horseshoe Bay
+15. Sunrise Beach
+16. Kingsland
+17. Granite Shoals
+18. Highland Haven
+
+We’d also like clarification on the "Where We Build" page — should this act as the parent page for these individual locations? If so, please advise on the layout or if a separate design is required.
+
+Development Notes & Queries:
+1. Page Design & Content
+We will not be able to match the most of the design mockup due to platform limitations and will reuse the same layout for all other locations and require content/images for other locations as well.
+
+2. CTA Button Behavior:
+Please let us know where the CTA buttons should lead to.
+
+3. See Our Custom Home Builds (Slider Section):
+We are unable to implement this section with slider functionality as per the mockup.
+
+4. Testimonials Section:
+This section also cannot be built with the slider features shown in the design.
+Additionally, should the reviews be added manually or would you prefer integration with a third-party review platforms (for example, Google Reviews)? 
+If third-party integration is needed, we'll need to research appropriate apps (For example, Elfsight, an Elfsight account is needed for integration), the layout will differ from the original design.
+SS - https://drive.google.com/file/d/1RIMDrPc5XHAeBP9RpyYfFw-dynbpHvxR/view?usp=sharing
+
+5. Contact Form:
+Matching the form design exactly is not possible. Should we proceed with a standard built-in form layout?
+
+Notes:
+Since the site is built on Squarespace and there is no dev/staging environment available, please note that any updates made will reflect directly on the live site. We’ll be working within its limitations and notify you of any platform constraints or issues we encounter during the build.
+
+We can duplicate a Squarespace site, but the copy is a 30-day trial. Changes won’t sync with the original, so any updates may require manual rework.
+
+Let us know your feedback.
+
+We will proceed with custom HTML and provide updates on the dev site for your review. We will only push live after your approval.
+

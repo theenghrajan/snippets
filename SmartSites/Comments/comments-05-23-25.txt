@@ -1,0 +1,110 @@
+Due date - Today, May 23
+Task Link - https://login.smartsites.com//projects/3880/tasks/365849
+Task Title - #184: New Landing Page
+Project Title - NJR Home Services [Website:WP]
+
+================================
+================================
+
+Due date - Today, May 23
+Task Link - https://login.smartsites.com/projects/5114/tasks/282519
+Task Title - #122: Thank you page pop up
+Project Title - Small Business Expo PPL [Website]
+
+================================
+================================
+
+Due date - No Label
+Task Link - https://login.smartsites.com/projects/6212/tasks/366316
+Task Title - #110: Navigation updates
+Project Title - Symmetry Counseling [SEO]
+
+================================
+================================
+
+Due date - Today, May 23
+Task Link - https://login.smartsites.com/projects/5643/tasks/268536
+Task Title - #10: Develop LPs
+Project Title - Dr. Brad M Gandolfi [PPC]
+
+================================
+================================
+
+Due date - Today, May 23
+Task Link - https://login.smartsites.com/projects/4365/tasks/184324
+Task Title - #5: Develop LPs
+Project Title - Extreme Decks [PPC]
+
+================================
+================================
+
+Due date - Today, May 23
+Task Link - https://login.smartsites.com/projects/6269/tasks/364244
+Task Title - #101: New Design For Blog pages
+Project Title - MightyRep [SEO]
+
+According to our task proceeding rules, we do not work on tasks related to the Design Team or any other specific team. Therefore, we have created a new task and will continue our work there: [task link]. Since we have no further work remaining on this task, please proceed to close it. If any work is still pending for the Design Team, kindly assign it to them.
+
+================================
+================================
+
+Due date - Today, May 23
+Task Link - https://login.smartsites.com/projects/6269/tasks/364247
+Task Title - #103: Redesign this page
+Project Title - MightyRep [SEO]
+
+According to our task proceeding rules, we do not work on tasks related to the Design Team or any other specific team. Therefore, we have created a new task and will continue our work there: https://login.smartsites.com/projects/6269/tasks/366319. Since we have no further work remaining on this task, please proceed to close it. If any work is still pending for the Design Team, kindly assign it to them.
+
+================================
+================================
+
+As per comment #149,
+
+We've updated the cell phone number as mentioned in comment #149,
+SS - https://drive.google.com/file/d/1eVqpTzlt59UbYiz9XUJoIGhsVi8PAP6p/view?usp=sharing
+
+https://honeydomen.com/signature-2024/genevieve-kennedy.html
+
+
+In addition to comment #2, and please also respond our queries on there as well.
+
+We've updated the page on dev site for your review.
+
+Dev URL:- https://njrhomeservices.smartwebsitedesign.com/win2025/
+
+Most of the elements on the design are static images so we have implement as static images for now. Please provide exportable design so we can access and implement the necessary elements (text, icons etc). Specifically for these sections,
+SS - https://drive.google.com/file/d/1WSwNjMcqWw0_YZX7raadBtanZNU4vkrY/view
+
+As we've also mentioned in comment #2, that some sections are not exportable (see screenshots below), they are just static images for whole sections. Please provide an exportable design so we can access the necessary elements (text, icons, etc). Otherwise, we'll have to add them as static images for the block, as they are currently.
+SS - https://drive.google.com/file/d/1WSwNjMcqWw0_YZX7raadBtanZNU4vkrY/view
+
+
+
+As per comment #15,
+
+We're a bit unclear about the instructions provided for updating the content. Could you please specify the exact sections on each page that need to be updated, along with corresponding screenshots for clarity?
+
+
+As per comment #17,
+
+We've removed the section on all the location pages as mentioned.
+SS - https://drive.google.com/file/d/1Svjxr5On0Ly5A5yAPrNkqEWTIARIzV2p/view?usp=sharing
+
+Dev URLs,
+https://sanduskymilanrvp.smartwebsitedesign.com/locations/milan-oh/ 
+https://sanduskymilanrvp.smartwebsitedesign.com/locations/sandusky-oh/ 
+https://sanduskymilanrvp.smartwebsitedesign.com/locations/norwalk-oh/ 
+
+
+As per the comment #36,
+
+Re: Client emailed me stating that the thank you message for the https://abdominoplasty.nyc/ landing page needs to be updated. I will provide an additional comment with the thank you message once I confirm with client.
+>> Please informed us once confirm so we can proceed with updating the thank you message.
+
+Re: Could you please double check and see where the email of tummytuck.solutions@gmail.com could be coming from? Did we set up? Any additional information you can provide would be very much appreciated!
+>> Yes, we previously configured 'tummytuck.solutions@gmail.com' as the SMTP email sender for https://abdominoplasty.nyc/, so the forms are currently being sent using this email address.
+
+Please let us know if this is helpful. If you have any queries, feel free to reach out.
+
+
+

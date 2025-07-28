@@ -1,0 +1,74 @@
+Occupancy for Tuesday 11th March | Total Time Tracked = 8h 48m
++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++
+A: Octagon [LP] | #7: Landing Page Coding | https://login.smartsites.com/projects/2589/tasks/247055
+B: Choi Law Firm [SEO] | #143: UX Audit Fixes Part 2 | https://login.smartsites.com/projects/4550/tasks/341654
+C: Green Empire Landscapes [PPC] | #4: Access for Landing Page | https://login.smartsites.com/projects/6595/tasks/332509
+D: DMC Venture Group [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6475/tasks/325113
+E: Best Pest Wildlife [PPC] | #34: Website/Landing Page Forms | https://login.smartsites.com/projects/4616/tasks/343613
+F: 3PL Center [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/4036/tasks/163929
+G: EscapeWorks Denver [SEO] | #138: update photos on rooms page + fix formatting | https://login.smartsites.com/projects/4796/tasks/343783
+H: Mr Pool Leak Repair [SEO] | #85: Adding a banner to the top of the page | https://login.smartsites.com/projects/6726/tasks/345478
+I: Bedrosian [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6667/tasks/336908
+J: Noa Center [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/5727/tasks/273710
+K: Harris Mini Golf [EM] | #18: Embedded Sign-Up Bar | https://login.smartsites.com/projects/6107/tasks/300665
+L: Casper, Meadows, Schwartz & Cook [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6536/tasks/329118
+M: Eveready Express [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6689/tasks/338099
+M: Konsulko Group [SEO] | #91: New Contact Form Implementation | https://login.smartsites.com/projects/6158/tasks/344153
+O: Small Business Expo PPL [Website] | #198: Seeker page mobile | https://login.smartsites.com/projects/5114/tasks/345281
+P: Store.TheShowProducers.com [Ad Hoc] | #424: Cart Speed Ideas | https://login.smartsites.com/projects/2821/tasks/334372
+Q: Serene Comfort [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6690/tasks/338149
+R: Instant Background Checks [Homepage Redesign] | #63: Edits 3/5 | https://login.smartsites.com/projects/5971/tasks/343882
+S: Desert Rock Capital [SEO] | #85: Landing Page Estimate | https://login.smartsites.com/projects/6651/tasks/338069
+T: Schwartz Pool [Web - LP] | #2: Landing Page Coding | https://login.smartsites.com/projects/6743/tasks/341707
+U: EscapeWorks Denver [SEO] | #135: fix header formatting on pages | https://login.smartsites.com/projects/4796/tasks/343684
+V: C&J Metals [SEO] | #108: Location Page Design | https://login.smartsites.com/projects/5620/tasks/331836
+W: Kyra Construction [SEO] | #110: New Service Pages | https://login.smartsites.com/projects/6042/tasks/337998
+
+Occupancy for Wednesday 12th March = 6h
++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++
+A: 3PL Center [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/4036/tasks/163929
+B: Casper, Meadows, Schwartz & Cook [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6536/tasks/329118
+C: Serene Comfort [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6690/tasks/338149
+D: Desert Rock Capital [SEO] | #85: Landing Page Estimate | https://login.smartsites.com/projects/6651/tasks/338069
+E: Schwartz Pool [Web - LP] | #2: Landing Page Coding | https://login.smartsites.com/projects/6743/tasks/341707
+F: Kyra Construction [SEO] | #110: New Service Pages | https://login.smartsites.com/projects/6042/tasks/337998
+G: Store.TheShowProducers.com [Ad Hoc] | #424: Cart Speed Ideas | https://login.smartsites.com/projects/2821/tasks/334372
+H: Store.TheShowProducers.com [Ad Hoc] | #436: Product Availability issue | https://login.smartsites.com/projects/2821/tasks/339563
+I: Dublin Unique Dentistry [Web Design] | #60: Landing Page Coding | https://login.smartsites.com/projects/6414/tasks/329721
+J. Honey Do Men [SEO Setup] | #324: Banner Update | https://login.smartsites.com/projects/2467/tasks/345591
+K. Salcidos Concrete Work [PPC] | #34: Setting Up Jivochat on Landing Page | https://login.smartsites.com/projects/6494/tasks/345504
+L. Hit + Run [Website WP] | #73: location pages updates
+M. Octagon [LP] | #7: Landing Page Coding | https://login.smartsites.com/projects/2589/tasks/247055
+N. Eveready Express [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6689/tasks/338099
+O. NJR Home Services [Website:WP] | #167: Coupons | https://login.smartsites.com/projects/3880/tasks/342389
+P. Best Pest Wildlife [PPC] | #34: Website/Landing Page Forms | https://login.smartsites.com/projects/4616/tasks/343613
+Q. Theraworx [SEO] | #99: Mobile Site | https://login.smartsites.com/projects/3936/tasks/345915
+R. Choi Law Firm [SEO] | #143: UX Audit Fixes Part 2 | https://login.smartsites.com/projects/4550/tasks/341654
+S. Best Pest Wildlife [PPC] | #5: Develop LPs | https://login.smartsites.com/projects/4616/tasks/199901
+T. Airway Auto Parts PPC | #10: Develop LPs | https://login.smartsites.com/projects/6625/tasks/334303
+U. Small Business Expo PPL [Website] | #197: QA
+V. Friendly Global | #110: Homepage Header Hover Information | https://login.smartsites.com/projects/5987/tasks/344501	
+
+Occupancy for Friday 14th March = 5h
++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++
+A: Bedrosian [PPC]	| #10: Develop LPs | https://login.smartsites.com/projects/6667/tasks/336908
+B: Small Business Expo PPL [Website] | #198: Seeker page mobile | https://login.smartsites.com/projects/5114/tasks/345281
+C: Best Pest Wildlife [PPC] | #34: Website/Landing Page Forms | https://login.smartsites.com/projects/4616/tasks/343613
+
+Occupancy for Monday 17th March = 4h
++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++
+A. Bedrosian [PPC]	| #10: Develop LPs | https://login.smartsites.com/projects/6667/tasks/336908
+
+Occupancy for Tuesday 18th March = 4h
++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++
+A: Eveready Express [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6689/tasks/338099
+
+Occupancy for Tuesday 19th March = 4h
++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++
+A: Eveready Express [PPC] | #10: Develop LPs | https://login.smartsites.com/projects/6689/tasks/338099

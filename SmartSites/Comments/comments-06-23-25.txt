@@ -1,0 +1,64 @@
+
+As per comment #31,
+
+Re: please proceed with implementing the clarity account for both the english and Spanish sites
+
+The clarity Project ID: q02d08wsjy is implemented for the english and spanish LP
+i. https://thechefsidea.com/en/landing-page/
+SS: https://drive.google.com/file/d/1kRHmx9peiEanIiDKEvcJYI-1SqB_490m/view?usp=sharing
+
+ii. https://thechefsidea.com/es/landing-page/
+SS: https://drive.google.com/file/d/1NVrpEYXfLtLU-utKOalGSRwJrgm_mMbY/view?usp=sharing
+
+Thank You!
+
+===================================================
+
+As per comments #17 - #19,
+
+We've pushed the blog pages live using the provided content. Additionally, we've added a link to the blog page in the footer.
+
+Blog Category,
+Fullpage SS - https://drive.google.com/file/d/1QlGIOuOKRRTL31Ak7bH6Qf16mXItH2Xe/view?usp=sharing
+
+URL,
+https://sanduskymilanrvpark.com/blog/
+
+Blog Individual,
+Fullpage SS (One for example) - https://drive.google.com/file/d/1BVnt1GZorT7Dk_ru9nmu6tKtMdUXVErn/view?usp=sharing
+
+URLs,
+https://sanduskymilanrvpark.com/10-sandusky-milan-rv-park-rules-to-follow-for-a-hassle-free-stay/
+https://sanduskymilanrvpark.com/top-10-rv-park-amenities-that-make-your-stay-more-enjoyable/
+https://sanduskymilanrvpark.com/celebrate-july-4th-in-sandusky-fireworks-festivals-fun-near-our-rv-park/
+
+=========================================================
+
+Post Podcasts and YouTube Videos
+
+According to our task proceeding rules, we do not work on tasks related to the Design Team or any other specific team. Therefore, we have created a new task and will continue our work there: [task link]. Since we have no further work remaining on this task, please proceed to close it. If any work is still pending for the Design Team, kindly assign it to them.
+
+
+==========================================================
+
+As per comment #4,
+
+As mentioned earlier in comment #2, we require complete and detailed information related to the website, including the website URL, CMS access (if CMS), FTP/cPanel/hosting details (if available), and so on.
+
+Kindly fill out the provided Workbook with the correct and complete details. Currently, the Workbook appears to be empty:, https://docs.google.com/spreadsheets/d/1VsmsiEnCyuegQTjhC3Wv39y9Tr6TnD5JPrEtYqgm1uA/edit?gid=966509715#gid=966509715 (see screenshot).
+SS - https://drive.google.com/file/d/1WB7GyGm5BewkFYy-UXjdyepn1Xa0I9vR/view?usp=sharing
+
+
+==============================================================
+
+As per comment #9,
+
+We’re unable to display a popup directly from Mailchimp itself. Typically, the popup needs to be either embedded on a specific page or triggered by integrating Mailchimp with the website.
+
+To proceed with this setup, please provide delegated access to the web@smartsites.com Mailchimp account so we can review the configuration and move forward. Also, kindly confirm whether the popup should appear sitewide or only on a specific page or form.
+
+We noticed that you’ve shared a screenshot showing where the popup should appear. However, we’re currently unsure which exact page the screenshot corresponds to. Could you please clarify this so we can ensure the popup is implemented in the correct location?
+
+Please review and let us know your feedback.
+
+Thank you!

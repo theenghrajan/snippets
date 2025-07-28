@@ -1,0 +1,81 @@
+As per comments #23 - #27,
+
+We've successfully set up the SMTP ID with 'henningsenleads@gmail.com'. The forms are working correctly, and thank you messages are now displaying properly instead of the previous white background issues.
+
+https://lp.atlantapiattorney.com/personal-injury/
+
+Header Form:
+Thank you message ss - https://drive.google.com/file/d/1ObCbBWg5USm3IyLoH2qFgSxccNo-7KZf/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1QdZL2ZinjPpgpGsM8NiJq5sbGewlj1pc/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1p9OXAqkeHqVZjteDzr1egSqP66icaDYM/view?usp=sharing
+
+Footer Form:
+Thank you message ss - https://drive.google.com/file/d/1Cv64BQRE2zEoSPCUa2srBe-IukHYP4uL/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1GkYlpcaq0yTF9EvYzik34saJ46N9m2MC/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1PifyALFBRSzVzG43IMmFlCwcojHQcmJL/view?usp=sharing
+
+https://lp.atlantapiattorney.com/car-accident/
+
+Header Form:
+Thank you message ss - https://drive.google.com/file/d/1GlcY4vJ_gRECia1hhPDYqKsRFwr_YaZh/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1qCsxigmRUztaVSpBlGBu3HNAiwo-7gBn/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1DEcVQSPXYi1LvuYNJjiKKt3CpMyTemGd/view?usp=sharing
+
+Footer Form:
+Thank you message ss - https://drive.google.com/file/d/1uuKACeavqY5_MrFfXUVQ9nstSPqyFITC/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1RoJGfyYg1giTXKtEtzx2a0PyHJOnIjzq/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1c-bw5oAZR2SgHRgC3gfMquieC7H7P8H1/view?usp=sharing
+
+After testing the forms, we've changed the email recipients to 'carmen@atlantapiattorney.com' and CCed 'todd@atlantapiattorney.com' accordingly.
+
+On both pages, we've updated the bottom form to show the same fields as the top form and removed '5-STAR RATED'.
+SS - https://drive.google.com/file/d/1YV-Rsr1w4OyVdJZpUtKIoTBV92CjnC5T/view?usp=sharing
+
+Lastly, we've updated the phone number to 404-835-4935 (hardcoded).
+However, it’s still displaying as 470-865-5525, which appears to be due to the CallRail script overriding the number.
+
+Please confirm if this behavior is expected or if any further updates are needed on our end.
+
+========================================================
+
+
+As per comments #31 - #32,
+
+For the landing page: https://iconjds.com/lp/
+
+1. We have changed the email for the footer to iconshor@iconjds.com.
+SS - https://drive.google.com/file/d/1mMYsrXgrvF17j3iQuku5al95-n8gKZC8/view?usp=sharing
+
+2. We've already updated the admin email subject to: "ICON Triple Slide Rail Sales Special Contact Form" (see screenshot below). Are you requesting to shorten it to "Triple Slide Rail Sales Special" only or any? Please clarify and we will update it.
+SS - https://drive.google.com/file/d/1AmRKL76j0fGeGlYQGGhIeGIbOSYNCzFr/view?usp=sharing
+
+
+==============================================================
+We are currently investigating the issues and will need to examine them thoroughly to gain further insight. Based on our initial review, the problems may be due to plugin conflicts, as some plugins are not updated to their latest versions.
+
+Accordingly, we have shifted the due date to Wednesday, 16th July.
+
+================================================================
+
+As per comment #10,
+
+we've set up a separate dev environment for WordPress and coded the landing page as home page as a static WodPress page template along with the form (using Garvity form - a Wordpress plugin), as per your request. However, please review on new dev site and we will push live accordingly after your approval.
+
+Dev URL:- https://stillwaterdayspa.smartwebsitedesign.com/
+Fullpage SS - https://drive.google.com/file/d/1pk9uEqZA87wrnku9_ch8tarWJZrNvyrP/view?usp=sharing
+
+We've updated the pricing section as per the instructins.
+SS - https://drive.google.com/file/d/1Zf7OkbAbj6eR6SsWbyo7qYQDRiGI79jf/view?usp=sharing
+
+We've checked and confirmed that there's no mentioned of "Massage life center" on the site and updated all the buttons to email  info@stillwaterdayspa.com as mentioned.
+
+=================================
+
+As per comment #33,
+
+On this page: https://essentialsinwriting.com/?page_id=14549&preview=true
+
+We've removed the small "see details and buy" above the "Learn More" button.
+SS - https://drive.google.com/file/d/1JAN0zESrtkl5lTsEBweN3Xdx5OUKuztm/view?usp=sharing
+
+Apologies for the confusion, we are working on the buy button features as per live page: https://essentialsinwriting.com/scoring-service/ to add product to the shopping cart and will provide an update by Wednesday, 16th July.

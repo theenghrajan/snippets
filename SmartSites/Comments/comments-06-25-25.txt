@@ -1,0 +1,228 @@
+As per comment #17,
+
+Re: please hold off for now and I will update this tomorrow with further instructions.
+>> Sure, please reassign the task to us once you’ve updated it with further instructions. We’ll proceed accordingly.
+
+Scoring Services
+
+Let Essentials in Writing take the scoring burden off your mind! Our Scoring Team includes a variety of qualified individuals who have been rigorously interviewed and tested before being invited to the team, and they are ready to take the burden of grading compositions away from you.
+
+As per comments #11,
+
+Re: In the Charter page, please include the following content on the section marked in the picture below:
+....
+>> Updated as per the instructions.
+SS - https://drive.google.com/file/d/1L5pyDHkpyl8suDyX-0iPA6ySIHJ828KU/view?usp=sharing
+URL:- https://essentialsinwriting.com/?page_id=14450
+
+Re: Please also include an additional box to the "we offer" section in both dyslexia and charter pages (Center boxes) for "Scoring Services" (Use icon attached)
+>> We've currently updated the icon image (colored grey) as attached. Please confirm if this good to go.
+SS - https://drive.google.com/file/d/12MxKB3wwAiGFxx0ScxI-_b2Wxg8LxhUs/view?usp=sharing
+URL:- https://essentialsinwriting.com/?page_id=14450
+
+However, to maintain consistency with the other icons (which are blue), please provide a blue version of the image. We attempted to convert the current image to blue, but the result appeared blurry (see screenshot below).
+SS - https://drive.google.com/file/d/1-ULxgy07slbs4zGE_fTTw7B5jPcOmiiZ/view?usp=sharing
+
+Additionally, we're also a bit unclear on the instructions. Should the 'We Offer' section from Charter page also be added to the Dyslexia page? If so, please confirm the exact placement.
+
+Re: For the Dyslexia page, the tabs are still closed. Please have ALL open by default.
+>> We've updated the tabs to be open by default for all.
+SS - https://drive.google.com/file/d/1viM1SRI7ET0D_v2oLSb3crtvZtLco5vi/view?usp=sharing
+URL:- https://essentialsinwriting.com/?page_id=14623
+
+Notes: The pages are still in DRAFT mode for review.
+
+======================================================================
+
+As per the task descriptions,
+
+For the landing page:- https://www.romanfountains.com/lp/
+
+We have developed and published the landing page as per the task: https://login.smartsites.com/projects/5628/tasks/267637.
+
+The page was published live on June 20th, 2024, as noted in comment #21, and we’ve proceeded with the necessary updates accordingly.
+
+Please let us know if you have any questions or if additional information is required regarding the above.
+
+=======================================================================
+
+As per the task descriptions,
+
+We updated the page on dev site for your review,
+Fullpage SS - https://drive.google.com/file/d/18c0RDoga9cAUZ7UPSVc1Ke_da6eITzV6/view?usp=sharing
+
+URL:- https://gentleshepherdhc.smartwebsitedesign.com/podcasts-and-videos/
+
+
+Areas Served Page Design
+
+Implement the areas served pages per the exportables provided below:-
+
+G Drive Link
+https://drive.google.com/drive/folders/16jhhnALEUNdDdhak5D-y0vF4CqQWcJ2n
+
+Exportable Figma Link
+https://www.figma.com/design/yw4vXdOHSAfJfXvhw3rSXr/-93_-Areas-Served-Page-Design--FED-?node-id=14033-168&m=dev
+
+And the content for each page from the folder here, https://drive.google.com/drive/u/0/folders/1rI-Z-zwQ4gsQphWcOpzxRf3-fba5Rvf5?
+
+
+According to our task proceeding rules, we do not work on tasks related to the Design Team or any other specific team. Therefore, we have created a new task and will continue our work there: https://login.smartsites.com/projects/6748/tasks/374162. Since we have no further work remaining on this task, please proceed to close it. If any work is still pending for the Design Team, kindly assign it to them.
+
+[contact-form-7 id="e393fe3" title="Contact Form"]
+
+yo form chai sticky button contact form ho
+
+=========================================================
+
+As per comment #2,
+
+In point 4, you've mentioned that the landing page should be done in HTML (if this can be coded on Unbounce). Please confirm which approach we should follow based on the process below, and provide us with detailed instructions accordingly. Once we receive confirmation, we’ll proceed with the landing page development using the appropriate method and update other provided details accordingly, based on what's feasible.
+
+For Unbounce Landing Page:
+--------------------------
+1. Since Unbounce is a self-hosted platform, we’re unable to host a custom HTML landing page directly on it.
+
+2. We require delegate access to Unbounce via web@smartsites.com. Since Unbounce doesn't support custom HTML coding, we'll need to use its native page builder. This limits customization options, meaning we’ll only be able to work within the default builder features, including for forms. Therefore, we will be restricted to the default features without the ability to make extensive customizations, and as a result, we may not be able to fully match the current design provided.
+
+3. As Unbounce is a new platform for us, we will need to spend time researching and familiarizing ourselves with it. This will likely result in approximately 2.5x more working hours compared to our usual process.
+
+4. FYI: We may not be able to add the CallRail snippet as provided in Unbounce. We will look into this further, but at this point, we cannot confirm whether it will be possible.
+
+
+For HTML Landing Page:
+-----------------------
+1. We require hosting access to complete the landing page in HTML. While we currently have CMS access only.
+
+2. Once received, we'll begin development and provide updates on dev for your review. After approval, we'll publish the landing page live under the folder's names personal-injury-attorney-atlanta and car-accident-attorney-atlanta (e.g., atlantapiattorney.com/personal-injury-attorney-atlanta and atlantapiattorney.com/car-accident-attorney-atlanta as mentioned).
+
+
+For CMS (WordPress + Elementor or WordPress + Custom) Landing Page:
+---------------------------------------------
+1. Since the site, https://www.atlantapiattorney.com/, is built on WordPress, and Elementor plugin is installed as well. If we proceed with building the landing page within the CMS, here are the available options:
+
+a. If the landing page is to be built using Elementor, we require CMS access, which we already have via Passbolt upon checking.
+SS - https://drive.google.com/file/d/19Ak5HvikG6bJAv4XEY7pTJ4tMpMJIxnB/view?usp=sharing
+
+b. Once confirmed, we will develop the page in DRAFT mode in live for your review and confirm with you before publishing it live.
+
+c. However, upon review, we noticed that the site is currently usingthe  free version of Elementor, and Elementor Pro is not installed as well. This limits customization options, and we may not be able to fully match with the design.
+SS - https://drive.google.com/file/d/1q9NrR1mph9hk5dKeBaOHg8vmtIdhj4my/view?usp=sharing
+
+4. Additionally, it appears that most of the pages on the site are not built using Elementor but are instead custom-coded. Since the current active theme is developed by another agency, we will need hosting access to review the theme structure at the code level. This will help us align our new custom landing pages appropriately. 
+
+5. Optionally, we can also make the landing page content editable (dynamic) through WordPress, but this will require additional working hours.
+
+Notes: 
+
+Please provide necessary access details (FTP/cPanel/Hosting/domain) on a separate task, https://login.smartsites.com/projects/7145/tasks/370007, so we can check in detail to launch the landing page smoothly.
+
+For optimal landing page performance, we recommend providing a video link from a streaming platform such as YouTube, Vimeo, or similar (if available), rather than a direct video file. This approach ensures faster load times and better compatibility across devices.
+
+
+
+
+
+
+
+Re: HTML should work. Can you see if this can be coded on unbounce?
+>> It can be done in Unbounce, but due to certain restrictions, it won't match exactly with the original design. Also, we can't create our own custom form — we can only implement the form what is on Unbounce's default form layout. So we will prefer the custom HTML for that.....
+
+Re:  Should this landing page be developed on the live site or dev site? ->Dev Site
+>> Noted
+
+Re: Where should Call To Action buttons lead to? What is the action of them? ->all should lead to the main contact form
+>> Noted
+
+Re: Popup text provided if any for blocks and their popups - none
+>> Noted
+
+Re: Thank You Message - "Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+>> Noted, we will update the thank you message as provided.
+
+Re: Social Media Links
+>> Noted, we will updated as provided.
+
+Re: Testimonials 
+>> We will update it according to the provided content.
+
+Re: Landing page development
+>> We will proceed the landing page coding with custom HTML and develop on dev site for your review.
+
+Re: Live logins
+>> Please open the "#4: Access for Landing Page"(https://login.smartsites.com/projects/7145/tasks/370007) and provide the hosting details for the LP there.
+
+
+======================================
+
+As per comment #3 -#4,
+
+Re: We suggest to have floating CTA that can make users easier to take action without scrolling to the bottom.
+>> What kind of floating CTA are you looking for exactly? Please provide a sample design or reference for clarity.
+
+Re: We also suggest to expand service pages (adding service page) for high cpc keywords ie. payday loans utah.
+>> Please confirm if the requirement is related to adding a page and including it under the Services navigation. If yes, please provide us with the content to proceed further. If not, please provide details about the requirement.
+
+Re: Optimize the homepage on site seo for the exact keyword "loans for bad credit utah" that is more popular for more potential organic traffic.
+>> Kindly provide us with the details/contents that needs to be updated for the Homepage (Meta description, Title, H1 Tags)
+
+As in comment #21,
+
+Re: More importantly, the case studies for VIKINGS, LEXUS PORSCHE are still wrong.
+
+Please review the doc below provided in comment #4, and ensure all changes done.
+
+https://docs.google.com/document/d/1B6JyWJXIEERpVXRwkIJnk3hlr0gHMHKQ-z6r7b693mI/edit?tab=t.0
+
+case studies for VIKINGS
+>> Case study type for Vikings is wrong (it's the Can AM copy) but photos are fine.
+Suggestions: It seems content needs to updated as per the Can AM (But where should we find content for the Can AM, please proceed with asking PM to provide it, if needed).
+
+case studies for LEXUS
+Suggestions: It seems to related with content update as well, please proceed with asking PM about the content.
+
+case studies for PORSCHE
+>> Also this PORSCHE photos and body copy are wrong...it's for an old case study for Nordstroms.
+Suggestions: It seems to related with content update as well  and need to update as per an old case study for Nordstroms (but where we can find this content), please proceed with asking PM to provide it.
+
+>> The headline for the LA KINGS case study page incorrectly says "Bandanas" please make that say LA KINGS
+Suggestions: It seems this is not updated, please proceed with updating it.
+SS - https://drive.google.com/file/d/1sVC7XSQAr_FexG6dj0FxLKc7wZ-eoWAi/view?usp=sharing
+
+
+==========================================
+As per comment #19,
+
+Since you've mentioned that the landing page should also be implemented via WordPress so that it aligns with the rest of their site. Please confirm which approach we should follow based on the process below, and provide us with detailed instructions accordingly. Once we receive confirmation, we’ll proceed with the appropriate method and publish the landing page.
+
+For HTML Landing Page:
+
+Now we’re able to host a custom HTML landing page on the domain and proceed with publishing the landing page live. For that, we will be creating the folder name fighting-for-you and uploading HTML files there (e.g., https://www.yampaglia-law.com/fighting-for-you as mentioned).
+
+For CMS (WordPress) landing page:
+
+If the landing page is to be published in WordPress CMS with the same URL as above, i.e., https://www.yampaglia-law.com/fighting-for-you, we need to convert the custom HTML landing page into WordPress and create a page for it, along with updating the form to Gravity Form accordingly. But this will require additional working hours, approx 2 to 4 hours
+
+Optionally, we can also make the landing page content editable (dynamic) through WordPress, but this will also require additional working hours, approx 8 to 10 hours.
+
+============================================
+
+As per comment #2,
+
+We encountered issues when editing pages, as they were taking like forever to load. After troubleshooting, we identified the 'CDN Enabler' plugin as the root cause and have temporarily disabled it on dev site to resolve the issue.
+
+Currently, we've updated new pages URLs in Column AH of the New Website Plan for your review. We're currently working on the remaining pages and will provide further updates by Wednesday, 2nd July.
+
+Workbook - New Website Plan: https://docs.google.com/spreadsheets/d/1jH-2HpPVmpM_-C1OHOw07ZzZugy4wesvllrEWgfkbpw/edit?gid=406948056#gid=406948056
+
+Please let us know if you have any questions or require additional information in the meantime.
+
+
+
+
+
+
+
+
+
+

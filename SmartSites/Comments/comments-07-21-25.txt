@@ -1,0 +1,84 @@
+As per comment #2,
+
+For the site: https://allianceonellc.com/ regarding mobile navigation:
+
+We've fixed the visibility issues with the menu icons on mobile, specifically on the homepage only.
+Before SS - https://drive.google.com/file/d/18ZU9nFrku5uOhFNqSu2MJ5GvqD7kNo6d/view?usp=sharing
+After SS - https://drive.google.com/file/d/1BpcI2ENUlTA6RKhXvIZ0qJ73dZBhWp1v/view?usp=sharing
+
+Let us know your feedback.
+
+====================================================
+
+As per comment #14,
+
+We've updated the on-site SEO (New Titles and New Meta Description) as provided in the New Website Plan (see https://login.smartsites.com/projects/6748/tasks/365032 #5) from row 122 - 141:
+https://docs.google.com/spreadsheets/d/1wMln2kJcblbDTPtSrOfMXopjTTtiHZvY2bCjuObvN0U/edit?gid=1350102557#gid=1350102557
+
+In addition, we've updated the "Workbook - Content Implementation QA" accordingly:
+https://docs.google.com/spreadsheets/d/1wMln2kJcblbDTPtSrOfMXopjTTtiHZvY2bCjuObvN0U/edit?gid=1872197384#gid=1872197384
+
+Let us know your feedback.
+
+====================================================
+
+As per comment #3,
+
+For the site: https://www.justbunkbeds.com/ regarding social media:
+
+We've used the existing logo for Instagram and linked it to the provided URL: https://www.instagram.com/justbunkbeds/ 
+Additionally, we've added a new "X" (formally Twitter) icon.
+SS - https://drive.google.com/file/d/1QgS6vnd_zX-LyaJXkW478pfvmt__DJy_/view?usp=sharing
+
+Let us know your feedback.
+
+========================================================
+
+As per the task descriptions,
+
+We've added the email "dash@nexumgroupinc.com" to receive form submissions and tested form on all mentioned pages as they are working fine as well.
+
+For the page - https://nexumgroupinc.com/request-a-quote/ regarding form recipient:
+Thank you page ss - https://drive.google.com/file/d/1zXYAdyNYbm9KVZVCQdE6TCgKP2UbXnY3/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1AxDg6SO8OAqKS9mVxnD0ozfRnY63JBpU/view?usp=sharing
+
+For the page - https://nexumgroupinc.com/submit-an-account/ regarding form:
+Confirmation page ss - https://drive.google.com/file/d/1L8uzec0J4xMHVEY4JyvKLPuIpsBSCgbZ/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1CJm_csESW0VWemOCYqgWrfJNfbHrjaQZ/view?usp=sharing
+
+For the homepage - https://nexumgroupinc.com/ regarding form recipient:
+Thank you page ss - https://drive.google.com/file/d/1rvEXJmLzRbpR24sGfIt0SHY6TCwPNm0S/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1HuXmw_lNwlFxXuKh8kj5GQ8Oqsh744qj/view?usp=sharing
+
+Let us know your feedback.
+
+============================================================
+
+Regarding 'Area Served' section:
+We're bit unclear with the response with only "Yes". Could you please confirm if we should proceed with making the section interactive? 
+
+As we understand, the likely intended functionalities be:
+- When a user clicks on a state in the list on the right, the corresponding on the map gets highlighted.
+- Likewise, clicking a state on the map highlights the respective state in the list.
+
+In the meantime, we will proceed with development on the dev site for your review and provides updates by Wednesday 23rd July.
+
+==============================================================
+
+Thank you message ss - https://drive.google.com/file/d/1ZTEt5Q9emSMzMBY5TOr39Xyr2u2FfRuK/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1rTcaqrZIfUelfgYTLNaOJnputYlRhWm5/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1KiQAqRNsKs8P3X2MihFkeYOGnAZ9ggqi/view?usp=sharing
+
+
+
+
+
+
+
+
+
+
+
+
+
+

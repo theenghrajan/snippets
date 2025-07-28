@@ -1,0 +1,109 @@
+As per the task descriptions and reference task: https://login.smartsites.com/projects/6639/tasks/374080 ,
+
+We noticed that the, Areas Served pages (parent and child) details are not updated in the 'New Website Plan', https://docs.google.com/spreadsheets/d/1ppE2g7IteGUOpD1Z4Qkzb61QCnUK9CrDudNtMGMGSfU/edit?gid=406948056#gid=406948056. 
+
+Please update the sheet with the necessary details such as (if available):
+- Focus Keyword
+- Title and Meta Descriptions. 
+
+As per the provided design/content, there are 9 location pages:-
+1. Calabasas, CA
+2. Camarillo, CA
+3. Hidden Valley, CA
+4. Lake Sherwood, CA
+5. Moorpark, CA
+6. Newbury Park, CA
+7. Oak Park, CA
+8. Oxnard, CA
+9. Thousand Oaks, CA
+
+We will be publishing them on live once completed with URL format as follow. However, please let us know if they should follow any other specific formats:-
+Area We Serve (Parent Page)
+1. https://ghostshieldfilm.com/area-we-serve
+
+Optimized URL Structure for Area We Serve (Individual Pages)
+https://ghostshieldfilm.com/area-we-serve/camarillo-ca  
+https://ghostshieldfilm.com/area-we-serve/hidden-valley-ca  
+https://ghostshieldfilm.com/area-we-serve/lake-sherwood-ca  
+https://ghostshieldfilm.com/area-we-serve/moorpark-ca  
+https://ghostshieldfilm.com/area-we-serve/newbury-park-ca  
+https://ghostshieldfilm.com/area-we-serve/oak-park-ca  
+https://ghostshieldfilm.com/area-we-serve/oxnard-ca  
+https://ghostshieldfilm.com/area-we-serve/thousand-oaks-ca 
+
+Development Notes & Queries:
+
+1. Page Design & Content
+There's only one design in the figma file (for Calabasas, CA). We will reuse the same layout for the remaining locations and populate the content based on the text provided in the task - comment #1: https://login.smartsites.com/projects/6639/tasks/374080. 
+
+However, we also require images (if they need to be updated/changed) on other location pages. The G-Drive also have the images as per the design.
+SS - https://drive.google.com/file/d/1Wlrx1Jmqo8PM8tKujzn82lDwVit3HBxJ/view?usp=sharing
+
+2. Buttons Behavior:
+We assume that the ‘Learn More’ buttons under the ‘Locations We Serve’ section should link to their corresponding individual location pages. 
+Please confirm this and let us know where the other buttons should lead to?
+
+Timeline & Process
+- We will proceed with development on the dev site for your review.
+- Once approved, we’ll push the pages live and submit them for Google indexing.
+Estimated timeline: 14 – 16 hours
+
+Notes:- Since the site is built on Elementor, we’ll be working within its limitations. We’ll notify you of any platform constraints or issues we encounter during the build.
+Please confirm the above details so we can begin development.
+
+=====================================
+
+As per comment #27,
+
+For this Page: https://essentialsinwriting.com/?page_id=14678&preview=true
+
+The scoring services CTAs are correctly placed and showing fine. If you're not seeing them correctly, please try clearing your browser cache or try hard reload. 
+
+We've already cleared the WP engine cache on the admin, and CTAs are showing correctly on our end across mulitple browsers as well (please see screenshots below):-
+Chrome SS - https://drive.google.com/file/d/1J2b8_EQfMBwdM-jg1haCmXrNZMDWbPae/view?usp=sharing
+Safari SS - https://drive.google.com/file/d/107YAZNDq58Z_GYFvDL-_nVNjMD-6H7TD/view?usp=sharing  
+Firefox SS : https://drive.google.com/file/d/1xjzrOia6At2yxCy55rlWSa8TDKe2ZbsH/view?usp=sharing
+
+==========================================
+As per comment #82,
+
+The cpanel login credentials for the landing pages have been changed and currently mentioned in the Workbook are not working. We've requested the network admin to reset them. We’ll proceed once we receive the updated credentials.
+
+For now, we've shifted due date to Friday, 11th July.
+
+============================================
+
+As per comment #82,
+
+Email Forwarding Update:
+We've updated the sarah@tfglaw.com to admin2@tfglaw.com. Emails will now be received at admin2@tfglaw.com (sarah@tfglaw.com will no longer receive them).
+Before SS - https://drive.google.com/file/d/1cnX7-zemTCTUZn_jB8UWV0Ot_Mm4yvkE/view
+After SS - https://drive.google.com/file/d/1i5J_mXeT9gVR91gcK0lWDwO1MCeQq-72/view?usp=sharing
+
+Notes: Email forwarding lists are only updated to the landing pages, not the main site. Please inform us if they should be updated on the main site as well.
+
+Google Reviews Issue:
+Re: Why do the CODE landing pages pull direct reviews from Google but not from the PPC landing page?
+>> Should all the CODE landing pages display the same Google reviews (manually added) as the PPC landing page?
+
+Re: All websites and landing pages should be pulling reviews from the client's Google Reviews/GMB.
+>> Or, are you requesting dynamic Google reviews to be shown for all the website and landing pages?
+
+Main Site: https://tfglaw.com/
+
+Landing Pages:
+https://lp.tfglaw.com/ppc/
+https://lp.tfglaw.com/code-2/
+https://lp.tfglaw.com/code-9/
+https://lp.tfglaw.com/code-12/
+https://lp.tfglaw.com/code-13/
+
+Dynamic Google Reviews Setup:
+To proceed with this, Google Maps API billing must be enabled: https://developers.google.com/maps/documentation/javascript/cloud-setup#billing
+
+Charges will not apply as long as you stay within the monthly free quota. You can find details here: https://developers.google.com/maps/documentation/javascript/cloud-setup
+
+Please enable billing using the account noreplytfglaw@gmail.com (currently used for SMTP) and inform us. If you prefer to use another Google account, we will need login access and may require 2FA coordination to ensure proper setup.
+
+Let us know how you'd like to proceed.
+

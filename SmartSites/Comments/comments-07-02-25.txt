@@ -1,0 +1,222 @@
+As per comment #2,
+
+For the landing page:- https://cyclonewellness.com/
+
+Re: 1. Onsite SEO check - Double check page title, header and meta descriptions
+>>  We’ve only updated the page title to “Cyclone Wellness.” Please let us know if the title, header, and meta description should also be updated.
+SS - https://drive.google.com/file/d/17NHH9_BcMs1ETholYBZHV-hK1KB0Vwk3/view?usp=sharing
+
+>> As per our understanding the LPs are created specifically for the PPC campaigns and are not intended to be indexed by Google/Search. Could you please confirm if the requirement to index and list the LPs on Google Search? 
+
+Re: 2. SMTP check - Make sure the SMTP is set up properly.
+>> We've checked and confirmed that SMTP is set up properly with ID 'cyclonewellnessleads@gmail.com'. Also tested the form as it is working fine (see screenshots below),
+Thank you message ss -  https://drive.google.com/file/d/1Gwe2AQch0Xv9BClYB1ISpQecSDeUoTXR/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/17aUkpBHyCvM4ylYJzYnNIbg0vPLONC-T/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1Tjum7FqHUoXwxFpZKEuFbRYz3didsViC/view?usp=sharing 
+
+After testing the form, we've changed the email recipients back to 'info@cyclonewellness.com' .
+
+Re: 3. Form Testing Check - Test all forms for validation errors.
+>> We've tested form validation errors and confirmed the fields, First Name, Last Name, Email and Phone are require implemented reCAPTCHA and Honeypot.
+SS - https://drive.google.com/file/d/1-u5rwKn6Zwg2Te7kSs-0yfZaCKrzGQDv/view?usp=sharing 
+
+Re: 4. Dialogtech Number Check - Make sure the PPC Dialogtech number is working.
+>> The PPC phone number 254-651-3175 (Created by the IBM Team) is hardcoded on the site. FED has been only hardcoding the trackable number for the landing pages hosted under /lp or separate subdomain. 
+
+However, in current scenario, as the LP is hosted on main domain, and the numbers is displayed for overall users (Whether organic or direct or paid). Thus, the ppc trackable number won't function properly, as its purpose is to display specific for the paid (id=ppc) campaigns
+
+For such cases (In scenario where the Landing page is hosted on main domain), we have been adding the original number on the site. And, later when FED team is assigned tasks: https://login.smartsites.com/projects/6984/tasks/359108 or https://login.smartsites.com/projects/6984/tasks/359115, the trackable numbers are then configured for the site using the tracking script provided by the Backend Dev Team (Displayed specific for id=ppc => User’s visitors arriving on the site through paid ppc campaigns => Ads Campaign needs to include id=ppc parameter)
+
+Thus, we suggest placing the original number on the site and display such number specific for Ads Campaign / id=ppc users. Please advice
+
+Re: 5. Page Speed Check - run the site through a page speed analysis to ensure the page is running optimally.
+>> We have conducted a page speed analysis of the site and ensured that the page is running optimally.
+SS(Desktop): https://drive.google.com/file/d/1TA4Ic97kvtLPJUGEfjQQZEM4Fh0KrA6n/view?usp=sharing 
+SS(Mobile): https://drive.google.com/file/d/1Bz8NgDcfceOqOpP6XZtv14RzO_j7VuL7/view?usp=sharing
+
+We have checked all the points you have mentioned in the comment #2. If there are any other points from the task descriptions that also need to be checked, please let us know.
+
+===========================================================
+
+As per comments #9 - #10,
+
+Once you get the necessary hosting access details from the client, please provide them on a separate task, https://login.smartsites.com/projects/7145/tasks/370007, so we can check in detail to ensure a smooth launch.
+
+After you task assigned back to us, we will then proceed with WordPress dynamic custom page template and inform you of the due date for completion.
+
+In the meantime, you can view our progress on custom HTML without forms below:-
+
+Atlanta Personal Injury Lawyer
+Fullpage SS - https://drive.google.com/file/d/1LGiMaZ_C3NkIuYKha1hCbDcXTLORh_Xd/view?usp=sharing
+Dev URL - https://frontend.smartwebsitedesign.com/lp-henningsen-injury-attorneys/personal-injury-attorney-atlanta/
+
+Atlanta Car Accident Injury Lawyer
+Fullpage SS - https://drive.google.com/file/d/19qrh-pw4QB2WnWGs9Rc4iswY_Ki4fV20/view?usp=sharing
+Dev URL:- https://frontend.smartwebsitedesign.com/lp-henningsen-injury-attorneys/car-accident-attorney-atlanta/
+
+==================================================================
+
+We've updated the Areas Served page on DRAFT mode. Please review the page layout if we are good to proceed with content updates as provided in the task descriptions for other pages.
+
+Fullpage SS - https://drive.google.com/file/d/1T0zIGxcL0MTpKqRu6m5ohX6VXi1HW9Ah/view?usp=sharing
+DRAFT link:- https://nationramps.com/?page_id=6171&preview=true
+
+Notes: In order to preview draft link, make sure your're logged in via admin.
+
+Since we couldn’t find any details regarding the Areas Served pages in the Website Plan, please provide the necessary information for these pages — including:
+- Page struture level
+- URL format (if there's a specific structure to follow)
+- Title and meta descriptions and others necessary details.
+
+Website plan sheet:-
+https://docs.google.com/spreadsheets/d/1wMln2kJcblbDTPtSrOfMXopjTTtiHZvY2bCjuObvN0U/edit?gid=406948056#gid=406948056
+
+Should all Areas Served pages be under any parent or category level page? If yes, we also require design mockup or reference for the category page layout. If no, we will proceed with updating each page as an independent standalone page.
+
+========================================================================
+
+As per comment #2,
+
+Since you've mentioned that this will be a WordPress site, whereas the domain, http://stillwaterdayspa.com/, is currently only registered on IONOS and not yet hosted, we’d like to confirm the following before proceeding:
+
+Are we developing the landing page from scratch, or is there any other existing website we’ll be working with?
+You’ve mentioned to go ahead and code this on a test site and migrate it once live access is available. Please confirm if we can proceed with custom-coded development. For CMS (WordPress + Custom code), we will require FTP/cPanel/hosting or file manager level access to publish them live.
+
+Currently, there is no dedicated test/dev space available. To ensure a smooth workflow, we recommend setting up a separate development environment before pushing changes live. We suggest opening a separate task for this setup.
+
+Additionally, we can make the landing page content editable (dynamic) using WordPress. However, this will require additional working hours. Please confirm if CMS editing functionality is required for the landing page.
+
+We’d like to confirm the following information as well before proceeding with development:
+
+1. Email Recipient
+You mentioned the form will be submitted to an "info@" address. We require the full and valid email address for form submissions.
+SS - https://drive.google.com/file/d/1OxFXkWRPRM5JVn5e9Kp0i6B3pHJda7Ba/view?usp=sharing
+
+2. SMTP Email Setup
+We also require SMTP Email ID. Please add the credentials to the following Passbolt Folder, https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7, with 2FA turned on via TOTP (This is the email address that forms will send to the client - Demonstration video, https://app.fireflies.ai/view/PPC-Landing-Page-SMTP::01JN71SEVN92FW0W25EJBJZ7H7). Please ensure FED PM has edit access and FED has read access as well.
+
+3. Form Integrations
+Does the form have any special functionality or is to be fetched from a third party? Any integrations needed?
+
+4. Thank You Message
+We will be updating the following default Thank You Message after form submission:
+"Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+Please let us know if there's a specific thank you message to follow.
+
+5. Testimonials
+We'll include the testimonials as in the design for now, please include a document/list of testimonials to include on the landing page if they should be updated/added.
+
+6. Landing Page URL and Indexing
+What URL should be used for the landing page?
+Should it be placed on the main domain, http://stillwaterdayspa.com/?
+As per our understanding, the LPs are created specifically for the PPC campaigns and are not meant to be indexed by Google/Search Engines.
+Could you please confirm if the requirement is to index or keep hidden from search results?
+
+7. Any Other Info
+Is there any other information that you think might be useful for us to know?
+
+===============================================================
+
+We've published the custom HTML landing page live at https://iconjds.com/lp/.
+Fullpage SS - https://drive.google.com/file/d/10L46s9e71G3bLTUAi4yYN49Mqo6ADkyx/view?usp=sharing
+
+Anchor URLs,
+https://iconjds.com/lp/#about-us 
+https://iconjds.com/lp/#product-overview 
+https://iconjds.com/lp/#our-services 
+https://iconjds.com/lp/#product 
+https://iconjds.com/lp/#gallery 
+https://iconjds.com/lp/#contact 
+
+We've tested the form (SMTP ID icondistributorsmtp@gmail.com) and it is working fine (see screenshots below),
+
+Header form
+Thank you message ss - https://drive.google.com/file/d/1i1UXAj24oSPSx4jLfiU6xNMxHKtS8Dow/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1Ld9OYsHfk9WcHUPV6GKp-cmKy5AV9n__/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1PCUh0BcHD2T6D13zF2E8XnS0RdM_BkFJ/view?usp=sharing
+
+Footer form
+Thank you message ss - https://drive.google.com/file/d/1lDKbIZSCTK_JPUhyr_YGbQZcn7f3WVRP/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/111IYwWE7w2o9x9RpQkVdr8ODFND3Nzjy/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1FHolYjzMnma85lkvas6X5WKxj9UhRVkk/view?usp=sharing
+
+After testing the form, we've changed the email recipient to 'm.florendo7@gmail.com' as mentioned in comment #1.
+
+We've also implemented form validation (valid Phone Number, Email Contains @ in it) and add SPAM controls (reCAPTCHA, Honeypot, CSRF, Referrers).
+
+1. Form validation (valid Phone Number, Email Contains @ in it)
+SS - https://drive.google.com/file/d/11i_47P4dsdosHstuDBrYYZdxMiGuePnm/view?usp=sharing
+
+2. SPAM controls
+a. Honeypot Field
+By adding a hidden field to the form (e.g., ) that humans won’t fill in.
+On the server side, we have checked if this field has a value. If it does, it’s likely a bot and we have discard the submission.
+If this is filled, it will display "spam detected" and will prevent the form submission.
+SS - https://drive.google.com/file/d/17TmvifPIt80ktTKXofF-2HYS8UYN4qD_/view?usp=sharing
+
+b. Session or Token-Based Validation
+Used CSRF tokens to ensure that the request originated from a trusted source. By generating a unique token on form load, store it in the session, and verify it upon submission. If it does not match, we have discard the submission.
+SS - https://drive.google.com/file/d/1Z4K1B1wW8_FPV22BN0oZgEk0hQvQsLg-/view?usp=sharing
+
+c. Restrict Allowed Referrers
+Checked the HTTP referrer header to ensure that the form submission originates from the LP URL and not another. If it does not match with the LP URL, we have discard the submission.
+SS - https://drive.google.com/file/d/1REKoxqJTg_hi7o6BbriWFjWMQHPL9rfG/view?usp=sharing
+
+d. Google Re-captcha
+We have added server-side validation for the captcha field.
+SS - https://drive.google.com/file/d/1V-UWnSkTKkAqir0uMDSbxXbJbN7UltG2/view?usp=sharing
+
+
+===================================================
+
+As per comment #61,
+
+For the landing page:- https://www.escapeworksdenver.com/lp/
+
+Re: Can you please remove kolbe@smartsites.com from the form submissions?
+>> We have removed kolbe@smartsites.com from the form submissions and currently only 'escapeworks@0pportunities.com' remains, which we believe was added by the client earlier (as we've mentioned in comment #37 as well). Please verify with the client that this email address is correct and valid.
+SS:https://drive.google.com/file/d/1Ngj8MreWNjRPjyQuA7l2QNGY80PE_8WL/view?usp=sharing
+
+======================================================
+
+We've updated the new page URLs in Column AH of the New Website Plan for your review, please see sheet below:
+
+Workbook - New Website Plan: https://docs.google.com/spreadsheets/d/1jH-2HpPVmpM_-C1OHOw07ZzZugy4wesvllrEWgfkbpw/edit?gid=406948056#gid=406948056
+
+
+=============================================================
+
+As per comment #21,
+
+For the landing page:- https://messinaacupuncture.org/lp/
+
+Re: Can you please remove kolbe@smartsites.com from the form submissions?
+>> We have removed kolbe@smartsites.com from the form submissions and currently email recipients are 'danielm@messinaacupuncture.org' and 'Frontdesk@messinaacupuncture.org' (CCed) respectively.
+SS - https://drive.google.com/file/d/1kht594Wbll6dhlXIjSsEyeqX7YPrRgz1/view?usp=sharing
+
+We have also updated the password for the WP admin and added it in the passbolt as well.
+SS - https://drive.google.com/file/d/1txoOFuv3upFShsghWppxA1cy_ONJ3gPJ/view?usp=sharing
+
+Additionally, we’ve tested the forms and they are working fine (see screenshots below).
+
+Header Form,
+Thank you message SS - https://drive.google.com/file/d/1k4hElS9hYii57bhNTckX-zxv18IQToHq/view
+Admin email SS -  https://drive.google.com/file/d/1tDgW8WhCGMhKbCUEuOUuO-WqffPLYUcp/view?usp=sharing 
+
+Footer form,
+Thank you message SS - https://drive.google.com/file/d/1Win_03l8sp4wxHHTjZ1tAcOmm8zgjBLJ/view?usp=sharing
+Admin email SS:  https://drive.google.com/file/d/1TTfujq17KYReP8lPwrDQb6E7x-_iKyoM/view?usp=sharing 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

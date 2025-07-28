@@ -1,0 +1,30 @@
+As per comment #17,
+
+HTML vs WordPress Approach
+We'll proceed with the HTML implementation for the landing page and form development. This avoids the overhead of WordPress setup (themes/plugins/configurations) and saves significant development time. We can always migrate to WordPress later if needed, but HTML delivers the fastest solution for now.
+
+We will update HTML form in the landing page and update you on dev site for your review by Monday, 7th July. Therefore, we have set the due date accordingly.
+
+Salesforce Integration
+To keep things organized, could you please create a separate task specifically for the Salesforce integration and include the necessary login/access details there? Once that’s in place, we can review and begin the integration accordingly.
+
+Ticket:
+
+Title: Salesforce Integration for HTML Form
+Due Date: N/A
+
+Description:
+Integrate HTML form with client's Salesforce per PM. Can you provide a due date for this?
+
+=======================================================================
+
+As per comment #3,
+
+We've added the page with the title "Podcasts and Videos" in the navigation. Similarly, we've added a title "Watch our YouTube Videos" right after "Gentle Shepherd Home Care". Please review on dev site for now and inform us if any updates necessary. Lastly, please confirm if we should push the page live at https://www.gentleshepherdhomecare.com/podcasts-and-videos/?
+
+Dev URL,
+https://gentleshepherdhc.smartwebsitedesign.com/podcasts-and-videos/
+
+Screenshots,
+https://drive.google.com/file/d/1Qgicd9IUoemkNgRIbQPSgP6uhSfs17yA/view?usp=sharing
+https://drive.google.com/file/d/1UsdIkc8afPv-9whBMHy_rCUbG5jdk-Ia/view?usp=sharing

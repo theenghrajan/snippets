@@ -1,0 +1,49 @@
+As per comment #9,
+
+We will review the design in comment #8 and provide further insights on its feasibility in Squarespace by Friday, 18th July.
+
+===================================
+
+As per comment #1,
+
+We've centered the 4 boxes under "Featured Categories" on the homepage: https://www.justbunkbeds.com/
+SS - https://drive.google.com/file/d/1YJwCvJrAXR7AFGA_vfUT0IwhlauJ387o/view?usp=sharing
+
+Please review and let us know of any further updates.
+
+======================================
+
+We initially suspected the issue might be related to caching, so we cleared all caches and tested again but it doesn’t appear to be a cache-related issue.
+
+Next, we checked whether the WP Rocket settings might be causing the problem. We adjusted the settings and tested again, but that wasn’t the cause either.
+
+Since many plugins on the site are outdated, we updated them in our local environment and tested but even after updating, the issue still wasn't resolved. However, we couldn’t update the WPBakery plugin locally because it’s a pro version. And since the site is built using WPBakery, the issue may be related to that. Updating WPBakery might help resolve it.
+
+Can we go ahead and update the WPBakery plugin directly on the live site?
+
+Also, to take a proper backup, please grant us delegate access to WP Engine, as we currently do not have access to the site on WP Engine.
+
+============================================
+
+Apologies for any confusion that might've caused by our previous comment (#3) regarding the Squarespace note.
+
+Upon further review, we've realized that the current dev site is built on custom WordPress, (which we initially missed) whereas the live site is on Squarespace. Based on this, we understand that the redesign and development of the Industries We Serve inner pages should proceed on the WordPress dev site. 
+
+We'll begin the coding on the dev site for your review.
+
+Please find our estimation for the development on the dev site below. Kindly onfirm to proceed:
+HTML = 20 hours
+WP Development = 10 - 12 hours
+Content = 1 - 2 hours
+===========================
+Total = 31 - 34 hours
+
+
+=================================================
+
+In addition to comment #35,
+
+We are inprogress with the Buy Now button features to add/view to the shopping cart as per the live page: https://essentialsinwriting.com/scoring-service/, as we need to look into this further and set the due date to tomorrow, Thursday 17th July.
+
+Apologies for any inconvenience this might've caused.
+

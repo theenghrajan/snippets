@@ -1,0 +1,165 @@
+===========================
+
+As per comment #8,
+
+You can do it yourself, if possible. Please add to the folder, 'PPC Landing Pages' (screenshot below) and ensure FED PM has owner access and FED has read access.
+SS - https://drive.google.com/file/d/1sOBc34oggB1wpcItwFrNW6Hqjg0MEnpF/view?usp=sharing 
+
+You can also follow the video tutorial here: https://www.youtube.com/watch?v=JPGgMvxi_Rw to add the email in the Passbolt folder via TOTP. You need to add the generated QR code after enabling 2FA. Additionally, you can follow this doc (link below) as well.
+https://docs.google.com/document/d/1WZ-XdmjUi5pMav1kyQPvt5xjMmd8CRvpNCwh1aLOtTw/edit?usp=sharing
+
+We are in progress with the task, so we will provide you with an update on Thursday, 5th June as confirmed.
+
+================================
+
+As per comment #8,
+
+Re: Please update the Conversion Code for the phone number as needed
+>> We updated the conversion action: Calls from website (Under GTM Container) based on the newly updated number.
+Calls from Website
+Conversion ID: 10891657076, Conversion label: diMDCMrA4s8aEPT-xcko
+Screenshot: https://drive.google.com/file/d/1seZSya9a1bTzrhJh-YWKTHNmfapo41vv/view?usp=sharing
+
+Re: Please make both forms have the same fields 
+...
+We've updated both forms have the same fields, required fields (Full Name, Phone Number and Email) and not required fields (Address and Message).
+Header form SS - https://drive.google.com/file/d/15a6oygSF_83pV188vS_LaveAKidn8QYG/view?usp=sharing
+Footer form SS - https://drive.google.com/file/d/1Q-3RBytRO8_xYUbTy7W8cvQmklb7igsm/view?usp=sharing
+
+We've also tested the forms and they are working fine as well, (see screenshots below).
+Header Form,
+Thank you message ss: https://drive.google.com/file/d/1Oxxd5L3TM3L1995sCCicUxPbxlEERPN4/view?usp=sharing
+Admin email ss: https://drive.google.com/file/d/1WFitEZiYM7fnNYTrWRvnm5ft9BGAEgE7/view?usp=sharing
+User email ss: https://drive.google.com/file/d/1aiYEyHUWaQrG-D_xMzb1SOcNp-KM7Z-Z/view?usp=sharing
+
+Footer Form,
+Thank you message ss: https://drive.google.com/file/d/1hJXeXaNMjXl_l-3r1IApvcDG5zY0hfl8/view?usp=sharing
+Admin email ss: https://drive.google.com/file/d/1Nt21NxB61hg341-NXwAfaQIPAHYL9PBO/view?usp=sharing
+User email ss: https://drive.google.com/file/d/1WOF3CVAxoZzLjD5a7bKkjhqhFkk2B8ZE/view?usp=sharing
+
+After testing the forms, we've changed the email recipient back to 'megan@cmmechanicalhvac.net'.
+
+==================================
+As per comment #3,
+
+Re: Please remove subject from the bottom form and then they will be good.
+>> We have removed subject from the bottom form 
+SS: https://drive.google.com/file/d/1CRHQXN5w8lNnxYiA4EEC4HuWCmp-TaZH/view?usp=sharing
+
+We've also tested the form and it is working fine as well, (see screenshots below).
+Thank you message ss: https://drive.google.com/file/d/1_iblEEUucj0Nv7Nz_49yO6M6bvg0xSEy/view?usp=sharing
+Admin Email ss: https://drive.google.com/file/d/1pJizBPsPNQSat3MjPe9wnlbn6v36ny2k/view?usp=sharing
+User Email ss: https://drive.google.com/file/d/19VdxPbFpMO1eBdhuo1h1c9TA5IxWgLWz/view?usp=sharing
+
+After testing the form, we've changed the email recipient back to 'sales@extremedecksflorida.com'.
+
+=======================================
+
+As per comment #5,
+
+Re: Can you please create a screenrecording for this ASAP?
+>> Since the Hompepage carousel is custom coded, we need to update CSS custom accordingly. Please follow the screen recording below after you are logged into the Bigcommerce. Please ensure to click 'Save & apply file' once changes have been done.
+Screen recording:- https://drive.google.com/file/d/1sMm37OXch69shPsS4LYW79YDGOcMs74N/view?usp=sharing
+
+Here's the SCSS theme files path to change the carousel button color: /assets/scss/layouts/custom/_custom.scss
+
+==========================================
+
+Project: Frontier Physical Medicine
+Task: #40: Develop LPs
+Task link: https://login.smartsites.com/projects/6693/tasks/361803
+Due date: Today.
+
+As per comments #1 - #3,
+
+We have updated the custom HTML landing page on dev for review as per the design: https://www.figma.com/design/Q6W2Eq8nePWQo9JsyOrmVm/-40_-Develop-LPs?node-id=7989-3&m=dev.
+Full Page SS: https://drive.google.com/file/d/1y0Nk8cDN13udQP4wnlR3mMdZSuaY5bwh/view?usp=sharing
+Dev URL: https://frontend.smartwebsitedesign.com/lp-frontier-physical-medicine/v2/
+
+Re: (727) 777-6615
+>> We've updated the phone number on the landing page.
+
+Re: Email Recipient of the form -> dirk@frontierphysicalmedicine.com
+>> We are currently on the development phase, we will only update it once the landing page is live.
+
+Re: Call to action should lead to form
+>> We've linked all Call to action to the form at the top.
+
+Re: SMTP
+>> Please confirm on the following part of the comment form #3.
+"We require details for the SMTP email address - preferred Gmail account, only email name is not enough. Please add it to the passbolt folder here: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7 with 2FA turned on via TOTP - (This is the email address that forms will send to the client) - Demonstration video: https://app.fireflies.ai/view/PPC-Landing-Page-SMTP::01JN71SEVN92FW0W25EJBJZ7H7"
+
+Re: Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call (727) 777-6615
+>> We've updated the thank you message accordingly. Currently, there is form submission issues due to SMTP issues, please see last point Re: Form submission.
+
+Re: Footer form
+>> There's a form in the footer titled "Subscribe to our news letter." Should this form have any subscription feature, if so then please provide detailed information.
+SS: https://drive.google.com/file/d/1ectVbm75xN2qihmJ2_IGAsD8k2zEG9RK/view?usp=sharing
+
+Re: Content
+Please provide the content for the 'Why Should You Choose Us' accordion section. We've currently placed dummy text as a placeholder.
+SS: https://drive.google.com/file/d/13U71PhYK6pzZmi_YWHlpJVz9luPn0JKs/view?usp=sharing
+
+Re: Form submission
+>> We are currently using our development Gmail account as the SMTP ID. However, it seems that the quota limit has been reached, causing a form submission issue. Please provide us the new SMTP ID and add the account to the Passbolt folder with 2FA turned on via TOTP.
+SS: https://drive.google.com/file/d/1wQqWTQ5nDYVlmR8aaiKaLE4OTZ5s-TWH/view?usp=sharing
+
+
+Project: Frontier Physical Medicine
+Task: #34: Develop LPs
+Task link: https://login.smartsites.com/projects/6693/tasks/361797
+Due date: Today.
+
+As per comments #1 - #3,
+
+We have updated the custom HTML landing page on dev for review as per the design: https://www.figma.com/design/WCk6HIWolbkifuwH3IzX7k/-34_-Develop-LPs?node-id=7870-15&m=dev.
+Full Page SS: https://drive.google.com/file/d/13xPLEcPFpaShTIj16ihkZL-u3bbckjGc/view?usp=sharing
+Dev URL: https://frontend.smartwebsitedesign.com/lp-frontier-physical-medicine/v1/
+
+Re: (727) 777-6615
+>> We've updated the phone number on the landing page.
+
+Re: Email Recipient of the form -> dirk@frontierphysicalmedicine.com
+>> We are currently on the development phase, we will only update it once the landing page is live.
+
+Re: Call to action should lead to form
+>> We've linked all Call to action to the form at the bottom.
+
+Re: SMTP
+>> Please confirm on the following part of the comment form #3.
+"We require details for the SMTP email address - preferred Gmail account, only email name is not enough. Please add it to the passbolt folder here: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7 with 2FA turned on via TOTP - (This is the email address that forms will send to the client) - Demonstration video: https://app.fireflies.ai/view/PPC-Landing-Page-SMTP::01JN71SEVN92FW0W25EJBJZ7H7"
+
+Re: Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call (727) 777-6615
+>> We've updated the thank you message accordingly. Currently, there is form submission issues due to SMTP issues, please see last point Re: Form submission.
+
+Re: Footer email form
+>> There's a form in the footer titled "Subscribe to our news letter." Should this form have any subscription feature, if so then please provide detailed information.
+SS: https://drive.google.com/file/d/1ectVbm75xN2qihmJ2_IGAsD8k2zEG9RK/view?usp=sharing
+
+Re: Form submission
+>> We are currently using our development Gmail account as the SMTP ID. However, it seems that the quota limit has been reached, causing a form submission issue. Please provide us the new SMTP ID and add the account to the Passbolt folder with 2FA turned on via TOTP.
+SS: https://drive.google.com/file/d/1qdpSy1AmCmsFAJ_gqcDmsdzdsykoZEyc/view?usp=sharing
+
+=========================================
+
+As per the task descriptions ,
+
+We've separated the footer section titles as mentioned into two lines in the dev site for your review.
+SS - https://drive.google.com/file/d/1dgFI2D01JUv8p-j9zQHkg38pPovUy_Ik/view?usp=sharing
+
+Dev URLs, 
+https://bergenlaw.smartwebsitedesign.com/
+
+==========================================
+
+As per the task descriptions,
+
+We've checked the page on different screen sizes and browsers and as per our deeper check, we need to make some adjustments on the different screen sizes (specifically on tabs i.e ipad variations). Therefore, we've updated on the staging site for your review. Please review and confirm, if we can push live.
+
+Before SS - https://drive.google.com/file/d/1x08JaxbY3SXK3Q4cKsGH2LlPwS09lmPi/view?usp=sharing
+After SS - https://drive.google.com/file/d/1y3ndRLyJr36MYKmgbiMbw9E70zz6PBAA/view?usp=sharing
+
+Staging URL,
+https://thrive-tech-website.webflow.io/register-for-free-v3
+
+

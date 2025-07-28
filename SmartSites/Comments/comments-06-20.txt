@@ -1,0 +1,114 @@
+
+In addition to comment #14,
+
+We've updated the form validation and submission part as well. Also tested the form, as they are working fine as well.
+Fullpage ss - https://drive.google.com/file/d/1zs3Q9_YJwEYOpCa533B_yY2CUX_KvUjI/view?usp=sharing
+
+Updated the subject lines to "Triple Slide Rail Sales Special" as mentioned (see screenshots below).
+Thank you message ss - https://drive.google.com/file/d/1WJAHsP4rFldSzbz0tZ0defvoQUDQw3al/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1C_BukdbXMaCus51NfCn0oEBq8MzVa8hM/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1irYI7VQbmb3npa4k3VOoG_y8mjEEfVvB/view?usp=sharing
+
+Since, we're still on development phase, we've set the email to 'frontend@smartsites.com' for testing purposes. We will change it to 'd.crandall@iconjds.com' and install reCAPTCHA/Honeypot once the landing page is live.
+
+
+Search: 
+
+clarity ko laagi haami kei implement gareko chaina
+
+Develop Lps sanga related queries bhayena ani separate task khol
+haami clear pani bhayenam
+
+As per comments #28 - #29,
+
+Re: 
+Please remove the pasta dish from the middle.
+Spanish version: "Contacta con nosotras" doesn't sound good. Change it to "contáctanos."
+>> We've removed the pasta dish and updated 'Contáctanos' on Spanish version.
+SS - https://drive.google.com/file/d/1RVcQSYUTOiVl7OCnLgjhdNbELRO3v70E/view?usp=sharing
+SS - https://drive.google.com/file/d/1FOAN1ZOHyHXzOuXLYQcwLHIZ11-Zokra/view?usp=sharing
+
+Re: I'm trying to search for The chefs idea using Google search, and I don't appear to be able to find it.
+>> We are unclear with the mentioned requirement so could you please elaborate more? Kindly confirm if the requirement is about listing the LPs on the Google Search? As per our understanding the LPs are created specific for the PPC Campaigns, and they are not indexed on Google / Search. 
+
+Re: Also the Clarity software is currently tracking only the Spanish version. Please configure the english site to track
+>> Apologies. However, we haven't configured Clarity for the LPs yet. FED only set up the clarity for the main site as per the task: https://login.smartsites.com/projects/6058/tasks/331160. So kindly confirm if we need to implement the same clarity account for both LPs (English and Spanish Version)
+
+
+
+As per comment #2,
+
+For the landing page:- https://elixensusa.com/
+
+Re: 1. Social Media Icon check - Make sure all link to the correct social media pages N/A
+>> Not updated as social media are not implemented on the landing page.
+
+Re: 2. Onsite SEO check - Double check page title, header and meta descriptions
+>> We've udpated the page title as 'Elixens America'.
+SS - https://drive.google.com/file/d/1g5mbOnmTDdHeIIgurnClemjOV5qw2uUU/view?usp=sharing
+
+>> However as per our understanding, the LPs are created specific for the PPC Campaigns, and they are not indexed on Google/Search. Kindly confirm if the requirement is about listing the LP on the Google Search or need to index on Google?
+
+Re: 3. SMTP check - Make sure the SMTP is set up properly.
+>> We've checked and confirmed that SMTP is set up properly with ID 'elixensusaleads@gmail.com"'. Also tested the form as it is working fine (see screenshots below),
+Thank you message ss -  https://drive.google.com/file/d/1UFKnNmhWExAcgtsKnQZKK7BYLYn6_Hi8/view?usp=sharing 
+Admin email ss -
+User email ss -
+
+After testing the form, we've changed the email recipients back to 'info@elixensamerica.com' and CCed 'sales@elixensamerica.com'.
+
+Re: 4. Form Testing Check - Test all forms for validation errors.
+>> We've tested form validation errors and confirmed the fields, First Name, Last Name, Email and Phone are require.
+SS - https://drive.google.com/file/d/1q7U-qhEpgBROq-kHWrSVoyAUECdctA46/view?usp=sharing
+
+@Design Team
+
+Please provide an exportable Figma link for the following design:
+https://www.figma.com/proto/J3dWaiLNVJcOMemNTeAtXG/-97--Post-Podcasts-and-YouTube-Videos?page-id=14058%3A2&node-id=14058-3&viewport=479%2C236%2C0.21&t=W2b5imX2aI1P5AvP-1&scaling=scale-down-width&content-scaling=fixed
+
+Also, please ensure that Dev Mode is enabled to sanzin@smartsites.com so we can access all necessary assets for development.
+
+Currently, we do not have Dev Mode access.
+SS - https://drive.google.com/file/d/1giBAtFEKKynopro6zYoOQG6hBYjBSK2_/view?usp=sharing
+
+
+============================================
+
+Re: Replace node-sass: NPM package with sass or sass-embed  package.
+We need to test first, fix breaking changes (leagacy code, for ex:- many @import/s), update build tools and so on. We won’t know all issues until we try and implement.
+
+node-sass Replacement - Tests Needed 
+
+We need to review and tested before being finalized.
+
+main kuro bhaneko maintain or remove (unused or blank) ko kuro chan dherai jaso cha yo majjale review garna parcha jastai
+
+migrate from node-sass -> sass or sass-embedded kochai test garnai parcha dherai leagcy code haru cha update garna parcha
+
+Common Drawbacks and Issues haru huncha
+- Syntax & Feature Differences
+- Dependency Conflicts
+- Inconsistent Output
+- Build Tooling Adjustments
+
+Need to ensure QA testing is done on:
+- Layout changes
+- Sass error handling
+- Source map integrity
+- Critical class outputs
+
+We are currently in the process of pushing the blog page live and will be able to provide you with updates by Monday, 23rd June. Accordingly, we have adjusted the due date.
+
+Additionally, we have updated the two blogs and images mentioned in comment #19 on the live site. Please confirm if we should publish all the posts currently on the dev site to live as well, so we can proceed with updating them accordingly.
+
+
+
+In addition to comment #6,
+
+We have updated the homepage on dev site for your review, please review and confirm. Therefore, we will proceed with live push accordingly.
+Fullpage ss - https://drive.google.com/file/d/1d5N1JTpOMipwFXwDh_8cIz8GBmVOP3HU/view?usp=sharing
+
+Dev URL,
+https://essentialsin.smartwebsitedesign.com/
+
+

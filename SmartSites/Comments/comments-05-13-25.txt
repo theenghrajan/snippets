@@ -1,0 +1,100 @@
+Due date - Today, May 12
+Task Link - https://login.smartsites.com//projects/6922/tasks/354943
+Task Title - #14: Develop Landing Page
+Project Title - Partners For Life [PPC]
+
+As per comment #22,
+
+We've removed the block, 'Substance Abuse Therapy'.
+Before SS - https://drive.google.com/file/d/15h1FTkIsEfX-ncNw0TXnX_7dCn15P9oX/view?usp=sharing
+After SS - https://drive.google.com/file/d/1ZmoeCQ8VDsd7ZgICoA2GbqJRbh3n1zo5/view?usp=sharing
+
+URL,
+https://partnersforlifetherapy.com/lp/
+
+==================================================================================================
+==================================================================================================
+
+Due date - Due date requested to Wed, May 21, according to pipeline
+Task Link - https://login.smartsites.com/projects/6226/tasks/363469
+Task Title - #97: Develop Location Page Optimizations
+Project Title - KC Asphalt [SEO]
+
+As per comment #3,
+
+We will proceed with a location page under Kansas and provide updates on dev site for your review, and once reviewed we will then create all location pages as per the New Website Plan: https://docs.google.com/spreadsheets/d/1VmQe6Q-lhm0V8DNc6QQyip0LE1NBl7Prk-vUtKOE4rc/edit?gid=406948056#gid=406948056.
+
+Currently, the design: https://www.figma.com/design/T8DVisfS3iWYSgq4K7sVFO/-96_-Location-Page-Optimizations--FED-?node-id=3702-2&p=f&m=dev has content related to Blue Springs (Missouri). Please provide content/images for each location pages as well.
+
+We've set the due date to Wednesday, 21st May for the updates.
+
+==================================================================================================
+==================================================================================================
+
+Due date - Due date requested to Wed, May 21, according to pipeline
+Task Link - https://login.smartsites.com//projects/5210/tasks/362823
+Task Title - #128: Emails HTML
+Project Title - grades.com
+
+In addition to comment #4,
+
+We have estimated approximately 16 to 20 hours to complete the static HTML email template based on the provided design in comment #3. We set the due date for Wednesday, 21st May, according to our project pipeline.
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 12
+Task Link - https://login.smartsites.com/projects/6955/tasks/363837
+Task Title - #89: Develop location pages
+Project Title - Michael Robert Construction [SEO]
+
+We will inform you the due date for completion on the dev site once the dev environment is configured by Wednesday, 14th May. Reference task: https://login.smartsites.com/projects/6955/tasks/357035 is done.
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 12
+Task Link - https://login.smartsites.com/projects/3719/tasks/145688
+Task Title - #10: Develop LPs
+Project Title - Arnica Heating & Air Conditioning
+
+As per comment #47,
+
+We have set up SMTP ID with 'Leads@arnicahvac.com' and tested the forms; they are working fine.
+
+Header Form,
+Thank you message SS - https://drive.google.com/file/d/14xeile1r8tbuKkwsSb5kw5QonXsKOgS1/view?usp=sharing
+Admin email SS - https://drive.google.com/file/d/1QTzg-DCIvoYgF2KNr8ykmrrvC8OhlncV/view?usp=sharing
+User email SS - https://drive.google.com/file/d/1zyTURqhZeLXV_LieVP7f6DiAPZC6wurV/view?usp=sharing
+
+Footer Form,
+Thank you message SS - https://drive.google.com/file/d/1H8_boWqqfIyr1I7vaaN6BGdW2vvN9syJ/view?usp=sharing
+Admin email SS - https://drive.google.com/file/d/1sUmTGPZqSVOMSAqbDXd5dga4-phv2Qge/view?usp=sharing
+User email SS - https://drive.google.com/file/d/1rSG4F_x9YvZsT9ditO3I2p84fv11bnev/view?usp=sharing
+
+After testing the forms, we've changed the email to 'arnicahvac@gmail.com'.
+
+URL,
+https://arnicaheatingandair.com/lp/
+
+wallyward2@gmail.com, alicia@neothink.io, customerservice@neothink.com
+
+We've published the home live.
+URL:- https://neothink.com/
+
+Currently, the form submissions are going to SPAM folder in the mail box. So we need to setup SMTP to ensure continuous mail delivery using the SMTP plugin (free version link: https://wordpress.org/plugins/wp-mail-smtp/) and it is not coming to SPAM.
+SS - https://drive.google.com/file/d/11fsW-BPVHDuXSc0ZcHLYTDxl4-yBUbnH/view?usp=sharing
+
+Could you please confirm if we can configure SMTP on the site? If so, please provide us with the credentials for the client's Google account. Additionally, if the clients uses email service other than Google, such as Amazon, Microsoft, or Zoho, we need to purchase the pro version(Pricing link: https://wpmailsmtp.com/pricing/). 
+
+We've tested the forms and they submitting but coming in the SPAM and after testing the forms, we've the email email recipients to 'wallyward2@gmail.com', and CCed 'alicia@neothink.io', 'customerservice@neothink.com' as they were for previous form (WPform).
+
+
+
+We're unable to simply duplicate the current location page we built using the edit page settings as we researched there isn't exactly a way to clone the web pages but only copy the HTML of the page from the editor and then paste that in a new pages.
+
+However, we've used native page builder and HTML both so we are unable to duplicate the builder part so we required additional time to recreate the builder parts on other pages. We will update and inform you by Wednesday, 14th May and have set the due date accordingly.
+
+We’ve found that it’s not possible to directly duplicate the current location page using the "Edit Page" settings, as there’s no built-in option to clone entire web pages. The only available method is to manually copy the HTML from the editor and paste it into a new page.
+
+Since the page was built using a combination of the native page builder and custom HTML, we’re unable to replicate the builder components through this method alone. As a result, additional time is needed to manually recreate those builder elements on the new pages. We will update and inform you by Wednesday, 14th May and have set the due date accordingly.

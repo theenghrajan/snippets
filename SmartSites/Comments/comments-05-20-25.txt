@@ -1,0 +1,86 @@
+Due date - Today, May 20
+Task Link - https://login.smartsites.com/projects/7005/tasks/364722
+Task Title - #84: Website Change
+Project Title - Just Bunk Beds [SEO]
+
+As per comment #3,
+
+We've spent 1h 15m of working hours for reviewing and coding. Since the website is built on BigCommerce, a platform we're not very familiar with - the review process took an additional hour.
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 20
+Task Link - https://login.smartsites.com/projects/6689/tasks/365116
+Task Title - #41: Thank You Message - Top Form Update
+Project Title - Eveready Express [PPC]
+
+As per the task description,
+
+For the landing page:- https://evereadyexpress.com/lp/
+
+We have updated the "thank you message" on the top form as provided.
+SS - https://drive.google.com/file/d/15Wc-vw7NLvM1SQCFargkCvWi3pZYFHuS/view?usp=sharing
+
+Similarly, the thank you message has been kept as it is for the footer form.
+SS - https://drive.google.com/file/d/1QrvxE05LwRc5pVY46azLyQZyG_nia4PS/view?usp=sharing
+
+
+Please check.
+
+Thank you.
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 20
+Task Link - https://login.smartsites.com/projects/7025/tasks/361965
+Task Title - Task #14:#14: Develop Landing Page
+Project Title - C&M Mechanical HVAC [PPC]
+
+We've updated the changes ss per comment #11, please review.
+
+Before SS - https://drive.google.com/file/d/1A9CAFgC14kwrHdjOzkTQHa1oizWhHxQd/view?usp=sharing
+After SS - https://drive.google.com/file/d/1q4w2bVVYoteco01hWzdJuhaCIBX-Cw89/view?usp=sharing
+
+Dev URL,
+https://frontend.smartwebsitedesign.com/lp-cm-mechanical/
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 20
+Task Link - https://login.smartsites.com/projects/6733/tasks/340715
+Task Title - Hogue Landscape Services [PPC]
+Project Title - Hogue Landscape Services [PPC]
+
+As per comments #16 - #17,
+
+We've updated the titles as mentioned (see screenshots below).
+https://drive.google.com/file/d/1PaxRqPTXhsvl0F_5oalqW1xkDWzpWOg_/view?usp=sharing
+https://drive.google.com/file/d/1_f_tBp19oKsfnT79hrjieYvK5EgHsKdj/view?usp=sharing
+
+As per comment #19,
+
+Re: Can I also get confirmation that click to call tracking is also set up?
+>> Based on the task: https://login.smartsites.com/projects/6733/tasks/340713, the FED team is only assigned tracking for the main site only. To set up the standard Google Ads Tracking for the LP, kindly create a separate task with the necessary conversion details to set up tracking.
+
+Re: Can we also make sure that ?id=ppc tracking is set up for the invoca number here?
+>> As per the Develops LP workflow, the PPC trackable numbers are hardcoded for the LPs (Since it's only focused for the PPC/Ads Campaign).
+
+However, based on the task: https://login.smartsites.com/projects/6733/tasks/340706, the PPC trackable number isn't created/generated for the site/LP yet. 
+
+Since the trackable numbers are created (As per the requirement) by the IBM end, please reach out to the IBM team to create a PPC trackable number (If needed), and provide the phone number details to place on the LP.
+
+As per comments #18 and #20,
+
+We've undo the changes to the floating header only (not to be sticky for now), if you would like undo all the changes including headlines as well, please inform us as we've added the headlines linking to the respective sections below and removed the info@hoguels.com email from the top as well.
+Additionally, the color of "Give Us A Call" in the top left is updated to white as well.
+SS - https://drive.google.com/file/d/1fvzsQo-ZLYk6VcSsVAYyQYy8T9VrvRGF/view?usp=sharing
+
+URL,
+https://hoguelandscape.com/lp/
+
+         
+
+

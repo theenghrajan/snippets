@@ -1,0 +1,107 @@
+As per comments  #8 - #9,
+
+We've implemented content and updated the images as per figma link (comment #1) for the following pages:-
+
+Area We Serve pages (Individual):
+1. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/north-carolina/
+2. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/idaho/
+3. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/pennsylvania/
+4. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/west-virginia/
+5. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/georgia/
+6. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/california/
+7. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/massachusetts/
+8. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/ohio/
+9. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/iowa/
+10. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/south-carolina/
+
+FAQ pages:
+1. https://zerowastesoltion.smartwebsitedesign.com/faqs-category/pricing-packages/
+2. https://zerowastesoltion.smartwebsitedesign.com/faqs-category/recycling-programs/
+3. https://zerowastesoltion.smartwebsitedesign.com/faqs-category/our-services/
+4. https://zerowastesoltion.smartwebsitedesign.com/faqs-category/how-to-get-started/
+
+Notes:
+We’ve added all the content that aligns with the provided design. For sections where the content didn’t fit the design layout, we included it in a new section as shown in the screenshot below.
+SS - https://drive.google.com/file/d/1uf_qtNyoU21WzDYZuVMn-bnu5NGBSDKP/view?usp=sharing
+
+Please review and let us know your suggestions on content placement so we can align it more closely with the design or kindly provide a content roadmap for better direction moving forward.
+
+Let us know your feedback.
+
+===============================================
+
+As per the task descriptions,
+
+We will proceed with the coding of the layout for location pages, as per the figma link on dev site for your review and only push live after your approval. We've set the due date to Wednesday 30th July for updates.
+
+Our estimation for the coding:
+HTML = 5 - 6 hours
+WP = 3 - 4 hours
+++++++++++++++++
+Total = 8 - 10 hours
+
+Let us know your feedback.
+
+===============================================
+
+As per comment #2,
+
+Since the website: https://www.sama.com/ is built on Webflow, should the landing page also be done in Webflow? Based on our understanding, it should be, so we’ll proceed accordingly.
+
+Please note that we'll be working within Webflow's platform limitations and may not be able to fully replicate the provided design. We'll keep you informed of any constraints or issues we encounter during the development process.
+
+Landing Page URL
+You’ve suggested the URL: https://www.sama.com/get-started
+This will only be possible if the landing page is created in Webflow, as /get-started is under the main domain.
+FYI, since Webflow is a self-hosted platform, we cannot use custom HTML directly unless we work within Webflow.
+
+Form Functionality
+Form features will be limited to what Webflow natively supports. Advanced customization or third-party integrations may be restricted.
+
+Header & Footer:
+Please note that both the header and footer are sitewide in Webflow. Any changes to these elements will affect the entire website. 
+
+Kindly confirm if we should proceed with the landing page development in Webflow based on the above.
+
+=======================================
+
+Regarding Youtube iframe video:
+Technically, it is going full-width on the reduced fix height (as you've requested).
+SS - https://drive.google.com/file/d/1W1XL8g9JoLRQCldKS9rJpg1D5rmsUWLC/view?usp=sharing
+
+If this is fine and good to go then let us know. If you want to avoid the black background on the both side of video (see screenshot 1) then video must need its porpational height to go flexible and show full video (see screenshot 2)
+SS 1 - https://drive.google.com/file/d/1OVhOxBXWdkG5Tc4wmcUU-W1pyEZRhaz1/view?usp=sharing
+SS 2 - https://drive.google.com/file/d/18hg_rbwnqkjHcyFYOBzsCPAm5sHFMyqk/view?usp=sharing
+
+Please let us know your feedback and which option you want go with as we can only go for these two options for now.
+
+========================================================
+
+Regarding Youtube iframe video:
+
+Technically the banner videos fills the full width while maintaining the fixed height you requested (60vh).
+
+However, as you've seen in the screenshots:
+The video appears with black bars on both sides, because the YouTube video maintains its 16:9 aspect ratio and doesn't crop or stretch to fill a non-proportional container.
+SS - https://drive.google.com/file/d/1OVhOxBXWdkG5Tc4wmcUU-W1pyEZRhaz1/view?usp=sharing
+
+If we let the video container keep its natural 16:9 aspect ratio, the black bars are gone, and the full video is shown — but the section height becomes flexible, depending on screen size.
+SS - https://drive.google.com/file/d/18hg_rbwnqkjHcyFYOBzsCPAm5sHFMyqk/view?usp=sharing
+
+Your Options:
+
+Option 1: Fixed Height (60vh) + Black Bars
+- Keeps a fixed, controlled layout height
+- Ensures consistent hero size across devices
+- Video may show black space on the sides (due to letterboxing)
+
+Option 2: Proportional Height (Flexible) + No Black Bars
+- Video height adjusts automatically to preserve full visibility
+- Maintains the natural 16:9 ratio without cropping
+- Hero section becomes variable in height depending on device
+
+Recommendation
+If maintaining a strict hero height (60vh) is more important for your layout, Option 1 works well.
+If your priority is to show the full video without cropping or black bars, then Option 2 is the better fit.
+
+Let us know which direction you'd prefer, and we’ll proceed accordingly.

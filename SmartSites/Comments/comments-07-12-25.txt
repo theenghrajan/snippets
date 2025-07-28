@@ -1,0 +1,97 @@
+As per comment #28,
+
+We've now access to the Siteground and updated the landing page on live.
+
+Landing page is up and running at https://iconjds.com/lp/
+Fullpage ss - https://drive.google.com/file/d/18NL7dEOsTdnLUER1-dq61IgDZmlSCPJD/view?usp=sharing
+
+We've tested the form (SMTP ID icondistributorsmtp@gmail.com) and it is working fine (see screenshots below),
+
+Thank you message ss - https://drive.google.com/file/d/1F4xrjqdmXYizmbDjXAYlwAb7ERn3j6jC/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1A1GP_NjtPvqTq3F2hrK6WS8zHTe-0ks0/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1JbebCxgufJMZSUOzh4NiKTIyqz8qDS2Y/view?usp=sharing
+
+After testing the form, we've changed the email recipient to 'd.crandall@iconjds.com' as mentioned.
+
+=======================================================
+
+As per comment #19,
+
+Regarding your request for a time estimation to create new pages, We want to provide a tentative outlook based on the Design Team's recent audit and their recommendations for a full redesign of our existing pages.
+
+The design team identified several issues with the current pages, including oversized sections, misaligned elements, and a lack of modern design. They have proposed two main approaches for addressing these issues:
+
+1. Full Redesign Approach
+2. Alternative Approach - Focusing on Specific Issues
+
+Tentative Estimation for New Page Creation:
+
+While the above estimates are for redesigning existing pages, we understand you need a rough estimation for creating entirely new pages. Since no designs are currently available for these new pages, we must provide a preliminary estimate based on what we consider a "normal" new page with standard layouts and functionalities.
+
+>> New Homepage Development: Estimated 16-18 hours. A homepage is typically the most complex page, involving unique layouts, diverse content sections, advanced interactive elements, and critical integrations. Without designs, this is a broad estimate to cover the foundational structure and initial component integration.
+
+>> New Subpages Development: Estimated 4-8 hours per page. 
+
+>> Homepage Revamp: Estimated 4-6 hours.
+
+>> Inner Pages: Estimated 2-4 hours per page.
+
+Important Considerations for New Pages:
+
+This is a highly tentative estimate as we do not have specific designs or detailed requirements yet. The actual time needed will vary significantly once the final designs are provided.
+
+More complex or "fancy" designs that involve unique layouts, or intricate interactive elements will naturally require additional development time, and the estimation will increase accordingly.
+
+To provide a more accurate estimation for new pages, we recommend finalizing the design scope and complexity. Once designs are ready, we can refine our time estimates.
+
+Please let us know which of the two redesign approaches the design team intends to pursue, and we can then discuss the specific requirements for new pages further.
+
+Notes:- Since the site is built on Elementor, we’ll be working within its limitations. We’ll notify you of any platform constraints or issues we encounter during the build.
+
+==============================================================
+
+As per comments #24 - #27,
+
+
+
+=============================================================
+
+As per comments #7 - #8, 
+
+We will proceed with setting up a separate dev environment, and proceed with the updates provided. Additionally, hosting access have been checked and confirmed in the task: https://login.smartsites.com/projects/7135/tasks/369265.
+
+Currently, we've set the due date to Wednesday, 16th July for WordPress conversion for the static HTML in dev site along with the mentioned changes.
+
+
+======================================
+
+As per comments #23 - #27,
+
+We have setup SMTP ID with 'henningsenleads@gmail.com' and tested the form; and we're having issues again. We need to look into further and shifted the due date to Monday, 14th July for updates.
+
+However, we've updated the following changes as mentioned:
+
+1. We've updated the both forms to show the same fields and removed '5-Star Rated'.
+SS - https://drive.google.com/file/d/1ThTtR63Mj_J78j22ag9tY9mEH25HtLWz/view?usp=sharing
+
+2. Changed the phone number on both to 404-835-4935.
+SS - We've changed the phone number on both to 404-835-4935
+
+3. Will update the thank you to 'Thank you for contacting Henningsen Injury Attorneys. We will respond shortly!' once we resolved the issues with the forms.
+
+Car Accident - Header Form:
+Thank You Message ss -  
+Admin Email ss - 
+User Email ss -
+
+Car Accident - Footer Form:
+Thank You Message ss - 
+Admin Email ss -
+User Email ss -
+
+After testing the forms, we have switched the email recipients back to 'carmen@atlantapiattorney.com' and CCed 'todd@atlantapiattorney.com'.
+
+
+4048354935
+404-835-4935
+

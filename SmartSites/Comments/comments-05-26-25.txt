@@ -1,0 +1,82 @@
+Due date - Today, May 23
+Task Link - https://login.smartsites.com/projects/5324/tasks/366596
+Task Title - #17: Landing Page Coding
+Project Title - The Chef's Idea [Landing Page]
+
+As per the task descriptions,
+
+Please include the following information:
+
+1. Phone Number(s): Please provide phone number(s) for both landing pages as we do not see any on the design provided above.
+
+2. Email Recipient of form - who will getting the forms when submitted.
+
+3. SMTP Email name in Passbolt Folder: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7 with 2FA turned on via TOTP - (This is the email address that forms will send to the client - Demonstration video: https://app.fireflies.ai/view/PPC-Landing-Page-SMTP::01JN71SEVN92FW0W25EJBJZ7H7)
+
+4. Sticky Footer - Should we include?
+
+5. Does the form have any special functionality or is to be fetched from a third party? Any integrations needed?
+
+6. Is the Landing Page to be coded in standard custom HTML? If not, list any special circumstances (WordPress, a specific-platform builder, etc.) 
+
+If the landing pages need to be done on the existing site: https://thechefsidea.com/, which is currently showing as unavailable. Based on the task details here: https://login.smartsites.com/projects/5324/tasks/362057, it appears the site has been taken down.
+
+We also checked access to the current T35 hosting via cPanel through Workbook, which is working fine. What URLs should be used for the landing pages?
+SS - https://drive.google.com/file/d/12Y4Aub-kj2VjWa6Sw2yDgXfMp1z_KZsb/view?usp=sharing
+
+If the landing pages are to be developed on a separate/new domain, kindly share the domain and hosting access details accordingly.
+
+For all access-related information, please provide them within the designated task: https://login.smartsites.com/projects/5324/tasks/247825.
+
+Since the current Wordpress site is down, we'll proceed using static HTML as usual and provide updates on dev environment for your review. Once reviewed, we will only proceed with live push. Please confirm.
+
+7. Where should Call To Action buttons lead to? What is the action of them?
+
+8. Popup text provided if any for blocks and their popups.
+
+9. Thank You Message - "Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+
+10. Social Media Links
+
+11. Testimonials - Please include a document/list of testimonials to include on the landing page. 
+
+12. Is there any other information that you think might be useful for us to know?
+
+================================
+================================
+
+Due date - Today, May 26
+Task Link - 
+Task Title - 
+Project Title -
+
+As per comment #19,
+
+We've added the reviews of 15 in total for now, please see.
+SS - https://drive.google.com/file/d/1UYEcgRrmSgI7-Gdt2Bku8piey49p8th8/view?usp=sharing
+
+Dev URLs,
+https://sanduskymilanrvp.smartwebsitedesign.com/locations/milan-oh/ 
+https://sanduskymilanrvp.smartwebsitedesign.com/locations/sandusky-oh/ 
+https://sanduskymilanrvp.smartwebsitedesign.com/locations/norwalk-oh/ 
+
+================================
+================================
+
+Due date - Today, May 26
+Task Link - https://login.smartsites.com/projects/5564/tasks/360119
+Task Title - #112: Contact form design implementation
+Project Title - Neothink Society
+
+As per comment #16,
+
+Re: the client mentioned their IT person resolved the issue. please confirm
+>> We tested the both forms, but the emails are still being received in the SPAM folder.
+
+Screenshots,
+https://drive.google.com/file/d/1G-pgCigcP-nOg7zormr8X-Onf8X5RxSC/view
+https://drive.google.com/file/d/1gMNvlR6HjU0b4jA3-YdPAXKbHv3B_WVp/view
+
+URL,
+https://neothink.com/
+

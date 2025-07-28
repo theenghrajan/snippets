@@ -1,0 +1,145 @@
+Due date - Today, May 16
+Task Link - https://login.smartsites.com/projects/516/tasks/364719
+Task Title - #93: Contact Us Submission Message
+Project Title - Garage Management Company [Website: WP]
+
+As per task description,
+
+We have changed the text color of the thank you message to white.
+SS - https://drive.google.com/file/d/1ZGPyaI6WuOAeuINLSAGiHPXQoqhdV8W-/view
+
+URL: https://www.gmcparking.com/contact-us/
+
+Thank you.
+
+==================================================================================================
+==================================================================================================
+
+Site BigCommerce ma chha, button ko color change garnee kura chha and tyo kasari change garnee ho, tesko instruction provide garidina parnee ho.
+
+Due date - Not Set
+Task Link - https://login.smartsites.com/projects/3601/tasks/364482
+Task Title - #35: Phone Numbers on Site
+Project Title - Agape Health & Wellness [PPC]
+
+
+Due date - Today, May 15
+Task Link - https://login.smartsites.com/projects/7005/tasks/364722
+Task Title - #84: Website Change 
+Project Title - Just Bunk Beds [SEO]
+
+We've updated the button [Shop Now] color in the Hero banner as mentioned in comment #1.
+SS - https://drive.google.com/file/d/1zRQ_Dc1OGYJ28Jl9IQPuufnHBUnzIhII/view?usp=sharing
+
+URL,
+https://www.justbunkbeds.com/
+
+We've
+
+We will proceed with custom HTML
+SS - https://drive.google.com/file/d/1MlaIjfSyEl3-lb9IVJtHeCPjTGRlOTCw/view?usp=sharing
+
+We've commented on the task: https://login.smartsites.com/projects/6857/tasks/349066 for hosting access, please review and inform us there.
+
+In the meantime, we will proceed with custom HTML and provide updates on dev for review. We have set the due date to Wednesday, 21st May, as per our project's pipeline.
+
+As per comments #2 to #6,
+
+We've updated the landing page (see fullpage screenshot below). Currently, we can't push to dev (frontend.smartwebsitedesign.com) due to access issues. We will update them once access is restored. 
+SS - https://drive.google.com/file/d/1cL2diFzm2d9_DKAhZTbRJmwUF2gkgmDd/view?usp=sharing
+
+For now, please review. Add SMTP on PB ensuring FED PM has access and FED has read access with TOTP and additional content as well specifically for the Services section .
+SS - https://drive.google.com/file/d/1bxe3wQ2LrDFkVd2fFgAFeRelhAb79tVj/view?usp=sharing
+
+==================================================================================================
+==================================================================================================
+
+Due date - 24-Hour
+Task Link - https://login.smartsites.com/projects/6733/tasks/340715
+Task Title - #10: Develop LPs
+Project Title - Hogue Landscape Services [PPC]
+
+As per comment #14,
+
+For the landscape Maintenance section
+
+We do not find the attached SS labeled Landscape Maintenance in the attachments, please verify and provide.
+SS - https://drive.google.com/file/d/12rJw7TXhjuz1S6ZM_fjeiTg49ht897S7/view?usp=sharing
+
+However, we've updated the content/image from the page https://hoguelandscape.com/luxury-landscape/ and added image from the attachments.
+SS - https://drive.google.com/file/d/1kPScOeqegQqw40WaYqBGr_UWHxJEOH3M/view?usp=sharing
+
+For the Landscape Installation section,
+We've updated the text/image from the page,https://hoguelandscape.com/luxury-landscape/ and added image from the attachments.
+SS - and added image from the attachments.
+
+Additionally, we've removed the 'Watch Video' button in the Hero section as it is still a dummy video, please provide original video link for update.
+SS - https://drive.google.com/file/d/1W9WysvNqN-7fCRFJ33qGoaLIoNcuai6j/view?usp=sharing
+
+URL,
+https://hoguelandscape.com/lp/
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 19
+Task Link - https://login.smartsites.com/projects/3601/tasks/364482
+Task Title - Agape Health & Wellness [PPC]
+Project Title - #35: Phone Numbers on Site
+
+As per the task,
+
+We've updated the landing page with the URL, https://www.portervillechiro.com/?utm_campaign=gmb to show phone number: 559-379-5677.
+SS - https://drive.google.com/file/d/1G1mc0D4haqrKEhOkxD8U5Bs6WALiuMso/view?usp=sharing
+
+Notes:
+The /?utm_campaign=gmb parameter is case-sensitive and must match exactly. For example, using ?utm_campaign=GMB instead will not work
+
+
+esma note chai.. utm_campaign ma bhaeko parameter chai case sensitive cha ani exactly match hunu parcha bhandinus.
+
+Pheri pachi PM le ?utm_campaign=GMB rakhdyo bhane kaam gardaina..
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 19
+Task Link - https://login.smartsites.com/projects/6689/tasks/365116
+Task Title - #41: Thank You Message - Top Form Update
+Project Title - Eveready Express [PPC]
+
+As per the task,
+
+==================================================================================================
+==================================================================================================
+
+It seems the hosting package is currently pending and not activated. We could only provided actual confirmation once hosting is configured. Please open the task: https://login.smartsites.com/projects/7025/tasks/361955 once configured.
+SS - https://drive.google.com/file/d/1_lgCGmzYT4Dpgv7gDWCCJZu2EC8_GTlW/view?usp=sharing
+
+On the other hand, we've updated the landing page on dev for review and set up SMTP with id 'cmmechanicalleads@gmail.com'.
+Thankyou message ss - https://drive.google.com/file/d/1amwWRCWDQJE4p2zoNIJwG26Gq-OFdZd-/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/19GfZyR9gY8bo5TjhJnr9AlTPfDpRtcfe/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1121rDaAYB3TdkEzi8lDnfk427F1jD3H7/view?usp=sharing
+
+URL,
+https://frontend.smartwebsitedesign.com/lp-cm-mechanical/
+
+We've checked on SiteGround and confirmed, we've hosting access. We can publish the landing page live at https://extremedeckspalmbeach.com/lp/. Please confirm.
+SS - https://drive.google.com/file/d/1P3pzUXy2n0zdrTzvsWn3_zaNbtfoQt0P/view?usp=sharing
+
+In the meantime, we will proceed with custom HTML and provide updates on dev for review by Firday, 23rd May. Therefore, we've set the due date accordingly.
+
+
+
+As per comment #25,
+
+For the landing page:- https://partnersforlifetherapy.com/lp/
+
+We've re-enabled the SMTP account and tested the forms; they are working fine now.
+Thank you message ss - https://drive.google.com/file/d/1dl-lfU4tF22L26Ag6T0q8gz0VkJIBdlw/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1BfamUb3HEJpPufxky67m8fjg3kjpvddC/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1IdKpeWnJhVQx7ovHfbMfyEQoN0AriYdR/view?usp=sharing
+
+After testing the forms, we've changed the email recipient back to 'roger@partnersforlifetherapy.com'.
+
+

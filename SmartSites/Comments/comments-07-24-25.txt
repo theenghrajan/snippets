@@ -1,0 +1,30 @@
+As per comment #6,
+
+For the site: https://www.justbunkbeds.com/
+
+Homepage:
+We've made the title "SUMMERTIME UPDATE" visible on live and adjusted gap under it as per the instructions.
+SS - https://drive.google.com/file/d/1TUyqUgmFd8RmKColbvAl9ruKHDukZzpO/view?usp=sharing
+
+Bunk Beds page:
+We've centered the (6) main categories as per the instructions.
+SS - https://drive.google.com/file/d/1F0uhvDKwBUZ1Vrc0r3_ek07HURqRxavS/view?usp=sharing
+
+Let us know your feedback.
+
+=====================================================
+
+As comment #4,
+
+We've updated location individual page as per provided figma in comment #1. Please review and let us know if should apply this design for all the locations, also please provide content.
+
+Fullpage ss - https://drive.google.com/file/d/1gQ4HLrCH_bjxL1bpBWQF4OHO1yNao6Iw/view?usp=sharing
+Dev URL:- https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/west-virginia/
+
+===========================================================
+
+We are currently working on fixing all broken layouts. We encountered some difficulties in page building due to the theme not being optimized, which has led to very slow loading times. As a result, we haven't been able to complete this page within the expected timeframe, and there are still some remaining fixes to be addressed in various sections. We need to find a way to significantly improve the page load speed. We will provide you with an update once all remaining fixes are implemented.
+
+
+
+

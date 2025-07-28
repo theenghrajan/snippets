@@ -1,0 +1,79 @@
+As per comments #4 - #8,
+
+https://underdog-kennels.com/
+
+Since the site is built on DIVI theme, we're unable to implement the requested updates on mobile as intended. As an alternative, we've added the Phone Number and Book Bow button as a sticky footer on mobile and tablet only.
+SS - https://drive.google.com/file/d/1PXBAnGbpGsP1MNT4Lkwm2JSshmFKhi8m/view?usp=sharing
+
+Please review and let us know your feedback on the placement.
+
+=====================================================
+
+As per comment #33,
+
+Since the website: https://www.romanfountains.com/ is built using WPBakery Page Builder, we’re limited to its default features. Due to these platform constraints, we may not be able to fully match the provided homepage design or implement extensive customizations and only updates that are achievable within WPBakery's capabilities.
+
+Development Notes & Queries:
+
+Page Design & Content
+
+Header: Should we proceed with updating header? Please note that any changes will affect the entire site and will require adjustments on all subpages. However, we do not recommend updating the header, as most of the requested changes on the design may not be feasible due to platform limitations.
+
+Footer: The same considerations apply to the footer. If we proceed with updating it, it will also apply sitewide.
+
+Hero Slider Section: Due to platform constraints, we are unable to implement the hero slider as designed. We can only make adjustments within the limitations of the existing slider plugin.
+SS - https://drive.google.com/file/d/1cDVm8muq3vhJD8qdGUOi_GHbw2BREpRj/view?usp=sharing
+
+From Concept To Completion Section - The slider feature in this section cannot be achieved as per the design due to platform limitations. We can only implement a workaround using available WPBakery modules.
+SS - https://drive.google.com/file/d/1aAtUUdpnKk1Tr9vmiB9U546gnB96ZYTk/view?usp=sharing
+
+From Concept To Completion Section (Image Gallery): The image gallery slider here also cannot be implemented as designed. We are limited to what’s possible with WPBakery’s default modules.
+SS - https://drive.google.com/file/d/15vvme6nCbCOY2XWFwQCLOv04WWuSjKPY/view?usp=sharing
+
+Testimonials Section: We will be using reviews as it appears on the live site and we may not be able to updates as per the designed as well.
+
+Timeline & Process
+- We will proceed with development on the dev site for your review.
+- Once approved, we’ll push the pages live and submit them for Google indexing as well.
+
+Estimated timeline: 18 – 20 hours
+
+Please confirm the above details so we can begin development and let us know your feedback.
+
+
+========================================================
+We've removed the requested sections on 10 individual pages only for now.
+SS - https://drive.google.com/file/d/1qeQjsrNhJZQVLodLvRJ48XwR8jfZyWMl/view?usp=sharing
+
+Area We Serve pages (Individual):
+1. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/north-carolina/
+2. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/idaho/
+3. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/pennsylvania/
+4. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/west-virginia/
+5. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/georgia/
+6. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/california/
+7. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/massachusetts/
+8. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/ohio/
+9. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/iowa/
+10. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/south-carolina/
+
+==========================================================
+
+As per comments #22 - #23,
+
+After inspecting the form submission logs, we did not find any failed or error submissions recorded on 7/14 via the SMTP account extremedecksleads@gmail.com. If there had been an unsuccessful attempt, it would typically appear in the log. This suggests the issue may be due to something on the user’s end, such as the form not being fully completed or submitted correctly.
+SS - https://drive.google.com/file/d/1kb3hsOZ6z89LiTxRSNZBwioDKm-IqE9D/view?usp=sharing
+
+Could you please provide more details regarding the leads mentioned in comment #23? Are these based on a lead tracker? If so, it's important to note that lead trackers log interactions even when a form submission isn’t completed or sent.
+
+Suggestion for Testing:
+To better monitor submissions, can we temporarily add our dev email address to the form’s recipient list (along with the client email)? This would help us verify whether leads are coming through correctly and if any issues occur during submission.
+
+
+
+
+
+
+
+
+

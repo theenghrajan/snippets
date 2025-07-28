@@ -1,0 +1,210 @@
+Due date - Today, June 2 (24-Hour)
+Task Link - https://login.smartsites.com/projects/6212/tasks/366316
+Task Title - #110: Navigation updates
+Project Title - Symmetry Counseling [SEO]
+
+As per comment #6,
+
+Re: For under "What We Treat"
+>> We've updated two columns to be closer rather than than the wide space between them.
+SS - https://drive.google.com/file/d/1wj8mLUVwkv-yYvWUNljSaduuLv3y528U/view?usp=sharing
+
+Notes: For consistency, we've updated two columns for "Locations" as well.
+SS - https://drive.google.com/file/d/1Ffo-h1C7pNvWa3Vvw6b0PQcfQCcH3O0Z/view?usp=sharing
+
+Please review,
+Dev URL:- https://symmetry.smartwebsitedesign.com/
+
+
+Due date - Today, June 2
+Task Link - https://login.smartsites.com/projects/5643/tasks/268536
+Task Title - #10: Develop LPs
+Project Title - Dr. Brad M Gandolfi [PPC]
+
+As per comment #42,
+
+We cannot block emails sent to tummytuck.solutions@gmail.com when clients reply to the thank-you message, as free Gmail accounts do not offer the ability to block incoming emails.
+
+To address this, we recommend the following options:
+
+1. Use a HIPAA-Compliant Email Address
+Replace tummytuck.solutions@gmail.com with a HIPAA-compliant email address, such as one set up through Google Workspace with a signed Business Associate Agreement (BAA).
+
+This secure email can be used to send the thank-you message and any client replies will then be received through a HIPAA-compliant inbox, ensuring sensitive data is protected.
+
+2. Use a No-Reply Address With a Disclaimer
+Create an address like no-reply.solutions@gmail.com so users understand not to respond.
+
+In the thank-you message, include a note such as:
+“Please do not reply to this email. If you have questions, contact us at [secure contact link or phone number].”
+
+However, this only discourages replies—it doesn't prevent them. Users can still technically reply to the message.
+
+Regarding Forwarding Emails: It is technically possible to forward replies from tummytuck.solutions@gmail.com to the client’s email address. However, this is not HIPAA-compliant.
+
+Even if the email is forwarded, the sensitive information first lands in the non-compliant Gmail inbox, potentially exposing protected health information.
+
+A better approach would be to send the thank-you message directly from a HIPAA-compliant email address owned by the client. That way, if a customer replies, the data remains secure and compliant with HIPAA regulations.
+
+Thank You!
+
+
+
+
+
+=====================================================
+
+In addition to comment #10,
+
+We've updated the landing page on dev for review, please check.
+Fullpage ss - https://drive.google.com/file/d/11NxO9FoPdYXMl66_RetkFMLQ8DWksD_h/view?usp=sharing
+
+Re: Header and Form
+>> Since the form on the page is Hubspot now, we have updated the design on possible extent as we are not able to match with the design provided.
+
+Re: Icon Images
+>> We've implemented the exist icons from the current sites for now. Please provide the correct icons, once designed have been updated.
+SS - https://drive.google.com/file/d/1N3JMQl8ZQmNBAxYPxaYGyE3wX5JIpHst/view?usp=sharing
+
+Dev URL,
+https://njrhomeservices.smartwebsitedesign.com/win2025/
+
+========================================================
+
+As per comments #2 and #3,
+
+1. Re: Exported Figma link + Google Drive Assets link from DES
+>> We do not find exported Figma link + Google Drive Assets link, please reach out to DES and provide us.
+
+2. Re: Phone Number(s) - 844-396-3143
+>> Noted
+
+3. Re: Email Recipient of form - info@elixensamerica.com and sales@elixensamerica.com
+>> Noted
+
+4. Re: SMTP
+>> Checked and confirmed access.
+SS - https://drive.google.com/file/d/1rk_G6YWcQHUt4Yao0T-Lecp_v6pAQRV3/view?usp=sharing
+
+5. Re: Sticky Footer - Should we include? yes
+>> Noted
+
+6. Re: Does the form have any special functionality or is to be fetched from a third party? Any integrations needed? no
+>> Noted. The form will be standard form.
+
+7. Re: Landing Development - HTML
+>> We will proceed with custom HTML once design link has been provided.
+
+8. Re: Should this landing page be developed on the live site or dev site? live site
+>> Since you've mentioned to developed on live site. However, we first complete on dev site for your review and pushed live only after your approval. Therefore, we will provide updates on dev site for your review.
+
+9. Where should Call To Action buttons lead to? What is the action of them? - Can you please create a simple form on the footer here:
+>> Please reach out to DES to create form design on the footer as shown (comment #2, point 9). Additionally, should all Call To Action buttons link to the form at the bottom?
+
+10. Re: Popup text provided if any for blocks and their popups no
+>> Noted
+
+11. Re: Thank You Message - "Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+>> Noted
+
+12. Re: Social Media Links remove social media icons in the footer
+>> Noted
+
+13. Re: Testimonials - Please include a document/list of testimonials to include on the landing page N/A
+>> Noted
+
+14. Re: What URL should be used for the landing page? http://elixensusa.com/lp
+>> Since, we're reviewing access for the landing page in the task: https://login.smartsites.com/projects/6983/tasks/359079. We've confirmed to publish the landing page live at the main domain i.e. https://elixensusa.com/.
+
+15. Re: Website logins ...
+>> Since, we're inprogress with reviewing access for the landing page in the task: https://login.smartsites.com/projects/6983/tasks/359079. FED will handle access related queries there.
+
+Please re-assigned the task once exported Figma link + Google Drive Assets link are confirmed and we will proceed with setting the due date for the completion on dev site for your review.
+
+
+==========================
+
+As per comment #4,
+
+Re:
+>> The ID 'erick@thechefsidea.com' provided in the Workbook for SMTP, currently has 2FA and we will need to co-ordinate for 2FA once we complete coding on dev site for your review and set up SMTP accordingly.
+SS - https://drive.google.com/file/d/1WQQ36CB1Tr8vzZFdUDqhSr0QOpDRx2lN/view?usp=sharing
+
+Re: Calendly
+>> Please also provide us correct link for the Calendly form as well. Should it be 'Hospitality' or '15 Minutes Meeting Discovery call'.
+SS - https://drive.google.com/file/d/1keTWr0nXKZ4O2O6XGosBCtBYy04YrUxv/view?usp=sharing
+
+Re: Also is there any way we can get this coded before 6/6? We would like to review with the client so we can get this pushed live ASAP for paid ads. Please advise if we can push up the due date.
+>> We've set the due date to Thursday, 5th June for completion on dev site for your review as per our project pipeline.
+
+Thank You!
+
+============================
+We've tested the forms and they are working fine. Currently, the SMTP set up with is 'waterheatersdiscount@gmail.com' not newly created SMTP email id, 'discountwaterheaterslp@gmail.com'.
+Thank you message ss - https://drive.google.com/file/d/1-jgCBrat_n0YAimlVQXZAfjbcj94qOF1/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1Hu-kzKKtst7FhB_e0-lb4J7Wem7rWIN1/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1MmISS412YW1zuxp453iJzeNFRT6p8Tk8/view?usp=sharing
+
+However, we're having issues while logging in with email 'discountwaterheaterslp@gmail.com' (new SMTP email) as it is asking for phone number after entering password and verification code form the passbolt.
+SS - https://drive.google.com/file/d/1TCaJ5217H4BC5JlPZo2IM8-Nu6AUE9Vf/view?usp=sharing
+
+Will you please verify once again whether the account is disabled by Google, as it is also showing, 'Couldn't sign you in' message after and 'Recover account' when clicking try another way.
+SS - https://drive.google.com/file/d/10VvXWeS19-2KSQnqrs8g1hVQoMG1ehdo/view?usp=sharing
+
+Lastly, after testing the forms, we've changed the email recipient back to 'contact@discountwaterheat.com'.
+
+================================
+
+As per the task descriptions,
+
+Re: Please reduce the size of the text here so it does not match the main headline 
+>> Updated
+Before SS - https://drive.google.com/file/d/1qMHgRnhX9fFMisi-lx1iyHFmMcFxpQVq/view?usp=sharing
+After SS - https://drive.google.com/file/d/1rTxdOZYgwuzN1XCDh4eoUVu-bs6E5sD9/view?usp=sharing
+
+Re: Please also match the fields in both contact forms and add Address as a field to the top form
+>> We’ve only added the Address field (as require) for now, but we’re a bit unclear about matching the fields. Should we also include the Subject and Consent fields, as seen in the footer contact form? Please confirm and inform us if needed.
+SS - https://drive.google.com/file/d/17urg5SXmmx46aXwKhvQNnZLKeBdllWKB/view?usp=sharing
+
+We've also tested the forms and they are working fine as well.
+
+Header Form,
+Thank you message ss - https://drive.google.com/file/d/1qNoCYqXvryV_ldr6xYXEcz54_ZWxqCBD/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1G-oP-PdqvlfL4CGkAYfORF-boyyQnW_z/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1H9H2-JihaiK5mG839UiVQuODAN4oGFP9/view?usp=sharing
+
+Footer form,
+Thank you message ss - https://drive.google.com/file/d/1WLSXC7DQIvvKjz9ZoqnQS2v7baJOnrmK/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1Xa_UPPkqnJCtrkCRbJAh1E02BuuvCyAe/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1H9H2-JihaiK5mG839UiVQuODAN4oGFP9/view?usp=sharing
+
+Lastly after testing, we've changed the email recipient back to 'sales@extremedecksflorida.com'.
+
+Thank You!
+
+===========================================
+
+As per comment #14,
+
+Re: The client has reviews on their homepage, they should be pulled in just as they are on there.
+>> We've pulled the reviews from the homepage, added on each location pages accordingly and removed the headshot image as they were dummy ones.
+SS - https://drive.google.com/file/d/1bvbHjEtHtd5954hbgf84JFqAE6UwF3ud/view?usp=sharing
+
+Re: Is there a reason you can't do this same thing on the location pages?
+>> If you are referring to the reviews then we've added them, thanks for the information. Otherwise, inform us if we are missing anything here.
+
+Re: For the photo, can you use the same photo that is being used here for reach location and use that as a header image?
+https://hempgeneration.com/stores/
+>> We are bit unclear about which header image, should we update the image with? Could you provide more information, maybe with the screenshots for more clarity.
+
+Re: Yes, there should be CTA that says "Location Info" under the "View Flower Menu" for each location that links to each respective page. The photos for each location should also be clickable and link to the page for each location.
+>> We've updated CTA 'Location Info' and photos for each location to be linked accordingly.
+SS - https://drive.google.com/file/d/1DMZnz52SD_ugLlECl65RKfKnjBL2FVs3/view?usp=sharing
+
+Location URLs as approved,
+https://hempgeneration.com/apex-522-e-williams-street/
+https://hempgeneration.com/cary-124-a-sw-maynard-rd/
+https://hempgeneration.com/raleigh-north-carolina-2003-wake-forest-road/
+https://hempgeneration.com/raleigh-north-carolina-2402-hillsborough-street/
+
+Thank You!

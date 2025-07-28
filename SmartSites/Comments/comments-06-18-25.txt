@@ -1,0 +1,150 @@
+In addition to comments #8 - #10,
+
+We’ve published the pages live, implemented them as dynamic pages to make the content editable, and also updated the navigation accordingly.
+Additionally, we've updated the pages titles and meta descriptions as per the Workbook: https://docs.google.com/spreadsheets/d/1ppE2g7IteGUOpD1Z4Qkzb61QCnUK9CrDudNtMGMGSfU/edit?gid=406948056#gid=406948056, New Website Plan - Column S and W. 
+
+Please review and inform us of any further queries, if necessary as we've updated the pages URL as mentioned on comment #10 as well.
+
+Page URL - https://mightyrep.com/product/increase-sales-leads/
+Fullpage SS - https://drive.google.com/file/d/1JzHsE7e19wMqBjqdRtjKi5MdA5KnHOLD/view?usp=sharing
+Page Edit URL - https://mightyrep.com/wp-admin/post.php?post=556&action=edit
+Page Edit Fullpage SS - https://drive.google.com/file/d/1yyAAOUoFpfzaZ6KjkDagWw5llo3Uc3yz/view?usp=sharing
+
+Page URL - https://mightyrep.com/product/salesintelligencesoftware/
+Fullpage SS - https://drive.google.com/file/d/1vX3ELsCuy23Oak4v3YFlijK7JOwf01W1/view?usp=sharing
+Page Edit URL - https://mightyrep.com/wp-admin/post.php?post=558&action=edit
+Page Edit Fullpage SS - https://drive.google.com/file/d/1pyibzGcu1IwHtxWDy-ABxd-qnGz59VQk/view?usp=sharing
+
+Page URL - https://mightyrep.com/industriesweserve/
+Fullpage SS - https://drive.google.com/file/d/1irACVjB-FE1c2htTshxHEbMrCsBtqCv7/view?usp=sharing
+Page Edit URL - https://mightyrep.com/wp-admin/post.php?post=508&action=edit
+Page Edit Fullpage SS - https://drive.google.com/file/d/1BJ2k5jqvKUd9gMsP_dAGSODR4nmXdp3H/view?usp=sharing
+
+Notes: We’ve currently linked the buttons to the Contact page: https://mightyrep.com/contact/. Could you please confirm where they should be linking instead?
+
+========================================================
+
+As per comments #22 - #23,
+
+Re: SMTP
+We've successfully logged in using the ID erick@thechefsidea.com.
+SS - https://drive.google.com/file/d/1Byj8T9kEkZKX7_THcK3f1QPb-6SgKUZ2/view?usp=sharing
+
+However, we require the another level of 2FA to proceed with SMTP setup process.
+SS - https://drive.google.com/file/d/1gmyQWU2uobKL3VuaaBbLNpiZ864zKdb9/view?usp=sharing
+
+We attempted to use the "More ways to verify" option, but there's no option available for Authenticator (TOTP code setup on passbolt).
+SS - https://drive.google.com/file/d/1zRWIotVX-e_vqItIrxPX1ysI6X15m7ug/view?usp=sharing
+
+We need to coordinate for 2FA and we will be available at 12 PM NJ. Please confirm.
+
+We've published the landing pages at,
+https://thechefsidea.com/en/landing-page/
+https://thechefsidea.com/es/landing-page/
+EN LP Fullpage ss - https://drive.google.com/file/d/1vBEHV6dYIKy5Pm55BUsn0fp-rI28z6D_/view?usp=sharing
+ES LP FUllpage ss - https://drive.google.com/file/d/1_3UM79TI_Lf0l3T6l9dbnfuL_3fYVHq0/view?usp=sharing
+
+Currently, we’ve set up SMTP using our development Google account for temporary use. However, there is a form submission issue due to the quota limit.
+
+As mentioned earlier, we’ll need to coordinate for 2FA at the scheduled time in order to proceed with setting up the proper SMTP configuration.
+SS - https://drive.google.com/file/d/1FyTshkvxuTCb-eXLgJsF0GKS6NDGXFLt/view?usp=sharing
+
+Re: Phone number
+>> We've currently added the phone number (347-652-5804) on the header CTA button labeled as 'Contact' (in English) and 'Contacta con nosotras' (in Spanish).
+
+The current form has Name, Email and Phone number (all required).
+SS - https://drive.google.com/file/d/13sZ7RRYmGnpgKK4_yJAszSggYEjUwz6q/view?usp=sharing
+
+Please inform us of any further queries/updates if needed.
+
+=========================================================
+SS - https://drive.google.com/file/d/1k4tb11wyG5UVvYjDcdK3R2LZD21Ac-BH/view?usp=sharing
+
+==========================================================
+
+As per comment #57,
+
+Re: Can we please revert the LP back to the version before we made the may Changes? (Revert to version before comment #54) this also goes for the popup as well
+>> We are unable to proceed with the request, as the hosting login credentials provided in the Workbook are not working.
+Kindly verify and update the correct credentials so we can continue with the necessary steps.
+SS - https://drive.google.com/file/d/1zqr2wKbwECIjZjA1c8tLfMFb6bWju0t8/view?usp=sharing
+
+WHM login page SS,
+https://drive.google.com/file/d/1FusFTywbUFVY-_aXSIv0B_nlZaK8enBD/view?usp=sharing
+https://drive.google.com/file/d/1W-dQe6BkUoJNiXf6TmkGsQhIoPGW9f6W/view?usp=sharing
+
+
+=========================================================
+
+In addition to comment #4,
+
+Re: Dynamic landing page coding based on user's locations
+>> We have coded the static HTML version on dev site for your review. Once confirmed, we will proceed with the dynamic version accordingly.
+Full Page SS: https://drive.google.com/file/d/1jv-qtjgoRLJTd2CuoEN1FCO0gemd9shP/view?usp=sharing
+Dev URL: https://frontend.smartwebsitedesign.com/lp-palmercare-chiropractic/
+
+Re: Header and Footer Form
+>> We have embedded third-party form on the header and footer with the Aloha scheduler script as provided in comment #2.
+
+Re: Newsletter Form
+>> We've implemented this form as a standard HTML form for now. Since the placeholder/label says 'Your Message' and the submit button says 'Subscribe', we'd like to clarify whether this form is intended to include any subscription functionality? 
+
+If yes, then please provide detailed information. Otherwise, the form will function as a standard contact form that simply submits the user's message. 
+
+Please confirm whether the current field should be updated or if the form should be removed for now.
+SS: https://drive.google.com/file/d/1RT37e_Ia7256KLT0I7rmsY5yEoCx66PX/view?usp=sharing
+
+We have setup SMTP ID with "smartsitespalmercare@gmail.com" and conduct form testing on dev site as it is working fine.
+Thank you message ss -
+Admin email ss -
+User email ss -
+
+Re: Testimonials/FAQ Content
+>> Please include a document/list of testimonials to include on the landing page, as currently there are dummy ones in the Figma link.
+SS: https://drive.google.com/file/d/1AornDceQEBTlXVj4lxYoRgIqFycKcuAR/view?usp=sharing
+
+>> Could you please provide us with the content for the FAQ section?
+SS: https://drive.google.com/file/d/11u_Dm14ruStd_oebwC09F5-c2xUWGVs3/view?usp=sharing
+
+Please reassign the task back to us once it has been reviewed, and we will proceed with implementing the dynamic functionality accordingly.
+
+========================================================
+
+wp-admin/post.php?post=4434&action=elementor
+
+As per the task descriptions,
+
+Re: the header and footer contact forms layout seems to be broken. Please resolve.
+
+>> We've resolved the layout issues.
+SS - https://drive.google.com/file/d/1ZhDXBkwGvECJ5wX6Z2Uwpj08dGjmyAQ0/view?usp=sharing
+
+Re: Also the client mentioned this spammy form fill coming through once of the contact forms from a platform called lensa.com a job posting site. please let me know if there's another layer of protection we can add to the contact forms to reduce spam
+
+>> Upon inspecting the forms on the site, we found that both reCAPTCHA and a honeypot are already implemented. These should be effective in blocking most bot-generated spam.
+SS - https://drive.google.com/file/d/109b0pVI-oLEhuYBMU8wrrLCpB57Bjokf/view?usp=sharing
+
+We also reviewed the form entries and did not find any submissions that appear to be spam. However, if the client is receiving irrelevant messages, we can provide a spreadsheet containing all form entries. From there, you can identify the Gmail addresses or other email accounts that are sending irrelevant messages, and we can block them using the https://wordpress.org/plugins/gravity-forms-email-blacklist/ plugin. 
+
+The Email Blacklist plugin is already implemented on the site. If you can provide a list of email addresses that need to be blocked, we can add them to the plugin to prevent further submissions.
+
+Please let us know how you’d like to proceed.
+
+==============================================
+
+We've setup SMTP with the ID 'erick@thechefsidea.com' and tested the forms on both landing page as they working fine.
+
+For the landing page - https://thechefsidea.com/en/landing-page/
+
+Thank you message ss - https://drive.google.com/file/d/1necNTrBWAq5nAcvpDYqCmAcmVerOJN1W/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/130amgJF-gXH6eVRJn9Avy4qB-ma8GJ2m/view?usp=sharing
+User email ss - https://drive.google.com/file/d/13LCuryfTt9h96JZERuDf0Engf-DuK10e/view?usp=sharing
+
+For the landing page - https://thechefsidea.com/es/landing-page/
+Thank you message ss - https://drive.google.com/file/d/1ZI-Mc0igW4l9iTg6UCWAkuCSf5pKiK-j/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1wy0H_KYSU3cdR7W2rxrQBH2J-VMDhxZ0/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1fXvo00IctN9HVhBxS4B8kKs441Q9TuS0/view?usp=sharing
+
+After testing the forms on both landing pages, we've changed the email to 'erick@thechefsidea.com' as mentioned earlier in the comment #2 - point 2.
+
+Please inform us of any further queries/updates if needed.

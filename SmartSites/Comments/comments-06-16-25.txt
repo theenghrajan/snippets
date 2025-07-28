@@ -1,0 +1,134 @@
+As per comment #18,
+
+https://www.figma.com/proto/J3dWaiLNVJcOMemNTeAtXG/-97--Post-Podcasts-and-YouTube-Videos?page-id=14058%3A2&node-id=14058-3&viewport=479%2C236%2C0.21&t=W2b5imX2aI1P5AvP-1&scaling=scale-down-width&content-scaling=fixed
+
+>> The current Figma link is not exportable or dev-ready. Please reach out to the @Design Team to ensure that Dev Mode is accessible as well.
+
+Since, the site is built with Elementor and its licensed is not currently activate as well, we may not be able to achieve the exact layout with the provided design due to its limitations.
+SS - https://drive.google.com/file/d/1x-phxmZQ_fVG7-7bmcPqKt3wlnb63hgh/view?usp=sharing
+
+As per the spotify link provided in the task descriptions, https://open.spotify.com/episode/7hn0w7nCx8i2zd5Kek4E3a?si=efP9vwFaT5abuXs1OvO9Vw. We're only able to embedded the podcast in two preset sizes, as shown in the screenshots below. Due to the limitations of the third-party embedded(iframe), we're unable to exactly replicate the layout shown in the provided design.
+
+Normal (352px)
+SS - https://drive.google.com/file/d/11eTgYxunE-fOpEISIncw95wDDUHkNGQ0/view?usp=sharing
+
+Compact (152px)
+SS - https://drive.google.com/file/d/1Pu_CgrK11ZHqCGWQ4uIadXo7ICjd1qRR/view?usp=sharing
+
+Additionally, there are multiple episodes available on the podcast. Please confirm which specific episode(s) should be embedded on the site at this time or provide links for each if possible.
+SS - https://drive.google.com/file/d/1YtJXYsxn_4LxbvDY6liFx_FzxLOrYtEZ/view?usp=sharing
+
+The same applies to YouTube—since we’ll be embedding the videos, please provide the links for each YouTube video that should be added to the site.
+
+Is there any other information that you think might be useful for us to know? 
+
+As per our understanding, this will be a new page that needs to be developed. Could you please confirm if there is a specific URL format you'd like us to follow for the page?
+
+Once we have all the necessary details and design access, we will proceed with providing estimation for the development of the page.
+
+
+
+===================================
+
+Since, we need to looked into in detail for its fixation, we've set the due date to [due date] for now.
+
+====================================
+
+As per comment #9,
+
+For the page:- https://www.gentleshepherdhomecare.com/services/elder-care-management/
+
+Re: This part needs to be changed to say Kathy Clinton, not Kathy Miller, and show "Age Better Resources" instead of Gentle Shepherd Home Care, LLC
+>> Updated as per the instructions provided.
+SS - https://drive.google.com/file/d/11118XhYy43dwhxhWI5MbdhHNjjWO9ZwL/view?usp=sharing
+
+
+
+
+===========================================
+
+As per comment #12,
+
+Re: The only edit I have is can you underline “fill out this form” and have that all anchor back up to the form at the top of the page
+>> Updated as per the instructions provided.
+SS - https://drive.google.com/file/d/1mQmBpAs5ffU7xSTMilXLhh1JU-H1lgbz/view?usp=sharing
+
+URL,
+https://www.njrhomeservices.com/premier/
+
+Delegate under 'AdamMROMAN'
+
+=============================================
+
+As per comment #13,
+
+Re: So is there anything on our end that we did for his site and emails to not be working?
+>> There was a DNS issue that caused the problem, but it has since been resolved. All domain-based emails and subdomains are now functioning properly.
+
+
+
+In the meantime, we're still inprogress with the coding and provide updates on dev site for your review as per our due date i.e. Thursday, 19th June.
+
+===============================================
+
+As per comment  #17,
+
+Re: the phone number in the information section missing
+>> Please inform, where should the phone number should updated. Currently, all the CTA buttons are link to Calendly i.e. https://calendly.com/erick-thechefsidea/30min
+
+We've updated the landing pages as the provided mockups, please review.
+English Version SS - https://drive.google.com/file/d/1XLwmDu2Xhz0HDm4nDaWdPAnhh0WFsdGn/view?usp=sharing 
+Spanish Version SS - https://drive.google.com/file/d/1mwCbIq9k3Assv6I0DTAz96-khxk_eC0Z/view?usp=sharing
+
+Dev URLs,
+Landing Page English :- https://frontend.smartwebsitedesign.com/lp-the-chefs-idea/landing-page-english/
+Landing Page Spanish:- https://frontend.smartwebsitedesign.com/lp-the-chefs-idea/landing-page-spanish/
+
+Re: Also the client provided the QR code for the email SMTP and sent us access to web@ss, do we have all the access we need and can you take care of the rest of the passbolt and SMTP setup?
+>> Please set up TOTP and add to the passbolt folder, PPC Landing Pages and ensure FED PM has admin and FED read access: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7. 
+
+You can also follow quick guide here, if it helps:-
+https://docs.google.com/document/d/1WZ-XdmjUi5pMav1kyQPvt5xjMmd8CRvpNCwh1aLOtTw/edit?tab=t.0
+
+==========================
+
+As per comments #12 - #14,
+
+Re: The client sent over this error this morning (they were checking to see if it was live I guess.) Can you please address?
+>> Yes, we're in progress with live push and please check now that error is already resolved.
+
+We've pushed the landing page live at https://elixensusa.com/.
+Fullpage ss - https://drive.google.com/file/d/1Y2a6TY7UsLA1GXwgMSWuWOqCSfNOFOma/view?usp=sharing
+
+We've tested the form and it is working fine as well.
+Thank you message ss - https://drive.google.com/file/d/1Cb1zy9zmlS3s8E5DnnmbN9rOUUSF5CR3/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1IMw2TE9tn0IuGuOk6I6h-wsgMBqzpsTG/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1AIjIJ7wAyoBWXJcb1XvVfOvwrEFGzZJl/view?usp=sharing
+
+After testing the form, we've changed the email recipients to 'info@elixensamerica.com' and CCed 'sales@elixensamerica.com'.
+
+Please let us know of any further queries.
+
+==============================
+
+As per the task descriptions,
+
+After our review, we found that the content data was not added through the standard WordPress text editor, but rather imported via API (see screenshot below). We believe this has been handled by the BED team.
+SS - https://drive.google.com/file/d/1IEqqBFaux7JdYT5UNBBqpIJVqapsQbIP/view?usp=sharing
+
+Could you please reach out to BED for further clarification?
+
+As per comment #6,
+
+We've pushed the static pages live on draft for now and we are inprogress with the dynamic (editable content), we will only be able to provide updates on this by tomorrow, Tuesday, 17th June.
+
+Increase Sales  s
+https://mightyrep.com/?page_id=250&preview=true
+
+Sales Intelligence Software
+https://mightyrep.com/?page_id=504
+
+Industries Served,
+https://mightyrep.com/?page_id=508
+
+Additionally, could you please confirm if there is a specific URL format you'd like us to follow for the page or follow as per the New Website Plan?

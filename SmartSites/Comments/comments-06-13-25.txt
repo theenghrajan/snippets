@@ -1,0 +1,115 @@
+As per comment #46,
+
+Re: I am unclear with what needs to be done. Is this functioning properly or do i need to complete any next steps?
+>> Currently, the SMTP is set up with, 'waterheatersdiscount@gmail.com', and the forms are working fine.
+
+>> As you've mentioned that new email for SMTP for the LP has been created i.e. 'discountwaterheaterslp@gmail.com'. While trying to set up with it, we're having issues while logging in as it is asking for a phone number after entering the password and TOTP code from the passbolt.
+SS - https://drive.google.com/file/d/1TCaJ5217H4BC5JlPZo2IM8-Nu6AUE9Vf/view
+
+For further review, we’ll need the phone number associated with the Gmail account. We may also need to coordinate for 2FA, unless the 2FA code is accessible via TOTP in Passbolt.
+
+We’ll be available at 12 PM NJ EST in case coordination for 2FA is required.
+
+Thank You!
+
+==========================================================
+
+info@crockpotinjurylawyers.com
+
+As per comment #41,
+
+Re: The landing page is down and says it cannot be found. can you check this? 
+>> We've checked and updated the landing page. Now it is up and running.
+SS - https://drive.google.com/file/d/19kmeYgUQ0syye3Gw_yBuzVOyQbW_shbJ/view?usp=sharing
+
+Additionally, we've tested the forms as well and they working fine.
+
+Header form:-
+Thank you message ss - https://drive.google.com/file/d/1eX5SP98qP-bcdLKrnsRYjRv33wMuGenl/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1eZQiKVHjM-EPlWZu59VC4hFMGBKKb4qN/view?usp=sharing
+
+Footer form:-
+Thank you message ss - https://drive.google.com/file/d/1SSYUg9EhktGNnkaIGya_lcq3T4ZIwBXT/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1KAVY-7QCrVPiwMwF-p_OGnj3a42nbuSR/view?usp=sharing
+
+After testing the forms, we've changed the email recipient back to 'info@crockpotinjurylawyers.com'.
+
+URL,
+https://crockpotinjurylawyers.com/
+
+============================================================
+
+As per comment  #17,
+
+For the landing page:- https://lp.cmmechanicalhvac.net/
+
+Re: Can you guys change number on the landing page to 661-670-7884
+>> We've changed the number on the landing page to 661-670-7884.
+SS - https://drive.google.com/file/d/1Rj9_9xmYmXgIIQcC2NU7rkTwgNtPIzlF/view?usp=sharing
+
+Re: Calls from Website
+>> Previously we had implemented the Calls from Website based on number: 661-995-1741. However, as the number is updated the conversion action won't trigger/fire. Please confirm if we need to update the conversion action based on the updated number.
+
+=================================================================
+
+As per comment  #7,
+
+For the landing page:- https://extremedeckspalmbeach.com/lp/
+
+Re: Can you update the testimonials so all the names and stars line up at the bottom
+put them along this line 
+>> Updated as per the instructions provided.
+SS - https://drive.google.com/file/d/1ETs-_8YnekiWsHHdxUcqVb7xKKJe7NXe/view?usp=sharing
+
+=====================================================================
+
+As we've confirmed all the necessary access for the landing page to publish live at https://lp.reefcoaquariums.com/. Please confirm and we will proceed with live push.
+
+
+======================================================================
+
+As per comment #15,
+
+
+
+
+Re: could we please attempt to build the page in Wix and just try to match the sections the best we can? I know they have mostly prebuilt pages/sections and there isn't much customization available but would rather avoid having the client secure additional hosting.
+
+
+
+
+>> To proceed with building the page in Wix, we require access to the client Wix account. We recommend to provide delegate access to web@smartsites.com Wix account. If any invitation acceptance process require it should done from the PM end.
+
+
+
+
+Currently, we do not see access from web@smartsites.com Wix account.
+SS - https://drive.google.com/file/d/1URrw9nXDQgsQRX9oOXYuAUH0AaP3lx40/view?usp=sharing
+
+
+
+
+We will proceed with building the landing page as per the figma link provided initially: https://www.figma.com/design/Qo6s3DMArnx8O5rcT50xSU/-7_-Design-LPs?node-id=2613-21&p=f&m=dev.
+
+
+
+
+We will do our best to match the design as closely as possible, though some compromises may be necessary for certain sections due to platform limitations. We will keep you inform you while building the page.
+
+
+
+
+Please note that, we require additonal time may be 10 - 12 working hours and published the landing page at URL, https://www.yampaglia-law.com/fighting-for-you once approval from you.
+
+
+
+
+For now, please reassign the task once Wix access has been provided.
+
+We have setup SMTP ID with "discountwaterheaterslp@gmail.com" and tested the form; it is working fine
+Thank You Message SS: https://drive.google.com/file/d/1GrJuLevE-OyJh9_0kobysq5N72AhJOFL/view?usp=sharing
+Admin Email SS: https://drive.google.com/file/d/1G4uJMT4nbMDm1E1qQVPTA_ZGZ-finKTT/view?usp=sharing
+User Email SS: https://drive.google.com/file/d/1R5i-xL_n8oBcmAJ7GAsXX_MZ9ti9gBil/view?usp=sharing
+
+Lastly, after testing the forms, we've changed the email recipient back to 'contact@discountwaterheat.com'.
+

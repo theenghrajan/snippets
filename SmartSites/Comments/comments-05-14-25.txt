@@ -1,0 +1,107 @@
+Due date - Due date requested to Fri, May 23
+Task Link - https://login.smartsites.com/projects/6955/tasks/363837
+Task Title - #89: Develop location pages
+Project Title - Michael Robert Construction [SEO]
+
+In addition to comment #3,
+
+We've set the due date to Friday, 23rd May, according to our project pipeline.
+
+==================================================================================================
+==================================================================================================
+
+Due date - 24-Hour
+Task Link - https://login.smartsites.com/projects/5564/tasks/360119
+Task Title - #112: Contact form design implementation
+Project Title - Neothink Society
+
+As per comment #14,
+
+Currently, we can't provide you any other options to control SPAM, we recommend setting up SMTP with google account.
+
+We've tested form (WPForm) in the Contact Us page and they are also coming to SPAM.
+SS - https://drive.google.com/file/d/1pnk8S9M9aOh5HPvFy8CJA83p643rB3S4/view?usp=sharing
+
+If you're not sure, you can also create new google account (disable 2FA) and provide us with the login details as this new Gmail will only be used to send emails from the site, ensuring proper authentication and reliable delivery.
+
+==================================================================================================
+==================================================================================================
+
+Due date - Today, May 14
+Task Link - https://login.smartsites.com/projects/6797/tasks/361941
+Task Title - #94: Homepage Content Implementation Coding
+Project Title - Sandusky Milan RV Park [SEO]
+
+In addition to comment #8,
+
+Please provide image with higher resolution or quality for second image on the About Us section, as we find it lower quality in the design as well.
+SS - https://drive.google.com/file/d/1iYO3VkBZ4qHZ8x_jrNMVjYP9TsrmJ7zC/view?usp=sharing
+
+As per comments #4 - #5,
+
+We've published the homepage live and requested the page for re-indexed.
+SS - https://drive.google.com/file/d/1HyqdQxHKiRBIgeW-BtwNXOpycqhxMn9d/view
+
+We've removed the white space above the About Us section.
+SS - https://drive.google.com/file/d/1xdmtF8rYChwpIThhDH-8-Uci9-rti9n0/view?usp=sharing
+
+We've updated the content on About Us section as mentioned.
+SS - https://drive.google.com/file/d/1byuVTWQZcsSYy1LHoB53crEFsOREMT-H/view?usp=sharing
+
+We've added the link to the footer as per our understanding (see screenshot below), please correct us if need to.
+SS - https://drive.google.com/file/d/1QG2A2FZI6GYuNlP2cfQs-bjj2HcEjisW/view?usp=sharing
+
+URL,
+https://sanduskymilanrvpark.com/
+
+(877) 652-0822
+8776520822
+
+==================================================================================================
+==================================================================================================
+As per comment #18,
+
+We've updated information for Wizard's Alley, Space Wars and The Exorcism.
+SS - https://drive.google.com/file/d/1TLlhxgrq4y3XEJi2pKfbnDrykQED0qMP/view?usp=sharing
+
+We've updated the phone number and location label as per provided instructions, on mobile view only.
+SS - https://drive.google.com/file/d/1ALMmC7tv29M_dtoYp_2dZxkElLOBWgXO/view?usp=sharing
+
+We've updated prcing for The Speakeasy to $38.
+SS - https://drive.google.com/file/d/1CaKnWWHQ-Qy7zBkuX_wgFb3fXsGwaBMM/view?usp=sharing
+
+We've updated the phone numbers at the bottom beside the contact us form as mentioned.
+SS - https://drive.google.com/file/d/1nBeA6UiDr1WwL6tmZzRvgG1P9WTVGOgo/view?usp=sharing
+
+We've also updated the sticky footer with two phone number.
+SS - https://drive.google.com/file/d/1J86CZ85tphyqXH3z6C5gjJ_AYQ6yV4VE/view?usp=sharing
+
+Lastly, the logos on both top and bottom now goes to the homepage, https://www.escapeworksdenver.com/.
+
+==================================================================================================
+==================================================================================================
+As per comments #21 - #22,
+
+We've updated the new site to follow the new website plan.
+https://docs.google.com/spreadsheets/d/1qEvY6NxpGmB25g8ETIDqbCbL6AEyxsEu8e1_W63esiY/edit?gid=406948056#gid=406948056
+
+Dev URL,
+https://theclarklawfirm.smartwebsitedesign.com/
+
+We've created the pages for other three locations pages. Please provide content for the each location pages as well, currently we've only updated the heading text according to location.
+
+Raliegh, North Carolina (2402 Hillborough Street)
+Fullpage ss - https://drive.google.com/file/d/1ihgqGYSzdrv0KMUkV7c0a1LzBcQWoniT/view?usp=sharing
+
+Raliegh North Carolina (2003 Wake Forest Road)
+Fullpage ss - https://drive.google.com/file/d/1qzw4ZgWrZeSEWfNZEp1DEU4WmGn8Kvef/view?usp=sharing
+
+Cary (124-A SW Maynard RD),
+Fullpage ss - https://drive.google.com/file/d/1SEU_pdJNkoQsBicW7VzTmIinjCp2brvL/view?usp=sharing
+
+Apex (522 E Williams Street) 
+Fullpage ss - https://drive.google.com/file/d/1KOCsq1FBIFiA4NGwYS30CVZus2unMqpQ/view?usp=sharing
+
+You can find the design and preview link on the page builder settings here:- https://store-prc7bwl99z.mybigcommerce.com/manage/page-builder?channelId=1
+
+

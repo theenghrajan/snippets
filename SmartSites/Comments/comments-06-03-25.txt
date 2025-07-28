@@ -1,0 +1,41 @@
+661-995-1741
+6619951741
+
+================================
+
+As per comments #3 - #5,
+
+Re: Phone number changed to the trackable number. 661-995-1741
+>> We've updated the mentioned trackable phone number for the LP.
+
+Note: As per the task: https://login.smartsites.com/projects/7025/tasks/361959, FED implemented the Google Ads Conversion -> Calls from Website (Phone call conversion) based on the display/original number. Please confirm if we need to update the conversion action based on the newly updated number.
+
+
+Re: Form Updates
+>> We've updated the form fields, 'Full Name', 'Email', 'Message' as required and 'Phone Number', 'Address' as not required fields. Similary, updated the title to 'Get Emergency Service'
+SS - https://drive.google.com/file/d/1iw8-BCcFo8KFJuW8CEfP7MW0D1-3pLJR/view?usp=sharing
+
+Re: Please also match the forms for each of them and use the icons from the bottom form in the top form 
+>> We've updated the icons in the top form as well. However, we're bit unclear with the instructions whether we should add all the form fields i.e Full Name, Phone Number, Email, Address and Message on footer form as well, making the both forms with the same fields and the same validation for required fields?
+
+>> Currently, the footer form has first three fields as required.
+SS - https://drive.google.com/file/d/1Od1h5WeUR4nZ5h2i-vKOOwMZLgy2zOx8/view?usp=sharing
+
+Re: Remove United States
+>> Removed
+SS - https://drive.google.com/file/d/1sR-kOpmIHuMnzZ9X2JU6yJ9P-WCDLiDq/view?usp=sharing
+
+URL:- https://lp.cmmechanicalhvac.net/
+
+
+====================================
+
+As per comment #6,
+
+Re: let me know when the best time to coordinate this and I'll confirm a call with the client to provide
+>> Since, we are coding the landing page in custom HTML. We recommend to add SMTP email ID to the Passbolt folder here: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7 via TOTP so we can get the code with no time restriction.
+
+Re: Calendly -> 15 minute discovery call
+>> Noted
+
+We are in progress with the task, so we will provide you with an update on Thursday, 5th June.

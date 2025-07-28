@@ -1,0 +1,136 @@
+As per comment  #3,
+
+We've pushed the change into live site.
+SS - https://drive.google.com/file/d/1OS-2Fkho9jJGHH7NUt5CXudEKLXCBTGp/view?usp=sharing
+
+Live URL,
+https://www.bergenlaw.com/
+
+
+Currently, we've only updated content for "Design & Installation" tab. Similarly, for the image part as in 'Service & Maintenance', please provide one if we need to update it. 
+
+We've updated  "Design & Installation"  tab content in the dev site, as for the image please provide it so that we can update it or would you want us to use same images of "Service & Maintenance" tab image  .
+
+
+==========================
+
+In addition to comment #9,
+
+We've updated the landing pages on dev site for your review as per the design, https://www.figma.com/design/OiN5hQMdtnZ1nVBYJ7FFF7/-15--Landing-page-design--FED-?node-id=4578-982&m=dev.
+Dev URLs,
+Landing Page English:- https://frontend.smartwebsitedesign.com/lp-the-chefs-idea/landing-page-english/
+Landing Page Spanish:- https://frontend.smartwebsitedesign.com/lp-the-chefs-idea/landing-page-spanish/
+
+SMTP:
+We are currently using our development Gmail account as the SMTP ID. However, it seems that the quota limit has been reached, causing a form submission issue. Please respond to your points regarding SMTP which is, 
+"Please add to the folder, 'PPC Landing Pages' (screenshot below), and ensure FED PM has owner access and FED has read access.
+SS - https://drive.google.com/file/d/1sOBc34oggB1wpcItwFrNW6Hqjg0MEnpF/view?usp=sharing"
+
+"You can also follow the video tutorial here: https://www.youtube.com/watch?v=JPGgMvxi_Rw to add the email in the Passbolt folder via TOTP. You need to add the generated QR code after enabling 2FA. Additionally, you can follow this doc (link below) as well.
+https://docs.google.com/document/d/1WZ-XdmjUi5pMav1kyQPvt5xjMmd8CRvpNCwh1aLOtTw/edit?usp=sharing"
+
+Re: Phone Number(s): 347-652-5804
+>> Updated the phone number as mentioned.
+
+
+Re: Email Recipient of form -> Erick@thechefsidea.com
+>> As we are still on development phase, we will add it once the landing page is live.
+
+Re: Form functionality
+>> We've implemented the form at footer as standard form and linked all CTA buttons to Calendly form as mentioned.
+
+Re: Live
+>> The existing site: https://thechefsidea.com/, which is currently showing as unavailable. Based on the task details here: #16: Take down website, it appears the site has been taken down. Please confirm the site to up and running. So, we can published the landing pages accordingly.
+
+>> Please also mentioned URLs format for the both landing pages, if any specific. Otherwise, we will published them as below:-
+https://thechefsidea.com/landing-page-english
+https://thechefsidea.com/landing-page-spanish
+
+Re: Thank you message,
+>> We've update the thank you message as  "Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+
+Re: Social media
+>> We've only added linked as provided.
+
+Thank You!
+
+==============================================
+
+As per comment #2 - #5,
+
+Re: Figma link
+>> We will proceed with figma link as provided in comment #5.
+
+Re: Phone Number(s) 254-651-3175
+>> Noted
+
+Re: Email Recipient of form - who will getting the forms when submitted info@cyclonewellness.com
+>> Noted
+
+Re: SMTP
+>> As you've add it to Passbolt but TOTP is not set up, please do with 2FA turned on. If you any difficulties with setting it up you can reach out to PPC team or follow this doc, if this help:-
+https://docs.google.com/document/d/1WZ-XdmjUi5pMav1kyQPvt5xjMmd8CRvpNCwh1aLOtTw/edit?tab=t.0
+
+Re: Sticky Footer - Should we include?  Yes
+>> Noted
+
+Re: Form functionality
+>> We will implement the form as standard form.
+
+Re: Landing Page coding
+>> We proceeding with the custom HTML as mentioned.
+
+Re: Where should Call To Action buttons lead to? What is the action of them? Contact form
+>> Noted
+
+Re: Thank You Message - "Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call 254-651-3175.
+>> Noted
+
+Re: What URL should be used for the landing page? http://cyclonewellness.com/
+>> Noted
+
+Re: Website logins
+>> FED is currently inprogress with queries related to access on the task: https://login.smartsites.com/projects/6984/tasks/359111 and we inform with details there.
+
+Please re-assigned the task and will proceed the coding as well as set the due date for dev site updates accordingly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

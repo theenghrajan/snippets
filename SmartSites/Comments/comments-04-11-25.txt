@@ -1,0 +1,111 @@
+Due date - 24-Hour
+Task Link - https://login.smartsites.com/projects/6254/tasks/343552
+Task Title - #101: Homepage Hero Section Redesign
+Project Title - Lawn Pro [SEO]
+
+As per comment #31,
+
+We’ve updated the client services list based on the page, https://lawnprolawncare.com/services/ on the form. Please review and confirm.
+SS - https://drive.google.com/file/d/1ffJI2xyomUbdd5uVNdTZD6UoNj_1uwWc/view?usp=sharing
+
+URL:- https://lawnprolawncare.com/
+
+Due date - Inprogress, Apr 15
+Task Link - https://login.smartsites.com/projects/5441/tasks/256405
+Task Title - #10: Develop LPs
+Project Title - All Clear Plumbing & Rooter [PPC]
+
+If you are saying to use 'allclearplumbing25@gmail.com' as SMTP (email that forms will send to the client recipient's inbox). Please add in Passbolt Folder with 2FA turned on via TOTP or you can follow this video, https://www.youtube.com/watch?v=JPGgMvxi_Rw
+
+As per comments #5 - #6,
+
+If you are saying to use 'allclearplumbing25@gmail.com' as SMTP (email that forms will send to the client recipient's inbox). Please add to the Passbolt Folder with 2FA turned on via TOTP, or you can follow this video: https://www.youtube.com/watch?v=JPGgMvxi_Rw. So we can get the code with no time restrictions and no need to co-ordinate for the 2FA.
+
+
+
+
+
+Due date - Today, Apr 11
+Task Link - https://login.smartsites.com/projects/4616/tasks/199901
+Task Title - #5: Develop LPs
+Project Title - Best Pest Wildlife [PPC]
+
+As per comment #51,
+
+We've mentioned in the comment #50 as well, all the pages (URLs below) are currently in DRAFT mode for review and not published live yet. To preview them, you'll need to be logged into the WordPress admin dashboard. Please confirm if we can publish them all and we will publish them accordingly.
+
+Pages to be published live,
+https://bestpestwildlife.com/lp-santafe
+https://bestpestwildlife.com/lp-santafe-ms
+https://bestpestwildlife.com/lp-albuquerque
+https://bestpestwildlife.com/lp-albuquerque-ms
+
+
+As per comment #8,
+
+We've published the landing page (static) at https://toprankasphaltma.com/lp.
+
+We've set up SMTP with 'lp.toprank@gmail.com' and tested the forms as they are working fine as well.
+
+Lead form,
+Thank you message ss - https://drive.google.com/file/d/15uMQJ8ySnxQKkkH9IOxROlZdeunPzPho/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1sDdy-REC9OV473mj8jTPbORSPqCSAR7z/view?usp=sharing
+
+Contact form
+Thank you message ss - https://drive.google.com/file/d/1VtIVKAV_Q-pRwJVGnSaSexY_w2X_2DC1/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1dV71pgVVLPwBxr2iYMxA62SK_g540xbF/view?usp=sharing
+
+After testing the forms, we've changed the email recipient to 'toprankmasonryma@gmail.com' as metnioned.
+
+Due date - Today, Apr 11
+Task Link - https://login.smartsites.com/projects/6259/tasks/355921
+Task Title - #32: Click To Call Action
+Project Title - Elite TRT [PPC]
+
+As per comment #1,
+
+For the website:- https://elitetestosteronereplacement.com/
+
+Please confirm if the CTA button should be placed on the menu bas as shown in the screenshot below. Once approved, we'll proceed with implementation.
+SS - https://drive.google.com/file/d/1RAGKof_MQneFNaqhzX3k1yWTLlq8wIJM/view?usp=sharing
+
+
+
+
+Due date - Today, Apr 11
+Task Link - https://login.smartsites.com/projects/6797/tasks/352493
+Task Title - #87: Blog Page and Individual Blog Page
+Project Title - Sandusky Milan RV Park [SEO]
+
+As per comments #6 - #7,
+
+1. Since the website, https://sanduskymilanrvpark.com/ is built on WordPress using DIVI builder, we may not be able to match the blog page design using the builder due to the limitations. However, we'll do our best to replicate the design as closely as possible within the builder's capabilities. We will proceed on dev for review.
+
+2. As per our understanding, 
+
+	- We will remove this block (see screenshot below).
+	SS - https://drive.google.com/file/d/1sKt7Ru1VG_z8H5P4WuAPkF7wigx77QLm/view?usp=sharing
+
+	- We will implement the form as per the design with standard action. Should form submissions be sent to the current admin email (SMRVParkOhio@gmail.com)? Or would you prefer a different recipient address?
+
+3. We have approximately estimated around 8 to 12 hours and might increase if any futher updates are require. Please approve our estimation and then we will proceed with the task.
+
+
+
+We need to test further by deactivating some cache plugins as there are multiple active cache plugins are installed. Only one caching plugin should be active for better performance.
+
+
+As per comment #5,
+
+For the website:- https://mrpoolleakrepair.com/
+
+1. Multiple caching plugins were active, such as Nitropack and Asset CleanUp, which caused conflicts and led to the issues. We’ve temporarily deactivated Nitropack to resolve the problem, and the mobile version now appears to be working as well.
+SS - https://drive.google.com/file/d/1DWl6BFldPJ73cKrt5Sxf1HPgVn5VzkyC/view?usp=sharing
+
+2. Please create a separate task for further investigation and review of the caching issues. If Nitropack needs to be activated.
+
+
+
+
+
+
