@@ -1,0 +1,421 @@
+// stylelint-disable selector-no-qualifying-type
+
+//
+// Textual form controls
+//
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: $input-height;
+	padding: $input-padding-y $input-padding-x;
+	font-family: $input-font-family;
+	@include font-size($input-font-size);
+	font-weight: $input-font-weight;
+	line-height: $input-line-height;
+	color: $input-color;
+	background-color: $input-bg;
+	background-clip: padding-box;
+	border: $input-border-width solid $input-border-color;
+
+	// Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
+	@include border-radius($input-border-radius, 0);
+
+	@include box-shadow($input-box-shadow);
+	@include transition($input-transition);
+
+	// Unstyle the caret on `<select>`s in IE10+.
+	&::-ms-expand {
+		background-color: transparent;
+		border: 0;
+	}
+
+	// Customize the `:focus` state to imitate native WebKit styles.
+	@include form-control-focus();
+
+	// Placeholder
+	&::placeholder {
+		color: $input-placeholder-color;
+		// Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
+		opacity: 1;
+	}
+
+	// Disabled and read-only inputs
+	//
+	// HTML5 says that controls under a fieldset > legend:first-child won't be
+	// disabled if the fieldset is disabled. Due to implementation difficulty, we
+	// don't honor that edge case; we style them as disabled anyway.
+	&:disabled,
+	&[readonly] {
+		background-color: $input-disabled-bg;
+		// iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655.
+		opacity: 1;
+	}
+}
+
+select.form-control {
+	&:focus::-ms-value {
+		// Suppress the nested default white text on blue background highlight given to
+		// the selected option text when the (still closed) <select> receives focus
+		// in IE and (under certain conditions) Edge, as it looks bad and cannot be made to
+		// match the appearance of the native widget.
+		// See https://github.com/twbs/bootstrap/issues/19398.
+		color: $input-color;
+		background-color: $input-bg;
+	}
+}
+
+// Make file inputs better match text inputs by forcing them to new lines.
+.form-control-file,
+.form-control-range {
+	display: block;
+	width: 100%;
+}
+
+
+//
+// Labels
+//
+
+// For use with horizontal and inline forms, when you need the label (or legend)
+// text to align with the form controls.
+.col-form-label {
+	padding-top: calc(#{$input-padding-y} + #{$input-border-width});
+	padding-bottom: calc(#{$input-padding-y} + #{$input-border-width});
+	margin-bottom: 0; // Override the `<label>/<legend>` default
+	@include font-size(inherit); // Override the `<legend>` default
+	line-height: $input-line-height;
+}
+
+.col-form-label-lg {
+	padding-top: calc(#{$input-padding-y-lg} + #{$input-border-width});
+	padding-bottom: calc(#{$input-padding-y-lg} + #{$input-border-width});
+	@include font-size($input-font-size-lg);
+	line-height: $input-line-height-lg;
+}
+
+.col-form-label-sm {
+	padding-top: calc(#{$input-padding-y-sm} + #{$input-border-width});
+	padding-bottom: calc(#{$input-padding-y-sm} + #{$input-border-width});
+	@include font-size($input-font-size-sm);
+	line-height: $input-line-height-sm;
+}
+
+
+// Readonly controls as plain text
+//
+// Apply class to a readonly input to make it appear like regular plain
+// text (without any border, background color, focus indicator)
+
+.form-control-plaintext {
+	display: block;
+	width: 100%;
+	padding-top: $input-padding-y;
+	padding-bottom: $input-padding-y;
+	margin-bottom: 0; // match inputs if this class comes on inputs with default margins
+	line-height: $input-line-height;
+	color: $input-plaintext-color;
+	background-color: transparent;
+	border: solid transparent;
+	border-width: $input-border-width 0;
+
+	&.form-control-sm,
+	&.form-control-lg {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+
+// stylelint-disable-next-line no-duplicate-selectors
+select.form-control {
+
+	&[size],
+	&[multiple] {
+		height: auto;
+	}
+}
+
+textarea.form-control {
+	height: 141px;
+	resize: none;
+}
+
+// Form groups
+//
+// Designed to help with the organization and spacing of vertical forms. For
+// horizontal forms, use the predefined grid classes.
+
+.form-group {
+	margin-bottom: $form-group-margin-bottom;
+}
+
+.form-text {
+	display: block;
+	margin-top: $form-text-margin-top;
+}
+
+
+// Form grid
+//
+// Special replacement for our grid system's `.row` for tighter form layouts.
+
+.form-row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -$form-grid-gutter-width / 2;
+	margin-left: -$form-grid-gutter-width / 2;
+
+	>.col,
+	>[class*="col-"] {
+		padding-right: $form-grid-gutter-width / 2;
+		padding-left: $form-grid-gutter-width / 2;
+	}
+}
+
+
+// Checkboxes and radios
+//
+// Indent the labels to position radios/checkboxes as hanging controls.
+
+.form-check {
+	position: relative;
+	display: block;
+	padding-left: $form-check-input-gutter;
+}
+
+.form-check-input {
+	position: absolute;
+	margin-top: $form-check-input-margin-y;
+	margin-left: -$form-check-input-gutter;
+
+	&:disabled~.form-check-label {
+		color: $text-muted;
+	}
+}
+
+.form-check-label {
+	margin-bottom: 0; // Override default `<label>` bottom margin
+}
+
+.form-check-inline {
+	display: inline-flex;
+	align-items: center;
+	padding-left: 0; // Override base .form-check
+	margin-right: $form-check-inline-margin-x;
+
+	// Undo .form-check-input defaults and add some `margin-right`.
+	.form-check-input {
+		position: static;
+		margin-top: 0;
+		margin-right: $form-check-inline-input-margin-x;
+		margin-left: 0;
+	}
+}
+
+
+// Form validation
+//
+.messages {
+	display: none;
+}
+
+.has-error {
+	.form-control {
+		border-color: $form-invalid-border-color;
+	}
+}
+
+.thank-you-message {
+	font-size: $form-success-font-size;
+	color: $form-success-font-color;
+	padding: $form-success-padding-x $form-success-padding-y;
+	text-align: center;
+
+	a {
+		color: $lime;
+
+		&:hover,
+		&:focus {
+			text-decoration: none;
+		}
+	}
+}
+
+.thank-you-heading {
+	font-size: $form-success-title-font-size;
+	line-height: 1.3;
+}
+
+// default form
+
+.default-form {
+	.form {
+		background-color: $white;
+		padding: 2rem 1.125rem;
+		max-width: 448px;
+		margin: auto;
+
+		position: relative;
+
+		@include media-breakpoint-up(lg) {
+			margin-left: auto;
+		}
+
+		@include media-breakpoint-up(xl) {
+			padding: 2rem;
+			margin-right: 1.8125rem;
+		}
+
+		@include media-breakpoint-up(xxl) {
+			padding: 3.0625rem 2.1875rem 2rem;
+		}
+
+		&::before {
+			content: '';
+			width: 10px;
+			height: 30px;
+			background-color: $white;
+			position: absolute;
+			top: -18px;
+			right: -10px;
+			transform: translateX(100%);
+
+			@include media-breakpoint-up(xl) {
+				top: -24px;
+				right: -10px;
+				width: 16px;
+				height: 50px;
+			}
+
+			@include media-breakpoint-up(xxl) {
+				width: 22px;
+				height: 60px;
+				top: -30px;
+			}
+
+			@include media-breakpoint-down(xs) {
+				display: none;
+			}
+		}
+
+		&::after {
+			content: '';
+			width: 25px;
+			height: 10px;
+			background-color: $white;
+			position: absolute;
+			top: -8px;
+			right: -10px;
+			transform: translate(5px, -100%);
+
+			@include media-breakpoint-up(xl) {
+				width: 45px;
+				height: 16px;
+				top: -8px;
+				right: -10px;
+			}
+
+			@include media-breakpoint-up(xxl) {
+				height: 22px;
+			}
+			
+			@include media-breakpoint-down(xs) {
+				display: none;
+			}
+
+		}
+
+		&-header {
+			h4 {
+				text-transform: uppercase;
+				text-align: center;
+				@include font-size(1.25rem);
+				line-height: 1.35;
+				font-family: $font-raleway;
+				font-weight: 700;
+				margin-bottom: 1.25rem;
+				color: $navy;
+
+				@include media-breakpoint-up(sm) {
+					@include font-size(1.375rem);
+				}
+
+				@include media-breakpoint-up(xl) {
+					@include font-size(1.75rem);
+				}
+
+				@include media-breakpoint-up(xxl) {
+					margin-bottom: 2.0625rem;
+				}
+			}
+		}
+
+		&-control {
+			height: 3rem;
+			border-radius: 0;
+			padding: 0.9375rem;
+			line-height: 1.3;
+			font-weight: $font-weight-light;
+			@include font-size(0.9375rem);
+			border: 1px solid $white-200;
+			color: $white-300;
+
+			@include media-breakpoint-up(xxl) {
+				height: 3.1875rem;
+				line-height: 1.5;
+			}
+
+			&:focus {
+				box-shadow: none;
+				border-color: $lime;
+			}
+
+			&::placeholder {
+				font-family: $font-raleway;
+				font-weight: 300;
+				@include font-size(15px);
+				line-height: 1.2;
+				letter-spacing: 0.75px;
+				color: $gray-800;
+			}
+		}
+
+		&-group {
+			textarea {
+				height: 80px;
+
+				@include media-breakpoint-up(sm) {
+					height: 141px;
+				}
+			}
+		}
+
+		&-footer {
+			.btn-primary {
+				display: block;
+				font-family: $font-raleway;
+				@include font-size(1rem);
+				padding: 1.125rem 1rem;
+				min-width: 100%;
+				background-color: $navy;
+				color: $white;
+				border-color: transparent;
+
+				@include media-breakpoint-up(xl) {
+					padding: 1.375rem 1rem 1.3125rem;
+					@include font-size(1.125rem);
+				}
+			}
+		}
+
+		.thank-you-message {
+			@include media-breakpoint-down(md) {
+				padding: 0;
+				line-height: 1.5;
+				@include font-size(1rem);
+			}
+		}
+
+	}
+}

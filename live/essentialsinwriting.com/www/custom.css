@@ -1,0 +1,316 @@
+/* Start: skill-that-stick css */
+
+.skill-that-stick {
+  padding: 80px;
+  background-image: url("images/Skills_That_Stick_bg_Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.skill-that-stick .contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.skill-that-stick h2 {
+  text-align: center;
+  color: white;
+}
+
+.skill-that-stick p {
+  text-align: center;
+  color: white;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.skill-that-stick .box {
+  width: 237px;
+  height: 213px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.18);
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.skill-that-stick .box-odd {
+  margin-top: 100px;
+}
+
+.skill-that-stick .box h3 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.skill-that-stick .box img {
+  max-width: 60px;
+}
+
+.footer-contaion {
+  margin-top: 30px;
+}
+
+.from-basic {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.from-basic p {
+  color: #263238;
+  font-size: 17px;
+}
+
+.from-basic .from-basic-image img {
+  width: 100%;
+}
+
+.from-basic .learn-more-btn {
+  background: #26bcfb;
+  padding: 9px 30px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  display: inline-flex;
+  margin-top: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.from-basic .learn-more-btn:hover {
+  opacity: 0.7;
+}
+
+.home .service {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.service .service-box {
+  width: 411px;
+  background-color: #39a5de;
+  padding: 40px;
+  display: grid;
+  place-content: start;
+  text-align: center;
+  color: white;
+}
+
+.service-box h2 {
+  color: white;
+}
+
+.service-box span {
+  font-weight: lighter;
+  display: block;
+  font-size: 24px;
+}
+
+.service-box p {
+  margin: 20px;
+  font-size: 14px;
+}
+
+.service .step-by-step {
+  background-color: #39a5de;
+}
+
+.service .easy-follow {
+  background-color: #3287d3;
+}
+
+.service .independent-learning {
+  background-color: #2858c1;
+}
+
+.service img {
+  max-width: 193px;
+}
+
+.buy-course-section {
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.buy-course-width {
+  width: 50%;
+  color: #ffffff;
+  margin-right: 80px;
+}
+
+.buy-course-parts {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buy-course-content {
+  position: relative;
+}
+
+.buy-course-button {
+  background-color: #26bcfb;
+  padding: 9px 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.buy-course-part-two {
+  margin-bottom: 40px;
+}
+
+.buy-course-icon {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -30px;
+}
+
+.buy-course-heading {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.buy-course-paragraph {
+  color: white;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+}
+
+@media (min-width: 1390px) {
+  .service .service-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .skill-that-stick {
+    padding: 20px;
+  }
+
+  .skill-that-stick .contain {
+    flex-wrap: wrap;
+    margin-top: 18px;
+  }
+
+  .skill-that-stick .box-odd {
+    margin-top: 0px;
+  }
+
+  .from-basic {
+    padding: 20px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .elementary-learner .from-basic-content {
+    order: 2;
+  }
+
+  .elementary-learner .from-basic-image {
+    order: 1;
+  }
+
+  .service {
+    padding: 0px 20px;
+    flex-wrap: wrap;
+  }
+
+  .service .service-box {
+    width: 100%;
+  }
+
+  .buy-course-parts {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .buy-course-width {
+    width: 100%;
+    margin-right: 0px;
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 571px) {
+  .skill-that-stick .box {
+    width: 100%;
+  }
+}
+
+.site-container > .skill-that-stick ~ .skill-that-stick,
+.site-container > .from-basic ~ .from-basic,
+.site-container > .service ~ .service,
+.site-container > .buy-course-section ~ .buy-course-section {
+  display: none;
+}
+
+.scoring-template .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 1024px) {
+  .scoring-template .section-title {
+    font-size: 38px;
+    margin-bottom: 24px;
+  }
+}
+
+.list-tick ul,
+ul.list-tick {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-tick ul li,
+ul.list-tick li {
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.list-tick ul li:before,
+ul.list-tick li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  background-image: url("../images/tick-icon-blue.png");
+  background-repeat: no-repeat;
+  background-size: 28px 28px;
+  opacity: 1;
+}
+
+.page-template-page-scoring_service .site-container > .wrap .htu-btn {
+  display: none !important;
+}

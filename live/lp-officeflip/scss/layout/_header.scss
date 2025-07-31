@@ -1,0 +1,107 @@
+.site-header {
+    position: relative;
+    background: rgb(229, 229, 229);
+    background: linear-gradient(to right, rgba(229, 229, 229, 1) 25%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 42%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#f7f7f7', GradientType=1);
+    padding-bottom: 1rem;
+
+    @media (min-width: 768px) {
+        background: linear-gradient(to right, rgba(229, 229, 229, 1) 35%, rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 1) 42%);
+    }
+
+    @media (min-width: 1376px) {
+        background: linear-gradient(to right, rgba(229, 229, 229, 1) 27%, rgba(255, 255, 255, 1) 27%, rgba(255, 255, 255, 1) 42%);
+    }
+
+    @media (min-width: 1599px) {
+        background: linear-gradient(to right, rgba(229, 229, 229, 1) 25%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 42%);
+    }
+
+    // &:before {
+    //     position: absolute;
+    //     content: '';
+    //     top: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     background: #e5e5e5;
+    //     height: 100%;
+    //     z-index: -1;
+
+    //     @media (min-width: 576px) {
+    //         width: 30rem;
+    //     }
+
+    //     @media (min-width: 768px) {
+    //         width: 45.5rem;
+    //     }
+    // }
+
+    &-bottom {
+        margin-top: 2.5rem;
+        padding: 0 1.5rem;
+
+        h2 {
+            color: $black;
+            position: relative;
+            display: inline-block;
+            z-index: 3;
+
+            font-size: 2.5rem;
+
+            @media (min-width: 576px) {
+                font-size: 3rem;
+            }
+
+            @media (min-width: 992px) {
+                font-size: 4.5rem;
+            }
+
+            @media (min-width: 1200px) {
+                font-size: 6rem;
+            }
+
+            @media (min-width: 1600px) {
+                font-size: 8rem;
+            }
+
+            &:before {
+                content: "";
+                background: url('../../assets/images/sprite.png') no-repeat -53px -5px;
+                width: 151px;
+                height: 30px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -18rem;
+
+
+
+                @media (min-width: 768px) {
+                    left: -20rem;
+                }
+
+                @media (min-width: 1451px) {
+                    left: -19.2rem;
+                }
+            }
+
+            &:after {
+                top: 50%;
+                transform: translateY(-50%);
+                display: none;
+
+                @media (min-width: 375px) {
+                    display: block;
+                }
+            }
+
+            @media (min-width: 768px) {
+                margin-left: 10rem;
+            }
+
+            @media (min-width: 1451px) {
+                margin-left: 22rem;
+            }
+        }
+    }
+}

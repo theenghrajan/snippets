@@ -1,0 +1,44 @@
+.form-header {
+	display: block;
+	width: 100%;
+	color: #fff;
+	background: $dark-blue;
+	text-align: center;
+	padding: 1rem;
+	position: relative;
+
+	@media(min-width: 768px) {
+		padding: 1.5rem;
+	}
+
+	@media(min-width: 1200px) {
+		padding: 2rem;
+	}
+
+	&:after {
+		content: '';
+		content: '';
+		position: absolute;
+		width: 0.1rem;
+		height: 0.1rem;
+		border-style: solid;
+		border-width: 1.1rem;
+		border-color: #052f6f transparent transparent;
+		bottom: -18px;
+		left: 50%;
+		transform: translateX(-50%);
+
+		@media(min-width: 1200px) {
+			bottom: -2.1rem;
+		}
+	}
+
+	h3 {
+		color: $white;
+		margin: 0;
+
+		span {
+			color: $orange
+		}
+	}
+}

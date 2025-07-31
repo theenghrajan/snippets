@@ -1,0 +1,156 @@
+html {
+   line-height: 1.15;
+   -webkit-text-size-adjust: 100%;
+   font-size: 62.5%;
+   box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+body {
+   min-width: 320px;
+   margin: 0 auto;
+   background: $white;
+   color: $black;
+}
+
+p {
+   margin-top: 0;
+   margin-bottom: 1.5rem;
+
+   @media (min-width: 1200px) {
+      margin-bottom: 2rem;
+   }
+}
+
+ul,
+ol {
+   margin: 0;
+   padding-left: 2.5rem;
+}
+
+ul {
+   list-style: disc;
+   margin: 0;
+   padding: 0;
+}
+
+ol {
+   list-style: decimal;
+}
+
+li {
+
+   &>ul,
+   &>ol {
+      margin-bottom: 0;
+      margin-left: 1.5rem;
+   }
+}
+
+img {
+   height: auto;
+   max-width: 100%;
+   border-style: none;
+   vertical-align: top;
+}
+
+blockquote {
+   margin: 0 1.5rem;
+}
+
+address {
+   margin: 0 0 1.5rem;
+}
+
+figure {
+   margin: 1rem 0;
+}
+
+table {
+   margin: 0 0 1.5rem;
+   width: 100%;
+}
+
+b,
+strong {
+   font-weight: bold;
+}
+
+sub,
+sup {
+   position: relative;
+   vertical-align: baseline;
+}
+
+sub {
+   bottom: -0.25rem;
+}
+
+sup {
+   top: -0.5rem;
+}
+
+/*--------------------------------------------------------------
+## Heading Tags
+--------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin-top: 0;
+   margin-bottom: 1.5rem;
+
+   @media (min-width: 1200px) {
+      margin-bottom: 2rem;
+   }
+}
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+   background-color: transparent;
+   color: $black;
+   transition: 0.2s ease-in-out;
+   text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+   outline: 0;
+}
+
+/*--------------------------------------------------------------
+## Container and Wrapper
+--------------------------------------------------------------*/
+
+#wrapper {
+   position: relative;
+   overflow: hidden;
+   padding-bottom: 7.1rem;
+
+   @media (min-width: 992px) {
+      padding-bottom: 7.5rem;
+   }
+
+   @media (min-width: 1200px) {
+      padding-bottom: 7.8rem;
+   }
+}
+
+.container {
+   width: 100%;
+   max-width: 125rem;
+   padding: 0 1.5rem;
+   margin: 0 auto;
+}

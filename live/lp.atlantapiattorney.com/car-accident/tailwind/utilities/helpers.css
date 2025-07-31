@@ -1,0 +1,6 @@
+.list-dots ul {
+ @apply list-none;
+}
+.list-dots ul li {
+ @apply relative  z-[1] pl-5 before:absolute before:top-[11px] before:left-0 before:w-1.5 before:h-1.5 before:bg-black before:rounded-full mb-2;
+}

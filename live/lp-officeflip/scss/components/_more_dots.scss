@@ -1,0 +1,12 @@
+.more-dots {
+  margin: 0;
+
+  li {
+    display: inline-block;
+    list-style: none;
+    width: .6rem;
+    height: .6rem;
+    border-radius: 5rem;
+    background: $gray-1;
+  }
+}

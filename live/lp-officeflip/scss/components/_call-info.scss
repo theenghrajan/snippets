@@ -1,0 +1,29 @@
+.call-info {
+    p {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: $black;
+        margin-bottom: 0;
+
+        @media (min-width: 768px) {
+            font-size: 1.8rem;
+        }
+
+        span {
+            color: $orange;
+            display: block;
+        }
+    }
+
+    .tel {
+        &:before {
+            content: '';
+            background: url('../../assets/images/sprite.png') no-repeat -6px -5px;
+            width: 10px;
+            height: 16px;
+            display: inline-block;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+        }
+    }
+}

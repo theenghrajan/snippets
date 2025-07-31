@@ -1,0 +1,51 @@
+.social-sharing-list {
+  li {
+    list-style: none;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    margin: 0 .5rem;
+
+    @media(min-width: 1200px) {
+      margin: 0 1rem;
+    }
+  }
+
+  .sprite {
+    position: relative;
+    min-height: 4rem;
+    display: block;
+
+    &:before {
+      background: url('../../assets/images/sprite.png') no-repeat -5px -133px;
+      width: 34px;
+      height: 34px;
+      position: absolute;
+      content: '';
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: 0.2s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        margin-top: -.5rem;
+      }
+    }
+
+    &.icon2 {
+      &:before {
+        background: url('../../assets/images/sprite.png') no-repeat -52px -133px;
+      }
+    }
+
+    &.icon3 {
+      &:before {
+        background: url('../../assets/images/sprite.png') no-repeat -97px -133px;
+        width: 36px;
+        height: 36px;
+      }
+    }
+  }
+}

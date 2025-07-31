@@ -1,0 +1,18 @@
+/* slick-same-height */
+.slick-same-height {
+  @apply md:[&_.slick-track]:flex md:[&_.slick-slide]:h-[inherit];
+}
+
+.hide-dots .slick-dots {
+  @apply !hidden;
+}
+
+.hide-dots .slick-arrow {
+  @apply !hidden;
+}
+
+.logoSlider .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}

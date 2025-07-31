@@ -1,0 +1,80 @@
+.form-control {
+  @apply block 
+  w-full 
+  h-12 
+  lg:h-14 
+  px-2 
+  py-4 
+  lg:pl-6 
+  font-sans 
+  font-normal 
+  leading-tight 
+  text-base 
+  text-black 
+  bg-white 
+  bg-clip-padding 
+  border
+  border-black/20 
+  rounded-sm
+  placeholder:text-black/50 
+  transition 
+  ease-in-out 
+  duration-500 
+  focus:text-black 
+  focus:border-primary 
+  focus:outline-none 
+  focus:shadow-lg;
+}
+
+.footer-form .form-control {
+  @apply border-0 border-b;
+}
+
+select.form-control {
+  @apply focus:text-black focus:bg-white;
+}
+
+textarea.form-control {
+  @apply h-24 resize-none overflow-hidden mb-[30px]; 
+}
+
+.footer-form textarea.form-control {
+  @apply h-24 resize-y overflow-hidden mb-10;
+}
+
+.form-group {
+  @apply mb-4 px-[10px] max-lg:w-full;
+}
+
+/* Form validation */
+.messages {
+  @apply hidden;
+}
+
+.has-error .form-control {
+  @apply border-danger placeholder:text-danger;
+}
+
+.has-error .g-recaptcha-v2-visible iframe {
+  @apply border border-danger;
+}
+
+.thank-you-message {
+  @apply text-center 
+  text-base 
+  leading-normal
+  bg-green-600
+  text-white 
+  rounded-lg
+  p-4
+  m-0;
+}
+
+.thank-you-message a {
+  @apply whitespace-nowrap
+  font-bold;
+}
+
+.thank-you-heading {
+  @apply text-xl;
+}

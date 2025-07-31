@@ -1,0 +1,13 @@
+.brand-logo {
+    display: block;
+
+    img {
+        height: 3rem;
+        transition: ease 0.5s;
+
+        @media (min-width: 768px) {
+            height: inherit;
+            transition: ease 0.5s;
+        }
+    }
+}

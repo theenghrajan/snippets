@@ -1,0 +1,123 @@
+body {
+	//change below if required and delete the comment. Use at least 2 fall back fonts. 
+	font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.75;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1;
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+.h1,
+h1 {
+	//font-size increases by 1rem for different media sizes. Please change if required and delete the comment.
+	font-size: 3rem;
+
+	@media (min-width: 576px) {
+		font-size: 4rem;
+	}
+
+	@media (min-width: 992px) {
+		font-size: 5rem;
+	}
+
+	@media (min-width: 1200px) {
+		font-size: 7rem;
+	}
+
+	@media (min-width: 1367px) {
+		font-size: 9rem;
+	}
+}
+
+.h2,
+h2 {
+	//font-size increases by 0.5rem for different media sizes. Please change if required and delete the comment.
+	font-size: 2.5rem;
+
+	@media (min-width: 576px) {
+		font-size: 3rem;
+	}
+
+	@media (min-width: 992px) {
+		font-size: 4.5rem;
+	}
+
+	@media (min-width: 1200px) {
+		font-size: 6rem;
+	}
+
+	@media (min-width: 1367px) {
+		font-size: 8rem;
+	}
+}
+
+.h3,
+h3 {
+	//font-size increases by 0.3rem for different media sizes. Please change if required and delete the comment.
+	font-size: 2.2rem;
+
+	@media (min-width: 576px) {
+		font-size: 2.5rem;
+	}
+
+	@media (min-width: 992px) {
+		font-size: 3rem;
+	}
+
+	@media (min-width: 1200px) {
+		font-size: 3.5rem;
+	}
+}
+
+.h4,
+h4 {
+	//font-size increases only at 992px. Please change if required and delete the comment.
+	font-size: 2rem;
+
+	@media (min-width: 992px) {
+		font-size: 2.2rem;
+	}
+}
+
+input,
+select,
+optgroup,
+textarea {
+	//change below if required and delete the comment. Use at least 2 fall back fonts.
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1;
+
+	@media (min-width: 1200px) {
+		font-size: 1.6rem;
+	}
+
+	@media (min-width: 1367px) {
+		//according to PSD		
+	}
+}
+
+big {
+	font-size: 125%;
+	line-height: 1;
+}
+
+small {
+	font-size: 80%;
+	line-height: 1;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 1;
+}

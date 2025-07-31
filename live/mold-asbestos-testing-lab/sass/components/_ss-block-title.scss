@@ -1,0 +1,52 @@
+.block-title {
+    font-weight: 600;
+    @include font-size(1rem);
+    margin: auto;
+
+    @include media-breakpoint-up(md) {
+        @include font-size(1.125rem);
+    }
+
+    @include media-breakpoint-down(lg){
+        line-height: 1.4;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        line-height: 1.1;
+        position: relative;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+
+        @include media-breakpoint-up(sm){
+            padding-bottom: 1.5625rem;
+            margin-bottom: 1.5625rem;
+        }
+
+        @include media-breakpoint-up(xxl){
+            padding-bottom: 2.4rem;
+            margin-bottom: 2rem;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%);
+            width: 4.3125rem;
+            border-bottom: 0.125rem solid $navy;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: -0.3125rem;
+            left: 49%;
+            transform: translate(-50%);
+            width: 4.3125rem;
+            border-bottom: 0.125rem solid $navy;
+        }
+
+    }
+}

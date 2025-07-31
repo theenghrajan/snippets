@@ -1,0 +1,28 @@
+.top-header {
+    padding: 1.2rem 0;
+
+    @media (min-width: 768px) {
+        padding: 2.5rem 0;
+    }
+
+    @media (min-width: 1025px) {
+        padding: 3.3rem 0;
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1.5rem;
+
+        @media (min-width: 768px) {
+            padding: 0 4rem;
+        }
+    }
+
+    .call-info {
+        @media (min-width: 768px) {
+            margin-right: 12rem;
+        }
+    }
+}

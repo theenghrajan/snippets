@@ -1,0 +1,642 @@
+/*
+ * Page Specific CSS
+ */
+
+/* Homepage */
+
+.home {
+	.features {
+		.center-row-inner .wpb_column {
+			background-image: @verticalDivider;
+			background-repeat: no-repeat;
+			background-position: bottom right;
+
+			&:last-child {
+					background-image: none;
+			}
+		}
+
+		a {
+			font-family: @headingFontFamily;
+			text-transform: uppercase;
+			font-size: .9em;
+			text-decoration: underline;
+			letter-spacing: 1px;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+
+		h3 {
+			letter-spacing: 2px;
+		}
+
+		p {
+		 font-size: .8em;
+		}
+	}
+
+	.vcex-caroufredsel-entry-excerpt {
+			font-size: .7em;
+	}
+
+	.featured-product {
+			background-image: @widowsPeakWhite;
+			background-repeat: no-repeat;
+			background-position: top center;
+
+			h2 {
+					color: @brandSecondaryColor;
+		 }
+	}
+
+	.capability-block {
+		h2 {
+			margin-top: 0;
+			padding-top: 0;
+			font-size: 22px;
+		}
+
+		p{
+				 font-size: 18px;
+		}
+
+		.wpb_btn-large {
+				margin-top: 82px;
+				&:hover {
+						color: @brandPrimaryColor;
+						text-shadow: none;
+			 }
+		}
+	}
+
+	.testimonials-block {
+		h2 {
+			color: @brandSecondaryColor;
+			font-size: 22px;
+		}
+	}
+
+	.site-footer{ background-image: @widowsPeakGray }
+
+} //End Homepage
+
+.testimonials-block {
+		h2 {
+			color: @brandSecondaryColor;
+			font-size: 22px;
+	 }
+}
+
+
+.hotspotcontainer {
+		.hotspot {
+				position: relative;
+	 }
+}
+
+.theme-heading.shrink {
+		margin-top: 0px;
+}
+
+.additional-photos {
+		[class^="vc_col-"] {
+				padding-left: 10px;
+				padding-right: 10px;
+				margin-bottom: 20px;
+	 }
+}
+
+@media (max-width: 767px) {
+		.home .features .center-row-inner .wpb_column {
+				background-image: none;
+	 }
+}
+
+
+/* Project Estimator */
+.page-id-81 {
+		.page-header {
+				margin-bottom: 0
+	 }
+	 h2 {
+			 font-size: 18px;
+			 text-transform: none
+	}
+	.wpb_column .bordered-column {
+			border: 2px solid @brandSecondaryColor;
+			p {
+					font-size: .8em;
+		 }
+		 h3 a {
+				 color: @brandSecondaryColor;
+				 text-decoration: underline;
+				 &:hover {
+						 color: @brandPrimaryColor;
+				}
+	 }
+}
+}
+@media (max-width: 767px) {
+		.mobilealigncenter {
+				float: none !important;
+				text-align: center !important;
+	 }
+	 .mobilealigncenter * {
+			 float: none !important;
+			 text-align: center !important;
+	}
+}
+/* Estimator Form */
+
+.page-id-91, .page-id-367 {
+		ol {
+				counter-reset: li;
+				margin-bottom: 0;
+				li {
+						list-style: none;
+						position: relative;
+						padding-bottom: 40px;
+						&:before {
+								content: counter(li);
+								/* Use the counter as content */
+								counter-increment: li;
+								/* Increment the counter by 1 */
+								/* Position and style the number */
+								position: absolute;
+								top: -18px;
+								left: -1.2em;
+								-moz-box-sizing: border-box;
+								-webkit-box-sizing: border-box;
+								box-sizing: border-box;
+								width: 2em;
+								/* Some space between the number and the content in browsers that support
+								generated content but not positioning it (Camino 2 is one example) */
+								margin-right: 8px;
+								padding: 4px;
+								color: @brandPrimaryColor;
+								font-family: @bodyFontFamily;
+								font-size: 32px;
+					 }
+					 .nozzle-range {
+							 display: inline-block;
+							 width: 60px;
+							 height: 60px;
+							 border: 1px solid @brandSecondaryColor;
+							 border-radius: 3px;
+							 text-align: center;
+							 font-size: 32px;
+							 color: @brandSecondaryColor;
+							 float: left;
+					}
+					.nozzle-count {
+							margin-left: 90px;
+				 }
+				 p {
+						 font-size: 15px;
+						 &.q {
+								 background: @brandSecondaryColor;
+								 color: white;
+								 margin: 0;
+								 padding: 5px 20px 5px 10px;
+								 margin-bottom: 45px;
+								 line-height: 20px;
+								 a.tip {
+										 position: absolute;
+										 right: 10px;
+										 span {
+												 color: @brandPrimaryColor!important;
+										}
+							 }
+					}
+					&.note {
+							margin-top: -40px;
+							margin-bottom: 30px;
+				 }
+		}
+		.wpcf7-list-item {
+				font-size: 18px;
+				display: inline-block;
+				min-width: 120px;
+				border: 1px solid @brandSecondaryColor;
+				color: @brandSecondaryColor;
+				border-radius: 3px;
+				text-align: center;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				background-repeat: no-repeat;
+				background-position: right;
+				padding: 0 20px;
+				cursor: pointer;
+				&.active, &:hover {
+						background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAASCAYAAAA6yNxSAAAA60lEQVR42r3TOwrCQBSF4WzCXfgEH9GNWKhxcS7DLaRR04gW1hoZ7YXxRgInDHc8kDgKBwQn83+FiUJ90jQdyI4yI0ustZGyoPG7zJbL/wNAPP+EsXNYAOJ9JW5kQwIIFn8U8eL3cADEb774V4AcimVb2UbWqhHvkTgFXCoPZkA0io9wigBwgYLg8SuPc8Bc9nIuOgChxrue+Ng5ygHlhQuK4PGJFuYAXLxUEPsqQr53SLwOgCJ2BULW9sRj0qYAF7FSEJknPqVlDlARiYvg8eYAjkB8RnoNAUCsHcQT8fCA6itqZCf84X4HeAOX2FN5OlIAeQAAAABJRU5ErkJggg==);
+						border-color: @brandPrimaryColor;
+						color: @brandPrimaryColor;
+						padding-right: 35px;
+						padding-left: 5px;
+			 }
+			 input {
+					 display: none;
+			}
+ 		}
+	 .wpcf7-form-control-wrap {
+			 display: block;
+			 text-align: center;
+		}
+		.spray-height {
+				display: inline-block;
+		}
+		select {
+				border: 1px solid @brandPrimaryColor;
+				padding: 5px 25px 5px 10px;
+				color: @brandPrimaryColor;
+				font-size: 20px;
+				font-family: @bodyFontFamily;
+				-webkit-appearance: none;
+				background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAASklEQVR42p3OwQ0AIAgDQEbrNk7oWzZDeWGMIEjSF8m1RK2PFXHCIkJRFEAA4AXoeStYX1kAt/YkYCvO9iqAvb0I2Apr/wOgqQATomILlIiVCCoAAAAASUVORK5CYII=);
+				background-repeat: no-repeat;
+				background-position: center right;
+		}
+	}
+}
+input.wpcf7-submit, .reset-btn {
+		margin: 10px auto;
+		padding: 5px 15px;
+		background: @brandPrimaryColor;
+		color: white;
+		border: 2px solid @brandSecondaryColor;
+		border-radius: 3px;
+		height: auto;
+		line-height: 40px;
+		font-size: 16px;
+		min-width: 300px;
+		&:hover {
+			background: @brandSecondaryColor;
+			text-decoration: none;
+	 }
+}
+
+.reset-btn{
+	padding: 10px 50px;
+	display: inline-block;
+}
+
+.estimate-box {
+		.warning {
+				color: #ff0000;
+	 }
+	 .wrapper {
+			 border: 2px solid @brandSecondaryColor;
+			 border-radius: 3px;
+			 h4 {
+					 font-size: 14px;
+					 color: #7d7d7d;
+					 margin-top: 0;
+			}
+			.vc_col-sm-4 {
+					border-right: 1px solid @brandSecondaryColor;
+		 }
+		 .column_container {
+				 margin-top: 20px;
+				 padding-bottom: 20px;
+				 p {
+						 margin-bottom: 0
+				}
+	 }
+	 .total-project {
+			 font-size: 24px;
+			 font-weight: 600;
+			 color: @brandPrimaryColor;
+	}
+	.equipment-total {
+			font-size: 20px;
+			font-weight: 600;
+			color: @brandPrimaryColor;
+ }
+}
+}
+}
+
+/* Capabilities page */
+.page-id-197 {
+	.site-footer{
+		background-image: none;
+	}
+
+		#concept .center-row-inner, #consulting .center-row-inner, #estimate .center-row-inner, #engineering .center-row-inner, #mands .center-row-inner, #assembly .center-row-inner, #dandi .center-row-inner, #startup .center-row-inner, #mands .center-row-inner {
+				position: relative;
+				a.back-to-top {
+						position: absolute;
+						bottom: -20px;
+						right: 0;
+						display: block;
+						width: 100px;
+						height: 12px;
+						font-size: 11px;
+						color: #333333;
+						text-align: right;
+						&:hover {
+								color: #000000;
+					 }
+					 &.ondark {
+							 color: #ffffff;
+							 &:hover {
+									 color: #eee;
+							}
+				 }
+		}
+		//end back to top
+}
+@media (max-width: 767px) {
+		.vcex-row-bg-container {
+				margin-bottom: 0;
+	 }
+	 .wpb_column {
+			 margin-bottom: 0;
+	}
+}
+h2 {
+		font-family: @headingFontFamily2;
+}
+.vcex-row-bg-container {
+		&.hasbackground {
+				background-repeat: no-repeat;
+				background-position: center top;
+				background-size: auto 100%;
+	 }
+}
+.consulting {}
+}
+// hotspots
+.hotspot {
+		margin-bottom: 30px;
+}
+.capquote {
+		h4 {
+				color: @brandPrimaryColor;
+				text-transform: uppercase;
+				margin-top: 0;
+				font-size: 14px;
+				font-family: @headingFontFamily;
+				font-weight: normal;
+	 }
+	 blockquote {
+			 color: #444;
+			 background: none;
+			 font-style: italic;
+			 padding: 0;
+			 margin: 0;
+	}
+}
+.tags {
+		h5 {
+				margin-bottom: 0;
+	 }
+}
+
+
+/*
+ * Cad Files
+ */
+
+.page-template-cad-files-php {
+		h2 {
+				color: #333;
+	 }
+}
+.cad_file {
+	.vcex-icon-box-one {
+		padding-left: 40px;
+	}
+	
+	span.fa {
+	 font-size: 25px;
+	 color: @brandSecondaryColor;
+	}
+	h3 {
+		font-family: @bodyFontFamily;
+		margin-bottom: 0;
+		margin-top: 0;
+		color: #333;
+		font-size: .9em;
+	}
+ 	a {
+		font-size: .8em;
+
+		&:hover{
+			text-decoration: underline!important;
+		}
+	}
+	.vcex-icon-box-one-content{
+		line-height: 1.2em;
+
+		small{
+			color: #999;
+			font-size: .7em;
+		}
+	}
+}
+/*
+ * Portfolio landing
+ */
+
+.page-id-121 {
+		.portfolio-entry-details {
+				border: 0;
+				vertical-align: middle;
+				* {
+						display: inline-block;
+						vertical-align: middle;
+			 }
+	}
+}
+.related-portfolio-posts {
+		.portfolio-entry-details {
+				background: rgba(0, 0, 0, 0.85);
+				border: 0;
+				vertical-align: middle;
+				text-align: center;
+				.match-height-content {
+						vertical-align: center;
+						* {
+								color: #fff;
+								margin: 0;
+								top: 0;
+								padding: 0;
+								display: inline-block;
+								vertical-align: middle;
+								height: auto;
+								line-height: normal;
+					 }
+			}
+ }
+}
+.content-holder {
+		margin-bottom: 30px;
+}
+
+
+/*
+ * literature
+ */
+.othercontent h4 {
+		margin-top: 5px;
+		margin-bottom: 10px !important;
+}
+.pull-up {
+		.vcex-icon-box-one-icon {
+				margin-top: -10px;
+	 }
+	 &.vcex-icon-box-one {
+			 .vcex-icon-box-one-heading {
+					 margin: 0 0 0 0;
+			}
+ }
+}
+
+.single-staff {
+		.theme-heading, .related-staff-posts {
+				margin-top: 0;
+	 }
+	 //staff page 
+	 .staff-entry-details {
+			 background: rgba(0, 0, 0, 0.8);
+			 color: #fff;
+			 .tac;
+			 padding: 20px;
+			 h2, h2 a {
+					 color: #fff;
+					 margin-top: 0;
+					 padding-top: 0;
+			}
+			.staff-position {
+					color: #eee;
+					font-size: 11px;
+					line-height: 13px;
+		 }
+}
+@media (max-width: 767px) {
+		[class^="vc_col-"] {
+				padding-left: 0;
+				padding-right: 0;
+	 }
+}
+}
+#content h4.wpb_toggle:before {
+		position: absolute;
+		left: 12px;
+		top: 17px;
+}
+html #content h4.wpb_toggle {
+		padding: 10px 12px 10px 30px;
+}
+
+/*
+ * Case Studies
+ */
+.page-id-651{
+	.site-footer{
+		background-image: @widowsPeakGray
+	}
+
+	.vcex-post-type-entry-date{
+		font-size: 1em;
+	}
+
+	.vcex-post-type-entry-media,
+	.vcex-post-type-entry-title{
+		margin-top: 20px!important;
+	}
+
+	.vcex-post-type-entry-media{
+		margin-bottom: 0!important
+	}
+
+	.vcex-post-type-entry-details{
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+
+.single-casestudies {
+		.portfolio-entry-details {
+			background: rgba(0, 0, 0, 0.8);
+			text-align: center;
+			padding: 20px;
+			border: 0;
+
+			h2, h2 a {
+					color: #fff;
+		 }
+	}
+
+	.site-footer{
+		background-image: @widowsPeakGray
+	}
+}
+
+
+/*
+ * Professional Resources
+ */
+.page-id-74{
+	.site-footer{
+		background-image: @widowsPeakGray
+	}
+}
+
+/*
+ * Product Detail Page
+ */
+
+.product {
+	h3 {
+		font-size: .8em;
+		color: #333
+	}
+	.doc-downloads {
+		h4 {
+		 margin-bottom: 0
+		}
+ 	}
+
+ 	.images a {
+		display: block;
+
+		img.woocommerce-main-image{
+			width: auto;
+			max-height: 200px;
+			height: auto;
+			max-height: 200px;
+			max-width: 100%;
+			margin: 0 auto;
+		}
+	}
+
+ 	.product-entry-media {
+ 		margin: 0 auto;
+ 		display: table;
+
+ 		a.product-entry-thumb{
+	 		display: table-cell;
+	 		vertical-align: middle;
+ 		}
+ 	}
+}
+.related.products .product-entry-thumb {
+		img {
+				width: auto !important;
+				height: 100px !important;
+	 }
+	 .woo-entry-image-secondary {
+			 right: 0
+	}
+}
+
+/*
+ * Contact Us
+ */
+ .wpcf7-form{
+ 	.light{ color: #ccc; }
+ }
+ div.wpcf7 p{ font-size: 16px; }

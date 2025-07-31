@@ -1,0 +1,17 @@
+{
+  "name": "officeflip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss assets/css/main.css -w"
+  },
+  "author": "SmartSites",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

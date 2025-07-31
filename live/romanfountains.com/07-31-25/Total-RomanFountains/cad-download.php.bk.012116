@@ -1,0 +1,50 @@
+<?php
+/**
+ * Template Name: Cad Download
+ *
+ * @package WordPress
+ * @subpackage Total
+ * @since 1.0
+*/
+
+// Get site header
+//get_header(); ?>
+
+<?php
+
+if( isset($_GET['download']) ){
+	$fileURL = $_GET['download'];
+
+	$current_user = wp_get_current_user();
+/*
+  echo 'Username: ' . $current_user->user_login . '<br />';
+  echo 'User email: ' . $current_user->user_email . '<br />';
+  echo 'User first name: ' . $current_user->user_firstname . '<br />';
+  echo 'User last name: ' . $current_user->user_lastname . '<br />';
+  echo 'User display name: ' . $current_user->display_name . '<br />';
+  echo 'User ID: ' . $current_user->ID . '<br />';
+*/
+  $user_id = get_current_user_id();
+	$company = get_user_meta($user_id, "rpr_company", true);
+
+	//Send Email
+	$to = "shawns@romanfountains.com";
+	$subject = "[Roman Rountains] Cad File Download";
+	$message = "A CAD file has been downloaded.\n\n";
+	$message .= "Name: ".$current_user->user_firstname." ".$current_user->user_lastname."\n";
+	$message .= "Email: ".$current_user->user_email."\n";
+	$message .= "Company: ".$company."\n";
+	$message .= "File URL: ".$fileURL;
+
+	wp_mail( $to, $subject, $message );
+
+	//Download File
+	header( 'Location: '.$fileURL );
+	//header('Content-Type: application/force-download');
+	//header('Content-Disposition:attachment; filename='.$fileURL);
+}else{
+	header( 'Location: /404' );
+	die();
+}
+
+?>

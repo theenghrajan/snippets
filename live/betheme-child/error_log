@@ -1,0 +1,12 @@
+[08-Nov-2024 22:01:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/wamdwsctifrt/public_html/wp-content/themes/betheme-child/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/wamdwsctifrt/public_html/wp-content/themes/betheme-child/404.php on line 2
+[08-Nov-2024 22:01:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/wamdwsctifrt/public_html/wp-content/themes/betheme-child/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/wamdwsctifrt/public_html/wp-content/themes/betheme-child/404.php on line 2
+[10-Nov-2024 10:18:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/wamdwsctifrt/public_html/wp-content/themes/betheme-child/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/wamdwsctifrt/public_html/wp-content/themes/betheme-child/404.php on line 2

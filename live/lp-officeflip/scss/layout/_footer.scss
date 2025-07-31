@@ -1,0 +1,129 @@
+.footer-top {
+  background: $white-1;
+  padding: 3rem 0;
+
+  @media(min-width: 1200px) {
+    padding: 6rem 0;
+  }
+
+  .container {
+    max-width: 1800px;
+  }
+
+  .d-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    @media(min-width: 576px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 -.5rem;
+    }
+  }
+
+  .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 10rem;
+
+    @media(min-width: 576px) {
+      width: 50%;
+      padding: 0 .5rem;
+    }
+
+    @media(min-width: 768px) {
+      width: 33.33%;
+    }
+
+    @media(min-width: 1200px) {
+      width: 20%;
+    }
+
+    &.col1 {
+      @media(max-width: 1199px) {
+        width: 100%;
+      }
+    }
+
+    .footer-logo,
+    .social-sharing-list {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.copyright {
+  background-color: $orange;
+  color: $white;
+  padding: 1.45rem 1.5rem;
+
+  p {
+    margin-bottom: 0;
+    font-size: 1.3rem;
+
+    a {
+      color: $white;
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}
+
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 2rem;
+  background-color: $blue;
+  color: $white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: underline;
+    color: $black;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 2rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 2.2rem;
+  }
+
+  span {
+    position: relative;
+    margin-right: 1.5rem;
+
+    &::after {
+      position: absolute;
+      content: '';
+      left: -11px;
+      top: -0.2rem;
+      background: url(../../assets/images/sprite.png) no-repeat -144px -136px;
+      width: 17px;
+      height: 31px;
+      width: 2rem;
+
+      @media (min-width: 768px) {
+        font-size: 2.2rem;
+        background: url(../../assets/images/sprite.png) no-repeat -146px -136px;
+        width: 3rem;
+        top: 0.1rem;
+      }
+    }
+  }
+
+}

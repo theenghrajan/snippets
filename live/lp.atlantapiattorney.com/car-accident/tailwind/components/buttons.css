@@ -1,0 +1,48 @@
+@layer components {
+  .btn {
+    @apply inline-flex 
+		items-center 
+		justify-center 
+		cursor-pointer 
+		px-4 
+		py-3.5
+		font-base
+		text-base 
+		lg:text-lg 
+		text-center 
+		!leading-none 
+		rounded-[3px]
+		font-medium 
+		no-underline 
+		select-none 
+		border 
+		border-solid 
+		transition 
+		ease-in-out 
+		duration-500 
+		focus:outline-none 
+		focus:ring 
+		focus:ring-offset-1 
+		focus:ring-opacity-50 
+		disabled:opacity-75 
+		disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-l from-ss-blue-800 to-ss-blue 
+    text-white 
+    border-primary 
+    hover:text-white 
+    hover:border-white
+    focus:bg-primary
+    focus:text-white 
+    focus:border-primary/75
+    focus:ring-primary/75
+    active:bg-primary
+    active:border-primary/50;
+  }
+
+  .btn-block {
+    @apply block w-full;
+  }
+}

@@ -1,0 +1,152 @@
+/*
+ * Header/Navigation
+ */
+
+.main-navigation{
+	.woo-menu-icon{ display: none!important; }
+}
+
+//Add BG to top bar
+#top-bar-wrap{ background-color: #f1f2f2 }
+
+//Logo fix
+@media(max-width: 480px){
+	#site-logo img{ height: auto!important;}
+}
+
+/* Headings */
+h1{}
+h2{
+	font-family: @headingFontFamily;
+	text-transform: uppercase;
+	color: #0067b5;
+	font-weight: normal;
+	letter-spacing: 1;
+}
+
+h3{
+	font-family: @headingFontFamily;
+	text-transform: uppercase;
+	color: black;
+	font-weight: normal;
+	letter-spacing: 1;
+}
+
+body.theme-base .entry strong{ color: @brandPrimaryColor;}
+
+.tac{ text-align: center; }
+.tar { text-align: right;}
+
+body.has-breadcrumbs .page-header-title{ max-width: 50% }
+
+/*
+ * Nav
+ */
+//IE10 fix
+#site-header-sticky-wrapper.is-sticky .site-search-toggle .fa:before{
+	display: block;
+	position: absolute;
+	top: 21px;
+}
+
+/*
+ * Mobile Nav
+ */
+#sidr-main .additional{
+	padding: 10px 20px 0;
+	margin-top: 30px;
+	line-height: 2.4em;
+	border-top: 1px solid #333;
+
+	.social-links{
+		font-size: 1.2em;
+
+		a{
+			margin-right: 10px
+		}
+	}
+}
+
+/*
+ * Footer
+ */
+ .site-footer{
+ 	background-image: @widowsPeakWhite;
+	background-repeat: no-repeat;
+	background-position: top center;
+
+ 	font-size: .8em;
+
+ 	.footer-widget {
+ 		.widget-title{
+ 			color: @brandSecondaryColor;
+ 		}
+
+ 		.textwidget{
+ 			color: #686868;
+
+ 			.light{ color: #949494; }
+ 		}
+
+ 		.textwidget a{
+ 			color: #686868;
+ 			text-decoration: underline;
+
+ 			&:hover{
+ 				text-decoration: none;
+ 				color: white;
+ 			}
+ 		}
+
+ 		.menu {
+	 		li{
+	 			border-top: 1px solid #333;
+
+	 			a{
+	 				padding: 8px 0;
+	 				display: block
+	 			}
+
+	 			&:last-child{
+	 				border-bottom: 1px solid #333
+	 			}
+	 		}
+	 		.fa{
+				width: 20px;
+				text-align: center;
+			}
+		}
+
+ 		.social-links{
+ 			a{
+ 				padding: 3px 5px 5px;
+ 				border-radius: 3px;
+ 				display: inline-block;
+ 				margin-right: 5px;
+ 				background-color: #3b5998;
+ 				width: 28px;
+  				height: 28px;
+  				text-align: center;
+  				color: #fff;
+ 
+  				&.twitter{ background-color: #55acce }
+  				&.linkedin{ background-color: #1f78a9 }
+
+  				&:hover{
+  					background-color: #666;
+  				}
+ 			}
+ 		}
+ 	}
+ }
+
+#footer-bottom{
+	font-size: .7em;
+}
+
+.sf-menu ul {
+  top: 70%;
+}
+.staff-entry-title {
+  font-weight: normal;
+}

@@ -1,0 +1,65 @@
+.hover-box {
+  padding: 2rem 1.5rem;
+
+  @media(min-width: 576px) {
+    padding: 3rem 2rem;
+  }
+
+  @media(min-width: 1200px) {
+    padding: 5rem 7rem;
+  }
+
+  @media(max-width: 767px) {
+    background: $orange;
+    box-shadow: -3px 0 27px 0 rgba($orange, 0.35);
+  }
+
+  h3 {
+    color: orange;
+    font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    transition: 0.2s ease-in-out;
+
+    @media(max-width: 767px) {
+      color: $white;
+    }
+  }
+
+  p {
+    color: $gray;
+
+    @media(max-width: 767px) {
+      color: $white;
+    }
+  }
+
+  .more-dots {
+    li {
+      @media(max-width: 767px) {
+        background: $white;
+      }
+    }
+  }
+
+  &:hover {
+
+    @media(min-width: 768px) {
+      background: $orange;
+      box-shadow: -3px 0 27px 0 rgba($orange, 0.35);
+    }
+
+    h3 {
+      color: $white;
+    }
+
+    p {
+      color: $white;
+    }
+
+    .more-dots {
+      li {
+        background: $white;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.gallery-item {
+    &-image {
+        /*min-height: 350px;*/
+        position: relative;
+
+        /*@media (min-width: 1200px) {
+            min-height: 520px;
+        }*/
+
+        .project-info {
+            position: absolute;
+            background-color: $white;
+            padding: 1.5rem 0.8rem;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            line-height: 1;
+            transform: rotate(-90deg);
+            top: 4.5rem;
+            right: -4.7rem;
+        }
+    }
+}

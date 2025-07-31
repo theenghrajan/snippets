@@ -1,0 +1,91 @@
+.site-header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: $white;
+    transition: .3s ease-in-out all;
+
+    &>.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        margin: 0 1rem 0 0;
+
+        img {
+            transition: .3s ease-in-out all;
+        }
+    }
+
+    &__actions {
+
+        .button-group {
+            justify-content: flex-end;
+
+            .btn {
+                transition: .3s ease-in-out all;
+
+                &.btn-primary.has-icon {
+                    @include media-breakpoint-down(md) {
+                        font-size: 0;
+                        border-radius: 8px;
+                        padding: 1rem;
+                    }
+
+                    .icon-phone {
+                        display: none;
+
+                        @include media-breakpoint-down(md) {
+                            display: block;
+                            @include font-size($font-size-base);
+                        }
+                    }
+                }
+            }
+
+            .btn.btn-outline {
+                @include media-breakpoint-down(md) {
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    z-index: 10;
+                    border-radius: 0;
+                    background-color: $info;
+                    color: $white;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+    }
+
+    &.sticky-header {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        box-shadow: 0 3px 6px rgba($black, 0.16), 0 3px 6px rgba($black, 0.23);
+
+        .site-header {
+
+            &__logo {
+                img {
+                    max-width: 200px;
+                }
+            }
+
+            &__actions {
+                .btn {
+                    @include font-size($font-size-base);
+                    padding: 1rem 2rem;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,141 @@
+.site-footer {
+    position: relative;
+
+    @include media-breakpoint-up(xl) {
+        .col {
+            &-left {
+                flex: 0 0 36%;
+                max-width: 36%;
+            }
+
+            &-right {
+                flex: 0 0 58%;
+                max-width: 58%;
+            }
+        }
+    }
+
+    &__content {
+        border-radius: 7px;
+
+        padding: 1rem;
+
+        @include media-breakpoint-up(md) {
+            padding: 2.5rem 1.875rem 1.5rem;
+        }
+
+        @include media-breakpoint-up(xl) {
+            padding: 5rem 4.4375rem 3rem;
+        }
+    }
+
+    &__wrap {
+
+        .h3 {
+            letter-spacing: 0.18px;
+            text-transform: capitalize;
+            @include font-size(1.375rem);
+
+            @include media-breakpoint-up(md) {
+                @include font-size(1.875rem);
+            }
+
+            @include media-breakpoint-up(xl) {
+                @include font-size(2.75rem);
+            }
+        }
+    }
+
+    .footer {
+
+        &-call,
+        &-mail {
+            color: $white;
+
+            &:hover,
+            &:focus {
+                color: $primary;
+                text-decoration: none;
+            }
+        }
+
+        &-call {
+            letter-spacing: 0.12px;
+            font-weight: 700;
+            @include font-size(1.125rem);
+
+            @include media-breakpoint-up(sm) {
+                @include font-size(1.375rem);
+            }
+
+            @include media-breakpoint-up(lg) {
+                @include font-size(1.875rem);
+            }
+        }
+
+        &-mail {
+            letter-spacing: 0.09px;
+
+            @include media-breakpoint-up(lg) {
+                @include font-size(1.375rem);
+            }
+        }
+    }
+
+    &__item {
+        .h4 {
+            letter-spacing: 0.09px;
+            text-transform: capitalize;
+
+            @include media-breakpoint-up(lg) {
+                @include font-size(1.375rem);
+            }
+        }
+    }
+
+    &__item+&__item {
+        padding-top: 1rem;
+        border-top: 1px solid rgba($white, .3);
+    }
+
+    &__form {
+        .form-group {
+            margin-bottom: 1rem;
+
+            @include media-breakpoint-up(sm) {
+                margin-bottom: 1.75rem;
+            }
+
+            @include media-breakpoint-up(lg) {
+                margin-bottom: 2.8125rem;
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+            background-color: $white;
+            box-shadow: 4px 4px 16px rgba($black, 0.08);
+            border-radius: 5px;
+            padding: 3rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        @include media-breakpoint-down(xs) {
+            padding: 2rem;
+        }
+    }
+}
+
+.copyright {
+    color: $dark-blue-200;
+    letter-spacing: 0.07px;
+    @include font-size(1rem);
+
+    @include media-breakpoint-up(lg) {
+        @include font-size(1.125rem);
+    }
+
+    &-block {
+        border-top: 1px solid rgba($gray-500, .1);
+    }
+}

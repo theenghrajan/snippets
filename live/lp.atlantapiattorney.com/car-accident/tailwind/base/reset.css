@@ -1,0 +1,36 @@
+@layer base {
+  html,
+  body {
+    @apply h-full w-full;
+  }
+
+  body {
+    @apply min-w-[320px] font-base font-medium antialiased text-base leading-relaxed text-ss-gray;
+  }
+
+  p {
+    @apply mb-4 last-of-type:mb-0;
+  }
+
+  a {
+    @apply text-primary no-underline transition-all hover:text-primary/50 focus:text-primary/50;
+  }
+
+  picture {
+    @apply block;
+  }
+
+  .site-content {
+    @apply grow;
+  }
+
+  .site-header,
+  .site-content,
+  .site-footer {
+    @apply shrink-0;
+  }
+
+  .site-wrapper {
+    @apply min-w-[20rem] mx-auto my-0 flex min-h-full relative overflow-hidden items-stretch flex-col;
+  }
+}

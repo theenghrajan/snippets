@@ -1,0 +1,72 @@
+.projects {
+    padding: 3rem 0;
+
+    @media (min-width: 576px) {
+        padding: 5rem 0;
+    }
+
+    @media (min-width: 768px) {
+        padding: 7rem 0;
+    }
+
+    @media (min-width: 992px) {
+        padding: 9rem 0;
+    }
+
+    @media (min-width: 1200px) {
+        padding: 15rem 0;
+    }
+
+    .section-title {
+        margin-bottom: 3rem;
+        text-transform: capitalize;
+
+        @media (min-width: 1200px) {
+            margin-bottom: 4.5rem;
+        }
+    }
+
+    &-gallery-slider {
+        @media (min-width: 1200px) {
+            padding-left: 17%;
+        }
+    }
+
+    .slick-arrow {
+        font-size: 0;
+        padding: 0;
+        outline: none;
+        border: none;
+        z-index: 1;
+        cursor: pointer;
+        bottom: -6.5rem;
+        top: auto;
+    }
+
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+    }
+
+    .slick-next {
+        left: calc(17% + 8.8rem);
+        background: url('../images/sprite.png') no-repeat -118px -51px;
+        width: 46px;
+        height: 26px;
+
+        &:hover {
+            background-position: -118px -88px;
+        }
+    }
+
+    .slick-prev {
+        left: 17%;
+        background: url('../images/sprite.png') no-repeat -63px -51px;
+        width: 46px;
+        height: 26px;
+
+        &:hover {
+            background-position: -63px -88px;
+        }
+    }
+}

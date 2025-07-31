@@ -1,0 +1,58 @@
+.hover-box-section {
+  padding: 3rem 0;
+  position: relative;
+  z-index: 1;
+
+  @media(min-width: 576px) {
+    padding-bottom: 5rem;
+  }
+
+  @media(min-width: 1200px) {
+    padding-bottom: 8rem;
+  }
+
+  &:after {
+
+    @media(min-width: 768px) {
+      position: absolute;
+      content: '';
+      right: 5rem;
+      background: url("../../assets/images/bg-lamp.png") no-repeat;
+      top: -77px;
+      width: 280px;
+      height: 509px;
+      z-index: -1;
+    }
+  }
+
+
+  .d-flex {
+    @media(max-width: 767px) {
+      margin: 0 -1.5rem;
+    }
+
+    @media(min-width: 480px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .box-wrap {
+    margin-bottom: 2rem;
+
+    @media(max-width: 767px) {
+      padding: 0 1.5rem;
+    }
+
+
+    @media(min-width: 480px) {
+      width: 50%;
+    }
+
+    @media(min-width: 768px) {
+      width: 33.33%;
+      margin-bottom: 0;
+    }
+  }
+}

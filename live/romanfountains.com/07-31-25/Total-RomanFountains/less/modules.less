@@ -1,0 +1,276 @@
+/*
+ * Modules
+ */
+
+/* Layer Slider Default */
+#ls-global * .ls-wp-container .ls-slide{
+	color: white;
+
+	h1{
+		font-family: @headingFontFamily;
+		color: white;
+		font-size: 30px;
+		text-transform: uppercase;
+		text-shadow: 0 3px 5px rgba(0,0,0,.2);
+	}
+
+	h2{
+		font-family: @bodyFontFamily;
+		font-weight: 200;
+		color: white;
+		font-size: 30px;
+		text-transform: uppercase;
+		text-shadow: 0 3px 5px rgba(0,0,0,.2);
+	}
+
+	> a{
+		color: white;
+		text-decoration: underline;
+		font-size: 15px;
+		font-weight: 600;
+
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+
+/* Big Default */
+span.wpb_btn-large,
+#footer-callout a.theme-button{
+	background-color: transparent;
+	border: 2px solid @brandSecondaryColor;
+	padding: 14px 30px;
+	border-radius: 3px;
+
+	&:hover{
+		background: @brandSecondaryColor;
+		color: white;
+		border-color: transparent;
+	}
+}
+
+.widowspeak {
+  position: relative; 
+  
+  &:before {
+    content: "";
+    display: block;
+    border-top: 0;
+    background-image: @widowsPeakWhite;
+    background-position: top center;
+    position: absolute; 
+    width: 242px;
+    margin: 0 auto;
+    z-index: 200;
+    height: 35px;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+}
+
+/* Footer Callout */
+.footer-callout{
+	border-top: 0;
+	background-color: #f1f2f2;
+	background-repeat: no-repeat;
+	padding: 90px 0 50px;
+	position: relative;
+
+	&:before{
+		position: absolute;
+		content: '';
+		width: 53%;
+		left: 0;
+		top: 55px;
+		background-image: @wordHook2;
+		background-repeat: no-repeat;
+		height: 121px;
+		background-position: top right;
+	}
+
+	> .footer-callout{
+		background: transparent;
+		padding: 0;
+
+		&:before{
+			background: transparent;
+		}
+	}
+
+	.column_container:nth-child(2){
+		padding-left: 70px;
+
+		a.wpb_button_a{
+			font-weight: 400;
+			display: inline-block;
+
+			&:first-child{
+				margin-right: 10px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	h2{
+		color: #000;
+		font-size: 22px;
+		margin: 0;
+		padding: 0;
+	}
+	h3{
+		margin: 0;
+		color: #959595;
+		font-size: 18px;
+		font-family: @bodyFontFamily;
+		text-transform: none;
+	}
+}
+
+@media (max-width: 959px){
+		.footer-callout:before{
+			background: transparent;
+		}
+	}
+
+/*
+ * Testimonial Slider
+ */
+ .vcex-testimonials-fullslider-entry{
+ 	.content{
+ 		color: #000;
+ 		text-align: left;
+
+ 		p{ display: inline }
+ 	}
+
+ 	.vcex-testimonials-fullslider-author{
+		text-align: left;
+	}
+ }
+.vcex-testimonials-fullslider-avatar img{
+	border-radius: 0!important;
+}
+
+/*
+ * Portfolio slider
+ */
+.vcex-caroufredsel-wrap .vcex-caroufredsel .vcex-caroufredsel-entry-details{
+	background: transparent;
+	border: none;
+	padding: 15px 0;
+	color: #444444;
+
+	a{
+		font-family: @headingFontFamily;
+		text-decoration: underline;
+		font-weight: 400;
+	}
+}
+.wpb_button.fill, .wpb_button_a.fill {
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.portfolio-entry-title a {
+  font-weight: normal;
+}
+
+.inlinebuttons {
+  span.wpb_btn-large {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  a.wpb_button_a {
+    margin: 0 10px 0px 10px;
+  }
+  
+  @media (max-width: 959px) {
+    span.wpb_btn-large {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    }
+    a.wpb_button_a {
+    margin: 0 5px 0px 5px;
+    }
+  }
+}
+
+/*
+* Magnific Popup Styling
+*/
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+/*
+ * Social Sharing Links
+*/
+.single-portfolio,
+.single-casestudies{
+	.social-share-title {
+		display: none;
+	}
+
+	ul.social-share-buttons {
+		position: absolute;
+		left: -40px;
+		width: 30px;
+
+		li {
+			width: 30px;
+			margin: 0 auto;
+			height: 30px;
+			overflow: hidden;
+			text-align: center;
+
+			a {
+				width: 30px;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				height: 30px;
+				overflow: hidden;
+				margin: 0;
+				display: block;
+				text-align: center;
+			}
+		}
+
+		.social-share-button-text {
+			display: none;
+		}
+	}
+
+	@media (max-width: 767px){
+		ul.social-share-buttons {
+			position: relative;
+			left: 15px;
+			width: auto;
+			margin-bottom: 10px;
+
+			li{
+				margin-right: 10px;
+			}
+		}
+	}
+}
+
+/*
+ * Fix for pop-over images in FF
+ */
+ .hotspot .popover-image { z-index: 100; }
+
+ //Featured Product Widget
+ .product_list_widget li p{ margin-bottom: 0; padding-bottom: 0 }

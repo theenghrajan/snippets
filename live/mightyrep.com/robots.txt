@@ -1,0 +1,9 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow: */feed/
+Disallow: /*.webp
+
+Sitemap: http://mightyrep.com/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

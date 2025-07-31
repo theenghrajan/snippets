@@ -1,0 +1,123 @@
+.contact-form {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1.5rem;
+}
+
+.form-group {
+	margin-bottom: 1rem;
+	padding: 0 1.5rem;
+	width: 100%;
+
+	@media(min-width: 992px) {
+		margin-bottom: 1.5rem
+	}
+
+	@media(min-width: 1200px) {
+		margin-bottom: 1.8rem;
+	}
+
+	&.has-error {
+
+		.form-control {
+			border-color: red !important;
+
+			&::-webkit-input-placeholder {
+				color: red;
+			}
+
+			&::-moz-placeholder {
+				color: red;
+			}
+
+			&:-ms-input-placeholder {
+				color: red;
+			}
+
+			&:-moz-placeholder {
+				color: red;
+			}
+		}
+	}
+}
+
+.form-control {
+	border: none;
+	border-bottom: 1px solid $blue-2;
+	line-height: 1;
+	color: $white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 1.3rem;
+	width: 100%;
+	padding: .5rem .5rem .5rem 0;
+	background: transparent;
+
+	@media(min-width: 768px) {
+		padding: .8rem .8rem .8rem 0;
+	}
+
+	@media(min-width: 992px) {
+		font-size: 1.4rem;
+		padding: 1.2rem 1.2rem 1.2rem 0;
+	}
+
+	&::-webkit-input-placeholder {
+		color: $white;
+	}
+
+	&::-moz-placeholder {
+		color: $white;
+	}
+
+	&:-ms-input-placeholder {
+		color: $white;
+	}
+
+	&:-moz-placeholder {
+		color: $white;
+	}
+
+	&:focus,
+	&:active {
+		outline: none;
+		box-shadow: none;
+	}
+}
+
+.half-width {
+	@media(min-width: 576px) {
+		width: 50%;
+	}
+}
+
+.btn-wrap {
+	text-align: center;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+.thank-you-message {
+	color: $white;
+	text-align: center;
+	padding: 0 .15rem;
+
+	a {
+		color: $white;
+
+		&:hover {
+			color: $orange;
+		}
+	}
+}
+
+.messages {
+	display: none;
+}
+
+.loader {
+	text-align: center;
+}

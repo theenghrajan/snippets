@@ -1,0 +1,57 @@
+.media-frame {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: .625rem .625rem;
+
+    @include media-breakpoint-up(md) {
+        padding: 1rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        padding: 1.25rem;
+    }
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $dark-blue-500;
+        z-index: -1;
+    }
+
+    &--top {
+        &Right {
+
+            &::after {
+                left: 50%;
+                bottom: 50%;
+            }
+        }
+    }
+
+    &--btm {
+        &Left {
+
+            &::before {
+                top: 50%;
+                right: 50%;
+            }
+        }
+    }
+
+    // &::after{
+    //     content: "";
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     background-color: $dark-blue-500;
+    //     z-index: -1;
+    // }
+}

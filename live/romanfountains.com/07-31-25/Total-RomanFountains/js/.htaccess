@@ -1,0 +1,5 @@
+# Block access to raw estimator files so ppl can't steal it
+<Files "estimator.js">
+Order Allow,Deny
+Deny from all
+</Files>
