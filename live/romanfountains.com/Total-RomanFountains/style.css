@@ -18,29 +18,28 @@ Version: 1.0
 /*
  * Header/Navigation
  */
- 
 
 .main-navigation .woo-menu-icon {
-  display: none!important;
+  display: none !important;
 }
 #top-bar-wrap {
   background-color: #f1f2f2;
 }
 @media (max-width: 480px) {
   #site-logo img {
-    height: auto!important;
+    height: auto !important;
   }
 }
 /* Headings */
 h2 {
-  font-family: 'Futura W01 Bold', Helvetica, sans-serif;
+  font-family: "Futura W01 Bold", Helvetica, sans-serif;
   text-transform: uppercase;
   color: #0067b5;
   font-weight: normal;
   letter-spacing: 1;
 }
 h3 {
-  font-family: 'Futura W01 Bold', Helvetica, sans-serif;
+  font-family: "Futura W01 Bold", Helvetica, sans-serif;
   text-transform: uppercase;
   color: black;
   font-weight: normal;
@@ -88,7 +87,7 @@ body.has-breadcrumbs .page-header-title {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAAjCAMAAACZ1KccAAAB+FBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAADJwimJAAAApnRSTlMADxEbIjE2RExVY2h3foiVmqq5yNjn9vPk1ca6nZF8aWZXQjMwHQEHFiZKXnGFm6/D1ur+6NPArYZzYE06JxQEAhguSV94kKz8sJN7LxkDOVh2s9T1/eOigmIFO4Gky/LhjyQGvuzbsTUNF6D78L+NXAo4ap7CjCMQSHA3eW8+idKy92seDlr4wWzHLe2uCNr0IVKDE87mKpdDYX1TXaeKzD2HUVQfsCWTIAAAAeJJREFUeNrl1nlTUmEYBfDjhSTTUKGUxOKKiIqWGtFmBSgJEl7N3KMMl/YsK0ujAMvSsk2jVdusns/ZjP7h1Ghlitz7vr9vcGae5SBFEFTqDamajWmb0jM2azOzsnX6LVtzSPFyDdvyjNn527U7MkxiQZrGXGhRFwmCYMUyiktKU21l5Tt3VVRW7baTItj3OPbuy9p/4GD1ocNHnFgVl7um1nO0zptn8JHs+Az6ev8xT22gQUIiSKrGpuOZzSdaKOla2yrbOzrN6i6sE/fJsuCp092UDGd0IVHT04vkUJlN/r7+dZvhs+e0nvMXIAMXNeWXHJcpka4MXL0WKIa8DF6/cbMqEbc9Z+hWwW0r5Gp4JKhbywXv994Jd0H2nI13dS1rMcv19wIuKEZvJBqj1YhFI04oTlH66P3/+7gDD8agVA8fVYyvNO/EYzeUbVh8spKWERwDCyZDT+lf+J7ZJLDiufiC/uZlaApMcU3r6U9yX8XBHtvr5W9WfgOY5Op8Q0syvgWzUt4tUcK7RStY9r6NfjM0BcbFjfSLqATmSXW0yPcBXJhZTDwLTnTQAvtH8ML6ieZ9Bj8G5/vnFyc48tVO1FoDrniJ2sGXMJEFnHHEwJs5LXjz7Tt4M2kBb1Q/kCQ/AbxQaxhPMadlAAAAAElFTkSuQmCC);
   background-repeat: no-repeat;
   background-position: top center;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 .site-footer .footer-widget .widget-title {
   color: #83d0f0;
@@ -142,7 +141,7 @@ body.has-breadcrumbs .page-header-title {
   background-color: #666;
 }
 #footer-bottom {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 .sf-menu ul {
   top: 70%;
@@ -158,14 +157,14 @@ body.has-breadcrumbs .page-header-title {
   color: white;
 }
 #ls-global * .ls-wp-container .ls-slide h1 {
-  font-family: 'Futura W01 Bold', Helvetica, sans-serif;
+  font-family: "Futura W01 Bold", Helvetica, sans-serif;
   color: white;
   font-size: 30px;
   text-transform: uppercase;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 #ls-global * .ls-wp-container .ls-slide h2 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 200;
   color: white;
   font-size: 30px;
@@ -223,7 +222,7 @@ span.wpb_btn-large:hover,
 }
 .footer-callout:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 53%;
   left: 0;
   top: 55px;
@@ -260,7 +259,7 @@ span.wpb_btn-large:hover,
   margin: 0;
   color: #959595;
   font-size: 18px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   text-transform: none;
 }
 @media (max-width: 959px) {
@@ -282,7 +281,7 @@ span.wpb_btn-large:hover,
   text-align: left;
 }
 .vcex-testimonials-fullslider-avatar img {
-  border-radius: 0!important;
+  border-radius: 0 !important;
 }
 /*
  * Portfolio slider
@@ -294,7 +293,7 @@ span.wpb_btn-large:hover,
   color: #444444;
 }
 .vcex-caroufredsel-wrap .vcex-caroufredsel .vcex-caroufredsel-entry-details a {
-  font-family: 'Futura W01 Bold', Helvetica, sans-serif;
+  font-family: "Futura W01 Bold", Helvetica, sans-serif;
   text-decoration: underline;
   font-weight: 400;
 }
@@ -333,7 +332,7 @@ span.wpb_btn-large:hover,
 */
 .white-popup {
   position: relative;
-  background: #FFF;
+  background: #fff;
   padding: 20px;
   width: auto;
   max-width: 500px;
@@ -415,9 +414,9 @@ span.wpb_btn-large:hover,
   background-image: none;
 }
 .home .features a {
-  font-family: 'Futura W01 Bold', Helvetica, sans-serif;
+  font-family: "Futura W01 Bold", Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: .9em;
+  font-size: 0.9em;
   text-decoration: underline;
   letter-spacing: 1px;
 }
@@ -428,10 +427,10 @@ span.wpb_btn-large:hover,
   letter-spacing: 2px;
 }
 .home .features p {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 .home .vcex-caroufredsel-entry-excerpt {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 .home .featured-product {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAAjCAMAAACZ1KccAAAB+FBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAADJwimJAAAApnRSTlMADxEbIjE2RExVY2h3foiVmqq5yNjn9vPk1ca6nZF8aWZXQjMwHQEHFiZKXnGFm6/D1ur+6NPArYZzYE06JxQEAhguSV94kKz8sJN7LxkDOVh2s9T1/eOigmIFO4Gky/LhjyQGvuzbsTUNF6D78L+NXAo4ap7CjCMQSHA3eW8+idKy92seDlr4wWzHLe2uCNr0IVKDE87mKpdDYX1TXaeKzD2HUVQfsCWTIAAAAeJJREFUeNrl1nlTUmEYBfDjhSTTUKGUxOKKiIqWGtFmBSgJEl7N3KMMl/YsK0ujAMvSsk2jVdusns/ZjP7h1Ghlitz7vr9vcGae5SBFEFTqDamajWmb0jM2azOzsnX6LVtzSPFyDdvyjNn527U7MkxiQZrGXGhRFwmCYMUyiktKU21l5Tt3VVRW7baTItj3OPbuy9p/4GD1ocNHnFgVl7um1nO0zptn8JHs+Az6ev8xT22gQUIiSKrGpuOZzSdaKOla2yrbOzrN6i6sE/fJsuCp092UDGd0IVHT04vkUJlN/r7+dZvhs+e0nvMXIAMXNeWXHJcpka4MXL0WKIa8DF6/cbMqEbc9Z+hWwW0r5Gp4JKhbywXv994Jd0H2nI13dS1rMcv19wIuKEZvJBqj1YhFI04oTlH66P3/+7gDD8agVA8fVYyvNO/EYzeUbVh8spKWERwDCyZDT+lf+J7ZJLDiufiC/uZlaApMcU3r6U9yX8XBHtvr5W9WfgOY5Op8Q0syvgWzUt4tUcK7RStY9r6NfjM0BcbFjfSLqATmSXW0yPcBXJhZTDwLTnTQAvtH8ML6ieZ9Bj8G5/vnFyc48tVO1FoDrniJ2sGXMJEFnHHEwJs5LXjz7Tt4M2kBb1Q/kCQ/AbxQaxhPMadlAAAAAElFTkSuQmCC);
@@ -495,7 +494,7 @@ span.wpb_btn-large:hover,
   border: 2px solid #83d0f0;
 }
 .page-id-81 .wpb_column .bordered-column p {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 .page-id-81 .wpb_column .bordered-column h3 a {
   color: #83d0f0;
@@ -545,7 +544,7 @@ span.wpb_btn-large:hover,
   margin-right: 8px;
   padding: 4px;
   color: #0067b5;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 32px;
 }
 .page-id-91 ol li .nozzle-range,
@@ -636,7 +635,7 @@ span.wpb_btn-large:hover,
   padding: 5px 25px 5px 10px;
   color: #0067b5;
   font-size: 20px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   -webkit-appearance: none;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAASklEQVR42p3OwQ0AIAgDQEbrNk7oWzZDeWGMIEjSF8m1RK2PFXHCIkJRFEAA4AXoeStYX1kAt/YkYCvO9iqAvb0I2Apr/wOgqQATomILlIiVCCoAAAAASUVORK5CYII=);
   background-repeat: no-repeat;
@@ -785,7 +784,7 @@ span.wpb_btn-large:hover,
   }
 }
 .page-id-197 h2 {
-  font-family: 'Futura W01 Light', Helvetica, sans-serif;
+  font-family: "Futura W01 Light", Helvetica, sans-serif;
 }
 .page-id-197 .vcex-row-bg-container.hasbackground {
   background-repeat: no-repeat;
@@ -800,7 +799,7 @@ span.wpb_btn-large:hover,
   text-transform: uppercase;
   margin-top: 0;
   font-size: 14px;
-  font-family: 'Futura W01 Bold', Helvetica, sans-serif;
+  font-family: "Futura W01 Bold", Helvetica, sans-serif;
   font-weight: normal;
 }
 .capquote blockquote {
@@ -827,24 +826,24 @@ span.wpb_btn-large:hover,
   color: #83d0f0;
 }
 .cad_file h3 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   margin-bottom: 0;
   margin-top: 0;
   color: #333;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 .cad_file a {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 .cad_file a:hover {
-  text-decoration: underline!important;
+  text-decoration: underline !important;
 }
 .cad_file .vcex-icon-box-one-content {
   line-height: 1.2em;
 }
 .cad_file .vcex-icon-box-one-content small {
   color: #999;
-  font-size: .7em;
+  font-size: 0.7em;
 }
 /*
  * Portfolio landing
@@ -938,7 +937,7 @@ html #content h4.wpb_toggle {
 }
 .page-id-651 .vcex-post-type-entry-media,
 .page-id-651 .vcex-post-type-entry-title {
-  margin-top: 20px!important;
+  margin-top: 20px !important;
 }
 .page-id-651 .vcex-post-type-entry-media {
   margin-bottom: 0 !important;
@@ -966,24 +965,77 @@ html #content h4.wpb_toggle {
 .page-id-74 .site-footer {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAAjCAYAAACuClcuAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODZFQzNGMDM0Q0EyMTFFNEFEQzNCQUM2REQxRUUyNzAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODZFQzNGMDQ0Q0EyMTFFNEFEQzNCQUM2REQxRUUyNzAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4NkVDM0YwMTRDQTIxMUU0QURDM0JBQzZERDFFRTI3MCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4NkVDM0YwMjRDQTIxMUU0QURDM0JBQzZERDFFRTI3MCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pugn5oMAAAOrSURBVHja7J1LbA1RHMZPX27b5LYN4lWPiHjHIx5BYsFCxGNhg51ELcTOQlhhYYcIVuKdiESCLjwjIgQhnm0QtZBWtKEp1d7bIlVtfX/zbxy3NL3Nnds5c79f8suZmU5775w7n3NmzpkrKxaPFxtjso1HIYxA2ZYHi2A+LNDlPP1ZRPeN6rYS3V6csFxgCCGtMGYp682wRZe/a9kO47BD9+uETVrGdHtc92u1/n5zru7QTVOKDyBihVscqg7Rctg/tolZ/OxJAOmCDfATbLT8nLBuK4H96dcbKopGf5e5Ph94mx54QxK/k60BF0u1HAlHwNFwFByr6zk8t0gKkJauHtZpWWuty7n7wTqPO4J4AFnoWrta+TkaZgn1uIRyvFrIc5Ro11TC+A7WaGlbq91V5+hukV0Ocl+QoE9IcLIa5fkdOt7DN/A1rILVGlTZ/iOMB5wpQe6NUivU0+B0OFOv1Umwu8E1VlirdFkC3JJplcEg/5/hcIY6C86FU9JwP4H0RG7EVsDnWr7UwLaxahjk/lCorfUcOA8u1HDz7nrqkCGYp/AxfKLL0jXuYtUwyH5SooFeZJW87u47MjRzB96HD7XVbWe1MMgDjXS958Ml6mLDu+aJ3WQJ7m0tpZvcyWphkIPOIG2pV8EVes2daUhYr8Or8IHxcWIEg8wgp4sxGuqVcJnxpr6GDWlh78IL8LLxhn0Igxze+oer4VptrSOOh1euc89rgOv58TLImYjcNFsHN2pX3BWktT0NT7DlZZDJ38h1dBncAAcH8P3JZIxL8Di8YQI675hBJkEhX8O8DU4MwPv5Co/Bw8abVUUYZJIE8iTYGrgdLhiA15dnXg+qjfw4ghvkbFZFoJEbSeXmzzBWRRpf9yScBHcyxG78i0/c4Jrxpodugh99fJ2beq3u9+sQBjmjW2hpKafCIya185DlyaHNcLnxniYiDDLxGZnuuMV4E0vqUvD37hnvSa+jhg8pMMgk7dyCs7U73F/2wqWGd6MZZDKgyI0omR12KMnfkzFgGbPeYTgezCCTQCBB3Ap3JbH/eniKVccgk+CxR+0NuQaW6aAXWV0MMgkuu+G5Xn6+H55hNYULzuwKJ/KFBpWm5/TOZ8abXMLngkMCZ3aFm2/Gm9BhDyXJGHQZQ8yuNXELGRsut9bPwhesFgaZuMc+a/kAqyO88Luaw80j+Eq72JWsDgaZuMsVw+/fZpCJ88gXvvN/rWSQieO8ZZAZZOI+X/g5h59fAgwAgSvz2zEQ5n4AAAAASUVORK5CYII=);
 }
- 
- 
- /*
+
+/*
  * Product Detail Page
  */
-ul.products li.first{clear:initial!important}
-.product h3{font-size:.8em;color:#333}
-.product .doc-downloads h4{margin-bottom:0}
-.product .images a.woocommerce-main-image{display:block}
-.product .images a.woocommerce-main-image img{
-	width:auto;
-	height:auto;
-	max-height:300px;
-	max-width:100%;
-	margin:0 auto}
-.product .product-entry-media{margin:0 auto;display:table}
-.product .product-entry-media a.product-entry-thumb{display:table-cell;vertical-align:middle}
-.related.products .product-entry-thumb img{width:auto!important;height:100px!important}
-.related.products .product-entry-thumb .woo-entry-image-secondary{right:0}
-.wpcf7-form .light{color:#ccc}
-div.wpcf7 p{font-size:16px}
+ul.products li.first {
+  clear: initial !important;
+}
+.product h3 {
+  font-size: 0.8em;
+  color: #333;
+}
+.product .doc-downloads h4 {
+  margin-bottom: 0;
+}
+.product .images a.woocommerce-main-image {
+  display: block;
+}
+.product .images a.woocommerce-main-image img {
+  width: auto;
+  height: auto;
+  max-height: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.product .product-entry-media {
+  margin: 0 auto;
+  display: table;
+}
+.product .product-entry-media a.product-entry-thumb {
+  display: table-cell;
+  vertical-align: middle;
+}
+.related.products .product-entry-thumb img {
+  width: auto !important;
+  height: 100px !important;
+}
+.related.products .product-entry-thumb .woo-entry-image-secondary {
+  right: 0;
+}
+.wpcf7-form .light {
+  color: #ccc;
+}
+div.wpcf7 p {
+  font-size: 16px;
+}
+
+/* Homepage Styles - Starts*/
+@font-face {
+  font-family: "PP Fragment Sans";
+  src: url("fonts/PPFragment-SansRegular.woff2") format("woff2"),
+    url("fonts/PPFragment-SansRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("fonts/CenturyGothic.woff2") format("woff2"),
+    url("fonts/CenturyGothic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Fragment Serif";
+  src: url("fonts/PPFragment-SerifRegular.woff2") format("woff2"),
+    url("fonts/PPFragment-SerifRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* Homepage Styles - Ends */
