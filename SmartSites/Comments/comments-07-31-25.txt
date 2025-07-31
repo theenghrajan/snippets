@@ -1,0 +1,164 @@
+Advanced Chiropractic [PPC] | #6: Develop LPs | https://login.smartsites.com/projects/763/tasks/24329
+===========================
+
+As per comment #21 and #22,
+
+Based on the details provided in the Workbook: https://docs.google.com/spreadsheets/d/1-SMaxUwMQdJy3J2ivrfzxyjT_sMQlyi7oxMg6V-hKO0/edit?gid=410467910#gid=410467910
+
+We're not able to login using the credentials provided for both CMS and hosting as you can see in the screenshots below.
+FTP Error SS - https://drive.google.com/file/d/1r5EKM025jkG0N052LLn0Pt9Os-xQhUgF/view?usp=sharing
+WP engine, unable to sign in SS - https://drive.google.com/file/d/1XPWrGk7sB-dl0pnrRgZjePAEvqYOHwio/view?usp=sharing
+
+It seems we are unable to restore this landing page as it has been many years and we don't have backup files as well. 
+
+Recommended Approach,
+We suggest redesigning the landing page from scratch. As the design files provided is in PSD format, we recommend converting it to Figma and sharing the Figma link with us.
+
+We'll then proceed with the development in custom HTML on dev site for your review before pushing it live.
+
+Key Notes & Clarifications Before Development: 
+
+- The form is a standard contact form, no CRM or third-party integrations involved.
+
+- We'll use the following message after the form submission unless you’d like to revise it:
+"Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+
+- Additionally we require SMTP configuration. Please provide the SMTP email credentials to be used for sending form emails.
+-- Add this email to the Passbolt folder: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7
+-- Enable 2FA (TOTP)
+-- Ensure FED has read and update access
+
+- Would you like us to include a sticky footer on the landing page?
+
+- Where should Call To Action buttons lead to? What is the action of them?
+
+- Please provide testimonials content as we are unable to download the doc provided in comment #1. 
+
+Is there any other information that you think might be useful for us to know?
+
+
+===========================
+
+Medical Aesthetics By Anjelica [SEO] | #87: Landing Page Implementation | https://login.smartsites.com//projects/6947/tasks/384115
+===========================
+
+As per the task descriptions,
+
+General Queries:
+
+1. Phone number
+Please provide phone number(s) to be updated on the landing page for now we will use (832)3388-293 as per the design.
+
+2. Email Recipient for Form
+Who should receive the form submissions? We will use info@medicalaestheticsbyanjelica.com as per the design for now.
+
+3. SMTP Email Setup
+Please provide the SMTP email credentials to be used for sending form emails.
+- Add this email to the Passbolt folder: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7
+- Enable 2FA (TOTP)
+- Ensure FED has read and update access
+
+4. Sticky footer
+Would you like us to include a sticky footer on the landing page?
+
+5. Form Functionality
+Does the form have any special functionality or is to be fetched from a third party? Any integrations needed? Or is it a standard contact form?
+
+6. Landing Page Development
+Should the Landing Page be built using custom HTML, or do you require it to be developed using a CMS/platform (WordPress, a specific-platform builder, etc.)
+
+7. Deployment Environment
+As per our work procedure, we first work on the dev environment, get it reviewed by you, and then push it to live. However, you've provided live URL on the task descriptions.
+- Should the landing page be published on main domain? i.e. https://aestheticsbyanjelica.com/ 
+- The site appears to be newly set up (as of July 29, 2025), and hosting is incomplete — we cannot access a File Manager to upload code.
+SS - https://drive.google.com/file/d/1Ts0PzyTjW4EkS5oRr3W0LFyhXZIgtCHf/view?usp=sharing
+- Please complete the hosting setup and inform us once done.
+
+8. Call To Action (CTA)
+Where should Call To Action buttons lead to? What is the action of them?
+
+9. Popup Content
+Please provide the content for blocks and their popups, if any.
+
+10. Thank You Message 
+We'll use the following message after the form submission unless you’d like to revise it:
+"Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+
+11. Social Media Links
+Please share social media links, if available.
+
+Design and Content Queries:
+1. Video section
+Please provide video for the video section as shown in the screenshot below, if we need update it. Also we recommend providing third-party link (e.g., Youtube or Vimeo) for optimal performance rather than raw files.
+SS - https://drive.google.com/file/d/1H5VecxcthKza3ChDG6k_snD0mf6RQ82w/view?usp=sharing
+
+2. Subscribe Form in Footer
+The design includes a subscription form.
+SS - https://drive.google.com/file/d/173jux_gyoxaW1fotSODvfWcfRG2cxH3f/view?usp=sharing
+
+Does this connect to any email subscription services. If so, we require details information for the integration
+
+3. Dummy Content
+Some sections still contain dummy text. Please provide finalized content and any relevant images to be used.
+
+Is there any other information that you think might be useful for us to know?
+
+Once we receive the above information, we’ll proceed accordingly. Let us know if you have any questions or need clarification on any of the points.
+
+===========================
+
+For the site: https://roofez.net/
+
+We've confirmed that the email recipient for all the forms sitewide goes to sales@roofez.net not forms@roofez.net.We've also tested the forms for proper clarification,
+Form settings SS - https://drive.google.com/file/d/1-Pz0NQnK7kqO45beZAQSCJ_qSMhjgPdK/view?usp=sharing
+Admin email SS - https://drive.google.com/file/d/1l_tKPihK0c9mY2KZI0tpdNpyUIazlkUd/view?usp=sharing
+
+===========================
+
+Zero Waste Solutions [Website WP] | #90: Area Page Photos | https://login.smartsites.com/projects/6386/tasks/383660
+
+We’ve updated the photos for the Area pages as per the Figma link provided in the Workbook – New Website Plan and the exportable assets shared in comment #4.
+
+SS - https://drive.google.com/file/d/1i7uY_oADq5l5vuiJd_-2kC0G7Z60617l/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/virginia/
+
+SS - https://drive.google.com/file/d/1Uusn47TVjwk5Vb435uqE-cVBFaSXYG5s/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/california/
+
+SS - https://drive.google.com/file/d/1uajDr_tXXJPwmI8F97eUuicadLugrWRi/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/idaho/
+
+SS - https://drive.google.com/file/d/1LXIDDJuo7z87LtQoWeTLwEBWvLMvi7ta/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/south-carolina/
+
+SS - https://drive.google.com/file/d/1sN_UlnaJg1vHOlds5ZvMkUIeIXVetZF-/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/north-carolina/
+
+SS - https://drive.google.com/file/d/1ID-EUolqphAlg-XOPh8dRf2zDo90gaCc/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/massachusetts/
+
+SS - https://drive.google.com/file/d/1vt5zdDjEOzKvK3qtA9Rovw16MLbu1PJI/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/ohio/
+
+SS - https://drive.google.com/file/d/146GHc5vOCVcourKDP7Wcu2oshuBmINCe/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/iowa/
+
+SS - https://drive.google.com/file/d/1JL6UZyiQ4W8BK2806uNrSwSCANYbyJ7U/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/pennsylvania/
+
+SS - https://drive.google.com/file/d/1cCpqN8r9F73zUt913tYRPNFCCQGVCUu3/view?usp=sharing
+Page URL - https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/west-virginia/
+
+###############################
+###############################
+
+Roman Fountains [SEO] | #120: Develop Homepage Redesign | https://login.smartsites.com/projects/5656/tasks/382804
+
+We are currently in progress with the task and will provide further updates by Tuesday, August 5th.
+
+In the meantime, you can track our progress using the following live DRAFT link. We’ve proceeded directly on the live environment due to platform limitations that prevent exporting pages from the dev environment:
+🔗 https://www.romanfountains.com/?page_id=9716
+
+Please note that the page is still under development and not yet finalized.
+
+

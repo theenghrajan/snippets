@@ -41,8 +41,7 @@ node_modules/
 .npm
 
 #videos
-videos/
+# videos/
 
 #mesc
 .vscode
-/SmartSites/Projects and Tasks/
