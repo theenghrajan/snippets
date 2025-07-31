@@ -1,0 +1,60 @@
+Extreme Decks [PPC] | #5: Develop LPs | https://login.smartsites.com/projects/4365/tasks/184324
+
+We've temporarily added our dev email address to the forwarding list to monitor form submissions. In the meantime, please also ask the client to check their SPAM folder to ensure emails aren't coming there. Let us know if they are coming to SPAM.
+
+For now, we've set the due date to Friday 1st August.
+
+NFC Academy [Website: WP] | #158: Form Help | https://login.smartsites.com/projects/3286/tasks/382144
+
+As per comment #2,
+
+The validation field shown above the submit button (see screenshot below) is due to the Anti-spam honeypot option being enabled in the form settings.
+SS - https://drive.google.com/file/d/1PCHerdYHe5l5qcumFmcKfc_9Legajcr8/view?usp=sharing
+
+While disabling the honeypot option would remove this message, we do not recommend turning it off as it helps prevent spam submissions. Instead, we suggest hiding the message using CSS, which maintains spam protection while keeping the form clean.
+SS - https://drive.google.com/file/d/1pvoBJgQCvapY_PhtzhdxE1AAfAuq2oDl/view?usp=sharing
+
+Would you like us to take care of this for you, or would you prefer to do it on your own? Please confirm.
+
+==========================================================
+
+As per comment #17,
+
+If they want to keep the banner height fixed at 60vh, please note that a standard YouTube video (16:9) will not perfectly fit this space. This mismatch in aspect ratio causes either:
+- Black bars on the sides (letterboxing), or
+- The video to get cropped using object-fit: cover.
+
+To avoid black bars and make the video fit perfectly in the banner, we suggest providing a custom-edited video with an aspect ratio of approximately 3:1.
+
+Example Resolution: 1920×648px
+This will fully fill a 100vw x 60vh space without black bars or cropping.
+
+If this isn’t possible, the embedded YouTube video will show black bars by default and cannot be fully controlled via iframe settings.
+
+Let us know how you’d like to proceed.
+
+==============================================================
+
+Page status updates, here are the pages we’ve worked on so far:
+
+About Us 
+https://hammonddesign.smartwebsitedesign.com/about-us/
+
+Blog
+https://hammonddesign.smartwebsitedesign.com/blog/
+https://hammonddesign.smartwebsitedesign.com/hello-world/
+
+Areas We serve
+https://hammonddesign.smartwebsitedesign.com/areas-we-serve/
+
+Contact Us
+https://hammonddesign.smartwebsitedesign.com/contact-us/
+
+While editing some pages and templates (specifically the header), Elementor is taking an unusually long time to load — making it difficult to complete pages such as the Shop and Portfolio (referenced in your comment #4).
+SS - https://drive.google.com/file/d/1qhFoeToBJWRvC_LM4BlA2mOdnsZlAKMo/view?usp=sharing
+
+To resolve this, we've opened a separate task to further investigate the Elementor loading issue: https://login.smartsites.com/projects/7046/tasks/383468 
+
+We'll resume progress on remaining pages once the Elementor issue is addressed.
+
+For now we're set the tentative due date to Friday 1st August.

@@ -1,79 +1,74 @@
-As per comments #4 - #8,
 
-https://underdog-kennels.com/
+It looks like there was a miscommunication here. As per Comment #9, we had understood that the instruction was to add a popup in Mailchimp, not to create a landing page. Later, the task seems to have shifted in a different direction, and we also noticed that new versions of the landing page were created.
 
-Since the site is built on DIVI theme, we're unable to implement the requested updates on mobile as intended. As an alternative, we've added the Phone Number and Book Bow button as a sticky footer on mobile and tablet only.
-SS - https://drive.google.com/file/d/1PXBAnGbpGsP1MNT4Lkwm2JSshmFKhi8m/view?usp=sharing
+We even asked for clarification in Comment #37 regarding which version to proceed with, but we were told to code both versions. So, based on Comment #9, we went ahead and created the landing page in Mailchimp.
 
-Please review and let us know your feedback on the placement.
+Now in Comment #41, there's a request to move the Mailchimp landing page to a new hosting server, which is not directly possible because Mailchimp does not allow exporting landing pages.
 
-=====================================================
+So at this point, the only option is to recreate the landing page using custom HTML and CSS.
 
-As per comment #33,
+To proceed, we need a clear insight on:
 
-Since the website: https://www.romanfountains.com/ is built using WPBakery Page Builder, we’re limited to its default features. Due to these platform constraints, we may not be able to fully match the provided homepage design or implement extensive customizations and only updates that are achievable within WPBakery's capabilities.
+1. What exactly needs to be done now?
+2. What are the final requirements for the landing page?
+3. Should we proceed with a custom HTML/CSS version based on the design provided in comment #35, and should the form in the landing page be integrated with Mailchimp?
+4. Originally, the task was to add a popup in Mailchimp—what happened to that requirement? If a popup still needs to be added in Mailchimp, which design/version should we use for that popup?
+
+Please confirm so we can move forward accordingly.
+
+==================================================================================
+
+According to our task proceeding rules, we do not work on tasks related to the Design Team or any other specific team. Therefore, we have created a new task and will continue our work there: https://login.smartsites.com/projects/5656/tasks/382804. Since we have no further work remaining on this task, please proceed to close it. If any work is still pending for the Design Team, kindly assign it to them.
+
+=====================================================================================
+
+As per comment #8,
+
+Since the website: https://yadkinfire.com/ is built using WPBakery Page Builder, we’re limited to its default features. Due to these platform constraints, we may not be able to fully match the provided design or implement extensive customizations and only updates that are achievable within WPBakery's capabilities. Also, the current WPBakery Page Builder plugin is not a pro version on the site so we will be unable use premium features as well.
+
+Additionally, please note that the current WPBakery Page Builder plugin installed is not the premium (Pro) version, which further restricts access to advanced modules and features that may be required to achieve the desired layout or functionality.
+
+Development Notes & Queries - Page Design & Content
+
+Since the design isn’t too heavy, most of the blocks should be achievable within the platform. However, we're uncertain about the feasibility of the card-style blocks shown in the screenshot below, due to possible layout or responsiveness limitations:
+SS - https://drive.google.com/file/d/1axL5EIGKIPj51CNBSPxe2lEH94EjRWzi/view?usp=sharing
+
+Currently, the Figma file includes only one design layout (for Emergency Lighting Maintenance). We plan to reuse this same layout for the remaining individual service pages and will populate them with placeholder/dummy content for now, as specific content has not been provided.
+
+Please provide the content and images for the remaining service pages, ensuring they are compatible with the existing layout. Let us know if any adjustments are needed.
+
+Timeline & Process
+- We will proceed with development on the dev site for your review.
+- Once approved, we’ll push the pages live.
+
+Estimated timeline: 
+Development  = 10 – 12 hours
+Content = 4 - 5 hours
+Total = 14 - 17 hours
+
+Please confirm the above details so we can begin development and let us know your feedback.
+
+==================================================================================================
+
+As per the task descriptions,
+
+The location individual pages are new pages to be implemented but what about category/parent page design. Should it be not a page? As details are not updated in the 'New Website Plan': https://docs.google.com/spreadsheets/d/1_bAi_uHURjtQH1sMhbLyV385IIJppyrL3TqQCGpv4T8/edit?gid=406948056#gid=406948056 such as Onsite SEO.
 
 Development Notes & Queries:
 
 Page Design & Content
-
-Header: Should we proceed with updating header? Please note that any changes will affect the entire site and will require adjustments on all subpages. However, we do not recommend updating the header, as most of the requested changes on the design may not be feasible due to platform limitations.
-
-Footer: The same considerations apply to the footer. If we proceed with updating it, it will also apply sitewide.
-
-Hero Slider Section: Due to platform constraints, we are unable to implement the hero slider as designed. We can only make adjustments within the limitations of the existing slider plugin.
-SS - https://drive.google.com/file/d/1cDVm8muq3vhJD8qdGUOi_GHbw2BREpRj/view?usp=sharing
-
-From Concept To Completion Section - The slider feature in this section cannot be achieved as per the design due to platform limitations. We can only implement a workaround using available WPBakery modules.
-SS - https://drive.google.com/file/d/1aAtUUdpnKk1Tr9vmiB9U546gnB96ZYTk/view?usp=sharing
-
-From Concept To Completion Section (Image Gallery): The image gallery slider here also cannot be implemented as designed. We are limited to what’s possible with WPBakery’s default modules.
-SS - https://drive.google.com/file/d/15vvme6nCbCOY2XWFwQCLOv04WWuSjKPY/view?usp=sharing
-
-Testimonials Section: We will be using reviews as it appears on the live site and we may not be able to updates as per the designed as well.
+There's only one design in the Figma file link (for Bayview). We will reuse the same layout for the remaining locations and populate the content and images based on the drive link provided in the task descriptions above.
 
 Timeline & Process
-- We will proceed with development on the dev site for your review.
+- We will proceed with development on the live site on DRAFT mode for your review. As the dev site do not have Elementor Pro version activated.
 - Once approved, we’ll push the pages live and submit them for Google indexing as well.
 
-Estimated timeline: 18 – 20 hours
-
-Please confirm the above details so we can begin development and let us know your feedback.
-
-
-========================================================
-We've removed the requested sections on 10 individual pages only for now.
-SS - https://drive.google.com/file/d/1qeQjsrNhJZQVLodLvRJ48XwR8jfZyWMl/view?usp=sharing
-
-Area We Serve pages (Individual):
-1. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/north-carolina/
-2. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/idaho/
-3. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/pennsylvania/
-4. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/west-virginia/
-5. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/georgia/
-6. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/california/
-7. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/massachusetts/
-8. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/ohio/
-9. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/iowa/
-10. https://zerowastesoltion.smartwebsitedesign.com/area-we-serve/south-carolina/
-
-==========================================================
-
-As per comments #22 - #23,
-
-After inspecting the form submission logs, we did not find any failed or error submissions recorded on 7/14 via the SMTP account extremedecksleads@gmail.com. If there had been an unsuccessful attempt, it would typically appear in the log. This suggests the issue may be due to something on the user’s end, such as the form not being fully completed or submitted correctly.
-SS - https://drive.google.com/file/d/1kb3hsOZ6z89LiTxRSNZBwioDKm-IqE9D/view?usp=sharing
-
-Could you please provide more details regarding the leads mentioned in comment #23? Are these based on a lead tracker? If so, it's important to note that lead trackers log interactions even when a form submission isn’t completed or sent.
-
-Suggestion for Testing:
-To better monitor submissions, can we temporarily add our dev email address to the form’s recipient list (along with the client email)? This would help us verify whether leads are coming through correctly and if any issues occur during submission.
-
-
-
-
-
-
-
-
-
+Estimated timeline: 
+Development = 10 – 12 hours
+Content = 4 - 5 hours
++++++++++++++++++++
+Total = 14 - 17 hours
+ 
+Notes:- Since the site is built on Elementor, we’ll be working within its limitations. We’ll notify you of any platform constraints or issues we encounter during the build.
+ 
+Please confirm the above details so we can begin development.
