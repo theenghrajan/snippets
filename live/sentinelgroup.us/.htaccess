@@ -1,0 +1,110 @@
+
+
+# BEGIN W3TC Browser Cache
+<IfModule mod_deflate.c>
+        AddOutputFilterByType DEFLATE text/css text/x-component application/x-javascript application/javascript text/javascript text/x-js text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/bmp application/java application/msword application/vnd.ms-fontobject application/x-msdownload image/x-icon image/webp application/json application/vnd.ms-access application/vnd.ms-project application/x-font-otf application/vnd.ms-opentype application/vnd.oasis.opendocument.database application/vnd.oasis.opendocument.chart application/vnd.oasis.opendocument.formula application/vnd.oasis.opendocument.graphics application/vnd.oasis.opendocument.presentation application/vnd.oasis.opendocument.spreadsheet application/vnd.oasis.opendocument.text audio/ogg application/pdf application/vnd.ms-powerpoint image/svg+xml application/x-shockwave-flash image/tiff application/x-font-ttf application/vnd.ms-opentype audio/wav application/vnd.ms-write application/font-woff application/font-woff2 application/vnd.ms-excel
+    <IfModule mod_mime.c>
+        # DEFLATE by extension
+        AddOutputFilter DEFLATE js css htm html xml
+    </IfModule>
+</IfModule>
+<FilesMatch "\.(html|htm|rtf|rtx|svg|txt|xsd|xsl|xml|HTML|HTM|RTF|RTX|SVG|TXT|XSD|XSL|XML)$">
+    <IfModule mod_headers.c>
+        Header append Vary User-Agent env=!dont-vary
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(bmp|class|doc|docx|eot|exe|ico|webp|json|mdb|mpp|otf|_otf|odb|odc|odf|odg|odp|ods|odt|ogg|pdf|pot|pps|ppt|pptx|svg|svgz|swf|tif|tiff|ttf|ttc|_ttf|wav|wri|woff|woff2|xla|xls|xlsx|xlt|xlw|BMP|CLASS|DOC|DOCX|EOT|EXE|ICO|WEBP|JSON|MDB|MPP|OTF|_OTF|ODB|ODC|ODF|ODG|ODP|ODS|ODT|OGG|PDF|POT|PPS|PPT|PPTX|SVG|SVGZ|SWF|TIF|TIFF|TTF|TTC|_TTF|WAV|WRI|WOFF|WOFF2|XLA|XLS|XLSX|XLT|XLW)$">
+    <IfModule mod_headers.c>
+         Header unset Last-Modified
+    </IfModule>
+</FilesMatch>
+# END W3TC Browser Cache
+# BEGIN W3TC Page Cache core
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{HTTP:Accept-Encoding} gzip
+    RewriteRule .* - [E=W3TC_ENC:_gzip]
+    RewriteCond %{HTTP_COOKIE} w3tc_preview [NC]
+    RewriteRule .* - [E=W3TC_PREVIEW:_preview]
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{QUERY_STRING} =""
+    RewriteCond %{REQUEST_URI} \/$
+    RewriteCond %{HTTP_COOKIE} !(comment_author|wp\-postpass|w3tc_logged_out|wordpress_logged_in|wptouch_switch_toggle) [NC]
+    RewriteCond "%{DOCUMENT_ROOT}/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" -f
+    RewriteRule .* "/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" [L]
+</IfModule>
+# END W3TC Page Cache core
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.sentinelgroup.us/$1 [R,L]
+</IfModule>
+# END WordPress
+Redirect 301 /2014/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2014/03/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2014/04/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2014/05/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2014/06/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2014/09/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2014/11/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2014/12/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2014/page/1/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2014/page/2/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2015/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2015/01/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2015/06/ https://www.sentinelgroup.us/blog/
+Redirect 301 /2015/07/ https://www.sentinelgroup.us/blog/
+Redirect 301 /author/Paul%20Benne/ https://www.sentinelgroup.us/about-us/our-team/paul-f-benne-psp-cpoi/
+Redirect 301 /careers/ https://www.sentinelgroup.us/about-us/careers/
+Redirect 301 /category/cult-sec/ https://www.sentinelgroup.us/category/cultural-security/
+Redirect 301 /category/cyber-sec/ https://www.sentinelgroup.us/category/cyber-security/
+Redirect 301 /category/elec-sec/ https://www.sentinelgroup.us/category/electronic-security/
+Redirect 301 /category/engineering/ https://www.sentinelgroup.us/category/engineering-security/
+Redirect 301 /category/nontan-sec/ https://www.sentinelgroup.us/category/non-tangible-security/
+Redirect 301 /category/ops-sec/ https://www.sentinelgroup.us/category/operational-security/
+Redirect 301 /category/phys-sec/ https://www.sentinelgroup.us/category/physical-security/
+Redirect 301 /churchsentinel/ https://www.sentinelgroup.us/
+Redirect 301 /company-history/ https://www.sentinelgroup.us/about-us/
+Redirect 301 /consulting/ https://www.sentinelgroup.us/security-services/
+Redirect 301 /consulting/enterprise-security-guidelines/ https://www.sentinelgroup.us/security-assessment-planning/enterprise-security-guidelines/
+Redirect 301 /contact-us/ https://www.sentinelgroup.us/contact/
+Redirect 301 /contact-us/www.linkedin.com/company/sentinel-consulting-llc https://www.sentinelgroup.us/contact/
+Redirect 301 /demerle-lewis/ https://www.sentinelgroup.us/
+Redirect 301 /engineering/ https://www.sentinelgroup.us/category/engineering-security/
+Redirect 301 /fusioncenter/ https://www.sentinelgroup.us
+Redirect 301 /fusioncenter2/ https://www.sentinelgroup.us
+Redirect 301 /guarantee https://www.sentinelgroup.us/about-us/
+Redirect 301 /john-bekisz/ https://www.sentinelgroup.us/
+Redirect 301 /john-bekisz/? https://www.sentinelgroup.us/
+Redirect 301 /new-home/ https://www.sentinelgroup.us/
+Redirect 301 /news-room/ https://www.sentinelgroup.us/category/media-press/
+Redirect 301 /our-clients/ https://www.sentinelgroup.us
+Redirect 301 /our-team/ https://www.sentinelgroup.us/about-us/our-team/
+Redirect 301 /paul-benne/ https://www.sentinelgroup.us/
+Redirect 301 /paul-benne/? https://www.sentinelgroup.us/
+Redirect 301 /paul-benne/?&bib_page_offset=0 https://www.sentinelgroup.us/
+Redirect 301 /paul-benne/?&bib_page_offset=10 https://www.sentinelgroup.us/
+Redirect 301 /paul-benne/?bib_page_offset=0 https://www.sentinelgroup.us/
+Redirect 301 /paul-benne/?bib_page_offset=10 https://www.sentinelgroup.us/
+Redirect 301 /real-estate-services/ https://www.sentinelgroup.us/security-assessment-planning/real-estate-assessment-services/
+Redirect 301 /scm/ https://www.sentinelgroup.us/security-services/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-1/ https://www.sentinelgroup.us/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-1/trackback/ https://www.sentinelgroup.us/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-2-banner/ https://www.sentinelgroup.us/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-2-banner/trackback/ https://www.sentinelgroup.us/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-2/ https://www.sentinelgroup.us/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-2/trackback/ https://www.sentinelgroup.us/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-3/ https://www.sentinelgroup.us/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-3/trackback/ https://www.sentinelgroup.us/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-4/ https://www.sentinelgroup.us/
+Redirect 301 /sentinel-chairs-pa-criminal-justice-competition/skillspa2014-4/trackback/ https://www.sentinelgroup.us/
+Redirect 301 /services/ https://www.sentinelgroup.us/security-services/
+Redirect 301 /white-label/ https://www.sentinelgroup.us/security-training/
+Redirect 301 /wnjasis/ https://www.sentinelgroup.us/

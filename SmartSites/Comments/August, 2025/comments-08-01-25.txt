@@ -1,0 +1,59 @@
+
+
+Sentinel Consulting [Ad Hoc] | #118: Turnstile Planning Guide Page | https://login.smartsites.com/projects/615/tasks/385057
+
+======================================================
+======================================================
+
+As per comment #1,
+
+Site Error and Landing Page Development/Deployment
+
+* The domain https://www.turnstileplanningguide.com/ currently returns a "403 Forbidden" error. Kindly ensure the hosting and domain setup is completed and share access credentials (cPanel, FTP, or platform login) so we can proceed.
+SS - https://drive.google.com/file/d/1--aaLiKB3j1IKiAKD4E-lPVvVIKd6CY3/view?usp=sharing
+
+* While the request includes a design reference to an Unbounce template, but it's not clear whether you’d like the landing page to be built within Unbounce, as custom HTML, or using another CMS platform like WordPress.
+
+* If Unbounce is indeed the platform, we’ll need delegate acces to web@smartsites.com.
+
+In summary, we’re ready to procee but at this point, clarity on the platform is the key that unlocks everything else. Once that’s confirmed, we’ll share specific follow-ups (like form handling, integration requirements, etc. our usual landing page checklists).
+
+
+
+Roman Fountains [SEO] | #118: FAQ Page | https://login.smartsites.com//projects/5656/tasks/377873
+
+#######################################
+#######################################
+
+As per comment #8,
+
+We don't have access at all. Please provide delegate access to web@smartsites.com.
+SS - https://drive.google.com/file/d/1BYx3-ds1QK5vpqBF7P-xqWY7qRgOsAV5/view?usp=sharing
+
+
+StarNet Security [SEO] | #102: Location Page Implementation | https://login.smartsites.com//projects/6396/tasks/381315
+
+######################################
+######################################
+
+As per comment #4,
+
+Is the map only a static image or needs to be interactive? If it is interactive we suggest plugin https://interactivegeomaps.com/. But using plugin we will not be able to match the design, however we will try to match the map as in design. 
+SS - https://drive.google.com/file/d/127y-pEVdhu9HyEMY7Q_GerL32UsPX1yp/view?usp=sharing
+
+Also, please specify the intended interactive behavior so we can review and research accordingly. Based on the design, our understanding is that the map and city list on the right should be clickable and highlights the respective area with an info panel display.
+
+As we will be working within the Elementor's limitations, the outcome may vary from the design and we'll only be able proceed with what's achievable.
+
+Tentative time estimate for the "Areas We Serve" category page is 4–6 hours, with the map section potentially requiring a couple of additional hours depending on the level of customization needed.
+
+Based on the task https://login.smartsites.com/projects/7046/tasks/383468, we've shifted the due date to Tuesday, 5th August.
+
+Since we haven't received any actual leads from users this week—only the test submissions we performed—we’ve extended the monitoring period until mid-next week i.e. Wednesday, 6th August.
+
+If you're aware of any issues or updates from the client that might be affecting leads traffic, please let us know.
+SS - https://drive.google.com/file/d/1_7U6ju7deAyUEXKh3eVBiNx6HJ_MhE4B/view?usp=sharing
+
+We're inprogress with the page sections ( See Our Custom Home Build, Customer Testimonials, Get in Touch With Us and Map ) and provide updates on this by Tuesday, 5th August.
+
+Regarding testimonials we will require an Elfsight: https://elfsight.com/ account is needed for integration. Please provide.

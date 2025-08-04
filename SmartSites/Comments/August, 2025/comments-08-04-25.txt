@@ -1,0 +1,102 @@
+
+
+Sentinel Consulting [Ad Hoc] | #118: Turnstile Planning Guide Page | https://login.smartsites.com/projects/615/tasks/385057
+
+======================================================
+======================================================
+
+As per comments #4 and #5,
+
+We have checked and confirmed that we have CMS/hosting access for the site https://www.sentinelgroup.us/ and deploying custom coded landing page live at https://www.sentinelgroup.us/turnstileguide/ is possible.
+WP Admin SS - https://drive.google.com/file/d/1-GZxM6hMv61fsLWlXbuhlIqL-YTtcIF8/view?usp=sharing
+cPanel SS - https://drive.google.com/file/d/19fOoUpCA20LPCaHAGhtm6eIbsEAfmpNA/view?usp=sharing
+
+Based on this, please confirm which development approach we should follow and provide us with detailed instructions accordingly.
+
+HTML Landing Page:
+- Fully independent page (not connected to WordPress) 
+- Standard HTML with static content and custom form
+- Content editing will require developer support
+
+WordPress Landing Page:
+- Built as a subpage within the main WordPress site
+- Content will be editable from WP admin (if necessary), which will require additional working hours making it a dynamic page.
+- Form will be created using a plugin (Gravity Forms in our case)
+
+Development Notes:
+- Does the form have any special functionality or is to be fetched from a third party? Any integrations needed?
+- Who should receive the form submissions?
+- Please provide the SMTP email credentials to be used for sending form emails. (Only require if custom HTML)
+  -- Add this email to the Passbolt folder: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7
+  -- Enable 2FA (TOTP)
+  -- Ensure FED has read and update access
+  -- Please provide phone number(s) to be updated on the landing page if require.
+- Would you like us to include a sticky footer on the landing page?
+- Where should Call To Action buttons lead to? What is the action of them?
+- Please provide the content for blocks and their popups, if any.
+- We'll use the following message after the form submission unless you’d like to revise it:
+  "Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+- Please share social media links, if available.
+- Testimonials - Please include a document/list of testimonials to include on the landing page
+- Is there any other information that you think might be useful for us to know?
+
+Design Notes:
+Please confirm if we should proceed using the template you referenced:
+https://unbounce.com/landing-page-template/aloft-realty-lead-gen/
+
+Additionally, we also require the following design assets:
+- Fonts
+- Icons
+- Images
+- Content etc.
+
+Please cofirmed to proceed.
+
+
+If we proceed with the current Unbounce template URL, there’s a possibility we may not be able to fully match the design due to missing design assets and elements, as we'd be working directly from the URL without access to editable file, making development less efficient and flexible.
+
+A Figma design mockup is essential to proceed efficiently and with flexibility. Please coordinate with the Design Team to convert the Unbounce template into Figma and inform us once it's ready.
+
+
+
+
+
+
+
+As per comment #6,
+
+We will proceed with the static image for map.
+
+However, please confirm to proceed with the development and review following details as well.
+
+As per the content/images provided in the task descriptions above, we will proceed with 9 location pages and category page (exportable design mockups in #7):
+
+Drive links,
+Content - https://drive.google.com/drive/u/2/folders/1zWf6w2O5kaqv8X0YXYyzLHYDGqZIQyM0
+SS - https://drive.google.com/file/d/13wmzLy4Rj4F-HuqyZOkmcBGHW8ZgqIaK/view?usp=sharing
+Images - https://drive.google.com/drive/folders/1bZqJL__Yrx4ryF3JXdYPOzHb2CucAlfa
+
+
+Estimated timeline: 
+Development = 14 – 18 hours
+Content = 4 - 5 hours
++++++++++++++++++++
+Total = 18 - 23 hours
+
+Notes:- Since the site is built on Elementor, we’ll be working within its limitations. We’ll notify you of any platform constraints or issues we encounter during the build.
+
+
+
+
+
+
+
+Please provide exportable and dev mode access for the following Figma links.
+
+https://www.figma.com/proto/leZajmy8JP2q5hgcvteSXt/-101--Location-Page-Design?page-id=7735%3A60&node-id=9701-2&viewport=1096%2C1157%2C0.2&t=If1fqrPT3vknMRcy-1&scaling=min-zoom&content-scaling=fixed
+
+https://www.figma.com/proto/leZajmy8JP2q5hgcvteSXt/-101--Location-Page-Design?page-id=9767%3A2&node-id=9767-113&viewport=1526%2C1191%2C0.19&t=GZv8ZhD4YEsx6c2V-1&scaling=min-zoom&content-scaling=fixed
+
+Task link:- https://login.smartsites.com/projects/6396/tasks/381315
+
+Could you please confirm on the following part of the comment from comment #[number]?
