@@ -1,0 +1,70 @@
+Yadkin Fire & Safety [SEO] | #116: Campaign Audit UX Des | https://login.smartsites.com//projects/5454/tasks/380072
+
+Roman Fountains [SEO] | #118: FAQ Page | https://login.smartsites.com//projects/5656/tasks/377873
+
+As per comment #12,
+
+Yes, the client can refer to the following guide on how to delegate access in WP Engine and should accept the invitation once it's sent:
+https://wearestructure.com/how-do-you-share-access-to-your-wp-engine-website/
+
+
+Extreme Decks [PPC] | #5: Develop LPs | https://login.smartsites.com//projects/4365/tasks/184324
+
+In addition to comment #29,
+
+We haven't received any leads from the users till today as well. We have also checked SPAM folder if they submitting there but no and submitted another test submissions as the forms are working fine.
+
+Thank you message ss - https://drive.google.com/file/d/1z5Fv2a_ZufDZPERcU64oFztEjhMbLgP7/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1zR6FGXg71p1gdBP1kpSA4DkiSdI5hQ4N/view?usp=sharing
+User email ss - https://drive.google.com/file/d/17pl2e0ym7iNxvoFZ_Bib_GTyyooZRqH5/view?usp=sharing
+
+We've extended the monitoring period until the end of the week i.e., Friday, 8th August.
+
+MightyRep [SEO] | #118: Update pages | https://login.smartsites.com/projects/6269/tasks/377536
+
+As per comment #12,
+
+As there are few new sections to be updated, inlcuding form, please find our estimation below:-
+
+HTML = 4 - 6 hours
+WP = 2 - 4 hours
+Total = 6 - 10 hours
+
+Please confirm to proceed.
+
+Notes: It seems the content has also been updated in the design. Please confirm if we should update the content accordingly.
+
+Thank you message ss - https://drive.google.com/file/d/1cA69NNugXIDqMdkNooLSjD4JYFscPYye/view?usp=sharing
+Admin email ss - https://drive.google.com/file/d/1lneqRcAldHV2jAlWlTLhx6qzsi7SRupF/view?usp=sharing
+User email ss - https://drive.google.com/file/d/1PQn2a2vHiKfC2F7pifeVDcbGz0GQ5dp_/view?usp=sharing
+
+We've estimated:
+
+HTML = 12 hours
+WP = 6 - 8 hours
+Total = 18 - 20 hours
+
+Please confirm to proceed on dev site.
+
+As per comment #11,
+
+We've updated the layout as per the design mockup provided in comment #8 for Services Individual Page on dev site for your review. Please confirm and provide updated content/images (if available, otherwise we will use as they are in the live) for the rest of the pages. So we will proceeding with updating them.
+
+Fullpage ss - https://drive.google.com/file/d/1bBv44hWon3ByFb-Yz6bu3spnSTYb-OAk/view?usp=sharing
+
+Dev URL:- https://yadkinfire.smartwebsitedesign.com/services/emergency-lighting-maintenance/
+
+We will only be able to provide further details after a detailed review. Therefore, we’ve set the due date to tomorrow, Thursday, 7th August, and will provide static HTML updates by then as well.
+
+As per comment #2,
+
+1. We will use the number 832 939 9330 and email info@aestheticsbyanjelica.com.
+
+2. SMTP:
+We do not create new Gmail for SMTP from on our end, this must be done from PM end. Please add this email to the Passbolt folder: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7. Enable 2FA (TOTP) and ensure FED has read and update access.
+
+3. For WordPress Landing Page:
+Please confirm the landing page be published on the main domain? i.e. https://aestheticsbyanjelica.com/ 
+
+In the meantime, we will provide HTML updates by tomorrow, Thursday 7th August.
+
