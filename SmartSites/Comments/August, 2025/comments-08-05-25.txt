@@ -1,0 +1,65 @@
+Roman Fountains [SEO] | #118: FAQ Page | https://login.smartsites.com/projects/5656/tasks/377873
+
+As per comment #10,
+
+We have access to the site files with SFTP credentials provided on the WB (as screenshot you've attached) but we cannot access site database from the SFTP only. To proceed with cloning the live site to dev/local setup we require to have access to site database as well. Since site is hosted on WPEngine please ask the client to provide us with the delegated access on WPEngine for web@smartsites.com.
+
+As per comment #23,
+
+We've updated the first slide video only with the one provided in comment #23. Please confirm if this is what you were referring to.
+SS - https://drive.google.com/file/d/18XOo2GXa3W5rEcVjUaFpIb98SXaLdV6y/view?usp=sharing
+
+Dev URL,
+https://willrich.smartwebsitedesign.com/
+
+According to our task proceeding rules, we do not work on tasks related to the Design Team or any other specific team. Therefore, we have created a new task and will continue our work there: https://login.smartsites.com/projects/6269/tasks/386255. Since we have no further work remaining on this task, please proceed to close it. If any work is still pending for the Design Team, kindly assign it to them.
+
+As per the task: https://login.smartsites.com/projects/7046/tasks/383468,
+
+Elementor loading issues on the dev site has been resolved after replacing it with tthe official version.
+
+We'll now proceed with further customization and complete the remaining pages as per the Figma links (#2 and #3). Accordingly, we've shifted the due date to Thursday, 7th August for the next round of updates.
+
+Thank You!
+
+
+
+
+
+As per comment #2,
+
+We've updated the HTML version on dev site for your review as per the Figma link.
+Fullpage SS -
+Dev URL:- https://frontend.smartwebsitedesign.com/lp-anago-nashville/
+
+SMTP (confirmation@anagonashville.com):
+- Add this email to the Passbolt folder: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7
+- Enable 2FA (TOTP)
+- Ensure FED has read and update access
+
+Since we're still in development phase so we will only add all the email recipients after the landing page is live. For now, we've just tested with our development SMTP account (see screenshots below):
+
+Header Form,
+Thank you message SS - https://drive.google.com/file/d/1cK-of14cBQjAWPUkhNxHR1cBIVKwN6UD/view?usp=sharing
+Admin email SS - https://drive.google.com/file/d/1nIRDZ2_Wza8275KhMUSfBhTCZeht1Ld1/view?usp=sharing
+User email SS - https://drive.google.com/file/d/1MMwbCgXnSU9NvCoHVKfAwcnRJjq4sK6M/view?usp=sharing
+
+Footer form,
+Thank you message SS -  https://drive.google.com/file/d/1sKKiwJCffZnJ_eO9U2RAkIkBWsA7g2Fx/view?usp=sharing 
+Admin email SS:  https://drive.google.com/file/d/1woRWfT0d8OUXD8dKWBdMzW_UcIyBF2mT/view?usp=sharing
+User email SS:https://drive.google.com/file/d/1MUb2v0oVuUQ4XoF1qyVMI0fs6SZt_3Ft/view?usp=sharing
+
+Regarding domain/hosting access, we've commented with our queries in the access task as well, please review there.
+https://login.smartsites.com/projects/7011/tasks/361105
+
+Regarding Conversion tracking information provided in the end, FED will handle this on separate task after the landing page is live and keep you informed.
+
+
+In addition to comment #12,
+
+We've updated the page (not testimonials section further details about the third-party services such  as elfsight, please keep us informed).
+
+In the meantime, please checkout the page for your review.
+Fullpage SS - https://drive.google.com/file/d/138dUJmkp7n7QkeYv9pGbfho9d4IZFRbE/view?usp=sharing
+
+URL:- https://www.keithwing.com/trusted-custom-home-builder-in-lockhart-tx

@@ -100,3 +100,24 @@ https://www.figma.com/proto/leZajmy8JP2q5hgcvteSXt/-101--Location-Page-Design?pa
 Task link:- https://login.smartsites.com/projects/6396/tasks/381315
 
 Could you please confirm on the following part of the comment from comment #[number]?
+
+As per comments #6 - #7,
+
+We've updated the as per the instructions, please review and clarify us if with screenshots or screen recording for needed changes to make it bit clearer.
+SS - https://drive.google.com/file/d/1NyDNVruPhC9ZjaYIoZrbuNrrrQpp95J4/view?usp=sharing
+
+Dev URL:- https://unitedautorental.smartwebsitedesign.com/location-individual-new
+
+
+As per comment #22,
+
+We've published  the page live at https://www.njrhomeservices.com/win2025/
+Fullpage SS -  https://drive.google.com/file/d/1hW68Ki7GIzImV0QLEYPCMl4cBKn6rUhv/view?usp=sharing
+
+Notes:- Should we need to Google index the landing page as well? Please let us know so that we can request it.
+
+Exportable Link:
+https://www.figma.com/design/RkEoXlWvfPTuPREKEAADH9/-119_-Pricing_Planning-Page-Design?node-id=15729-24&m=dev
+
+Assets:
+https://drive.google.com/drive/folders/1RTrhT2boGBycaMmpItuIbxH0rR9diZKz?usp=sharing

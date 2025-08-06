@@ -1011,70 +1011,7 @@ div.wpcf7 p {
   font-size: 16px;
 }
 
-/* Homepage Redesign Styles - Starts*/
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  min-width: 320px;
-  overflow-x: hidden;
-}
-
-#content-wrap.full-width {
-  width: 100% !important;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.ss-container-wrap.vcex-row-bg-container {
-  margin: 0;
-}
-
-.ss-container-wrap .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 100%;
-}
-@media (min-width: 640px) {
-  .ss-container-wrap .container {
-    max-width: 640px;
-  }
-}
-@media (min-width: 768px) {
-  .ss-container-wrap .container {
-    max-width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-  .ss-container-wrap .container {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-  .ss-container-wrap .container {
-    max-width: 1280px;
-  }
-}
-@media (min-width: 1536px) {
-  .ss-container-wrap .container {
-    max-width: 1310px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .full-width-main-layout .ss-container .center-row-inner {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-}
-
+/* Homepage Styles - Starts*/
 @font-face {
   font-family: "Century Gothic";
   src: url("fonts/CenturyGothic.woff2") format("woff2"),
@@ -1109,87 +1046,31 @@ body {
   }
 }
 
-.ss-lead,
-.ss-lead--sub,
-.ss-lead--secondary {
-  font-family: "PP Fragment Serif";
-  font-weight: 400;
-}
-
 .ss-lead {
+  font-family: "PP Fragment Serif";
   font-weight: 300;
   font-size: 42px;
   letter-spacing: 2px;
 }
 
-.ss-lead--sub {
-  font-size: 24px;
-}
-
-.ss-lead--secondary {
-  font-size: 32px;
+@media (min-width: 640px) {
+  .ss-lead {
+    font-size: 52px;
+  }
 }
 
 @media (min-width: 1024px) {
   .ss-lead {
-    font-size: 56px;
-  }
-
-  .ss-lead--sub {
-    font-size: 32px;
-  }
-
-  .ss-lead--secondary {
-    font-size: 46px;
+    font-size: 72px;
   }
 }
 
 @media (min-width: 1280px) {
   .ss-lead {
-    font-size: 72px;
+    font-size: 96px;
     letter-spacing: 3.15px;
     text-wrap: nowrap;
   }
-
-  .ss-lead--sub {
-    font-size: 40px;
-  }
-
-  .ss-lead--secondary {
-    font-size: 60px;
-  }
 }
 
-@media (min-width: 1536px) {
-  .ss-lead {
-    font-size: 96px;
-  }
-}
-
-.ss-process-block {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(14.5px);
-  border-radius: 24px;
-  padding: 32px;
-  max-width: 1044px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.ss-process-block .wpb_column h3.ss-lead--secondary {
-  font-size: 20px;
-}
-
-@media (min-width: 1024px) {
-  .ss-process-block .wpb_column h3.ss-lead--secondary {
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .ss-process-block .wpb_column h3.ss-lead--secondary {
-    font-size: 32px;
-  }
-}
-
-/* Homepage Redesign Styles - Ends */
+/* Homepage Styles - Ends */

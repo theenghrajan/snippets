@@ -1068,13 +1068,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
-  .full-width-main-layout .ss-container .center-row-inner {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-}
-
 @font-face {
   font-family: "Century Gothic";
   src: url("fonts/CenturyGothic.woff2") format("woff2"),

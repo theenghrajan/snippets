@@ -1,0 +1,81 @@
+.container {
+  margin: 0 auto;
+  max-width: 1310px;
+}
+
+.clr .vision_heading h1 {
+  color: #001524 !important;
+  font-size: 93px !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: 1.3 !important;
+  font-family: "PP Fragment" !important;
+  text-align: left !important;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px !important;
+  align-item: center !important;
+}
+
+.clr .vision_heading h2 {
+  color: #001524 !important;
+  font-size: 40px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  margin-bottom: 30px !important;
+}
+
+.clr .vision_heading p {
+  color: #5c5c5c !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+}
+
+.from-concept h2 {
+  color: white !important;
+  font-size: 60px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 70px !important;
+  width: 630px;
+  margin: 0 auto;
+}
+.heading-six {
+  width: 808px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  margin-bottom: 40px !important;
+}
+
+.from-concept-text p {
+  color: white !important;
+  font-style: normal !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  width: 808px !important;
+  margin: 0 auto !important;
+  margin-bottom: 38px !important;
+}
+.from-concept-text h3 {
+  color: white !important;
+  font-size: 32px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+}
+
+.caroufredsel_wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100% !important;
+}
+.caroufredsel_wrapper ul li {
+  width: auto !important;
+}
