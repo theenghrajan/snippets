@@ -56,15 +56,16 @@ Dev URL:- https://yadkinfire.smartwebsitedesign.com/services/emergency-lighting-
 
 We will only be able to provide further details after a detailed review. Therefore, we’ve set the due date to tomorrow, Thursday, 7th August, and will provide static HTML updates by then as well.
 
-As per comment #2,
+As per comments #13 - #15,
 
-1. We will use the number 832 939 9330 and email info@aestheticsbyanjelica.com.
+We've updated the form on the separate page on dev site for your review.
 
-2. SMTP:
-We do not create new Gmail for SMTP from on our end, this must be done from PM end. Please add this email to the Passbolt folder: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7. Enable 2FA (TOTP) and ensure FED has read and update access.
+Fullpage ss - https://drive.google.com/file/d/1G91cAFzjX3cbA4diJq5MqrtKuDjag7yp/view?usp=sharing
 
-3. For WordPress Landing Page:
-Please confirm the landing page be published on the main domain? i.e. https://aestheticsbyanjelica.com/ 
+Dev URL,
+https://lpcreditpsi.smartwebsitedesign.com/application-form/
 
-In the meantime, we will provide HTML updates by tomorrow, Thursday 7th August.
+In the meantime, we're inprogress with the updated Figma link provided in comment #9/#16 (exportable) and provide updates on dev for review by tomorrow, Thursday 7th August.
+
+Additionally, FED will handle conversion/tracking related works on separate task after the landing page is live and keep you informed.
 

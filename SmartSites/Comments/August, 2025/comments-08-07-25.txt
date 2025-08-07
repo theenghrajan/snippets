@@ -1,0 +1,104 @@
+As per comment #2,
+
+1. We've updated the phone number ( 832 939 9330) and will add the email recipient for form to info@aestheticsbyanjelica.com once the landing page is live.
+
+2. SMTP:
+We do not create new Gmail for SMTP from on our end, this must be done from PM end. Please add this email to the Passbolt folder: https://chamber.smartsites.com/app/folders/view/4f3c9c81-c90d-47ed-a564-1b2954b9c3a7. Enable 2FA (TOTP) and ensure FED has read and update access.
+
+3. Content:
+https://docs.google.com/document/d/1uv8ykyVe6P21rvnh5wy-Xz2zOSJ6CRGJwuTJ2tHHCJY/edit?tab=t.0#heading=h.5x0d5h95i329
+It seems the above doc have content for services only with detailed information not suitable to update as per the design mockup. 
+SS - https://drive.google.com/file/d/1489jYtt50tUc-aAFxx5zXqO1xhdWuych/view?usp=sharing
+
+We require particular content for all the sections suitable according to the design mockup (see below screenshots for detail dummy content currently):
+SS - https://drive.google.com/file/d/1BInurlO-DnjzRMwK9VnWy_yLu3vFJ1_c/view?usp=sharing
+
+4. For WordPress Landing Page:
+Please confirm, whether the landing page content should be editable from admin or not. If editable content is require, we need additional hours as well.
+
+Most importantly, please confirm the landing page be published on the main domain or /lp? i.e. https://aestheticsbyanjelica.com or https://aestheticsbyanjelica.com/lp.
+
+In the meantime, please review on dev site and inform us.
+Fullpage ss - https://drive.google.com/file/d/1FHYiTCVIqJRvEknvgfPoIu7-J2xQ3DDG/view?usp=sharing
+
+Dev URL:- https://frontend.smartwebsitedesign.com/lp-medical-aesthetics/
+
+
+NPTI of Florida [SEO] | #116: Lead Magnet Landing Pages | https://login.smartsites.com/projects/5382/tasks/299276
+
+
+As per comment #56,
+
+https://docs.google.com/document/d/1xxTqJzae1DBFUOCqcyyth90Lc61Eds1kPLr0bdQ8tNM/edit?tab=t.0
+
+Dev URL:- https://frontend.smartwebsitedesign.com/lp-npti-of-florida/fitness-career-guide/
+
+We've updated the content as per the doc provided, however a few points remain unclear. Please review the following and provide clarification with detailed instructions (screenshots, if possible, would be helpful):
+
+Re: Add a testimonial Below Hero CTA Button (new testimonial line):
+Are you asking us to duplicate the existing testimonial section (currently placed at the bottom) and insert it just below Hero CTA button? Which would result duplicated sections in both bottom and hero?
+SS - https://drive.google.com/file/d/1e4KYVplmX_D6BdtW0Bf_VeIiJ_IRGF0I/view?usp=sharing
+
+Re:  Add Urgency Line (Directly Above or Below CTA Buttons)
+SS - https://drive.google.com/file/d/13WGQyCgPD2fJfzii8K57o4TO6jopw3Mc/view?usp=sharing
+Are you asking to add the new line: "Bonus: Includes tips from real NPTI graduates to help you get hired faster." below on every CTA buttons?
+We've currently added this line under all CTA buttons.
+
+Re: Move Testimonial Block Up
+SS - https://drive.google.com/file/d/1lMGgZiGZ6pYSE7eveuBC9IK9_50nDcKK/view?usp=sharing
+Do you mean to reposition only the two testimonial cards — Hannah Thikton and William Yund — and place them below the “Benefits” section? Also, could you confirm which exact section is being referred to as the "Benefits" section?
+
+Please confirm the above points with more detail so we can proceed accordingly.
+
+
+
+As per comment #14,
+
+The article guide link on How to delegate access in WP Engine didn't get published in the previous comment #13, so adding for once again incase it helps.
+https://wearestructure.com/how-do-you-share-access-to-your-wp-engine-website/
+
+However, if the client don't know and completely lost the credentials. Please inform the client to try WP Engine for the account recovery.
+
+From the WordPress admin try signing in via WP Engine - Go to Portal.
+SS - https://drive.google.com/file/d/1IUpLNUmFwse1B079i9c2zAd1uJphaBOL/view?usp=sharing
+
+If it asks for email/password and unable to login then add email id (WP Engine email ID), click Forgot password under "Need help signing in?" and proceed with resetting or creating new the password.
+SS - https://drive.google.com/file/d/1GqsCAm1qBM41F063DBXBht3VR3oTcJ-T/view?usp=sharing
+
+Reset User Portal Login
+https://wpengine.com/support/how-do-i-reset-my-user-portal-password/
+
+Lastly, you can also reach out to WP Engine support team chat for further assitances as well.
+
+As per comment #26,
+
+we've add the first video on the live site.
+SS - https://drive.google.com/file/d/1Ch4-0bbAE4RHIy6dHAerh6ZZmiWudrTF/view?usp=sharing
+
+URL:- https://willrich.com/
+
+As per comment #71 - #72,
+
+The landing page was built with custom static page template on WordPress and you can only adjust the codes from theme files path in "/wp-content/themes/Total-RomanFountains/custom". Please review and inform us if this help or let us know if we need to proceed it from our end.
+SS - https://drive.google.com/file/d/1nwTgoRR0Y9XlTIUq3AsArAU-41PilR5L/view?usp=sharing
+
+As per comment #8,
+
+We've changed the content to "State Fair Special" and the badges to match with the homepage.
+SS - https://drive.google.com/file/d/1jPPXO_fV12ib34nNIhw92s_pJA3Tasyi/view?usp=sharing
+
+URL:- https://waterheatersnow.com/eco-experience-mn/
+
+In addition to comment #17,
+
+We've updated the landing page on dev site for your review as per updated Figma link provided in comment #9 and #16 (exportable).
+Fullpage ss - https://drive.google.com/file/d/1aiIKqoBNzNaqcTfQC8GwEpWfHCC5YzhS/view?usp=sharing
+Form Fullpage ss - https://drive.google.com/file/d/1mLaYe4nYgsteHMMPbnBFLzTt7_nyGdZC/view?usp=sharing
+
+Dev URLs,
+https://lpcreditpsi.smartwebsitedesign.com/
+https://lpcreditpsi.smartwebsitedesign.com/application-form/
+
+Additional notes for the form,
+- We've updated with all US states on every state fields.
+- Should we make all fields require? Please let us know which fields are require and optional.
