@@ -1,0 +1,78 @@
+As per comment #21,
+
+We've updated the changes according to the updated design link: https://www.figma.com/proto/SpdIvsBFIWJabMw2OAkMaR/-7--Design-Custom-Landing-Page?page-id=14229%3A78&node-id=14229-1367&viewport=-576%2C-2597%2C0.39&t=6RwEZeSBzMdkGwWY-1&scaling=scale-down-width&content-scaling=fixed
+
+Re: At the bottom, please update "Althing Lending" to "Credit PSI"
+>> We've updated to "Credit PSI" as per the instruction.
+SS - https://drive.google.com/file/d/1ZqC9wTSOSIQTS-6duF6hMmRJwBWgHmlk/view?usp=sharing
+
+Re: 2. Update this section that says 24 - 48 to read "funding in less than 24hr"
+>> We've updated it as per the updated design for now, please inform if any adjustment require.
+SS - https://drive.google.com/file/d/1dFlNlaHyGWlkF7nFB8rgfM_nL5_Yzp1S/view?usp=sharing
+
+Re: 3. Please remove testimonial section
+>> We've removed the testimonial section.
+SS - https://drive.google.com/file/d/12QhMEZaFSsKOrHpA__ILq7byAQdCel3b/view?usp=sharing
+
+Live URL,
+https://lp.creditpsi.com/
+
+Accurate Air [WP]
+
+Since we're creating the new site on WordPress, we have a few queries before proceeding:
+
+1. Form & Email Recipient
+The form will be built using Gravity Forms and will require a recipient email address. Should we use info@accurateairinc.com, as listed on the current live site?
+
+2. Review Process & 2FA Coordination
+We will first provide updates on the dev site for your review and push live after your approval. However, there is currently 2FA enabled when trying to log in to Network Solutions using the credentials in Passbolt.
+We will be available at 12 PM NJ EST today for 2FA coordination.
+SS - https://drive.google.com/file/d/1LHByi2QMXUVs5vZf0GJ_DqGu1laZ6njk/view?usp=sharing
+
+3. Task Dependency
+We will begin creating the page on the dev site only after the completion of the following task: 
+https://login.smartsites.com/projects/7383/tasks/387155
+
+4. Estimation
+Updating the page will require approximately 2–3 working hours.
+
+Please confirm and inform on 2FA coordination so we can proceed with the live push after the page is completed.
+
+
+As per the task descriptions,
+
+We've installed the provided snippet in the footer of the site and the LeadAnswer chat is showing fine. Please review and inform us if any further adjustment is require.
+
+SS - https://drive.google.com/file/d/1C0-Dsw4hwEzhrZk3ESTv533hYO89mgNX/view?usp=sharing
+
+Live URL,
+https://waterheatersnow.com/
+
+As per the task descriptions,
+
+The login credentials provided in the Passbolt are not working for the WuFoo form, so we are not able to update the form if needed. Please verify and update with the correct ones, if possible.
+SS - https://drive.google.com/file/d/1VtLlNOMRqim9HbIsAe6p92nHM43xewv3/view?usp=sharing
+
+If you’d like to switch to Gravity Forms, we’d also like to know whether the existing WuFoo forms have any special functionalities or integrations. If the form is standard, we can simply replace it with a Gravity Form. Otherwise, we’d like to review any required functionalities in more detail before proceeding.
+
+Additionally, we did not find a dev site currently configured for this project. Please proceed with setting up a dev site for review before pushing the changes live for smoother workflow. Please confirm and open the task: https://login.smartsites.com/projects/7345/tasks/384915 to proceed.
+
+SFTP pot 22:
+206.189.188.23
+user: anagonashville
+pass: ZIAuX?ZToaD4=TG3[D{f`e|rVpitQ
+
+Thank you message SS - https://drive.google.com/file/d/1VuFYxY7_rZWg-gF0kO3lNwFrGsD1YOwk/view?usp=sharing
+Admin email SS - https://drive.google.com/file/d/1TfJAUPRAGu2TD9vIDAP95DJOtCG5G1YQ/view?usp=sharing
+User email SS - https://drive.google.com/file/d/1D7qdzFz3-DldId5cqHHXyEf3hQJSjL8I/view?usp=sharing
+
+
+We've pushed the location pages live, please review and inform any updates require. Currently, we've updated images as per the design. Please provide to update or other content or links.
+Fullpage Screenshots:-
+https://drive.google.com/file/d/1AS9ZQskj716DZibyhFkxW36O4JXMXzP_/view?usp=sharing
+https://drive.google.com/file/d/1lvcRqnmqd_EGlhhwsRv8oeHesjc3XYZQ/view?usp=sharing
+
+URLs,
+https://unitedautorental.com/locations/ontario-california-airport-car-rental
+https://unitedautorental.com/locations/orange-county-john-wayne-car-rental
+

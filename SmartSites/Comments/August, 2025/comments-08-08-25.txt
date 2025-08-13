@@ -1,0 +1,32 @@
+We've pushed the landing page live at https://lp.creditpsi.com/ and https://lp.creditpsi.com/application-form/.
+
+Fullpage Screenshots,
+https://drive.google.com/file/d/1MUmoD_eQT7AwCmkTlbB4hprt-FdSHaId/view?usp=sharing
+https://drive.google.com/file/d/1YEluiPm5k_HEQ5dsswUI5fvMzFX5dseR/view?usp=sharing
+
+The website form is working fine (all fields required) without the SMTP plugin - i.e. working by default and receiving on inbox folder. Please see and inform us of any issues. And after testing the forms, we've changed the email recipient to "info@creditpsi.com".
+Admin ss - https://drive.google.com/file/d/1ZKau4B1Y0fIUggTWR_ep192WO98HhBX9/view?usp=sharing
+
+Regarding Tracking (Comment #15)
+1. Implemented Google Tag Manager: GTM-NNXS8TXN
+Screenshot: https://drive.google.com/file/d/1iktdmUQJTtXb9qT7Y4H9QDEech8UbI6g/view?usp=sharing
+
+2. Implemented GA4 Measurement ID: G-0S58T1ZPV5
+Screenshot: https://drive.google.com/file/d/1iktdmUQJTtXb9qT7Y4H9QDEech8UbI6g/view?usp=sharing
+
+2.1 Goals
+Screenshot: https://drive.google.com/file/d/1tMriAy6ipXJ6SwtiJPJa5678npG7pSL3/view?usp=sharing
+
+3. Google Ads Conversion
+SS: Submit Lead Form
+Conversion ID - 17220986749, Conversion label - 3qVxCJTjit0aEP3OzZNA
+Screenshot: https://drive.google.com/file/d/1wA1uKyAU_rfsveZklX3qD6cfRX3frI-W/view?usp=sharing
+
+In addition to comment #30,
+
+We've still do not received any leads from the user till today as well. On the other hand, the form is submitting fine.
+SS - https://drive.google.com/file/d/1SsI30R_xvXttMzTL7WelPCJQxh0pYMuQ/view?usp=sharing
+
+Should we extend monitoring period further more and also inform us of any issues if occur.
+
+Thank You!

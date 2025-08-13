@@ -1,0 +1,68 @@
+As per comment #11,
+
+We have proceed with coding on dev site and will provide updates by tomorrow i.e. Wednesday 13th August.
+
+In the meantime, please review following queries:
+
+1. We will use Garvity form (currently installed on the site as well) for the form.
+
+2. We will change the email recipient to info@sentinelgroup.us only after the page is live.
+
+3. We will link each CTA button to https://calendly.com/paulbenne/security-standards?month=2025-08.
+
+4. As confirmed, we will use the thank you or post-submission message as below:
+"Thank you for your message, we will be in touch shortly. If you would like to speak with someone sooner, please call {phone number}."
+
+5. We will update the text as requested, but we also require the updated images (as noted by the client: separate email will be attached with dropbox link) if the need to be replaced.
+
+6. We will remove the following as requested:
+- section with couple smiling
+- Delorim section
+SS - https://drive.google.com/file/d/10o3PmZBMspkAi3SYuTyM8Z9XUo38pM5R/view?usp=sharing
+
+
+Currently, the landing pages are built using static WordPress templates. If we need to create a copy for the subdomain, we will require the following confirmations:
+
+1. Subdomain Creation & Access – Will the client be creating the subdomain? We will also require domain access to make any necessary domain-related updates.
+
+2. Please also confirm, if the subdomain, consultation.romanfountains.com site will be in WordPress or as custom HTML? 
+- If it is custom HTML, we will convert the template accordingly to custom HTML.
+- If it is fresh WordPress, we will need to make the necessary adjustments accordingly.
+
+We will need to adjust the code based on the environment. If custom HTML, we will need to convert it to HTML or if WordPress will need to updates from code level accordingly. 
+
+
+
+As per comment #20,
+
+Re: For the random orange on the link overlay - let's remove that and make sure we match the client's branding and mockups. We can make the font bolder on hover and active links.
+>> For the default links, we've updated them to branding blue color and made the font bolder on hover with text white on the navigation as per the mockups.
+SS - https://drive.google.com/file/d/1yhejOX68ReMj9-Vx0ca4vDJaMk4jITFq/view?usp=sharing
+
+Re: On overlay, can we use the images that we are using in the subpage banners? otherwise the overlay images don't make any sense since they are from the canned theme.
+>> Updated background overlay images to the ones used in the subpage banners.
+SS - https://drive.google.com/file/d/167wezmItgosO_7atb5ZOQ3UsLeC-aGMJ/view?usp=sharing
+
+Re: Use the fav icon attached instead of the wordpress logo.
+>> Updated the fav icon as per the attached.
+SS - https://drive.google.com/file/d/1tsjcpbVfEB9iolOPASEypeAfSFCYSNh2/view?usp=sharing
+
+Re: Make sure all of our interlinks are going where they are supposed to - the get a free estimate link right off the bat is going nowhere when it should go to the contact page (looks like this is happening site wide)
+>> Currently, the "Get A Free Estimate" goes to Contact page.
+
+Re: This banner says nashville area, but it's Portland:
+>> Updated to Portalnd.
+SS - https://drive.google.com/file/d/1m3ohZGbXuY_Zj_Tx1HSx_esjzxhROAcf/view?usp=sharing
+
+Re: This read more goes nowhere, should go to about page:
+>> Read More now goes to About page.
+SS - https://drive.google.com/file/d/1OJI8lSsB8fF694B4Q2A9jrYDbFHE-qSk/view?usp=sharing
+
+Re: Remove this page - it looks broken and doesn't have correct content: https://hammonddesign.smartwebsitedesign.com/service/our-process/
+>> Removed as per the instructions.
+
+Re: Resources in the main nav is nothing - goes nowhere and there's nothing linked under it. Can we please go through the dev site page by page and make sure everything is linking correctly as per the web plan and dev notes? This should be done in your regular QA while coding the site - I feel like there are so many issues just glancing at the dev site, it would take me awhile to note every single little change. Please take the time to correct this accordingly.
+>> Currently, we've added only the parent pages i.e. Portfolio, Areas We Serve and Blog under Resources (since it is not a page as per the New Website Plan Draft).
+SS - https://drive.google.com/file/d/1WSDUEUR_iSf7Evn1fo3c_FoQWFcnG_ug/view?usp=sharing
+
+However, we will conduct further QA and address/fix any optimization issues. For this, we have set the due date to Thursday, 14th August.

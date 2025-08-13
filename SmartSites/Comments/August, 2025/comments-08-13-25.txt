@@ -1,0 +1,45 @@
+As per the task descriptions,
+
+Since we are in the process of pushing the updated Industry pages live in the following task: https://login.smartsites.com/projects/6269/tasks/365689, we will provide an update there once the pages are live.
+
+Thank You!
+
+
+
+info@creditpsi.com
+
+As per comment #23,
+
+We've added required signature field and date field to the end of the form.
+SS - https://drive.google.com/file/d/1Jr6fDz6JWGNy18Qn7p4gPwrNZ9tGnYh7/view?usp=sharing
+
+We've also tested the form and it is working fine.
+Admin email ss - https://drive.google.com/file/d/1bCMcSONFsV2AZWjrC5HBlY6P3LZunrqn/view?usp=sharing
+
+Regarding Form and security:
+- We've already implemented Google Recaptcha and Honeypot for form SPAM control.
+- Need to enable SSL certificates/HSTS so browsers only use HTTPS.
+- For Gravity form submissions encryption, we find the following plugin, the #1 encryption and data access control plugin for Gravity Forms. Please see pricing details in below link as well.
+https://codecanyon.net/item/gravity-forms-encrypted-fields/18564931
+
+Please review and inform us of further inquiries.
+
+
+
+As per comments #14 - #16,
+
+Re: the only thing that should be changing on these pages is adding this contact form 
+>> Thanks for the confirmation. Based on this we've also updated form section using Contact Form 7 (a WordPress plugin for the form currently installed on the site) on dev site for your review for now.
+
+Please review on the following page on dev and will proceed with updating it to on all live pages mentioned in the task descriptions above.
+SS - https://drive.google.com/file/d/1JDvyoWCYGiI4lLNUhLX5XXQX95KnHyHI/view?usp=sharing
+Dev URL:- https://mighty.smartwebsitedesign.com/product/increase-sales-leads/
+
+Thank You!
+
+In addition to comment #13,
+
+We've updated the page as per the instructions provided on the dev site for your review. Please inform or provide us with further updates including content and images as well.
+
+Dev URL:- https://sentinelgroup.smartwebsitedesign.com/turnstile-planning-guide-page/
+Fullpage SS - https://drive.google.com/file/d/1pPq2O3jr7YT0T2wdIzxHo1PM14tl4kK9/view?usp=sharing

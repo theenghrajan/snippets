@@ -102,3 +102,23 @@ https://lpcreditpsi.smartwebsitedesign.com/application-form/
 Additional notes for the form,
 - We've updated with all US states on every state fields.
 - Should we make all fields require? Please let us know which fields are require and optional.
+
+
+We've pushed the landing page live at https://aestheticsbyanjelica.com/.
+
+Fullpage ss - https://drive.google.com/file/d/1MzsLdG6TE0ojG-yvAz5h4KFN_QiNJQji/view?usp=sharing
+
+The website form is working fine without the SMTP plugin - i.e. working by default and receiving on inbox folder. Please see. And after testing the forms, we've changed the email recipient to "info@aestheticsbyanjelica.com".
+Admin ss -  https://drive.google.com/file/d/1zGMrkKSkflPFWR7yZsdEkfwIVEHRqnLK/view
+
+We've updated the content as per provided doc, https://docs.google.com/document/d/1f3BtdRwGY9E7gXaBuj8RlEoVxgXic41F/edit. However, for the images please provide them once available currently we've used the existing ones as dummy.
+
+Re: We seem to be using the wrong logo still.
+>> We've updated the logo as provided here, https://drive.google.com/drive/folders/1VK11fpArL2tLYPMsSy3qSGdOHT_f-sko as well.
+
+Re:  In the footer, please ensure that the email is set to the correct domain email.
+>> We've updated to "info@aestheticsbyanjelica.com".
+SS -https://drive.google.com/file/d/1hGZ4Q0wEc92gKoUoFM4wpFeAGTHLnvNx/view?usp=sharing
+
+Thank You!
+

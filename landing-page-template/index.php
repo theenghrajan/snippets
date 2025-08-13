@@ -109,6 +109,8 @@
 
 	<!-- Add Following Script If reCaptcha V2 is Enabled; Otherwise remove the whole block -->
 	<!-- <script src="https://www.google.com/recaptcha/api.js?onload=onReCaptchaLoadCallback&render=explicit" async defer></script> -->
+
+	<script id="lead-answer-script" defer src="https://app.leadanswer.io/embed.js" data-id="bGVhZC1hbnN3ZXItLTI=" data-config="eyJpZCI6IjIiLCJpIjoiTEEiLCJuIjoiKDg1NSkgNTg1LTE2NTgiLCJwYyI6IiM0RkFFN0UiLCJzYyI6IiNmNmY2ZjYifQ=="></script>
 </body>
 
 </html>

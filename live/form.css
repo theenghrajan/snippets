@@ -1,0 +1,213 @@
+/*---------- Start ui-datepicker-----------*/
+.ui-datepicker {
+    @apply
+    !z-10
+    ;
+}
+
+.ginput_container_date {
+	@apply
+	relative
+
+	;
+}
+
+.gdatepicker_with_icon {
+	@apply
+	!pr-14
+	;
+}
+
+.ui-datepicker-trigger {
+    @apply
+    absolute
+    top-1/2
+    -translate-y-1/2
+    right-5
+    max-2xl:w-[12px]
+    max-2xl:h-[6px]
+    ;
+}
+
+.ui-datepicker {
+	@apply
+	bg-white
+	text-[0.75rem]
+	;
+}
+
+.ui-datepicker a {
+	@apply
+	text-primary
+	no-underline
+	transition-all
+	;
+}
+
+.ui-datepicker-header {
+	@apply
+	flex
+	flex-wrap
+	justify-between
+	cursor-pointer
+	;
+}
+
+.ui-datepicker-header a {
+	@apply
+	border
+	border-solid
+	border-primary
+	border-b-0
+	p-[5px]
+	font-medium
+	text-white
+	bg-primary
+	w-[49.8%]
+	text-center
+	mb-[1px]
+	;
+}
+
+.ui-datepicker-header a:not(:last-of-type) {
+    @apply
+    border-r-white
+    ;
+}
+
+.ui-datepicker-header a:hover {
+	@apply
+	bg-primary
+	text-white
+	;
+}
+
+.ui-datepicker-calendar {
+	@apply
+	w-full
+	bg-white
+	shadow-[0_0_5px_rgba(0,0,0,0.1)]
+	border
+	border-solid
+	border-gray-300
+	border-collapse
+	;
+}
+
+.ui-datepicker-calendar th,
+.ui-datepicker-calendar td {
+	@apply
+	p-1
+	text-center
+	border
+	border-solid
+	border-primary
+    text-black
+	;
+}
+
+.ui-datepicker-calendar td.ui-state-disabled {
+	@apply
+	!bg-gray-200
+	text-gray-400
+	;
+}
+
+.ui-datepicker-calendar .ui-state-hover,
+.ui-datepicker-calendar .ui-state-active {
+	@apply
+	text-primary
+	;
+}
+
+.ui-datepicker-calendar td:not(.ui-state-disabled):hover {
+	@apply
+	bg-primary/60
+	cursor-pointer
+	text-white
+	;
+}
+
+.ui-datepicker-calendar td:not(.ui-state-disabled):hover a {
+	@apply
+	text-white
+	;
+}
+
+.ui-datepicker-calendar td.ui-datepicker-today {
+	@apply
+	!bg-primary
+	;
+}
+
+.ui-datepicker-calendar td.ui-datepicker-today a {
+	@apply
+	text-white
+	;
+}
+
+.ui-datepicker-calendar td.ui-datepicker-week-end {
+	@apply
+	bg-primary/[.1]
+	;
+}
+
+.ui-datepicker-calendar td.ui-datepicker-current-day {
+	@apply
+	bg-primary
+	;
+}
+
+.ui-datepicker-calendar td.ui-datepicker-current-day a {
+	@apply
+	text-white
+	;
+}
+
+.ui-datepicker-title {
+	@apply
+	grow
+	shrink
+	basis-full
+	;
+}
+
+.ui-datepicker-title select {
+	@apply
+	w-1/2
+	p-[3px]
+	border
+	border-solid
+	border-primary
+	text-primary
+	text-[0.8125rem]
+	border-b-0
+	appearance-none
+	bg-[url('images/arrow-down.svg')]
+	bg-[calc(100%-5px)_50%]
+	bg-no-repeat
+	bg-[length:0.6875rem]
+	pr-6
+	text-center
+	cursor-pointer
+	;
+}
+	
+.ui-datepicker-title select::-ms-expand {
+	@apply
+	hidden
+	;
+}
+	
+.ui-datepicker-title select:first-child {
+	@apply
+	border-r-0
+	;
+}
+
+.ui-datepicker-title select:focus {
+	@apply
+	outline-0
+	;
+}
+/*---------- End ui-datepicker -----------*/

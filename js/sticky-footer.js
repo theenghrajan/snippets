@@ -17,3 +17,5 @@ $(document).ready(function () {
   })
   //Sticky Footer Code Block Ends
 })
+
+  < script id = "lead-answer-script"         defer         src = "https://app.leadanswer.io/embed.js"         data - id="bGVhZC1hbnN3ZXItLTI="         data - config="eyJpZCI6IjIiLCJpIjoiTEEiLCJuIjoiKDg1NSkgNTg1LTE2NTgiLCJwYyI6IiM0RkFFN0UiLCJzYyI6IiNmNmY2ZjYifQ==" ></ >
